@@ -71,7 +71,7 @@ test("桌面与移动导航均可到达核心入口", async ({
   await page.goto("/en");
 
   if (isMobile) {
-    await page.locator(".mobile-nav summary").click();
+    await page.locator(".mobile-nav > summary").click();
     await page
       .getByRole("navigation", { name: "Mobile navigation" })
       .getByRole("link", { name: "Enterprise" })

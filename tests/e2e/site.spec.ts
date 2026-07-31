@@ -9,6 +9,7 @@ const criticalRoutes = [
   "/en/book",
   chapterPath,
   "/en/method",
+  "/en/product",
   "/en/privacy",
   "/en/terms",
   "/en/tracking",

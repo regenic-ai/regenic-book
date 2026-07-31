@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
-import { GITHUB_REPO_URL } from "@/lib/community";
+import {
+  GITHUB_BOOK_REPO_URL,
+  GITHUB_PRODUCT_REPO_URL,
+} from "@/lib/community";
 import type { PublishedLocale } from "@/lib/i18n/config";
 import { localeToHtmlLang } from "@/lib/i18n/routing";
 
@@ -75,13 +78,13 @@ export function organizationJsonLd(locale: PublishedLocale = "zh") {
     url: SITE_URL,
     description:
       locale === "en"
-        ? "Regenic is the living edition of Rewrite the DNA, publishing methods, cases, tools, and revision records for organizational intelligence."
-        : "Regenic 是《重写基因》的持续运行版，公开组织智能方法、案例、工具与修订记录。",
+        ? "Regenic builds open org-management software for AI-native organizations. regenic.ai publishes the Rewrite the DNA method, cases, and tools."
+        : "Regenic 构建 AI 原生组织的开源管理软件。regenic.ai 发布《重写基因》方法、案例与工具。",
     founder: {
       "@type": "Person",
       name: locale === "en" ? AUTHOR_NAME_EN : AUTHOR_NAME,
     },
-    sameAs: [GITHUB_REPO_URL],
+    sameAs: [GITHUB_PRODUCT_REPO_URL, GITHUB_BOOK_REPO_URL],
   };
 }
 

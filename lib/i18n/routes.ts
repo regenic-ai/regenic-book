@@ -3,6 +3,7 @@ export const publicPaths = [
   "",
   "/book",
   "/method",
+  "/product",
   "/cases",
   "/tools/diagnosis",
   "/tools/90-days",

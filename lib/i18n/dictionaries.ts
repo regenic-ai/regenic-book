@@ -8,6 +8,7 @@ const dictionaries = {
       home: "首页",
       book: "免费阅读",
       method: "方法论",
+      product: "产品",
       enterprise: "企业实践",
       about: "关于",
       diagnosis: "组织诊断",
@@ -17,7 +18,7 @@ const dictionaries = {
     },
     skipToContent: "跳到主要内容",
     languageGroupAria: "选择语言",
-    footer: "让组织把判断固化为标准，让人和 AI 在统一上下文中行动。",
+    footer: "书稿与网站在此仓库；Regenic 产品在 github.com/regenic-ai/regenic。",
     notFound: {
       eyebrow: "404 · 页面不存在",
       title: "没有找到这页内容。",
@@ -33,6 +34,7 @@ const dictionaries = {
       home: "Home",
       book: "Read",
       method: "Method",
+      product: "Product",
       enterprise: "Enterprise",
       about: "About",
       diagnosis: "Organization diagnosis",
@@ -42,7 +44,7 @@ const dictionaries = {
     },
     skipToContent: "Skip to main content",
     languageGroupAria: "Choose language",
-    footer: "The book is the frozen edition; Regenic.ai is the living edition.",
+    footer: "Book and site live in regenic-book; the Regenic product is at github.com/regenic-ai/regenic.",
     notFound: {
       eyebrow: "404 · Page not found",
       title: "We could not find this page.",

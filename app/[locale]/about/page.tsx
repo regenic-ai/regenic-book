@@ -63,6 +63,17 @@ export default async function AboutPage({
         <section className="marketing-section shell">
           <TraceNote locale={locale}>bioby.ai is the first internal sample, not the only evidence. Transferability still requires external comparisons and cross-organization testing.</TraceNote>
         </section>
+        <section className="marketing-section shell">
+          <div className="platform-relation">
+            <SectionHeading eyebrow="Four carriers" title="Frozen, running, product, and practice" />
+            <div>
+              <article><span>Publication</span><h3>Rewrite the DNA</h3><p>A complete argument frozen at publication.</p></article>
+              <article><span>Living edition</span><h3>regenic.ai / regenic-book</h3><p>Book, method, tools, cases, and this website.</p></article>
+              <article><span>Product</span><h3>Regenic</h3><p>Open org-management software at github.com/regenic-ai/regenic.</p></article>
+              <article><span>First lab</span><h3>bioby.ai</h3><p>Real operating constraints and results.</p></article>
+            </div>
+          </div>
+        </section>
         <PageCta locale={locale} title="Read the complete argument" />
       </>
     );
@@ -157,7 +168,7 @@ export default async function AboutPage({
 
       <section className="marketing-section shell">
         <div className="platform-relation">
-          <SectionHeading eyebrow="三个载体" title="冻结、运行与实验" />
+          <SectionHeading eyebrow="三个载体" title="冻结、运行、产品与实验" />
           <div>
             <article>
               <span>出版冻结版</span>
@@ -166,8 +177,13 @@ export default async function AboutPage({
             </article>
             <article>
               <span>持续运行版</span>
-              <h3>Regenic.ai</h3>
+              <h3>regenic.ai / regenic-book</h3>
               <p>概念、原文、版本、工具与案例的权威源。</p>
+            </article>
+            <article>
+              <span>开源产品</span>
+              <h3>Regenic</h3>
+              <p>AI 原生组织管理软件，源码在 github.com/regenic-ai/regenic。</p>
             </article>
             <article>
               <span>第一个实验场</span>

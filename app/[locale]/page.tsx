@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { ProductPanel } from "@/components/product-panel";
 import {
   CapabilityDiagram,
   EvidenceLabel,
@@ -138,6 +139,8 @@ export default async function HomePage({
         </TraceNote>
       </section>
 
+      <ProductPanel locale={locale} variant="spotlight" />
+
       <section className="book-invitation">
         <div className="shell book-invitation-grid">
           <div>
@@ -194,6 +197,11 @@ export default async function HomePage({
             <span>方法论</span>
             <strong>理解双能力与两条生产线</strong>
             <small>查看完整框架 →</small>
+          </Link>
+          <Link href={`/${locale}/product`}>
+            <span>产品</span>
+            <strong>Regenic 开源软件与路线图</strong>
+            <small>查看产品 →</small>
           </Link>
           <Link href={`/${locale}/vision`}>
             <span>长期愿景</span>
@@ -259,6 +267,7 @@ function EnglishHome({ locale }: { locale: PublishedLocale }) {
         </div>
         <TraceNote locale={locale}>The “catfish effect” is treated here as a measurable competitive hypothesis, to be tested through decision speed, correction rates, talent density, and adoption records.</TraceNote>
       </section>
+      <ProductPanel locale={locale} variant="spotlight" />
       <section className="book-invitation">
         <div className="shell book-invitation-grid">
           <div><p className="eyebrow">Knowledge is free; judgment is not</p><h2>The complete book is free.</h2></div>
@@ -271,6 +280,7 @@ function EnglishHome({ locale }: { locale: PublishedLocale }) {
         <div className="pathway-grid">
           <Link href={`/${locale}/cases`}><span>Cases and evidence</span><strong>See what is verified and what remains open</strong><small>Open the case ledger →</small></Link>
           <Link href={`/${locale}/method`}><span>Method</span><strong>Understand the two capabilities and production lines</strong><small>View the framework →</small></Link>
+          <Link href={`/${locale}/product`}><span>Product</span><strong>Regenic open-source software and roadmap</strong><small>View the product →</small></Link>
           <Link href={`/${locale}/vision`}><span>Long-term vision</span><strong>Why the final question is organizational intelligence</strong><small>Read the vision →</small></Link>
         </div>
       </section>

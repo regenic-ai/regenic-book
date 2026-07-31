@@ -41,6 +41,7 @@ export default async function VersionsPage({
         />
         <section className="version-ledger shell">
           <SectionHeading eyebrow="Latest update" title="English-first open-source edition" description="The complete English reading edition, bilingual routes, open governance, and public quality gates are now part of the repository." />
+        <div className="version-entry"><time dateTime="2026-07-31">2026.07.31</time><div><h2>Regenic product repo and regenic-book split</h2><p>Renamed repositories: book and site → regenic-ai/regenic-book; product → regenic-ai/regenic. Added product page, roadmap, and updated site navigation.</p></div></div>
           <div className="version-entry"><time dateTime="2026-07-30">2026.07.30</time><div><h2>English-first open-source release prepared</h2><p>Added the full English manuscript, retained the Chinese edition, documented the dual-license model, and introduced reproducible security and CI checks.</p></div></div>
           <div className="version-entry"><time dateTime="2026-07-28">2026.07.28</time><div><h2>Chinese public reading edition launched</h2><p>Published the free reading site, methods, evidence labels, tools, and the relationship among the book, Regenic.ai, and bioby.ai.</p></div></div>
         </section>
@@ -76,6 +77,16 @@ export default async function VersionsPage({
           title="Regenic.ai 持续运行版"
           description="新增案例、实践反馈和重要修订会在这里公开说明。"
         />
+        <div className="version-entry">
+          <time dateTime="2026-07-31">2026.07.31</time>
+          <div>
+            <h2>Regenic 产品仓库与 regenic-book 分工</h2>
+            <p>
+              仓库重命名：书稿与网站 → regenic-ai/regenic-book；产品 →
+              regenic-ai/regenic。新增产品页、路线图，并更新全站导航与开源链接。
+            </p>
+          </div>
+        </div>
         <div className="version-entry">
           <time dateTime="2026-07-28">2026.07.28</time>
           <div>

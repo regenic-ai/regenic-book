@@ -154,6 +154,20 @@ export default async function MethodPage({
         </Link>
       </section>
 
+      <section className="marketing-section shell">
+        <header className="section-heading">
+          <p className="eyebrow">产品</p>
+          <h2>方法在此仓库，产品在 Regenic。</h2>
+          <p>
+            书与 regenic.ai 由 <strong>regenic-book</strong> 承载；开源应用
+            <strong> Regenic</strong> 在 github.com/regenic-ai/regenic。
+          </p>
+        </header>
+        <Link className="button primary" href={`/${locale}/product`}>
+          查看产品与路线图
+        </Link>
+      </section>
+
       <PageCta locale={locale} />
     </>
   );
@@ -227,6 +241,14 @@ function EnglishMethod({ locale }: { locale: PublishedLocale }) {
           </ol>
         </div>
         <Link className="text-link" href={`/${locale}/cases`}>See how cases test both sides of the method →</Link>
+      </section>
+      <section className="marketing-section shell">
+        <header className="section-heading">
+          <p className="eyebrow">Product</p>
+          <h2>Method in regenic-book. Software in Regenic.</h2>
+          <p>The book and regenic.ai live in <strong>regenic-book</strong>. The open application <strong>Regenic</strong> lives at github.com/regenic-ai/regenic.</p>
+        </header>
+        <Link className="button primary" href={`/${locale}/product`}>View product and roadmap</Link>
       </section>
       <PageCta locale={locale} />
     </>

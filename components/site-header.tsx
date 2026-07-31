@@ -10,6 +10,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   const links = [
     { href: `/${locale}/book`, label: dictionary.nav.book },
     { href: `/${locale}/method`, label: dictionary.nav.method },
+    { href: `/${locale}/product`, label: dictionary.nav.product },
     { href: `/${locale}/enterprise`, label: dictionary.nav.enterprise },
     { href: `/${locale}/about`, label: dictionary.nav.about },
   ];

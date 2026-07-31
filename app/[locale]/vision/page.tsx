@@ -51,6 +51,16 @@ export default async function VisionPage({
         </section>
         <section className="statement-band"><div className="shell vision-thesis"><p className="eyebrow">Long-term direction</p><blockquote>Models make execution cheaper.<br />Organizational intelligence decides where cheap execution goes.</blockquote><p>AI can retrieve, generate, and execute. It cannot automatically supply mission, value order, boundaries, or final accountability.</p></div></section>
         <section className="marketing-section shell"><TraceNote locale={locale}>The competitive spillover described here is a strategic hypothesis, not an established fact. Regenic will test it through external adoption and documented practice.</TraceNote></section>
+        <section className="marketing-section shell">
+          <div className="horizon-grid">
+            <SectionHeading eyebrow="From now to long-term" title="Run one cycle, then build the product." />
+            <ol>
+              <li><span>Now</span><strong>Public method, book, and regenic-book</strong><p>Open manuscript, standards, and this site as the authoritative source.</p></li>
+              <li><span>Next</span><strong>Regenic product at github.com/regenic-ai/regenic</strong><p>Encode standards and context as software humans and agents share.</p></li>
+              <li><span>Long-term</span><strong>Sustainable organizational intelligence</strong><p>Help organizations produce and revise their own standards—not rent judgment forever.</p></li>
+            </ol>
+          </div>
+        </section>
         <PageCta locale={locale} title="Start with a testable first step" />
       </>
     );
@@ -157,17 +167,17 @@ export default async function VisionPage({
           <ol>
             <li>
               <span>现在</span>
-              <strong>公开方法、原文、案例与缺口</strong>
-              <p>建立可追溯的权威源，让每个论断都能回到证据与边界。</p>
+              <strong>公开方法、书稿与 regenic-book</strong>
+              <p>建立可追溯的权威源：regenic.ai 与本仓库承载书稿、标准与案例。</p>
             </li>
             <li>
               <span>下一步</span>
-              <strong>跨组织验证第一轮进化</strong>
-              <p>用相同起点、动作、停止线和前后指标记录企业实践。</p>
+              <strong>Regenic 产品（regenic-ai/regenic）</strong>
+              <p>把标准与上下文编码为人与 Agent 共用的开源软件。</p>
             </li>
             <li>
               <span>长期</span>
-              <strong>形成可持续运行的组织智能系统</strong>
+              <strong>可持续运行的组织智能系统</strong>
               <p>帮助组织不断生产自己的标准，而不是永久依赖外部答案。</p>
             </li>
           </ol>

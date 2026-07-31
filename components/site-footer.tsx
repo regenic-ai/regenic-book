@@ -1,6 +1,10 @@
 import Link from "next/link";
 
-import { GITHUB_ISSUES_URL, GITHUB_REPO_URL } from "@/lib/community";
+import {
+  GITHUB_BOOK_REPO_URL,
+  GITHUB_ISSUES_URL,
+  GITHUB_PRODUCT_REPO_URL,
+} from "@/lib/community";
 import type { Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
@@ -40,6 +44,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             <strong>Regenic</strong>
             <Link href={`/${locale}/book`}>{en ? "Read free" : "免费阅读"}</Link>
             <Link href={`/${locale}/method`}>{en ? "Method" : "方法论"}</Link>
+            <Link href={`/${locale}/product`}>{en ? "Product" : "产品"}</Link>
             <Link href={`/${locale}/cases`}>{en ? "Cases and evidence" : "案例与证据"}</Link>
             <Link href={`/${locale}/standards`}>{en ? "Standards" : "标准"}</Link>
             <Link href={`/${locale}/research`}>{en ? "Research" : "研究"}</Link>
@@ -47,16 +52,22 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             <Link href={`/${locale}/investors`}>{en ? "Investors" : "投资人"}</Link>
           </div>
           <div>
-            <strong>{en ? "Company and community" : "公司与社区"}</strong>
+            <strong>{en ? "Open source" : "开源"}</strong>
+            <a href={GITHUB_PRODUCT_REPO_URL} rel="noreferrer">
+              {en ? "Regenic (product)" : "Regenic 产品"}
+            </a>
+            <a href={GITHUB_BOOK_REPO_URL} rel="noreferrer">
+              {en ? "Regenic Book (site)" : "Regenic Book（本站）"}
+            </a>
+            <a href={GITHUB_ISSUES_URL} rel="noreferrer">
+              {en ? "Book/site Issues" : "书稿与网站 Issues"}
+            </a>
+          </div>
+          <div>
+            <strong>{en ? "Company" : "公司"}</strong>
             <Link href={`/${locale}/about`}>{en ? "About the author" : "关于作者"}</Link>
             <a href={`https://www.bioby.ai/${locale}`} rel="noreferrer">
               bioby.ai
-            </a>
-            <a href={GITHUB_REPO_URL} rel="noreferrer">
-              {en ? "GitHub repository" : "GitHub 仓库"}
-            </a>
-            <a href={GITHUB_ISSUES_URL} rel="noreferrer">
-              {en ? "GitHub Issues" : "GitHub Issues"}
             </a>
           </div>
         </nav>

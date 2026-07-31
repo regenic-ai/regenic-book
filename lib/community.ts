@@ -5,6 +5,9 @@ export const GITHUB_BOOK_REPO_URL = "https://github.com/regenic-ai/regenic-book"
 
 /** Regenic product — AI-native org management software. */
 export const GITHUB_PRODUCT_REPO_URL = "https://github.com/regenic-ai/regenic";
+export const GITHUB_PRODUCT_ISSUES_URL = `${GITHUB_PRODUCT_REPO_URL}/issues`;
+export const GITHUB_PRODUCT_ROADMAP_URL = `${GITHUB_PRODUCT_REPO_URL}/blob/main/ROADMAP.md`;
+export const GITHUB_PRODUCT_SECURITY_URL = `${GITHUB_PRODUCT_REPO_URL}/security/advisories/new`;
 
 /** Collaboration entry for this repository checkout. */
 export const GITHUB_REPO_URL = GITHUB_BOOK_REPO_URL;

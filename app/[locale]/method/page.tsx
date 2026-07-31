@@ -157,10 +157,9 @@ export default async function MethodPage({
       <section className="marketing-section shell">
         <header className="section-heading">
           <p className="eyebrow">产品</p>
-          <h2>方法在此仓库，产品在 Regenic。</h2>
+          <h2>方法讲清楚之后，用软件接住。</h2>
           <p>
-            书与 regenic.ai 由 <strong>regenic-book</strong> 承载；开源应用
-            <strong> Regenic</strong> 在 github.com/regenic-ai/regenic。
+            Regenic 把统一判断标准与统一上下文落成可运行的产品，供人与 Agent 共同使用。
           </p>
         </header>
         <Link className="button primary" href={`/${locale}/product`}>
@@ -245,8 +244,10 @@ function EnglishMethod({ locale }: { locale: PublishedLocale }) {
       <section className="marketing-section shell">
         <header className="section-heading">
           <p className="eyebrow">Product</p>
-          <h2>Method in regenic-book. Software in Regenic.</h2>
-          <p>The book and regenic.ai live in <strong>regenic-book</strong>. The open application <strong>Regenic</strong> lives at github.com/regenic-ai/regenic.</p>
+          <h2>After the method is clear, software carries it.</h2>
+          <p>
+            Regenic turns unified judgment standards and shared context into software that humans and agents can run together.
+          </p>
         </header>
         <Link className="button primary" href={`/${locale}/product`}>View product and roadmap</Link>
       </section>

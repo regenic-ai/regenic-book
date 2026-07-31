@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 
 import { PageHero } from "@/components/marketing";
 import { ProductPanel } from "@/components/product-panel";
-import { GITHUB_PRODUCT_REPO_URL } from "@/lib/community";
 import { isPublishedLocale } from "@/lib/i18n/config";
 import { createLocalizedMetadata } from "@/lib/i18n/metadata";
 
@@ -40,29 +39,27 @@ export default async function ProductPage({
         title={
           en ? (
             <>
-              Not bolt-on AI
+              Not more control
               <br />
-              on legacy ERP.
+              on fragmented context.
             </>
           ) : (
             <>
-              不是在旧 ERP 上
+              不是用更多控制
               <br />
-              堆 AI 插件。
+              修补分裂的上下文。
             </>
           )
         }
         description={
           en
-            ? "Regenic is the open product that implements the method: help organizations encode judgment as shared standards and context that humans and agents use together."
-            : "Regenic 是把方法论落地的开源产品：帮助组织把判断固化为共享标准与上下文，供人与 Agent 共同使用。"
+            ? "Legacy organizations run on hierarchy, approvals, and privately held information. Regenic encodes judgment as shared standards and shared context that humans and agents use together."
+            : "旧组织靠层级、审批和各自囤积的信息运转。Regenic 把判断固化为共享标准与统一上下文，让人与 Agent 在同一套依据上行动。"
         }
         aside={
           <div>
-            <p>{en ? "Source" : "源码"}</p>
-            <a className="text-link" href={GITHUB_PRODUCT_REPO_URL} rel="noreferrer">
-              github.com/regenic-ai/regenic
-            </a>
+            <p>{en ? "Current stage" : "当前阶段"}</p>
+            <strong>{en ? "Architecture RFCs · Phase 0" : "架构 RFC · Phase 0"}</strong>
           </div>
         }
       />

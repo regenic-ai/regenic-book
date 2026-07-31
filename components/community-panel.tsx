@@ -3,8 +3,6 @@ import {
   GITHUB_DISCUSSIONS_URL,
   GITHUB_ISSUES_URL,
   GITHUB_NEW_ISSUE_URL,
-  GITHUB_PRODUCT_REPO_URL,
-  GITHUB_REPO_URL,
   GITHUB_SECURITY_URL,
 } from "@/lib/community";
 import type { PublishedLocale } from "@/lib/i18n/config";
@@ -162,8 +160,8 @@ function getIntro(
       eyebrow: en ? "Open collaboration" : "开源协作",
       title: en ? "Continue in the public repository" : "在公开仓库继续沟通",
       description: en
-        ? "Regenic no longer collects contact forms. Book and site feedback goes to regenic-book; product RFCs and engineering go to regenic."
-        : "Regenic 已不再收集联系表单。书稿与网站反馈走 regenic-book；产品 RFC 与工程问题走 regenic 仓库。",
+        ? "Regenic no longer collects contact forms. Continue book, site, and product feedback through the public GitHub channels below."
+        : "Regenic 已不再收集联系表单。书稿、网站与产品反馈请通过下方公开 GitHub 通道继续沟通。",
     };
   }
 
@@ -182,7 +180,7 @@ function getIntro(
     title: en ? "Work with us in the open" : "在开源社区与我们协作",
     description: en
       ? "Questions, corrections, and contributions go through GitHub—the same workflow used by most open-source projects."
-      : "问题、勘误与贡献请走 GitHub。书稿与网站：regenic-book；产品：regenic。",
+      : "问题、勘误与贡献请走 GitHub，沿用常见开源项目协作方式。",
   };
 }
 
@@ -200,14 +198,6 @@ export function CommunityPanel({
         <p className="eyebrow">{intro.eyebrow}</p>
         <h2>{intro.title}</h2>
         <p>{intro.description}</p>
-        <a className="community-repo-link" href={GITHUB_REPO_URL} rel="noreferrer">
-          {en ? "Regenic Book (this site)" : "Regenic Book（本站）"}
-          <span aria-hidden="true">↗</span>
-        </a>
-        <a className="community-repo-link" href={GITHUB_PRODUCT_REPO_URL} rel="noreferrer">
-          {en ? "Regenic product" : "Regenic 产品"}
-          <span aria-hidden="true">↗</span>
-        </a>
       </div>
 
       <div className="community-grid">

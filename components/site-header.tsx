@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { HeaderGithubLink } from "@/components/header-github-link";
 import { LocaleSwitcher } from "@/components/locale-switcher";
+import { getGithubRepoStars } from "@/lib/github-stars";
 import type { Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
-export function SiteHeader({ locale }: { locale: Locale }) {
+export async function SiteHeader({ locale }: { locale: Locale }) {
   const dictionary = getDictionary(locale);
+  const stars = await getGithubRepoStars("regenic-ai/regenic");
   const links = [
     { href: `/${locale}/book`, label: dictionary.nav.book },
     { href: `/${locale}/method`, label: dictionary.nav.method },
@@ -47,36 +50,32 @@ export function SiteHeader({ locale }: { locale: Locale }) {
               groupLabel={dictionary.languageGroupAria}
               locale={locale}
             />
-            <Link
-              className="header-cta"
-              href={`/${locale}/tools/diagnosis`}
-            >
-              {dictionary.nav.diagnosis}
-            </Link>
+            <HeaderGithubLink locale={locale} stars={stars} />
           </div>
         </div>
 
-        <details className="mobile-nav">
-          <summary>{dictionary.nav.menu}</summary>
-          <nav aria-label={dictionary.nav.ariaMobile}>
-            {links.map((link) => (
-              <Link href={link.href} key={link.href}>
-                {link.label}
-              </Link>
-            ))}
-            <Link
-              className="mobile-nav-cta"
-              href={`/${locale}/tools/diagnosis`}
-            >
-              {dictionary.nav.diagnosis}
-            </Link>
-            <LocaleSwitcher
-              className="locale-switcher-mobile"
-              groupLabel={dictionary.languageGroupAria}
-              locale={locale}
-            />
-          </nav>
-        </details>
+        <div className="header-mobile-tools">
+          <HeaderGithubLink
+            className="header-github-compact"
+            locale={locale}
+            stars={stars}
+          />
+          <details className="mobile-nav">
+            <summary>{dictionary.nav.menu}</summary>
+            <nav aria-label={dictionary.nav.ariaMobile}>
+              {links.map((link) => (
+                <Link href={link.href} key={link.href}>
+                  {link.label}
+                </Link>
+              ))}
+              <LocaleSwitcher
+                className="locale-switcher-mobile"
+                groupLabel={dictionary.languageGroupAria}
+                locale={locale}
+              />
+            </nav>
+          </details>
+        </div>
       </div>
     </header>
   );

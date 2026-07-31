@@ -36,7 +36,7 @@ export const productPhasesZh: ProductPhase[] = [
     label: "Phase 3",
     title: "组织管理产品",
     summary:
-      "在标准与上下文之上提供 AI 原生运营界面，而不是在旧 ERP 上堆聊天框。",
+      "在标准与上下文之上提供 AI 原生运营界面，替代靠层级、审批和会议搬运信息的旧管理方式。",
     status: "later",
   },
 ];
@@ -71,7 +71,7 @@ export const productPhasesEn: ProductPhase[] = [
     label: "Phase 3",
     title: "Org management product",
     summary:
-      "AI-native operations built on standards and context—not legacy ERP with a chat box bolted on.",
+      "AI-native operations on standards and context—replacing hierarchy, approvals, and meetings as the main way to move information.",
     status: "later",
   },
 ];

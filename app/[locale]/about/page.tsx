@@ -68,8 +68,8 @@ export default async function AboutPage({
             <SectionHeading eyebrow="Four carriers" title="Frozen, running, product, and practice" />
             <div>
               <article><span>Publication</span><h3>Rewrite the DNA</h3><p>A complete argument frozen at publication.</p></article>
-              <article><span>Living edition</span><h3>regenic.ai / regenic-book</h3><p>Book, method, tools, cases, and this website.</p></article>
-              <article><span>Product</span><h3>Regenic</h3><p>Open org-management software at github.com/regenic-ai/regenic.</p></article>
+              <article><span>Living edition</span><h3>regenic.ai</h3><p>Book, method, tools, cases, and this website.</p></article>
+              <article><span>Product</span><h3>Regenic</h3><p>Open org-management software for AI-native organizations.</p></article>
               <article><span>First lab</span><h3>bioby.ai</h3><p>Real operating constraints and results.</p></article>
             </div>
           </div>
@@ -177,13 +177,13 @@ export default async function AboutPage({
             </article>
             <article>
               <span>持续运行版</span>
-              <h3>regenic.ai / regenic-book</h3>
+              <h3>regenic.ai</h3>
               <p>概念、原文、版本、工具与案例的权威源。</p>
             </article>
             <article>
               <span>开源产品</span>
               <h3>Regenic</h3>
-              <p>AI 原生组织管理软件，源码在 github.com/regenic-ai/regenic。</p>
+              <p>面向 AI 原生组织的开源管理软件。</p>
             </article>
             <article>
               <span>第一个实验场</span>

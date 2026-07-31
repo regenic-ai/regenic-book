@@ -1,11 +1,5 @@
 import Link from "next/link";
 
-import { TraceNote } from "@/components/marketing";
-import {
-  GITHUB_BOOK_REPO_URL,
-  GITHUB_PRODUCT_REPO_URL,
-  GITHUB_PRODUCT_ROADMAP_URL,
-} from "@/lib/community";
 import { getProductPhases } from "@/lib/product-content";
 
 type ProductPanelProps = {
@@ -30,42 +24,34 @@ export function ProductPanel({ locale, variant = "spotlight" }: ProductPanelProp
             </h2>
             <p>
               {en
-                ? "The book explains the method. Regenic implements it: unified judgment standards and shared context that humans and agents operate from together—not another chat layer on legacy ERP."
-                : "书讲方法，Regenic 做产品：统一判断标准与统一上下文，让人与 Agent 在同一套依据上协作——不是在旧系统上再堆一个聊天框。"}
+                ? "The book explains the method. Regenic implements it: unified judgment standards and shared context—so organizations stop paying for fragmented context with more hierarchy and control."
+                : "书讲方法，Regenic 做产品：统一判断标准与统一上下文，让组织不再用更多层级和控制，去弥补分裂的上下文。"}
             </p>
             <div className="hero-actions">
-              <a
-                className="button primary"
-                href={GITHUB_PRODUCT_REPO_URL}
-                rel="noreferrer"
-              >
-                {en ? "View Regenic on GitHub" : "在 GitHub 查看 Regenic 产品"}
-              </a>
-              <Link className="text-link" href={`/${locale}/product`}>
-                {en ? "Product overview and roadmap →" : "产品说明与路线图 →"}
+              <Link className="button primary" href={`/${locale}/product`}>
+                {en ? "Product overview and roadmap" : "产品说明与路线图"}
+              </Link>
+              <Link className="text-link" href={`/${locale}/method`}>
+                {en ? "Explore the method →" : "查看方法论 →"}
               </Link>
             </div>
           </div>
           <div className="lab-ledger">
             <div>
-              <strong>{en ? "Open now" : "现已开源"}</strong>
-              <span>
-                <a href={GITHUB_PRODUCT_REPO_URL} rel="noreferrer">
-                  regenic-ai/regenic
-                </a>
-              </span>
-            </div>
-            <div>
-              <strong>{en ? "Method and site" : "书稿与网站"}</strong>
-              <span>
-                <a href={GITHUB_BOOK_REPO_URL} rel="noreferrer">
-                  regenic-ai/regenic-book
-                </a>
-              </span>
-            </div>
-            <div>
               <strong>{en ? "Status" : "当前阶段"}</strong>
               <span>{en ? "Architecture RFCs (Phase 0)" : "架构 RFC（Phase 0）"}</span>
+            </div>
+            <div>
+              <strong>{en ? "License" : "许可"}</strong>
+              <span>MIT</span>
+            </div>
+            <div>
+              <strong>{en ? "Focus" : "当前焦点"}</strong>
+              <span>
+                {en
+                  ? "Standards and shared context"
+                  : "判断标准与统一上下文"}
+              </span>
             </div>
           </div>
         </div>
@@ -81,8 +67,8 @@ export function ProductPanel({ locale, variant = "spotlight" }: ProductPanelProp
           <h2>{en ? "What Regenic builds" : "Regenic 构建什么"}</h2>
           <p>
             {en
-              ? "Regenic turns the method in Rewrite the DNA into software. Two capabilities, one product, one GitHub repository named after the brand."
-              : "Regenic 把《重写基因》里的方法落成软件。两种能力、一个产品、一个与品牌同名的 GitHub 仓库。"}
+              ? "Regenic turns the method in Rewrite the DNA into software: two capabilities, one product surface for humans and agents."
+              : "Regenic 把《重写基因》里的方法落成软件：两种能力、一个供人与 Agent 共用的产品界面。"}
           </p>
         </header>
         <div className="method-pair">
@@ -107,43 +93,6 @@ export function ProductPanel({ locale, variant = "spotlight" }: ProductPanelProp
         </div>
       </section>
 
-      <section className="statement-band">
-        <div className="shell">
-          <header className="section-heading">
-            <p className="eyebrow">{en ? "Open-source layout" : "开源布局"}</p>
-            <h2>{en ? "One brand, two repositories" : "一个品牌，两个仓库"}</h2>
-          </header>
-          <div className="platform-relation">
-            <div>
-              <article>
-                <span>{en ? "Product" : "产品"}</span>
-                <h3>regenic-ai/regenic</h3>
-                <p>
-                  {en
-                    ? "The Regenic application. MIT license. Product issues and RFCs live here."
-                    : "Regenic 应用本体。MIT 许可。产品 Issue 与 RFC 在此仓库。"}
-                </p>
-                <a className="text-link" href={GITHUB_PRODUCT_REPO_URL} rel="noreferrer">
-                  {en ? "Open repository ↗" : "打开仓库 ↗"}
-                </a>
-              </article>
-              <article>
-                <span>{en ? "Book and website" : "书稿与网站"}</span>
-                <h3>regenic-ai/regenic-book</h3>
-                <p>
-                  {en
-                    ? "This site, the manuscripts, and public methodology. Deploys to regenic.ai."
-                    : "本网站、书稿与公开方法论。部署到 regenic.ai。"}
-                </p>
-                <a className="text-link" href={GITHUB_BOOK_REPO_URL} rel="noreferrer">
-                  {en ? "Open repository ↗" : "打开仓库 ↗"}
-                </a>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="marketing-section shell">
         <header className="section-heading">
           <p className="eyebrow">{en ? "Roadmap" : "路线图"}</p>
@@ -163,23 +112,6 @@ export function ProductPanel({ locale, variant = "spotlight" }: ProductPanelProp
             </li>
           ))}
         </ol>
-        <TraceNote locale={locale}>
-          {en ? (
-            <>
-              Full roadmap:{" "}
-              <a href={GITHUB_PRODUCT_ROADMAP_URL} rel="noreferrer">
-                github.com/regenic-ai/regenic
-              </a>
-            </>
-          ) : (
-            <>
-              完整路线图见{" "}
-              <a href={GITHUB_PRODUCT_ROADMAP_URL} rel="noreferrer">
-                github.com/regenic-ai/regenic
-              </a>
-            </>
-          )}
-        </TraceNote>
       </section>
     </>
   );

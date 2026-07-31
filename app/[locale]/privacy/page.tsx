@@ -40,7 +40,7 @@ export default async function PrivacyPage({
       <section>
         <h2>{en ? "Information we process" : "我们处理的信息"}</h2>
         <p>
-          {en ? "You may read all public content without an account. The site currently has no payments, accounts, user profiling, or contact forms. Collaboration happens through GitHub: regenic-book for this site and manuscripts, regenic for the product." : "你可以直接阅读本站公开内容，无需注册账户。当前网站没有付费、账户、用户画像或联系表单功能。协作通过 GitHub 进行：书稿与网站走 regenic-book，产品走 regenic 仓库。"}
+          {en ? "You may read all public content without an account. The site currently has no payments, accounts, user profiling, or contact forms. Collaboration happens through the public GitHub channels linked in the site footer." : "你可以直接阅读本站公开内容，无需注册账户。当前网站没有付费、账户、用户画像或联系表单功能。协作通过页脚「开源」栏目中的公开 GitHub 通道进行。"}
         </p>
         <p>
           {en ? "Hosting and security providers may process IP addresses, browser type, access time, requested URLs, and error information in server logs to deliver pages, diagnose failures, and prevent abuse." : "网站托管与安全服务为交付页面、排查故障和抵御滥用，可能在服务器日志中处理 IP 地址、浏览器类型、访问时间、请求地址和错误信息。"}

@@ -6,10 +6,8 @@ import {
   GITHUB_PRODUCT_REPO_URL,
 } from "@/lib/community";
 import type { Locale } from "@/lib/i18n/config";
-import { getDictionary } from "@/lib/i18n/dictionaries";
 
 export function SiteFooter({ locale }: { locale: Locale }) {
-  const dictionary = getDictionary(locale);
   const en = locale === "en";
 
   return (
@@ -20,7 +18,6 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             {en ? "Organizational intelligence · Living" : "组织智能 · 持续运行"}
           </p>
           <strong className="footer-title">Regenic.ai</strong>
-          <p>{dictionary.footer}</p>
           <div className="footer-company">
             <span>
               {en ? "The methodology's first operating company" : "方法的第一个实践公司"}
@@ -74,8 +71,8 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         <div className="fine-print">
           <span>
             {en
-              ? "© 2026 Jeson Li · All rights reserved"
-              : "© 2026 李必琪（Jeson Li）· 保留所有权利"}
+              ? "© 2026 Bioby AI Technology · All rights reserved"
+              : "© 2026 Bioby AI Technology · 保留所有权利"}
           </span>
           <div className="footer-legal">
             <Link href={`/${locale}/privacy`}>{en ? "Privacy" : "隐私"}</Link>

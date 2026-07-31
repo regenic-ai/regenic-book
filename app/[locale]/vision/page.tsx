@@ -55,8 +55,8 @@ export default async function VisionPage({
           <div className="horizon-grid">
             <SectionHeading eyebrow="From now to long-term" title="Run one cycle, then build the product." />
             <ol>
-              <li><span>Now</span><strong>Public method, book, and regenic-book</strong><p>Open manuscript, standards, and this site as the authoritative source.</p></li>
-              <li><span>Next</span><strong>Regenic product at github.com/regenic-ai/regenic</strong><p>Encode standards and context as software humans and agents share.</p></li>
+              <li><span>Now</span><strong>Public method, book, and site</strong><p>Open manuscript, standards, and this site as the authoritative source.</p></li>
+              <li><span>Next</span><strong>Regenic product</strong><p>Encode standards and context as software humans and agents share.</p></li>
               <li><span>Long-term</span><strong>Sustainable organizational intelligence</strong><p>Help organizations produce and revise their own standards—not rent judgment forever.</p></li>
             </ol>
           </div>
@@ -167,12 +167,12 @@ export default async function VisionPage({
           <ol>
             <li>
               <span>现在</span>
-              <strong>公开方法、书稿与 regenic-book</strong>
-              <p>建立可追溯的权威源：regenic.ai 与本仓库承载书稿、标准与案例。</p>
+              <strong>公开方法、书稿与网站</strong>
+              <p>建立可追溯的权威源：regenic.ai 承载书稿、标准与案例。</p>
             </li>
             <li>
               <span>下一步</span>
-              <strong>Regenic 产品（regenic-ai/regenic）</strong>
+              <strong>Regenic 产品</strong>
               <p>把标准与上下文编码为人与 Agent 共用的开源软件。</p>
             </li>
             <li>

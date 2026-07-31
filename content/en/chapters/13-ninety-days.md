@@ -1,0 +1,156 @@
+# Chapter 13: Ninety Days: Complete the First Cycle of Organizational Evolution
+
+Status: Completed (v1.3, 2026-07-27, about 8300 words; accepted 2026-07-26, v1.1 settled I2 data debt, updated I4 caliber, v1.2 expansion: consulting outsourcing structural rebuttal, scale adaptation, pilot stop line, eight-question testing method, I1 five-month assembly timeline integration, Klarna/MD Anderson's transformation failure sign; 2026-07-27 Supplementary graphics business guidelines (point to Chapter 12, Section 3) and echo the logo semantic layer (point to Chapter 7); v1.3 nails the boundaries of Regenic.ai enterprise services and will be frozen after reading the entire book)
+
+**Claim: AI-native transformation is not about introducing tools, but about rewriting the organization from experience and inertia driven to standards and context driven - 90 days is enough to complete the first round of organizational-DNA evolution. **
+
+---
+
+## 1. First get rid of the "three-year project"
+
+When it comes to organizational transformation, the first reaction of most principal leaders is to take two actions: ask the company to do top-level design and establish a three-year plan. I am opposed to both actions, and the reason is the 10/10/80 established in Chapter 7: refining standards is worth 10 points, collecting data is worth 10 points, and seeking optimal solutions by means is worth 80 points. No matter how perfect the top-level design is, it only covers the first 20 points; and the real function of the three-year plan is often to postpone the execution of 80 points until "you are ready to start." Chapter 6 said that if there are no standards, implementation should stop; but conversely, if standards are established but not implemented, planning becomes the most honorable delay.
+
+One more thing to say about consulting companies, because the problem is not their professional capabilities, but the structure of the client relationship. The core deliverable of the transformation is the eight-layer standard, and the first author of the standard can only be the principal leader. This is not a power obsession, but because the process of writing standards itself is the most expensive learning in transformation: every "condition + action + acceptance" forces you to make your previously vague judgments explicit. By outsourcing this process, what you buy back is a beautiful document, but what you miss is the only action that allows genes to be truly rewritten. **Outsourcing the most expensive learning is equivalent to paying someone else to grow muscles for you**. Consultants can accompany you, ask questions, and deliver tools, but they cannot ghostwrite.
+
+The alternative I gave is a 90-day minimum closed loop: Establish standards → Build consensus → Collapse an execution unit**. It does not promise to complete the transformation in 90 days (that is a lie), but it promises to complete the first round of organizational-DNA evolution in 90 days: the most frequent judgments in the organization have standards, core members think in the same language, and at least one execution unit completes the AI ​​transformation and comes back alive. As mentioned in Chapter 4, organizational DNA is the default value for judgment; **90 days cannot change everything about the company, but it is enough to change what the company believes**.
+
+Exactly 90 days, not rhetoric. Three months is the verification window for early-stage companies in Chapter 5 of the People Investment Standard. Organizational transformation itself is an investment, and it must accept the same discipline as other investments: freeze the acceptance criteria before investment, and use bilateral evidence to settle the account when it is due. Managing transformation as a 90-day investment is itself the first expression of a new gene.
+
+## 2. 90-day roadmap
+
+Four sections, thirteen weeks. Each paragraph gives three things: actions, deliverables, and the most common way to die.
+
+Let me first explain the scope of application: This roadmap is designed for an organization with no more than twenty core members. The implicit premise is that the principal leader can personally conduct Feynman acceptance for each core member. Larger organizations do not need to change the roadmap or the scope: choose a business unit or independent business unit as the "company" and let the unit's No. 1 complete the entire thirteen weeks; after the unit is run through, it will be a representation within the group, a transformation prototype that can be visited and reviewed, which is more convincing than any top-down mobilization of all employees (Chapter 8: Repeatable samples are the top of the credibility ladder).
+
+### Week 1-2: Clarity Method Audit
+
+Action is an organizational application of the Chapter 7 methodology: expand your options without changing anything. Three lists:
+
+1. **limiting resource inventory** (Chapter 5): Which resource is the company currently stuck on, whether it is cash, judgment or consensus. Use the flow of money to verify, don’t use meeting minutes to verify: declarations are for managing other people’s judgments, only the flow of money exposes your own judgment.
+2. **Statistics on high-frequency judgment points**: What judgments have been repeatedly made in the organization in the past month? Sort by frequency, take the top three, they are the objects of standardization in weeks 3-6.
+3. **User Consensus Positioning** (Chapter 12): Where on the adoption curve are your paying users? Is your current product path forward or reverse?
+
+Deliverables: One-page status diagram. The most common way to die: An audit turns into a pep rally. Announcing any changes in weeks 1-2 is a jump start. You don’t have standards at this time. The louder the announcement, the higher the cost of changing it later.
+
+### Weeks 3-6: standards engine starts
+
+Three core actions:1. **Write eight levels of standards** (the mother table structure of Chapter 6): mission, belief, behavior, thinking, judgment, personnel investment, management, and learning, write in order. Don't seek perfection, seek executability: each item is divided into three parts: "condition + action + acceptance". It is better to be rough but judgeable, rather than refined but both.
+2. **Build ROI Card** (Chapter 5): Establish personal ROI cards for all members, determine the verification window of 3, 6 or 9-12 months according to the organizational stage, and freeze the value caliber, full cost, attribution method and stopping conditions before investment.
+3. **Standardized top three judgments**: Write the three most frequent judgments counted in weeks 1-2 into executable standards. One technical detail: **Use median for statistics**. There are always extreme values ​​in judgment samples, the mean will be hijacked by them, and the median reflects "how to judge typical situations."
+
+Deliverables: Eight-tier standard v1 plus full-staff ROI card. The most common ways to die are symmetrical: perfectionism (still changing the wording of the first level in Week 6) and democratic trap (full voting of the standard draft). The first author of the eight-layer standard can only be the number one; Chapter 8 said that consensus is created, not voted on.
+
+### Weeks 7-10: consensus engine running
+
+Standards written on paper are not genes, they are incorporated into everyone's default judgment. Three actions:
+
+1. **Internal Interference Method** (Chapter 8): Give key standards short names so that they become everyday language. Only standards that can be quoted casually will be implemented casually. Teach it ten times at the principal leader and ten more times at all levels. At the same time, follow the conclusion of Chapter 9 and put the standards into a place where everyone can check them easily: the unification of context does not rely on calls, but on making it easier to acquire than hoard infrastructure.
+2. **Feynman Acceptance** (Learning Standards in Chapter 7): One by one, ask core members to explain the eight-level standards to a new person in simple language. If something is unclear, first assume that the standard is written incorrectly, and then assume that the person does not understand it. In both cases, fix it on the spot.
+3. **Determine the product path** (Chapter 12): Based on the user consensus positioning in weeks 1-2, formally select the forward path or consensus reverse iteration, and write the choice into the R&D roadmap with five gates.
+
+Deliverables: All core members pass Feynman acceptance, and the product path decision is one page. The most common way to die: mistaking "sending an email to all employees" as "establishing a consensus." The acceptance criterion for consensus is that others can use your language to make judgments, not that others have received your language.
+
+### Weeks 11-13: Dual Pilots
+
+The first ten weeks were all about laying, and the last three weeks were really about it, with two pilots being started at the same time:
+
+1. **Execution unit collapse** (Chapter 10): Select an execution unit with the highest concentration of S1/S2, complete the AI or outsourcing transformation, reclassify the remaining positions, and reconfigure each person's hierarchy along the decision-making power ladder. Selection criteria: small enough (failure can be tolerated), real enough (real business flow), painful enough (cost savings can be seen by finance).
+2. **Product single-variable iteration** (Chapter 12): Select a product unit and complete a round of single-variable iteration according to the progressive standards of research and development: clarify the uncertainty that needs to be eliminated, retain the stable core and rollback plan, and update the roadmap with the results.
+
+Each of the two pilots is equipped with a stop line written in advance. This is the form of the iron law in Chapter 6 in the pilot: During the transformation of the execution unit, if the delivery quality falls below the pre-transformation level and cannot be attributed within two weeks, the rollback will be suspended. I2’s experience is that it is not unexpected to see a decline in the first month, but the decline must be attributed to the specific standard gap, and chaos that cannot be attributed must not be forced to bear; in product iteration, if the existing indicators that stabilize the core are damaged, they will be rolled back, without exception. Stop lines are binding only if they are written and made public before starting. The lines drawn temporarily while the pilot was in progress seemed like steps for failure wherever they were drawn.
+
+Deliverables: A pilot review with complete evidence on both sides: If it succeeds, the evidence will be entered into the standard library and become a clause; if it fails, if the attribution is clear (standard error, biased implementation, or lack of context), it will also be entered into the standard library. **The progress of R&D is not calculated by the number of new functions, but by how many key uncertainties have been eliminated**; the same is true for the progress of transformation.
+
+## Three and eight questions for acceptance
+
+At the end of 90 days, acceptance will not be based on "how many AI tools have been deployed", because the tool list is the most easily falsified report card. Acceptance with eight questions:
+
+1. Can the core members explain the eight-layer standards clearly in simple language?
+2. Can three recent important decisions be traced to clear value judgments?
+3. Have all members established ROI cards that match the organizational stage, with current leading indicators supporting an expiration ROI greater than 1?
+4. At what level does each core member have decision-making power? Are the conditions for promotion clear?
+5. Does daily reflection continue to produce new standards, revisions of standards, or better solutions?
+6. Do AI and humans act in the same context and according to the same standards?
+7. Does R&D clarify the current user consensus, product path and single uncertainty to be verified, and retain a stable core and rollback plan?
+8. When experience conflicts with standards, do members proactively pause, seek evidence from both sides, and revise judgments rather than resorting to seniority or convention?The eight questions correspond to the skeleton of the book: the first question tests standards engine, the second question tests value judgment, the third question tests investment discipline, the fourth question tests decision-making power transfer, the fifth question tests learning closed loop, the sixth question tests shared context, the seventh question tests product path, and the eighth question tests the gene itself: **organizational DNA is not the values ​​on the wall, but the judgments and actions that will occur automatically when no one is supervising**. If you can pass six out of eight questions, the first round of evolution will be considered completed; if you fail to pass four questions, go back to weeks 1-2 and re-audit. There is a high probability that the limiting resource judgment is wrong.
+
+There is a rule in the testing method: the first eight questions are asked to others by position 1, and you are not allowed to ask yourself. You must pass all eight questions in the self-assessment. The form of feedback evasion in Chapter 2 during the acceptance phase is to send the test paper and answers to the same person. In operation, three core members were randomly selected to pass eight questions respectively, and the worst score was obtained. If the three people's answers to a question were contradictory, they would be considered as failed, because the eight questions tested consensus, and the opposite of consensus is not a mistake, but a disagreement. The most common failure point in spot checks is the eighth question. It cannot be asked using a questionnaire, but can only be done by waiting: wait for the next time experience and standards conflict, and see whether the first reaction of the person concerned is to change the standards or to change the qualifications. The answer given in that moment was more honest than all the reports in 90 days combined.
+
+## 4. A fully assembled machine: bioby.ai full case
+
+For each standard discussed in the book, I will now put them back into the same company, so that you can see how they interlock. This is not a demonstration case, it is how my own company is run every day. As explained in Chapter 6, the eight-layer matrix in the book was moved from here. The external business of this machine is the overseas influencer marketing agent. Its judgment structure (multiplication of variables × invariants) is selected as explained in Chapter 12, Section 3; the machine and the business it processes use the same set of standards.
+
+The order of assembly is the logical order. The top is the mission: to use AI to improve the level of all mankind. The company name bioby is bio by ai, and the logo is the letter b spelled out with the numbers 1 and 0 (the bottom layer of the computer is 0 and 1, and the bottom layer of this machine is Clarity Method and Interference Method; the origin of the logo, which was finalized in two days, was explained in Chapter 7). Underlying the mission is belief: the belief that human-machine collaboration is the future of mankind. These two layers do not directly guide any specific judgment, but they answer the most difficult of the eight questions: when there is no one to supervise, why can we trust that the judgments of members will point in the same direction. Moving on, there is a behavioral standard, Treat People with Honesty, which is the ethical boundary of the Interference Method in Chapter 8 and the trust foundation of the consensus engine in Chapter 9; a judgment standard, Judge by Value, which is the corporate version of the value judgment in Chapter 4. Further down is the four-layer operating system: personnel investment standards (ROI for all employees is greater than 1, phased verification, Chapter 5), management standards (five-level ladder from instruction to delegation, Chapter 10), learning standards (reflection on the Gaffeman technique, Chapter 7), job structure (S1/S2 outsourcing, thinking of all employees above S3, Chapter 10) plus time ratio (1-2 hours vs. 6 hours, Chapter 11).
+
+When looking at the 90-day road map, the most important question readers should ask me is: How many days have you walked? The honest answer is longer than 90 days because we don’t have a manual and every step of the way is hitting a brick wall and then deducing. Timeline laid out (internal company records): Clarity Method was launched in February 2026, which was the first cornerstone. Previous recruitment, financing, and logo design were all implemented without standards, and tuition bills were recorded in Chapters 10, 3, and 7 respectively. The Interference Method was launched in April, and the four recruitment standards were implemented in the same month. The first step was to go back and calibrate all current positions (the meaning of this sequence was explained in Chapter 10). From March to July, the R&D unit completed its collapse renovation, and the ledger is in Chapter 10, Section 3. In May, professional FA will be connected (the stop loss point of the tuition fee in Chapter 3), and the time matching record will be launched in the same month. In June, ROI > 1 was forced out of the labor budget stuck point (Chapter 5), the logo standard was finalized in two days (Chapter 7), and the conference room decoration was suspended according to iron rules (Chapter 6). It took about five months from the first foundation stone to the general bite of the eight-layer mother table. According to the scope of this chapter, it is equivalent to two overlapping rounds: the round of establishing standards and building consensus was carried out from February to April, and the round of collapsing pilots and investing disciplines started in March and ended in July. The 90-day manual is the straight line that remains after cutting out all the detours in these five months. **If you walk with a map, you should be faster than the person who drew the map. **This timeline also hides a structure worth pointing out: five standards, five origins, none of which came from planning. The Clarity Method came out of the pain of repeated rework, the recruitment of four people came out of the tuition of twenty business positions, ROI > 1 came out of the embarrassment of insufficient budget, the logo standard came out of two months of idling by four designers, and the iron law of stopping execution was completed in muscle memory in a conference room worth 10,000 yuan. Chapter 7 said that organizational standards are not promulgated from heaven, but are forced out when the methodology reaches a stuck point. This is also my final rebuttal to "do three years of top-level design first": what is written on the standard birth certificate is never "planning", but a specific pain**. No service can make a company suffer again, and no consultant can complete the judgment for No. 1; what services can do is shorten the distance from pain to standard: help you identify limiting resources, freeze acceptance criteria, organize the first round of verification, and compress the detour that originally took five months into ninety days. This is also the boundary of Regenic.ai’s enterprise services: we will accompany you to complete the rewriting, and we will not outsource the transformation for you.
+
+Chapters 10 and 11 each owe a data debt, which will be reconciled here. Chapter 10 has been settled: the structure and account books of the R&D unit reconstruction (I2) are written in the third section of the chapter, and the company's operating standards have not been audited. What’s still missing from Chapter 11: The implementation records of time allocation (I4) have been accumulated since May 2026, covering the core team of seven people. The caliber is self-declaration, review by the next level, and will be added after the end of the first full quarter [to be supplemented: I4 quarterly data]. I don't use adjectives instead of numbers. Before the data is added, this record will only be used as a reference for the mechanism description. This is the rule I have set for myself.
+
+What needs to be emphasized is the quality boundary of this machine: bioby.ai is an early-stage company. This set of standards is run every day on a small sample and revised every day, but it has not experienced a stress test on a scale of thousands of people. So its role in this book is **assembly drawing**, not **proof of success**. The proof is left to time, and the following two external samples.
+
+## 5. Two paths, one end point
+
+External evidence gives two symmetrical paths.
+
+**Native Path: Dance with Love** (detailed analysis in Chapter 2, see assembly here). An organization based on human-machine collaborative design was established in May 2023. The five core positions of product, R&D, design, market operations, and sales were all reconstructed based on human-machine collaboration, and a cross-department shared data pool formed a data flywheel; in two years, four rounds of financing were approximately US$150 million, with a valuation of nearly US$1 billion and monthly revenue of tens of millions of yuan (disclosed by the founder to 36Kr, non-audited data). It has not undergone a "transformation" because it was born into this species.
+
+**Transformation path: Chuanshen** (detailed analysis in Chapter 9, see assembly here). A translation company that has been established for nearly 20 years and is the center of zero execution price in the industry, it relies on three mechanisms to transform itself: the establishment of CAIO and AI Native decision-making committees (judgment weight allocation), DEMO hard rules (execution of standards), and energy gold mechanisms (incentive alignment of new genes). This book only quotes its mechanism, and the effect data lacks third-party verification.
+
+A new company and an old company have opposite starting points and the same destination: they both lead to shared judgment standards and shared context. This is the source of confidence in the 90-day plan: **AI-native organization is not a new species that has grown up, but an old species that dares to rewrite its own standards**. What the native company saves is the cost of "tearing down the old", and the things to be built are exactly the same.
+
+In addition to the two living roads, there is also a damaged road, and the road sign is also posted here. The Klarna and MD Anderson dissected in Chapter 2, reread in today's language, are the two opposites of the 90-day closed loop: Klarna treats transformation as a money-saving exercise, and the only evaluation criterion is cost, which is equivalent to executing at full speed even if the judgment criteria in the eight-layer standard are wrongly written; MD Anderson treats transformation as a procurement project, buying top-notch tools for $60 million, governance bypassing standards, and machines cannot read the context, which is equivalent to No. 3-10 of the roadmap Skip the entire week and jump directly from purchase order to acceptance. None of the deaths in the two families was related to technology. **Transformation failure is almost never a technical death, it is a standard death**. That's why in this chapter's roadmap, tools are ranked after standards and consensus: the order is not a preference, it's dictated by the autopsy report.
+
+## 6. Boundaries of Judgment
+
+Three.
+
+**First, what is completed in 90 days is the first round, not all**. Genetic evolution is a cycle, not an event: the deliverables at the end of the first round contain the starting point for the next round (the new limiting resource exposed by the pilot review). Reading this chapter as "Transformation Complete in 90 Days" is equivalent to thinking of the first iteration as the last release. Most tissues require three to five rounds to achieve stable expression of the new gene. That's one to one and a half years, which is still much faster than "three years of top-level design" because each round is settled in real business.
+
+**Second, there is an irreplaceable premise in 90 days: the No. 1 player leaves the field in person**. The first author of the eight-layer standard must be No. 1, and the first person accepted by Feynman should also be No. 1. By Chapter 11 accounting, this means that Position 1 spent at least two or three hours a day on Standard and Consensus for 90 days. If you can't move this space in your calendar, don't start it yet: outsourcing the transformation to assistants or consultants is equivalent to handing over genetic surgery to others, and the result will definitely be rejection.**Third, the quality of the sample**. The financing, valuation, and income of Dancing with Love are based on the media disclosures of the founders and the company's caliber, and are not audited data; the expressiveness only quotes the mechanism but not the effect; bioby.ai is an assembly diagram rather than a proof of success, and internal quantitative records [to be added]. What is still missing is the most convincing sample: a medium-sized traditional enterprise that has completed a 90-day closed loop and has operating data comparison before and after the transformation. After the book is published, I hope to generate such samples among the first readers, and record the process, boundaries, and before-and-after data on Regenic.ai after obtaining corporate permission. Demonstrating only success turns methodology back into divination, and stop lines and failure samples must remain. This is not a courtesy. As explained in Chapter 8, what I will implement on you in this book is the Interference Method, and its acceptance standard is also the eighth question among the eight questions: after you close the book and no one is supervising, will you act according to this set of standards.
+
+## What to Do Monday Morning (No. 1 perspective)
+
+This chapter is the answer. Tear off the second section and stick it on the wall, and do the first thing on Monday morning in weeks 1-2: pull up the company's expenditures in the past three months, and answer a question: Is the place where the money actually flows is the same as the limiting resource you mentioned.
+
+Auditing starts with honesty, and transformation starts with auditing.
+
+## Ending: the last scarcity
+
+At the end of the book, the name "the last scarcity" is settled.
+
+The execution price is approaching zero, which is the starting point of this book; judgment becomes the last scarcity, which is the main body of this book. But at this point, we can ask another question: when the standards engine turns judgment into a replicable, iterable, and inheritable asset, what is left that is scarce?
+
+What remains is **choosing what to believe**. Standards can be copied, but the belief that wrote the first standard cannot; context can be unified, but the sense of direction that determines where to unify cannot. AI has taken over execution and is learning to assist judgment, but it doesn’t have what it wants, and every evolution of an organization starts with someone wanting something that doesn’t exist yet. This is a scarcity that machines can never replace, and it is also the true meaning of the belief that "human-machine collaboration is the future of mankind": It is not people who help machines, nor machines who help people, but machines are responsible for everything that can be standardized, and people are responsible for the next standard.
+
+the last scarcity, never on the machine side. It's in the moment you decide what to do on Monday morning.
+
+## Quotable Lines
+
+1. The first step in transformation is not to buy tools, but to stop implementing without standards.
+2. 90 days cannot change everything about the company, but it is enough to change what the company believes.
+3. AI-native organization is not a new species that has grown up, but an old species that dares to rewrite its own standards.
+4. The acceptance check for AI-native transformation is not a tool list, but a set of standards that both humans and AI can understand, implement, and modify.
+5. The progress of R&D is not measured by new functions, but by how many key uncertainties have been eliminated.
+6. Organizational DNA is not the values ​​on the wall, but the judgments and actions that occur automatically when no one is supervising.
+7. The acceptance criterion for consensus is that others can use your words to make judgments, not that others have received your words.
+8. Manage the transformation as a 90-day investment, itself the first expression of a new gene.
+9. Machines are responsible for everything that can be standardized, and people are responsible for the next standard.
+10. The last scarcity, never on the machine side.
+11. If you walk with a map, you should be faster than the person who drew the map.
+12. What is written on a standard birth certificate is never a "plan", but a specific pain.
+13. Outsourcing the most expensive learning is equivalent to paying someone else to grow muscles for you.
+14. Transformation failure is almost never a technical death, but a standard death.
+15. The test papers and answers cannot be given to the same person - No. 1 will ask the eight questions to others, and you are not allowed to ask yourself.
+
+## Connections to Adjacent Chapters
+
+- Continuing the entire book: Diagnosis (Chapter 1-5), Production (Chapter 6-9), Three Battlefields (Chapter 10-12) into a 90-day manual.
+- Handed over to readers: eight questions for acceptance + an open sample invitation - the first batch of reader organizations to complete the 90-day closed loop will be the case library for the next edition of this book.
+
+## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)
+
+1. One sentence of assertion can be restated ✓, and it is the assembly and conclusion of the argument chain of the whole book (each action refers back to the standards of the previous chapter).
+2. Whiteboard framework diagram ✓ (four sections and thirteen weeks of the 90-day roadmap, playbook cover picture).
+3. External control and data ✓: E4 and Aiweiwu (native path, company-reported basis has been marked) + E3 Expression (transformation path, only quoted mechanism) + E7 Klarna/MD Anderson (transformation failure control, Chapter 2 echo) + I1 bioby.ai assembly diagram and five-month assembly timeline (v1.2 incorporated, quality boundary has been declared, I2 has been settled in Chapter 10, I4 The quarterly data [to be supplemented] has been truthfully marked); the gaps in the data samples of medium-sized traditional enterprises have been marked and turned into open invitations.
+4. Candidate 15 golden sentences ✓ (v1.2 adds five sentences on maps, birth certificates, outsourced learning, standard methods of death, and examination papers).
+5. "What to Do Monday Morning" No. 1 perspective ✓ (This chapter is the list + the first action concrete).

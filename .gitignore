@@ -1,0 +1,34 @@
+### macOS
+# Finder metadata
+.DS_Store
+
+# Thumbnails
+._*
+
+# Custom folder icons
+Icon?
+
+# Volume root files
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+npm-debug.log*
+
+# Test and quality reports
+coverage/
+playwright-report/
+test-results/
+internal/
+.work/

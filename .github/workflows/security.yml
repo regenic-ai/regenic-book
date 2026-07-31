@@ -1,0 +1,90 @@
+name: Security
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  schedule:
+    - cron: "23 3 * * 1"
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: security-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dependency-audit:
+    name: Production dependency audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=high
+
+  license-policy:
+    name: Locked dependency licenses
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check dependency licenses
+        run: node scripts/check-licenses.mjs
+
+  secret-scan:
+    name: Gitleaks secret scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan repository history
+        run: >-
+          docker run --rm
+          -v "$PWD:/repo"
+          zricethezav/gitleaks:v8.28.0
+          git --repo-path=/repo --redact --verbose
+
+  dependency-policy:
+    name: Pull request dependency review
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Review dependency changes
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          license-check: true
+          deny-licenses: >-
+            AGPL-1.0-only,
+            AGPL-1.0-or-later,
+            AGPL-3.0-only,
+            AGPL-3.0-or-later,
+            GPL-2.0-only,
+            GPL-2.0-or-later,
+            GPL-3.0-only,
+            GPL-3.0-or-later

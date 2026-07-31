@@ -1,0 +1,84 @@
+name: Release gate
+
+on:
+  push:
+    tags: ["v*.*.*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version to validate (for example, 1.2.3)
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ci:
+    name: CI release gate
+    uses: ./.github/workflows/ci.yml
+
+  security:
+    name: Security release gate
+    uses: ./.github/workflows/security.yml
+
+  candidate:
+    name: Build release candidate
+    needs: [ci, security]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      EXPECTED_VERSION: ${{ github.event_name == 'push' && github.ref_name || inputs.version }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Validate release version and package policy
+        run: |
+          package_version="$(node --print 'require("./package.json").version')"
+          package_private="$(node --print 'require("./package.json").private')"
+          expected_version="${EXPECTED_VERSION#v}"
+          test "$expected_version" = "$package_version"
+          test "$package_private" = "true"
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Build production candidate
+        run: npm run build
+
+      - name: Upload deployment candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-candidate-${{ env.EXPECTED_VERSION }}
+          path: |
+            .next/BUILD_ID
+            .next/server/
+            .next/static/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Record release checklist
+        run: |
+          {
+            echo "## Release candidate ${EXPECTED_VERSION}"
+            echo "- [x] Locked install completed"
+            echo "- [x] Lint, type-check, unit coverage, build, and E2E passed"
+            echo "- [x] Production audit, secret scan, and license policy passed"
+            echo "- [x] Version matches package metadata"
+            echo "- [x] Deployment artifact retained for review"
+            echo "- [ ] Create and approve the external release manually"
+            echo "- [ ] Verify the deployed site and rollback plan"
+            echo ""
+            echo "This workflow does not publish an npm package or create a GitHub release."
+          } >> "$GITHUB_STEP_SUMMARY"

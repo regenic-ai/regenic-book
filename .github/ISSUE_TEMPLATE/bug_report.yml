@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible problem in Regenic
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report vulnerabilities or include secrets or personal data here.
+        Follow SECURITY.md for private security reporting.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Version or commit
+      description: Release, branch, or commit SHA where the problem occurs.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, operating system, Node.js version, and relevant setup.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context
+      description: Sanitized logs or screenshots. Remove credentials and private data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true
+        - label: I removed secrets, personal data, and confidential information.
+          required: true

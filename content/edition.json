@@ -1,0 +1,9 @@
+{
+  "edition": "2026.07.31",
+  "contentVersion": "1.1.0",
+  "description": "Public content edition tracked separately from application semver.",
+  "versioning": {
+    "application": "semver via package.json and git tags v*.*.*",
+    "content": "edition date + contentVersion"
+  }
+}

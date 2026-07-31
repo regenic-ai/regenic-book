@@ -1,0 +1,25 @@
+Regenic uses a dual-license model.
+
+CODE
+----
+
+Original software source code and software configuration are licensed under
+the MIT License. The controlling terms are in LICENSE-CODE.
+
+CONTENT
+-------
+
+Original material in content/, outline.md, and material
+explicitly identified as public Regenic methodology are licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0). The scope and controlling terms are described in
+LICENSE-CONTENT.
+
+EXCLUSIONS
+----------
+
+Third-party material remains under its original license. Internal,
+unpublished, personal, or confidential material is not licensed merely
+because it appears in this repository. No license grants rights to the
+Regenic names, logos, or other marks. See THIRD-PARTY-NOTICES.md and
+TRADEMARKS.md.

@@ -9,7 +9,7 @@ import type { PublishedLocale } from "@/lib/i18n/config";
 
 type CommunityPanelProps = {
   locale: PublishedLocale;
-  intent?: "enterprise" | "investors" | "general";
+  intent?: "enterprise" | "general";
 };
 
 type CommunityChannel = {
@@ -99,13 +99,9 @@ function getChannels(
       ? en
         ? "Pilot questions, methodology gaps, and implementation feedback. Browse existing threads before opening a duplicate."
         : "试点问题、方法缺口与实施反馈。开新 Issue 前可先浏览已有讨论，避免重复。"
-      : intent === "investors"
-        ? en
-          ? "Thesis questions, evidence gaps, and collaboration ideas. This is a public channel, not a solicitation."
-          : "论点、证据缺口与协作设想。这是公开讨论通道，不是募资邀约。"
-        : en
-          ? "Bug reports, content corrections, and feature ideas belong in tracked Issues."
-          : "缺陷报告、内容勘误与功能建议请走 Issue，便于追踪与协作。";
+      : en
+        ? "Bug reports, content corrections, and feature ideas belong in tracked Issues."
+        : "缺陷报告、内容勘误与功能建议请走 Issue，便于追踪与协作。";
 
   return [
     {
@@ -162,16 +158,6 @@ function getIntro(
       description: en
         ? "Regenic no longer collects contact forms. Continue book, site, and product feedback through the public GitHub channels below."
         : "Regenic 已不再收集联系表单。书稿、网站与产品反馈请通过下方公开 GitHub 通道继续沟通。",
-    };
-  }
-
-  if (intent === "investors") {
-    return {
-      eyebrow: en ? "Public project channel" : "公开项目通道",
-      title: en ? "Discuss long-term questions in the open" : "在公开仓库讨论长期议题",
-      description: en
-        ? "For thesis questions, evidence gaps, or collaboration ideas, use the channels below. Sensitive security matters stay off public Issues."
-        : "关于论点、证据缺口或协作设想，请使用下方通道。敏感安全问题请勿公开开 Issue。",
     };
   }
 

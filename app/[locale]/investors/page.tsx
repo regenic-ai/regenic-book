@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { CommunityPanel } from "@/components/community-panel";
-import { GITHUB_NEW_ISSUE_URL } from "@/lib/community";
+import { INVESTOR_EMAIL, INVESTOR_MAILTO } from "@/lib/community";
 import { isPublishedLocale } from "@/lib/i18n/config";
 import { createLocalizedMetadata } from "@/lib/i18n/metadata";
 
@@ -11,13 +10,75 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!isPublishedLocale(locale)) return {};
   return createLocalizedMetadata({
     locale,
-    title: locale === "en" ? "Investor dialogue" : "投资人沟通",
+    title: locale === "en" ? "Investors" : "投资人",
     description: locale === "en"
-      ? "Explore Regenic's organizational-intelligence thesis, evidence, and unresolved questions."
-      : "了解 Regenic 的组织智能愿景、市场推演、bioby.ai 内部验证及仍待验证和决议的关键议题。",
+      ? "Regenic thesis for investors: organizational intelligence as infrastructure, what is public today, and how to reach Jeson Li."
+      : "面向投资人的 Regenic 论点：组织智能作为基础设施、当前公开资产，以及与 Jeson Li 的直接联系方式。",
     pathname: "/investors",
   });
 }
+
+const thesisSteps = {
+  en: [
+    {
+      title: "Execution supply rises",
+      body: "The marginal cost of code, content, analysis, and process work keeps falling.",
+    },
+    {
+      title: "Judgment becomes the bottleneck",
+      body: "More tools expose missing standards, conflicting value order, and fragmented context.",
+    },
+    {
+      title: "Organizations that encode judgment win",
+      body: "Shared standards and shared context let people and agents decide in the same frame—that is the infrastructure Regenic is building.",
+    },
+  ],
+  zh: [
+    {
+      title: "执行供给上升",
+      body: "代码、内容、分析与流程执行的边际成本持续下降。",
+    },
+    {
+      title: "判断成为瓶颈",
+      body: "工具越多，标准缺口、价值排序冲突与上下文分裂越明显。",
+    },
+    {
+      title: "固化判断的组织胜出",
+      body: "统一标准与统一上下文，让人和 Agent 在同一坐标系里决策——这是 Regenic 要建成的基础设施。",
+    },
+  ],
+} as const;
+
+const assets = {
+  en: [
+    {
+      title: "Public methodology",
+      body: "Thirteen-chapter book, eight-layer standards model, diagnosis tools, and a 90-day sequence—readable for free on this site.",
+    },
+    {
+      title: "Product direction",
+      body: "Regenic aims to become default management software for AI-native organizations: unified judgment standards × unified context. Architecture first; early stage.",
+    },
+    {
+      title: "Operating sample",
+      body: "bioby.ai runs the method in production as the first lab—useful evidence of assembly, not proof of market success at scale.",
+    },
+  ],
+  zh: [
+    {
+      title: "公开方法论",
+      body: "十三章书稿、八层标准母表、诊断工具与 90 天装配顺序，均可在本站免费阅读。",
+    },
+    {
+      title: "产品方向",
+      body: "Regenic 要做成 AI 原生组织的默认管理软件：统一判断标准 × 统一上下文。当前以架构为先，仍处早期。",
+    },
+    {
+      title: "经营样本",
+      body: "bioby.ai 作为第一个实验场在真实业务中运行这套方法——证明部件能装配，不等于规模化市场成功。",
+    },
+  ],
+} as const;
 
 export default async function InvestorsPage({
   params,
@@ -26,133 +87,90 @@ export default async function InvestorsPage({
 }) {
   const { locale } = await params;
   if (!isPublishedLocale(locale)) notFound();
-  if (locale === "en") {
-    return (
-      <div className="conversion-page investor-page">
-        <header className="conversion-hero shell">
-          <p className="eyebrow">Investor dialogue · Not a public solicitation</p>
-          <h1>When execution approaches zero cost, organizational intelligence becomes infrastructure.</h1>
-          <p>Regenic&apos;s long-term direction is to help organizations encode judgment as standards so people and AI act from shared context. This is a strategic thesis, not a completed product or a claim of scientific equivalence.</p>
-          <div className="inline-actions">
-            <a className="button primary" href={GITHUB_NEW_ISSUE_URL} rel="noreferrer">
-              Open a GitHub Issue
-            </a>
-            <Link className="text-link" href="/en/book">Review the methodology →</Link>
-          </div>
-        </header>
-        <section className="shell conversion-body">
-          <section className="investor-thesis">
-            <p className="eyebrow">Market thesis · Under continuing test</p>
-            <h2>More AI supply does not automatically create smarter organizations.</h2>
-            <div className="thesis-flow" aria-label="Three-step market thesis">
-              <article><span>01</span><h3>Execution supply rises</h3><p>The marginal cost of code, content, analysis, and process execution keeps falling.</p></article>
-              <article><span>02</span><h3>Judgment bottlenecks surface</h3><p>More tools expose value-order conflicts, missing standards, and fragmented context.</p></article>
-              <article><span>03</span><h3>Resources may reallocate</h3><p>If evolved organizations gain speed, cost, and talent-density advantages, customers, talent, and capital may move toward them.</p></article>
-            </div>
-            <p className="evidence-caveat">Resource reallocation is a testable competitive hypothesis, not an established fact.</p>
-          </section>
-          <section className="evidence-split">
-            <article><p className="eyebrow">Assets in place</p><h2>Methodology and a public operating base</h2><ul><li>A complete thirteen-chapter method and eight-layer standards model</li><li>An eight-question diagnosis and 90-day test structure</li><li>A living public record of tools, cases, revisions, and boundaries</li></ul></article>
-            <article><p className="eyebrow">bioby.ai validation</p><h2>A first internal experiment, not proof of success</h2><p>Initial practices show that the components can run together in an early-stage company. They have not passed thousand-person stress tests, and long-term quantitative results remain under validation.</p></article>
-          </section>
-          <CommunityPanel intent="investors" locale={locale} />
-        </section>
-      </div>
-    );
-  }
+  const en = locale === "en";
+  const steps = en ? thesisSteps.en : thesisSteps.zh;
+  const assetList = en ? assets.en : assets.zh;
 
   return (
     <div className="conversion-page investor-page">
       <header className="conversion-hero shell">
-        <p className="eyebrow">投资人沟通 · 非公开募资邀约</p>
-        <h1>当执行价格趋近于零，组织智能成为新的基础设施。</h1>
+        <p className="eyebrow">{en ? "Investors" : "投资人"}</p>
+        <h1>
+          {en
+            ? "When execution approaches zero cost, organizational intelligence becomes infrastructure."
+            : "当执行价格趋近于零，组织智能成为新的基础设施。"}
+        </h1>
         <p>
-          Regenic 的长期愿景是解决组织智能：让组织把判断固化为标准，让人和 AI 在统一上下文里行动。这是战略方向，不是已经完成的产品或科学等价声明。
+          {en
+            ? "Regenic helps organizations encode judgment as shared standards and shared context—so people and AI act from the same frame."
+            : "Regenic 帮助组织把判断固化为共享标准与共享上下文，让人和 AI 在同一坐标系里行动。"}
         </p>
         <div className="inline-actions">
-          <a className="button primary" href={GITHUB_NEW_ISSUE_URL} rel="noreferrer">
-            打开 GitHub Issue
+          <a className="button primary" href={INVESTOR_MAILTO}>
+            {en ? `Email ${INVESTOR_EMAIL}` : `邮件 ${INVESTOR_EMAIL}`}
           </a>
           <Link className="text-link" href={`/${locale}/book`}>
-            审阅方法论原文 →
+            {en ? "Read the methodology →" : "阅读方法论 →"}
           </Link>
         </div>
       </header>
+
       <section className="shell conversion-body">
         <section className="investor-thesis">
-          <p className="eyebrow">市场推演 · 待持续验证</p>
-          <h2>AI 供给扩大，不会自动产生更聪明的组织。</h2>
-          <div className="thesis-flow" aria-label="市场推演三步">
-            <article>
-              <span>01</span>
-              <h3>执行供给上升</h3>
-              <p>代码、内容、分析和流程执行的边际成本继续下降。</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>判断瓶颈暴露</h3>
-              <p>工具越多，价值排序、标准缺口和上下文分裂越明显。</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>资源重新分配</h3>
-              <p>
-                若进化组织形成决策速度、成本和人才密度优势，客户、人才与资本可能向其迁移。
-              </p>
-            </article>
+          <p className="eyebrow">{en ? "Thesis" : "论点"}</p>
+          <h2>
+            {en
+              ? "More AI supply does not automatically create smarter organizations."
+              : "AI 供给扩大，不会自动产生更聪明的组织。"}
+          </h2>
+          <div className="thesis-flow" aria-label={en ? "Three-step thesis" : "论点三步"}>
+            {steps.map((step, index) => (
+              <article key={step.title}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+              </article>
+            ))}
           </div>
-          <p className="evidence-caveat">
-            “资源重新分配”是可检验的竞争推演，不是已证事实；OpenAI
-            等机构只能作为“组织通过统一标准与上下文放大智能”的有限类比，不代表合作，也不与模型架构作科学等价。
+        </section>
+
+        <section className="investor-assets">
+          <p className="eyebrow">{en ? "What exists today" : "当前已有"}</p>
+          <h2>
+            {en
+              ? "Book, product direction, and one operating lab."
+              : "书稿、产品方向，和一个经营中的实验场。"}
+          </h2>
+          <div className="investor-asset-list">
+            {assetList.map((item) => (
+              <article key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="investor-contact" id="contact">
+          <p className="eyebrow">{en ? "Contact" : "联系"}</p>
+          <h2>{en ? "Talk directly." : "直接沟通。"}</h2>
+          <p>
+            {en
+              ? "For questions or collaboration, email Jeson Li."
+              : "有问题或想协作，请邮件联系 Jeson Li。"}
           </p>
-        </section>
-        <section className="evidence-split">
-          <article>
-            <p className="eyebrow">已形成的资产</p>
-            <h2>方法论与公开运行母体</h2>
-            <ul>
-              <li>《重写基因》十三章完整方法论及八层组织标准母表</li>
-              <li>八问诊断、90 天路线与可复测的试点验收结构</li>
-              <li>Regenic.ai 持续公开工具、版本、案例与论断边界</li>
-            </ul>
-          </article>
-          <article>
-            <p className="eyebrow">bioby.ai 验证</p>
-            <h2>第一个内部实验场，不是成功证明</h2>
-            <p>
-              2026 年 2—7 月，bioby.ai
-              逐步装配清晰术、干扰术、招人标准、ROI 卡、研发单元改造与时间配比。内部样本证明这些部件能在早期公司共同运行，但尚未通过千人规模压力测试，长期定量结果仍需持续验证。
-            </p>
-            <Link className="text-link" href={`/${locale}/book/13-ninety-days`}>
-              查看样本成色与时间线 →
+          <a className="investor-email" href={INVESTOR_MAILTO}>
+            {INVESTOR_EMAIL}
+          </a>
+          <div className="inline-actions">
+            <Link className="text-link" href={`/${locale}/about`}>
+              {en ? "About the author →" : "关于作者 →"}
             </Link>
-          </article>
-        </section>
-        <section className="open-questions">
-          <p className="eyebrow">待决议题 · 不伪装成答案</p>
-          <h2>开放传播与商业壁垒如何同时成立？</h2>
-          <div className="boundary-grid">
-            <div>
-              <b>确定开放</b>
-              <p>
-                全书、核心概念、诊断框架和基础工具保持公开，接受引用与复测。
-              </p>
-            </div>
-            <div>
-              <b>尚待决议</b>
-              <p>
-                企业数据、实施工作台、专用评估模型与服务流程中，哪些闭源才能保护客户并形成可持续能力。
-              </p>
-            </div>
-            <div>
-              <b>决议标准</b>
-              <p>
-                不能以锁住知识制造稀缺；必须同时满足客户隐私、方法可验证和长期可持续。
-              </p>
-            </div>
+            <Link className="text-link" href={`/${locale}/method`}>
+              {en ? "Method overview →" : "方法论概览 →"}
+            </Link>
           </div>
         </section>
-        <CommunityPanel intent="investors" locale={locale} />
       </section>
     </div>
   );

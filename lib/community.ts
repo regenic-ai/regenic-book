@@ -1,3 +1,7 @@
+/** Investor page contact. */
+export const INVESTOR_EMAIL = "jeson@bioby.ai";
+export const INVESTOR_MAILTO = `mailto:${INVESTOR_EMAIL}`;
+
 export const GITHUB_ORG_URL = "https://github.com/regenic-ai";
 
 /** Book, regenic.ai website, and public methodology. */

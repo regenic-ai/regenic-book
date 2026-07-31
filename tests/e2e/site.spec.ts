@@ -165,8 +165,8 @@ test("公开页面不暴露编辑与技术实现信息", async ({ page }) => {
   }
 });
 
-test("企业与投资人页改为 GitHub Issues 协作入口", async ({ page }) => {
-  for (const route of ["/en/enterprise", "/en/investors", "/zh/enterprise"]) {
+test("企业页走 GitHub Issues；投资人页提供邮箱联系", async ({ page }) => {
+  for (const route of ["/en/enterprise", "/zh/enterprise"]) {
     await page.goto(route);
     const issueLink = page.getByRole("link", { name: /GitHub Issue/i }).first();
     await expect(issueLink).toBeVisible();
@@ -174,6 +174,15 @@ test("企业与投资人页改为 GitHub Issues 协作入口", async ({ page }) 
       "href",
       "https://github.com/regenic-ai/regenic-book/issues/new/choose",
     );
+    await expect(page.locator("form")).toHaveCount(0);
+    await expect(page.locator('input[name="email"]')).toHaveCount(0);
+  }
+
+  for (const route of ["/en/investors", "/zh/investors"]) {
+    await page.goto(route);
+    const emailLink = page.getByRole("link", { name: /jeson@bioby\.ai/i }).first();
+    await expect(emailLink).toBeVisible();
+    await expect(emailLink).toHaveAttribute("href", "mailto:jeson@bioby.ai");
     await expect(page.locator("form")).toHaveCount(0);
     await expect(page.locator('input[name="email"]')).toHaveCount(0);
   }

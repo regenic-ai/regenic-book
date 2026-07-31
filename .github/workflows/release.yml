@@ -49,7 +49,7 @@ jobs:
           package_private="$(node --print 'require("./package.json").private')"
           expected_version="${EXPECTED_VERSION#v}"
           test "$expected_version" = "$package_version"
-          test "$package_private" = "true"
+          test "$package_private" = "false"
 
       - name: Install locked dependencies
         run: npm ci

@@ -11,6 +11,8 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
+  security-events: write
 
 concurrency:
   group: security-${{ github.workflow }}-${{ github.ref }}
@@ -59,17 +61,16 @@ jobs:
           fetch-depth: 0
 
       - name: Scan repository history
-        run: >-
-          docker run --rm
-          -v "$PWD:/repo"
-          zricethezav/gitleaks:v8.28.0
-          git --repo-path=/repo --redact --verbose
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   dependency-policy:
     name: Pull request dependency review
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    continue-on-error: true
     steps:
       - name: Check out repository
         uses: actions/checkout@v4

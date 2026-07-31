@@ -96,7 +96,7 @@ export async function renderCollectionPage(
         {en ? "Also see " : "另见 "}
         <Link href={`/${locale}/versions`}>{en ? "version history" : "版本记录"}</Link>
         {" · "}
-        <Link href="https://github.com/regenic-ai/regenic/blob/main/docs/OPEN_CORE.md">
+        <Link href="https://github.com/regenic-ai/regenic-book/blob/main/docs/OPEN_CORE.md">
           {en ? "Content boundary" : "内容边界说明"}
         </Link>
       </p>

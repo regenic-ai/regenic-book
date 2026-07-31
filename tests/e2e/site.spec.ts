@@ -171,7 +171,7 @@ test("企业与投资人页改为 GitHub Issues 协作入口", async ({ page }) 
     await expect(issueLink).toBeVisible();
     await expect(issueLink).toHaveAttribute(
       "href",
-      "https://github.com/regenic-ai/regenic/issues/new/choose",
+      "https://github.com/regenic-ai/regenic-book/issues/new/choose",
     );
     await expect(page.locator("form")).toHaveCount(0);
     await expect(page.locator('input[name="email"]')).toHaveCount(0);

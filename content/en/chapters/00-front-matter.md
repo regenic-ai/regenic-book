@@ -18,7 +18,7 @@ Without the written permission of the copyright owner, no unit or individual may
 
 **Open citation**: You are welcome to quote the golden sentences, framework diagrams and conceptual terms of this book for non-commercial sharing, teaching and discussion, provided that the title, author and Regenic.ai link are indicated. The way I measure this book is how many people start thinking in these words.
 
-If you need overall reprinting, translation, commercial publishing, in-house training or course cooperation, please open a [GitHub Issue](https://github.com/regenic-ai/regenic/issues/new/choose).
+If you need overall reprinting, translation, commercial publishing, in-house training or course cooperation, please open a [GitHub Issue](https://github.com/regenic-ai/regenic-book/issues/new/choose).
 
 ---
 
@@ -52,4 +52,4 @@ In other words, what you have in your hand is not an observation report, but a s
 
 Before founding bioby.ai, I started several startups and co-founded Diffshop and Eezycollab. bioby.ai has been continuously profitable since its establishment one year ago, with revenue of tens of millions of yuan, and serves more than 200 brand customers such as Alibaba and Baidu (the above are the company's operating caliber and are unaudited; in the book, I require all unaudited numbers to indicate the nature of the source, and I am no exception)."ROI for all employees is greater than 1" and "freeze acceptance criteria before investment" that appear repeatedly in the book are the standards that have grown up in such a company that does not burn money and settles its own accounts on a quarterly basis. You don't have to believe a company's self-report, but one thing can be verified on the spot: an author who lists "Treat People with Honesty" as the first standard, dares to implement it in his author introduction. Now you see the answer.
 
-Official website of this book and methodology: [regenic.ai](https://regenic.ai) · Practice company: [bioby.ai](https://bioby.ai) · Source and issues: [GitHub](https://github.com/regenic-ai/regenic)
+Official website of this book and methodology: [regenic.ai](https://regenic.ai) · Practice company: [bioby.ai](https://bioby.ai) · Source and issues: [GitHub](https://github.com/regenic-ai/regenic-book)

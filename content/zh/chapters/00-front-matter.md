@@ -18,7 +18,7 @@ Regenic: How to Build an AI-Native Organization
 
 **开放引用**：欢迎在注明书名、作者与 Regenic.ai 链接的前提下，引用本书的金句、框架图与概念术语，用于非商业分享、教学与讨论。我衡量这本书的方式，就是有多少人开始用这些词思考。
 
-需要整体转载、翻译、商业出版、企业内训或课程合作，请打开 [GitHub Issue](https://github.com/regenic-ai/regenic/issues/new/choose)。
+需要整体转载、翻译、商业出版、企业内训或课程合作，请打开 [GitHub Issue](https://github.com/regenic-ai/regenic-book/issues/new/choose)。
 
 ---
 
@@ -54,4 +54,4 @@ bioby.ai 是一家 **AI 网红营销平台**，基于真实创作者合作数据
 
 书里反复出现的"全员 ROI 大于 1""投入前冻结验收口径"，就是在这样一家不烧钱、按季度对自己结账的公司里长出来的标准。你可以不信一家公司的自述，但有一件事可以当场验证：一个把"诚以待人"写进行为标准第一条的作者，敢不敢在自己的作者介绍里执行它。现在你看到了答案。
 
-本书及方法论官网：[regenic.ai](https://regenic.ai)　·　实践公司：[bioby.ai](https://bioby.ai)　·　源码与 Issues：[GitHub](https://github.com/regenic-ai/regenic)
+本书及方法论官网：[regenic.ai](https://regenic.ai)　·　实践公司：[bioby.ai](https://bioby.ai)　·　源码与 Issues：[GitHub](https://github.com/regenic-ai/regenic-book)

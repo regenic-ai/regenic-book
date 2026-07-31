@@ -1,13 +1,14 @@
-# Regenic
+# Regenic Book
 
-Open-source web application and content for [**regenic.ai**](https://regenic.ai).
+Open-source **book**, **regenic.ai** website, and **public methodology** for
+[Regenic](https://github.com/regenic-ai/regenic).
 
 **Make organizations great again.**
 
 The free book [**Rewrite the DNA: How to Build an AI-Native Organization**](https://regenic.ai/en/book)
 (Chinese: [**《重写基因》**](https://regenic.ai/zh/book)) defines the method. This
-repository ships the site, the manuscripts, public standards, and the tooling we use
-to develop them.
+repository ships the site, the manuscripts, and public standards — not the product
+application itself.
 
 中文说明：[README.zh-CN.md](README.zh-CN.md)
 
@@ -16,7 +17,8 @@ to develop them.
 | Name | What it is |
 | --- | --- |
 | **Rewrite the DNA** / **《重写基因》** | The book (subtitle: _How to Build an AI-Native Organization_) |
-| **Regenic** | This project, the regenic.ai site, and the living methodology edition |
+| **Regenic** | The product brand — AI-native org management software |
+| **Regenic Book** | This repository — site, manuscripts, public methodology |
 | **bioby.ai** | First operating company running the method in production |
 
 ## What this repo contains
@@ -25,25 +27,19 @@ to develop them.
 - **`content/`** — English and Chinese book chapters, public standards, research index
 - **`lib/`** — Markdown rendering, i18n, SEO
 
-## Roadmap
+## Product
 
-We are building **AI application tools** on top of the book’s model:
-
-1. **Unified judgment standards** — encode, apply, and revise standards that humans and agents share
-2. **Unified context** — one organizational context layer instead of per-team chat silos
-3. **Organizational management product** — software for AI-native orgs, not bolt-on AI on legacy ERP
-
-Today this repository is **book + site + public methodology**. Product code lives in
-[`regenic-ai/genome`](https://github.com/regenic-ai/genome) — the default
-org-management substrate for AI-native organizations.
+The Regenic application — unified judgment standards and shared context for
+AI-native organizations — lives in
+[`regenic-ai/regenic`](https://github.com/regenic-ai/regenic).
 
 ## Quick start
 
 Requires Node.js (compatible with Next.js 16) and npm.
 
 ```bash
-git clone https://github.com/regenic-ai/regenic.git
-cd regenic
+git clone https://github.com/regenic-ai/regenic-book.git
+cd regenic-book
 npm install
 cp .env.example .env.local
 npm run dev
@@ -77,7 +73,7 @@ Default locale: **English** (`/` → `/en`).
 
 ## Contributing
 
-Issues and pull requests: [github.com/regenic-ai/regenic/issues](https://github.com/regenic-ai/regenic/issues)
+Issues and pull requests: [github.com/regenic-ai/regenic-book/issues](https://github.com/regenic-ai/regenic-book/issues)
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR. Security:
 [SECURITY.md](SECURITY.md). No contact forms on the site.

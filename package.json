@@ -1,7 +1,7 @@
 {
-  "name": "regenic-web",
+  "name": "regenic-book",
   "version": "1.0.0",
-  "description": "Open-source site and content for regenic.ai. Book: Rewrite the DNA (《重写基因》). Building org tools for unified standards and context.",
+  "description": "Regenic book, regenic.ai website, and public methodology. Product: github.com/regenic-ai/regenic.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/regenic-ai/regenic.git"
+    "url": "git+https://github.com/regenic-ai/regenic-book.git"
   },
   "keywords": [
     "regenic",
@@ -29,9 +29,9 @@
   "license": "SEE LICENSE IN LICENSE-CODE",
   "private": false,
   "bugs": {
-    "url": "https://github.com/regenic-ai/regenic/issues"
+    "url": "https://github.com/regenic-ai/regenic-book/issues"
   },
-  "homepage": "https://github.com/regenic-ai/regenic#readme",
+  "homepage": "https://github.com/regenic-ai/regenic-book#readme",
   "dependencies": {
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",

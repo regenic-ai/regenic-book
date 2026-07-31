@@ -70,7 +70,7 @@ jobs:
           gitleaks version
 
       - name: Scan repository history
-        run: gitleaks git --repo-path . --redact --verbose
+        run: gitleaks git . --redact --verbose
 
   dependency-policy:
     name: Pull request dependency review

@@ -1,6 +1,6 @@
 # Chapter 5: Limiting Resources: Money, Time, and Judgment
 
-Status: Completed (v1.2, 2026-07-31, about 7500 words, including ROI standard parentage supplement (I7); accepted 2026-07-26; v1.2 clears author-aside bridges, frozen after reading the whole book)
+Status: Completed (v1.3, 2026-07-31, about 7500 words, including ROI standard parentage supplement (I7); accepted 2026-07-26; v1.2 clears author-aside bridges, inserts money-time-judgment funnel figure; frozen after reading the whole book)
 
 **Claim: A company’s limiting resource is money, a person’s limiting resource is time, and an AI-native organization’s limiting resource is judgment. The limiting resource only talks about one thing: ROI. **
 
@@ -25,6 +25,10 @@ Three levels, three limiting resources:
 - **AI-native organization level, limiting resource is a judgment**. This is a new addition to this chapter. The derivation has been completed in the first four chapters: execution tends to be free (Chapter 1), and the upper limit of the organization's output after execution is free is determined by the quality of judgment (Chapter 4). When other raw materials are close to unlimited supply, judgment becomes the reactant that is exhausted first. It is scarce, and as Chapter 4 stated, it cannot be purchased directly, but can only be solidified and copied.
 
 The three layers are not a parallel relationship, but a funnel: the company's money hires people's time, people's time produces judgment, and judgment determines the next flow of money. The same question should be asked at every level of the funnel: What is the current ROI of this limiting resource? Next, proceed layer by layer in funnel order, with one sample for each layer.
+
+![Three-layer scarcity funnel: money → time → judgment](/figures/ch05-funnel-en.svg)
+
+*Figure: abundance scales; scarcity demands ROI. Same question at every layer.*
 
 ## 3. The level of money: companies that write down the order of choice in shareholder letters
 
@@ -124,7 +128,7 @@ Note (individual and team perspective): Do the same thing for your own time: rec
 ## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)
 
 1. The assertion can be restated in one sentence ✓, and is an inference of the core assertion (adaptive insight/judgment is scarce → scarce resources require ROI discipline).
-2. Whiteboard framework diagram ✓ (three-layer funnel: money → time → judgment, the same problem at each layer; aside from the human flywheel).
+2. Whiteboard framework diagram ✓ (three-layer funnel figure inserted: money → time → judgment, the same problem at each layer; aside from the human flywheel).
 3. External comparison and data ✓: Winner side E15 Amazon (first-hand text of shareholder letter + numbers) + S5 Zhang Yiming (first-hand interview with "Finance", including double-sided accounting of self-acknowledged costs); loser side L4 Evergrande (public document-level data, including details of "correction and non-change of standards"); missing samples of "deviation between words and deeds" have been truthfully marked and filled in with Monday testing; new ROI > 1 on the internal side Standard parentage explanation (I7, 2026-06 forced by labor budget constraints).
 4. 13 golden sentence candidates ✓.
 5. "What to Do Monday Morning" Two tables from the No. 1 perspective + personal notes ✓; v1.2 cleared author-aside bridges.

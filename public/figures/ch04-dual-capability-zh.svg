@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" role="img" aria-labelledby="t d">
+  <title id="t">双能力模型</title>
+  <desc id="d">横轴判断标准统一程度，纵轴上下文统一程度，四个象限：旧组织、有共识没标准、有标准没共识、AI原生组织。</desc>
+  <rect width="880" height="520" fill="#fff"/>
+  <!-- axes -->
+  <line x1="120" y1="440" x2="820" y2="440" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="120" y1="440" x2="120" y2="60" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="820,440 804,433 804,447" fill="#0a0a0a"/>
+  <polygon points="120,60 113,76 127,76" fill="#0a0a0a"/>
+  <text x="820" y="468" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">判断标准统一 →</text>
+  <text x="40" y="250" transform="rotate(-90 40 250)" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">上下文统一 →</text>
+  <!-- grid -->
+  <line x1="470" y1="60" x2="470" y2="440" stroke="#d5dbd6" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="120" y1="250" x2="820" y2="250" stroke="#d5dbd6" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- quadrants -->
+  <rect x="130" y="70" width="330" height="170" fill="#6bed4a" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <rect x="480" y="70" width="330" height="170" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25" stroke-width="2"/>
+  <rect x="130" y="260" width="330" height="170" fill="#ffb347" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <rect x="480" y="260" width="330" height="170" fill="#b69cff" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#0a0a0a">
+    <text x="295" y="120" text-anchor="middle" font-size="16" font-weight="700">有共识 · 没标准</text>
+    <text x="295" y="148" text-anchor="middle" font-size="12" fill="#59615a">会热烈，决策靠嗓门</text>
+    <text x="645" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a25">AI 原生组织</text>
+    <text x="645" y="148" text-anchor="middle" font-size="12" fill="#59615a">同一把尺子 · 同一幅图景</text>
+    <text x="295" y="320" text-anchor="middle" font-size="16" font-weight="700">旧组织</text>
+    <text x="295" y="348" text-anchor="middle" font-size="12" fill="#59615a">百箭百靶 · 各干各的</text>
+    <text x="645" y="320" text-anchor="middle" font-size="16" font-weight="700">有标准 · 没共识</text>
+    <text x="645" y="348" text-anchor="middle" font-size="12" fill="#59615a">精确执行错误上下文</text>
+  </g>
+  <text x="500" y="505" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">统一判断标准 × 统一上下文 · 全书主框架</text>
+</svg>

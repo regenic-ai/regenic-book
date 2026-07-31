@@ -1,6 +1,6 @@
 # Chapter 6: Standards: Stop Execution When No Standard Exists
 
-Status: Completed (v1.3, 2026-07-31, about 7300 words; passed the acceptance on 2026-07-26; v1.1 added an eight-layer standard source explanation (bioby.ai master table), v1.2 added an I3 conference room instance; v1.3 clears author-aside bridges, frozen after reading the entire book)
+Status: Completed (v1.4, 2026-07-31, about 7300 words; passed the acceptance on 2026-07-26; v1.1 added an eight-layer standard source explanation (bioby.ai master table), v1.2 added an I3 conference room instance; v1.3 clears author-aside bridges, inserts standards-engine cycle and ladder figure; frozen after reading the entire book)
 
 **Claim: Standards are the solidification of judgment and the interface through which organizations issue instructions to AI. Execution without standards is not fast but false execution. **
 
@@ -46,6 +46,10 @@ A small example shows what "default behavior" means. In June 2026, our Shenzhen 
 ## 4. standards engine: circulation pump and ladder
 
 The standards engine is a circulation pump: **Judgment (gaseous state) → Refining → Standard (solid-state document) → Delivery (to humans and AI) → Execution → Data reflow → Standard iteration**. It sucks in the judgments that happen every day in the organization, and spits out an increasingly accurate standard library at the outlet. Chapter 3 already drew the straight-line versus bifurcation contrast at the personal level: the same picture, replace "one person's path" with "a thousand people's path", and multiply the cost of bifurcation by one thousand.
+
+![Standards engine: cycle pump on the left, eight-layer ladder on the right](/figures/ch06-standards-machine-en.svg)
+
+*Figure: the pump produces standards; the ladder places them. Highlight = judgment layer.*
 
 Circulation pump answers "How to produce standards", but there is still one question left: What standards does the organization need? The answer is an eight-story staircase:
 
@@ -127,7 +131,7 @@ Side note (individual vs. team perspective): The AI ​​litmus test holds true
 - To Chapter 7: The feed port of the standards engine is still empty - where do the standards come from? Enter methodology: Clarity Method.
 
 ## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)1. A sentence of assertion can be restated ✓, and it is an inference of the core assertion (adaptive insight needs to be written into a standard before it can be reused → no standard execution equals zero judgment execution).
-2. Whiteboard frame diagram ✓ (standards engine circulation pump + eight-layer standard ladder; straight line/bifurcation diagram refers back to Chapter 3 without repeating the argument).
+2. Whiteboard frame diagram ✓ (standards engine cycle and ladder figure inserted + eight-layer standard ladder; straight line/bifurcation diagram refers back to Chapter 3 without repeating the argument).
 3. External comparison and data ✓: Positive E12 branch Liuzhou Snail Noodles (government documents and industry data have been verified, caliber boundaries have been explained) + S3 Bezos invariant (HBR 2007 + re:MARS 2019 primary sources have been verified); loser L7 Qudian (financial report level data has been verified); I3 The conference room example has been written into Section 3 (2026-07-26, the quality of the self-description has been stated in the thesis boundary); the "SOP→AI Interface" space has been truthfully marked.
 4. 12 candidates for golden sentences ✓ (The sentence "straight line/bifurcation" belonging to Chapter 3 has been removed, and "practice field/examination room" has been added).
 5. "What to Do Monday Morning" Three steps from the No. 1 perspective + personal notes ✓; v1.3 cleared author-aside bridges.

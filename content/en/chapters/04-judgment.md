@@ -1,6 +1,6 @@
 # Chapter 4: Judgment: Adaptive Insight as an Organizational Asset
 
-Status: Completed (v1.3, 2026-07-31, about 9000 words; accepted 2026-07-26 (including three-level revision of the judgment system); v1.2 adds a fifth fake judgment basis "position"; v1.3 clears author-aside bridges, frozen after reading the whole book)
+Status: Completed (v1.4, 2026-07-31, about 9000 words; accepted 2026-07-26 (including three-level revision of the judgment system); v1.2 adds a fifth fake judgment basis "position"; v1.3 clears author-aside bridges, inserts dual-capability quadrant figure; frozen after reading the whole book)
 
 **Claim: Great companies need and only need two capabilities: unified judgment standards, and unified context. Organizational judgment is a scaled form of personal adaptive insight. AI absorbs execution, leaving both of these to humans. **
 
@@ -28,6 +28,10 @@ If you could compress this book into one picture, it would be this one. The hori
 - **Top left: There is consensus but no standards**. The context is unified (everyone has the same understanding of the status quo, and the atmosphere is good), but there is no unified ruler. In this kind of organization, discussions are lively and decision-making relies on the voice or the boss. The typical experience is "everyone agrees at the meeting, and everyone does their own thing after the meeting."
 - **Bottom right: There are standards but no consensus**. The walls are covered with institutions and values, but members of the organization see a different picture of the facts. Standards operate in a distorted context, producing precise errors. Nokia in Chapter 9 will show how this quadrant dies: the standards are fine, the information fed to the standards is layer upon layer of glorification.
 - **Upper right: AI-native organization**. Same ruler, same picture. Judgment can occur at any node (frontline employees, newcomers, AI), because no matter who makes the judgment, the ruler used and the facts are the same.
+
+![Dual-capability model: shared standards on X, shared context on Y; top-right is AI-native](/figures/ch04-dual-capability-en.svg)
+
+*Figure: the book’s main frame. Two axes, four quadrants; AI eats the same two inputs.*
 
 This picture has an extra layer of meaning in the AI ​​era that it did not have in the old era: **Your AI is also an employee, and it also eats these two things**. Whatever judgment criteria are given to AI, it will optimize in that direction. Klarna's AI adopted the "cost first" criterion and executed exactly this mistake at a scale of 2.3 million conversations per month. What context is given to the AI, what judgments will it make based on. MD Anderson's Watson did not share the same medical records system with the hospital until its death. The coordinates of the two samples in Chapter 2 can now be found on this picture: they did not recruit AI, but recruited AI into an organization in the lower left quadrant.Therefore, in the sentence "Great companies need and only need two abilities", the three words "only need" are the key points. Strategy, product, marketing, financing, these are all important, of course, but they are all outputs of judgment. If these two things, judgment standard and context, are right, the rest will be continuously produced; if these two are wrong, everything else will amplify the error. Implementation used to be high on the "need" list. Now that the AI ​​has taken it away, all that's left on the list is exactly these two.
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" role="img">
+  <rect width="860" height="360" fill="#fff"/>
+  <text x="430" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">Clarity Method ratio: 10 / 10 / 80</text>
+  <text x="220" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Common ratio (inverted)</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="60" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.35" stroke="#d5dbd6"/>
+    <text x="110" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
+    <text x="110" y="270" text-anchor="middle" font-size="11" fill="#59615a">Debate standards</text>
+    <rect x="180" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.25" stroke="#d5dbd6"/>
+    <text x="230" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
+    <text x="230" y="270" text-anchor="middle" font-size="11" fill="#59615a">Pile data</text>
+    <rect x="300" y="210" width="100" height="40" fill="#d5dbd6"/>
+    <text x="350" y="235" text-anchor="middle" font-size="14" font-weight="700">20%</text>
+    <text x="350" y="270" text-anchor="middle" font-size="11" fill="#59615a">Find solutions</text>
+  </g>
+  <text x="640" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Clarity Method</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="480" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
+    <text x="525" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
+    <text x="525" y="270" text-anchor="middle" font-size="11" fill="#59615a">Extract standard</text>
+    <rect x="590" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
+    <text x="635" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
+    <text x="635" y="270" text-anchor="middle" font-size="11" fill="#59615a">Gather data</text>
+    <rect x="700" y="90" width="100" height="160" fill="#6bed4a" fill-opacity="0.25" stroke="#2d7a25" stroke-width="2"/>
+    <text x="750" y="170" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a25">80%</text>
+    <text x="750" y="270" text-anchor="middle" font-size="11" fill="#59615a">Try means for best</text>
+  </g>
+  <text x="430" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Standards sharpen by borrow + iterate — not perfect debate</text>
+</svg>

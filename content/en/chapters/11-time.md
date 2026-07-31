@@ -1,6 +1,6 @@
 # Chapter 11: A New Allocation of Time: Evolving Personal Rhythm
 
-Status: Completed (v1.3, 2026-07-31, about 7100 words; passed the acceptance on 2026-07-26, v1.1 updated I4 caliber, v1.2 expansion: three disciplines of money and time, block time mechanism, three questions and examples, new section "Installing ratios into the organization"; v1.3 clears author-aside bridges; freeze after full-book pass)
+Status: Completed (v1.4, 2026-07-31, about 7100 words; passed the acceptance on 2026-07-26, v1.1 updated I4 caliber, v1.2 expansion: three disciplines of money and time, block time mechanism, three questions and examples, new section "Installing ratios into the organization"; v1.3 clears author-aside bridges; inserts inverted time-bar figure; freeze after full-book pass)
 
 **Claim: Give 1-2 hours a day to short-term urgency (related to money), and 6 hours to long-term importance (related to value). Time is the only limiting resource for individuals, and the ratio is personal strategy. **
 
@@ -31,6 +31,10 @@ After the errors are corrected, the original data is still enough to convict. 57
 Our internal time standard is one sentence: **Short-term urgent, 1-2 hours a day, related to money; long-term important, 6 hours a day, related to value**.First define two words, they are more precise than they appear. **Related to money** refers to not doing things that will cause bleeding today: cash flow, customer delivery, unexpected failures, and current payment collection. The common denominator of this kind of thing is that it is urgent but does not add value: it only stops the bleeding, and the organization does not become stronger. **Related to value** refers to things that permanently increase organizational capabilities after completion. According to the previous ten chapters, there are four things: setting standards and revising standards (Chapter 6), reflecting on the two learning tools of Feynman (Chapter 7), maintaining shared context (Chapter 9), and leading people along the decision-making power ladder (Chapter 10). What these four have in common is that they are not urgent: there will be no alarm if you don’t do it today, but everything is compounding.
 
 Think of it as two time bars. The upper bar is the new ratio: 1-2 hours marked "money", 6 hours marked "value". The lower bar is the current situation of a typical executive: 7 hours of firefighting, 1 hour of thinking, two inverted bars. The whole content of transformation is to turn the bottom one into the top one.
+
+![Inverted time bars: new 1–2h money + 6h value vs old firefighting-heavy day](/figures/ch11-time-bar-en.svg)
+
+*Figure: transform by flipping the bottom bar into the top; thinking must leave an artifact.*
 
 Some people would say that this is a privilege for the rich, and people who are busy with business cannot do it. Bezos gave a testable rebuttal in a 2018 interview with the Economic Club of Washington. His day: "Reading the newspaper, drinking coffee, having breakfast with the children" in the morning, the first meeting is set at ten o'clock; all the brain-burning "high IQ meetings" are placed before lunch, "At 5 o'clock in the afternoon I will say: I can't think about it today, try again at 10 o'clock tomorrow"; he never sleeps for eight hours. What supports this rhythm is his definition of his position: "As an executive, you are paid to make a small number of high-quality decisions. Your job is not to make thousands of decisions every day. If I can make three good decisions every day, that's enough." He also did arithmetic: four hours less sleep can be exchanged for 33% of "production time" and 33 more decisions; but the quality of each decision will decrease due to fatigue, and exchanging quantity for quality is a losing business. Buffett takes the same logic to the extreme: He says he's good if he can make three good decisions a year.
 
@@ -111,7 +115,7 @@ Side note (personal perspective): The same audit holds true for anyone. If your 
 - Handed over to Chapter 12: After people and time are straightened out, what path will the organization’s external output—products—evolve along.
 
 ## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)1. The assertion can be restated in one sentence ✓, and is strictly logically isomorphic with the limiting resource in Chapter 5 (the limiting resource of the organization is judgment, and the limiting resource of the individual is time).
-2. Whiteboard frame diagram ✓ (two inverted time bars + fragmented time outer circle).
+2. Whiteboard frame diagram ✓ (inverted time-bar figure inserted + fragmented time outer circle).
 3. External comparison and data ✓: Positive E18 Bezos (2018 official transcript) + E16 Buffett empty calendar (2017 original interview), loser E17 industry median (57/43, 3 minutes and 05 seconds; the misreading of "23 minutes" has been corrected and quoted as intended); the absence of the named loser has been truthfully marked; I4 is being compiled.
 4. 14 golden sentence candidates ✓ (v1.2 adds four new sentences: bleeding accounting, block time, public goods calendar, and money time mission).
 5. "What to Do Monday Morning" Three steps from the No. 1 perspective + personal notes ✓.

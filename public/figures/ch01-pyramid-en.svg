@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" role="img">
+  <rect width="780" height="480" fill="#fff"/>
+  <text x="390" y="36" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">Pyramid · both bases pulled out</text>
+  <polygon points="390,70 530,180 250,180" fill="#2d7a25" fill-opacity="0.15" stroke="#2d7a25" stroke-width="2"/>
+  <text x="390" y="130" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">Three things left hanging</text>
+  <text x="390" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#59615a">Goals · standards · context</text>
+  <polygon points="250,195 530,195 600,300 180,300" fill="#6bed4a" fill-opacity="0.1" stroke="#d5dbd6"/>
+  <text x="390" y="255" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Old superstructure (layers / approvals / reports / KPIs)</text>
+  <polygon points="180,320 600,320 680,420 100,420" fill="none" stroke="#59615a" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="280" y="360" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Execution cost</text>
+  <text x="500" y="360" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Knowledge-access cost</text>
+  <text x="390" y="395" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Both bases emptied · top hangs</text>
+  <text x="390" y="460" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Org-chart lines were drawn for expensive human execution</text>
+</svg>

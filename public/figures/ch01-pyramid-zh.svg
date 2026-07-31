@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" role="img">
+  <rect width="780" height="480" fill="#fff"/>
+  <text x="390" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">金字塔 · 双底座被抽走</text>
+  <polygon points="390,70 530,180 250,180" fill="#2d7a25" fill-opacity="0.15" stroke="#2d7a25" stroke-width="2"/>
+  <text x="390" y="130" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">悬空三件事</text>
+  <text x="390" y="155" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">目标 · 标准 · 上下文</text>
+  <polygon points="250,195 530,195 600,300 180,300" fill="#6bed4a" fill-opacity="0.1" stroke="#d5dbd6"/>
+  <text x="390" y="255" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">旧上层结构（层级 / 审批 / 汇报 / KPI）</text>
+  <polygon points="180,320 600,320 680,420 100,420" fill="none" stroke="#59615a" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="280" y="360" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">执行成本</text>
+  <text x="500" y="360" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">知识获取成本</text>
+  <text x="390" y="395" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">两块底座同时抽空 · 上层悬空</text>
+  <text x="390" y="460" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">架构图的线是为昂贵人类执行画的；执行免费后会变成装饰</text>
+</svg>

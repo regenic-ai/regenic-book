@@ -1,6 +1,6 @@
 # Chapter 1: Execution Approaches Zero
 
-Status: Completed (v2.2, 2026-07-31, about 9200 words; passed the acceptance on 2026-07-25; v2.2 aside scaffolding cleanup; frozen after reading the whole book)
+Status: Completed (v2.3, 2026-07-31, about 9200 words; passed the acceptance on 2026-07-25; v2.2 aside scaffolding cleanup; inserts pyramid-with-bases-pulled figure; frozen after reading the whole book)
 
 **Claim: When AI simultaneously reduces execution costs and knowledge acquisition costs, organizational structures such as hierarchies, approvals, reporting, and KPIs built around "people do things slowly and know less" begin to fail as a whole. **
 
@@ -105,6 +105,10 @@ Now take away the two bases and re-check them one by one:
 
 Compress the chapter into one picture: a pyramid, two bases (execution costs, knowledge acquisition costs) are removed at the same time, and the superstructure is suspended. Not all the suspended parts were scrapped. If you look carefully, there are still three things hanging in the air that no one can take over. They are exactly what AI cannot take over: **What target to choose, what standards to use, and how to share context**. What these three things are, why AI cannot take over, and how to turn them into organizational capabilities is what the chapters ahead will unfold.
 
+![Pyramid with both bases pulled out: execution and knowledge-access costs dashed empty](/figures/ch01-pyramid-en.svg)
+
+*Figure: org-chart lines were drawn for expensive human execution; what hangs is what AI cannot take.*
+
 ## 6. Industry microscope: translation industry
 
 The macro curve can easily make people numb, and Chegg may be regarded as an "unlucky case." We put the microscope on an entire industry: the translation industry, the place where execution is at its worst.
@@ -168,7 +172,7 @@ This map does not require you to cut anything today. It is the base map for all 
 ## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)
 
 1. The assertion can be restated in one sentence ✓, and is an inference of the core assertion (the core assertion asserts that the cost is zeroed → this chapter proves zeroing and infers structural failure).
-2. Whiteboard frame diagram ✓ (The pyramid has a double base and three suspended upper parts).
+2. Whiteboard frame diagram ✓ (pyramid-with-bases-pulled figure inserted and three suspended upper parts).
 3. External comparison and data ✓: E3 Expression on the winner side (mechanism has been verified) + E14 Duolingo job evidence; L8 Chegg on the loser side (financial report level data has been verified); caliber differences (cross-industry, same digital knowledge work) have been explicitly stated in the text; statistical report median (Epoch AI slowdown median). The losers of the same caliber in the translation industry still need to be compensated, and have been marked as hypotheses to be verified.
 4. Candidate 9 golden sentences ✓.
 5. "What to Do Monday Morning" Four-step checklist from the No. 1 perspective + personal notes ✓.

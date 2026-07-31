@@ -1,6 +1,6 @@
 # Chapter 3: The Age of Adaptive Insight: How Much You Know No Longer Matters
 
-Status: Completed (v1.2, 2026-07-31, about 9,000 words, including I5 author financing sample supplement; acceptance passed 2026-07-25; v1.2 aside scaffolding cleanup; frozen after reading the whole book)
+Status: Completed (v1.3, 2026-07-31, about 9,000 words, including I5 author financing sample supplement; acceptance passed 2026-07-25; v1.2 aside scaffolding cleanup; inserts line-vs-fork and four-moves figure; frozen after reading the whole book)
 
 **Claim: After free access to knowledge, the gap between people is no longer how much they know, but adaptive insight, which is the ability to discover gaps in standards, borrow external standards, judge migration conditions, and quickly verify and correct. **
 
@@ -43,6 +43,10 @@ The value of adaptive insight can be drawn as a picture.
 If there is a verified standard for something, the execution path is close to a straight line: follow it, verify it, and fine-tune it. From the starting point to the end point, every decision point along the way is narrowed down to one or two options by the standard in advance. If there is no standard for one thing, the path will bifurcate at each decision point: you choose A, take three steps and find something is wrong, go back and take B, and B branches into three more... The path you have taken covers the entire plane like a spider web. The two moves consume the same resources (your time and trial and error costs), but the trajectory lengths are orders of magnitude different.
 
 This picture explains why among the four actions of adaptive insight, the first one is not "coming up with a solution", but **finding the standard gap**: realizing that you are standing in a bifurcation chart is the prerequisite for everything. It also leads to the personal version of the iron law: **If there is no standard, stop implementing it**. Pay attention to the true meaning of the word "stop" at the personal level: it is not to stop and wait, but to stop using the busyness of execution to cover up the absence of judgment, and to switch the action at hand from "moving forward" to "finding standards." The most dangerous thing about non-standard execution is that it feels so good: every step is moving, every day is busy, and busyness provides the illusion of growth, while the trajectory is spinning in place.
+
+![Straight-line execution vs forked web; four insight moves below](/figures/ch03-line-fork-moves-en.svg)
+
+*Figure: with a standard, nearly a line; without one, every decision forks. Four trainable moves.*
 
 ## Five, the anatomy of four movements
 
@@ -147,7 +151,7 @@ Note (individual and team perspective): Use the same four questions for yourself
 - The borrowing standard only demonstrates "why borrowing is optimal" and personal operation essentials. The organizational action chain, bilateral samples, and four gates are not developed and are left to Chapter 7 ✓
 
 ## Chapter Acceptance Self-Check (compare with the five acceptance standards of the chapter)1. The assertion can be restated in one sentence ✓, and is an inference of the core assertion (the core assertion asserts that adaptive insight is the last scarcity → This chapter gives the definition, structure and personal-level evidence of adaptive insight).
-2. Whiteboard frame diagram ✓ (straight line vs bifurcated spider diagram + four-action cycle).
+2. Whiteboard frame diagram ✓ (line-vs-fork and four-moves figure inserted + four-action cycle).
 3. External comparison and data ✓: Loser side L9 Ron Johnson (financial report level data: -25% revenue, 17 months, single quarter -30%); winner side Steve Jobs calligraphy class + Stay Hungry gesture (first-hand text of Stanford speech); I5 The author's financing samples have been written into Section 7 (2026-07-26, and the quality of the self-report has been stated at the conclusion boundary); the missing "Two Decades" age-matched control samples have been truthfully marked at the conclusion boundary (long-term collection).
 4. 12 candidate sentences ✓.
 5. "What to Do Monday Morning" Two actions from the perspective of position 1 + personal notes ✓.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img">
+  <rect width="900" height="420" fill="#fff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">干扰术：选项漏斗与可信度阶梯</text>
+  <text x="240" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">选项漏斗 · 三道阀门</text>
+  <polygon points="80,90 400,90 340,160 140,160" fill="#6bed4a" fill-opacity="0.1" stroke="#d5dbd6"/>
+  <text x="240" y="130" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">分析用户共识 · 10%</text>
+  <polygon points="140,175 340,175 300,245 180,245" fill="#6bed4a" fill-opacity="0.16" stroke="#d5dbd6"/>
+  <text x="240" y="218" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">找到合适场景 · 10%</text>
+  <polygon points="180,260 300,260 270,330 210,330" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25" stroke-width="2"/>
+  <text x="240" y="302" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">制造共识 · 80%</text>
+  <text x="240" y="360" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">N 个选项 → 出口一个</text>
+  <text x="680" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">可信度阶梯</text>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="500" y="100" width="360" height="50" rx="6" fill="#e8a0a0" fill-opacity="0.25" stroke="#c45c5c"/>
+    <text x="680" y="130" text-anchor="middle" font-size="13" fill="#0a0a0a">假信息 · 负债</text>
+    <rect x="520" y="170" width="320" height="50" rx="6" fill="#6bed4a" fill-opacity="0.12" stroke="#d5dbd6"/>
+    <text x="680" y="200" text-anchor="middle" font-size="13" fill="#0a0a0a">自选角度的真信息</text>
+    <rect x="540" y="240" width="280" height="50" rx="6" fill="#2d7a25" fill-opacity="0.18" stroke="#2d7a25" stroke-width="2"/>
+    <text x="680" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#2d7a25">第三方验证的真信息</text>
+  </g>
+  <text x="680" y="320" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">上移一格 · 耐久度升一个数量级</text>
+  <text x="450" y="400" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">左边收窄对方选项 · 右边抬高材料成色</text>
+</svg>

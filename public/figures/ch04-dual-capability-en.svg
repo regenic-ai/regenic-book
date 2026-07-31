@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" role="img" aria-labelledby="t d">
+  <title id="t">Dual-capability model</title>
+  <desc id="d">X-axis: shared judgment standards; Y-axis: shared context; four quadrants ending in AI-native organization.</desc>
+  <rect width="880" height="520" fill="#fff"/>
+  <line x1="120" y1="440" x2="820" y2="440" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="120" y1="440" x2="120" y2="60" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="820,440 804,433 804,447" fill="#0a0a0a"/>
+  <polygon points="120,60 113,76 127,76" fill="#0a0a0a"/>
+  <text x="820" y="468" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Shared judgment standards →</text>
+  <text x="40" y="250" transform="rotate(-90 40 250)" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Shared context →</text>
+  <line x1="470" y1="60" x2="470" y2="440" stroke="#d5dbd6" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="120" y1="250" x2="820" y2="250" stroke="#d5dbd6" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <rect x="130" y="70" width="330" height="170" fill="#6bed4a" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <rect x="480" y="70" width="330" height="170" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25" stroke-width="2"/>
+  <rect x="130" y="260" width="330" height="170" fill="#ffb347" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <rect x="480" y="260" width="330" height="170" fill="#b69cff" fill-opacity="0.08" stroke="#d5dbd6"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#0a0a0a">
+    <text x="295" y="120" text-anchor="middle" font-size="15" font-weight="700">Consensus, no standards</text>
+    <text x="295" y="148" text-anchor="middle" font-size="12" fill="#59615a">Loud meetings, weak decisions</text>
+    <text x="645" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">AI-native organization</text>
+    <text x="645" y="148" text-anchor="middle" font-size="12" fill="#59615a">Same ruler · same fact set</text>
+    <text x="295" y="320" text-anchor="middle" font-size="15" font-weight="700">Legacy organization</text>
+    <text x="295" y="348" text-anchor="middle" font-size="12" fill="#59615a">A hundred arrows, a hundred targets</text>
+    <text x="645" y="320" text-anchor="middle" font-size="15" font-weight="700">Standards, no consensus</text>
+    <text x="645" y="348" text-anchor="middle" font-size="12" fill="#59615a">Precise errors on bad context</text>
+  </g>
+  <text x="500" y="505" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Shared standards × shared context · book framework</text>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img">
+  <rect width="900" height="500" fill="#fff"/>
+  <text x="450" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">直线与分叉 · 悟性四动作</text>
+  <text x="200" y="80" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#59615a">有标准：近似直线</text>
+  <circle cx="80" cy="180" r="10" fill="#2d7a25"/>
+  <line x1="90" y1="180" x2="320" y2="180" stroke="#2d7a25" stroke-width="3"/>
+  <circle cx="320" cy="180" r="10" fill="#2d7a25"/>
+  <text x="200" y="210" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">照做 · 验证 · 微调</text>
+  <text x="650" y="80" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#59615a">无标准：分叉蛛网</text>
+  <circle cx="520" cy="180" r="10" fill="#2d7a25"/>
+  <line x1="530" y1="180" x2="620" y2="180" stroke="#2d7a25" stroke-width="3"/>
+  <line x1="620" y1="180" x2="780" y2="100" stroke="#d5dbd6" stroke-width="2"/>
+  <line x1="620" y1="180" x2="780" y2="180" stroke="#2d7a25" stroke-width="3"/>
+  <line x1="620" y1="180" x2="780" y2="260" stroke="#d5dbd6" stroke-width="2"/>
+  <line x1="700" y1="140" x2="760" y2="120" stroke="#d5dbd6" stroke-width="1.5"/>
+  <line x1="700" y1="220" x2="760" y2="250" stroke="#d5dbd6" stroke-width="1.5"/>
+  <circle cx="780" cy="100" r="7" fill="#d5dbd6"/>
+  <circle cx="780" cy="180" r="10" fill="#2d7a25"/>
+  <circle cx="780" cy="260" r="7" fill="#d5dbd6"/>
+  <text x="650" y="300" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">每个决策点再分叉</text>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="30" y="340" width="200" height="110" rx="8" fill="#6bed4a" fill-opacity="0.12" stroke="#2d7a25"/>
+    <text x="130" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">1 发现缺口</text>
+    <text x="130" y="410" text-anchor="middle" font-size="12" fill="#59615a">我在分叉图里吗</text>
+    <rect x="250" y="340" width="200" height="110" rx="8" fill="#6bed4a" fill-opacity="0.12" stroke="#2d7a25"/>
+    <text x="350" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">2 借用标准</text>
+    <text x="350" y="410" text-anchor="middle" font-size="12" fill="#59615a">谁做成过</text>
+    <rect x="470" y="340" width="200" height="110" rx="8" fill="#6bed4a" fill-opacity="0.12" stroke="#2d7a25"/>
+    <text x="570" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">3 判断迁移</text>
+    <text x="570" y="410" text-anchor="middle" font-size="12" fill="#59615a">条件还成立吗</text>
+    <rect x="690" y="340" width="180" height="110" rx="8" fill="#6bed4a" fill-opacity="0.12" stroke="#2d7a25"/>
+    <text x="780" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">4 验证修正</text>
+    <text x="780" y="410" text-anchor="middle" font-size="12" fill="#59615a">便宜时暴露错误</text>
+  </g>
+  <text x="450" y="485" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">没有标准，停止执行</text>
+</svg>

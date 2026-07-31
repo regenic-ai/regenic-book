@@ -30,6 +30,7 @@ const scaffoldHeadings = [
 const markdownSanitizeSchema = {
   ...defaultSchema,
   clobberPrefix: "",
+  tagNames: [...(defaultSchema.tagNames ?? []), "figure", "figcaption"],
   attributes: {
     ...defaultSchema.attributes,
     a: [
@@ -44,6 +45,18 @@ const markdownSanitizeSchema = {
       ],
       "ariaLabel",
     ],
+    img: [
+      ...(defaultSchema.attributes?.img ?? []),
+      "alt",
+      "title",
+      "width",
+      "height",
+      "loading",
+      "decoding",
+      ["className", "chapter-figure-image"],
+    ],
+    figure: [["className", "chapter-figure"]],
+    figcaption: [["className", "chapter-figure-caption"]],
     h1: [...(defaultSchema.attributes?.h1 ?? []), "id"],
     h2: [...(defaultSchema.attributes?.h2 ?? []), "id"],
     h3: [...(defaultSchema.attributes?.h3 ?? []), "id"],

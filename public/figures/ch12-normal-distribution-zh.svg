@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">正态分布上的六档标准阶梯</title>
+  <desc id="desc">钟形曲线中间厚、两端薄；六档标准从左端顶档到右端成熟档排列；路径 A 从左向右跨鸿沟，路径 B 从右向左逆向迭代。</desc>
+  <defs>
+    <linearGradient id="bandFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d7a25" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#2d7a25" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="460" fill="#ffffff"/>
+
+  <g stroke="#d5dbd6" stroke-width="1">
+    <line x1="80" y1="48" x2="80" y2="300"/>
+    <line x1="200" y1="48" x2="200" y2="300"/>
+    <line x1="320" y1="48" x2="320" y2="300"/>
+    <line x1="440" y1="48" x2="440" y2="300"/>
+    <line x1="560" y1="48" x2="560" y2="300"/>
+    <line x1="680" y1="48" x2="680" y2="300"/>
+    <line x1="800" y1="48" x2="800" y2="300"/>
+  </g>
+  <rect x="80" y="48" width="720" height="252" fill="url(#bandFill)"/>
+
+  <line x1="80" y1="300" x2="800" y2="300" stroke="#0a0a0a" stroke-width="1.75"/>
+
+  <path
+    d="M80,298 C120,296 150,280 200,240 C250,185 290,95 440,70 C590,95 630,185 680,240 C730,280 760,296 800,298"
+    fill="none"
+    stroke="#2d7a25"
+    stroke-width="3.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M80,298 C120,296 150,280 200,240 C250,185 290,95 440,70 C590,95 630,185 680,240 C730,280 760,296 800,298 L800,300 L80,300 Z"
+    fill="#6bed4a"
+    fill-opacity="0.18"
+  />
+
+  <circle cx="440" cy="70" r="4.5" fill="#2d7a25"/>
+  <text x="440" y="56" text-anchor="middle" font-family="Georgia, Songti SC, serif" font-size="13" fill="#59615a">中间厚</text>
+  <text x="120" y="42" text-anchor="middle" font-family="Georgia, Songti SC, serif" font-size="12" fill="#59615a">两端薄 · 稀缺标准</text>
+  <text x="760" y="42" text-anchor="middle" font-family="Georgia, Songti SC, serif" font-size="12" fill="#59615a">两端薄 · 成熟共识</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a" text-anchor="middle">
+    <text x="140" y="322">C9</text>
+    <text x="260" y="322">985</text>
+    <text x="380" y="322">211</text>
+    <text x="500" y="322">一本</text>
+    <text x="620" y="322">二本</text>
+    <text x="740" y="322">大专</text>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a" text-anchor="middle">
+    <text x="140" y="340">顶档标准</text>
+    <text x="260" y="340">高档</text>
+    <text x="380" y="340">中高档</text>
+    <text x="500" y="340">中档</text>
+    <text x="620" y="340">中低档</text>
+    <text x="740" y="340">成熟档</text>
+  </g>
+
+  <text x="80" y="368" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">左：标准最贵（教育市场）</text>
+  <text x="800" y="368" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">右：标准最便宜（无需教育）</text>
+
+  <g>
+    <line x1="150" y1="400" x2="700" y2="400" stroke="#0a0a0a" stroke-width="2"/>
+    <polygon points="700,400 684,393 684,407" fill="#0a0a0a"/>
+    <text x="425" y="392" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">路径 A · 传统正向（跨鸿沟）</text>
+  </g>
+
+  <g>
+    <line x1="700" y1="430" x2="150" y2="430" stroke="#2d7a25" stroke-width="2.5"/>
+    <polygon points="150,430 166,423 166,437" fill="#2d7a25"/>
+    <text x="425" y="452" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#2d7a25">路径 B · 共识逆向迭代（逐档换尺子）</text>
+  </g>
+</svg>

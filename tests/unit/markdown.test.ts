@@ -113,4 +113,13 @@ describe("章节 Markdown 处理", () => {
     expect(html).toContain("安全章节");
     expect(html).toContain('href="https://example.com/research"');
   });
+
+  it("保留章节插图的 src 与 alt", async () => {
+    const html = await renderMarkdown(
+      "![正态分布六档标准阶梯](/figures/ch12-normal-distribution-zh.svg)",
+    );
+
+    expect(html).toContain('src="/figures/ch12-normal-distribution-zh.svg"');
+    expect(html).toContain('alt="正态分布六档标准阶梯"');
+  });
 });

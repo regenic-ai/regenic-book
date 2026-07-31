@@ -1,6 +1,6 @@
 # Preface: The Last Scarcity
 
-Status: Completed (v1.1, 2026-07-27, about 3,000 words; passed the acceptance on 2026-07-26, v1.1 supplemented the Regenic.ai running version positioning, and will be frozen after reading the whole book)
+Status: Completed (v1.2, 2026-07-31, about 3,000 words; passed the acceptance on 2026-07-26; v1.1 supplemented the Regenic.ai running version positioning; v1.2 aside scaffolding cleanup; frozen after reading the whole book)
 
 **Claim: AI simultaneously reduces the difficulty of execution and the difficulty of knowledge acquisition. Human beings have moved from "how much they know and how fast they can do it" to the era of adaptive insight of "whether they can find the correct standards and transfer and apply standards." **
 
@@ -28,7 +28,7 @@ So the baton is handed over to the ability to: face a problem that has never bee
 
 ## Three or four words, talking about the same thing
 
-The most common mistake a book about concepts makes is to have the same thing appear under different names. Therefore, I will clarify the relationship between the four most important words in the book at once in the preface, and they will not change again in the rest of the text:
+The most common mistake a book about concepts makes is to have the same thing appear under different names. The relationship among these four words does not change later, so pin it down here:
 
 **"The last scarcity" is its name; adaptive insight is its form in the individual (a capability); judgment is its form in the organization (an asset); standards are its written form (an executable document). **
 
@@ -46,7 +46,7 @@ There are thirteen chapters in the book, divided into four parts. The structure 
 
 I abide by the same contract in each chapter: the conclusion is condensed into a repeatable sentence; the skeleton diagram can be drawn on the whiteboard; the cases are given in pairs, with a loser for each winner, because the methodology of only looking at survivors is divination; and there must be a "What to Do Monday Morning" at the end. In addition, there are two honesty clauses throughout the book: all unaudited data from the company will be marked with quality; all evidence that I have not verified or found yet will be marked directly as "to be added". I would rather let you see the gap than cover it up with adjectives.
 
-There is one more thing that should be explained before you start reading, rather than letting you find out after reading Chapter 8: I wrote this book and implemented the methods in the book, and the target is you. The title of the book is narrowing the vocabulary you use to describe this problem, the four words in the third section are unifying the language between you and me, and the "Monday morning" in each chapter is forcing the conclusion into action. What you hold in your hand is both an instruction manual and a running prototype. Every standard in the book is implemented every day in my own company, bioby.ai; I do not promise that they are applicable to all organizations, but I promise that there is no one that I dare not implement (the author's introduction page has the full version of this promise).
+One more thing to say up front: I wrote this book by executing the methods in it, and the target is you. The title of the book is narrowing the vocabulary you use to describe this problem, the four words in the third section are unifying the language between you and me, and the "Monday morning" in each chapter is forcing the conclusion into action. What you hold in your hand is both an instruction manual and a running prototype. Every standard in the book is implemented every day in my own company, bioby.ai; I do not promise that they are applicable to all organizations, but I promise that there is no one that I dare not implement (the author's introduction page has the full version of this promise).
 
 Paper books will be frozen on the day of submission, but the organization will not. So I put the running version of this method on Regenic.ai: the entire book is free and open to the public, and cases, tools, version revisions, and new enterprise practices continue to be verified there. There is only one sentence between the three: *Rewrite the DNA* is the frozen version of this methodology at the moment of publication, Regenic.ai is the continuously updated running version, and bioby.ai is the first experimental site.
 

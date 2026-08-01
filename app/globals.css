@@ -754,6 +754,12 @@ textarea:focus-visible {
   background: var(--signal);
 }
 
+/* Soften pure white × near-black glare on chapter reading pages only */
+body:has(.reader-shell) {
+  background: #f1f3f0;
+  color: #252b25;
+}
+
 .reader-shell {
   position: relative;
   padding-block: 3rem 7rem;

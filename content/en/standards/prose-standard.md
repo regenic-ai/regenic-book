@@ -1,69 +1,120 @@
 # Readable prose standard
 
-> Problem this solves: the claim is sound and the data are correct, but readers cannot move through the paragraph. This standard governs breath and citation layout in body prose. Use it with `book-standard.md` (structural acceptance) and `chapter-template.md` (one-pager).
+> Problem this solves: the claim is sound and the data are correct, but readers cannot move through the paragraph. This standard governs breath, sentence craft, and citation layout in body prose. Use it with `book-standard.md` (structural acceptance) and `chapter-template.md` (one-pager).
 
-## 1. When it applies
+## 1. Means priority (what comes first)
+
+The primary means of fluency is **whole-sentence rewriting**: keep claim, data, and naming fixed; rewrite the sentence so it carries.  
+Deletion is secondary: remove only tour-guide words, zero-information restatement, and chaining dashes that block breath.
+
+| Priority | Do | Do not treat as the main move |
+| --- | --- | --- |
+| 1 | Rewrite the sentence: clear subject, varied rhythm, information said once | Only delete words, only swap punctuation, chop long sentences into outline stubs |
+| 2 | Reorder inside the paragraph: scene/change → mechanism → name | Reorder the chapter's claims or change when terms are named |
+| 3 | Cut scaffolding: tour guides, empty restatement, packaging self-reference | Cut transitions and information to make the line "shorter" |
+
+An earlier draft of this standard drifted into "prohibitions + deletion" because the don'ts were specific and the sentence craft was vague. This version puts whole-sentence rewriting first.
+
+Acceptance target is **fluency**: the reader is carried through a passage.
+
+## 2. Peer group
+
+This book is **argumentative management nonfiction**. Primary peer: bestselling nonfiction. Secondary: literary breath only.
+
+| Peer | Samples | Steal | Do not steal |
+| --- | --- | --- | --- |
+| **Primary: bestselling nonfiction** | *Crossing the Chasm*, *The Innovator's Dilemma*, *The Lean Startup*, *Zero to One*; Gladwell / Kahneman-style | Scene → mechanism → name; short carry, long land; density; name when needed | Literary delayed naming; framework chapters as fiction; omit until unrestatable |
+| **Secondary: literary breath** | Median Nobel openings | Change/scene before the number; one landing line; less self-reference | Lyricism, stream of consciousness, magical juxtaposition |
+
+## 3. When it applies
 
 Applies to reader-facing body prose: preface, chapter sections, and judgment-boundary narration. Does not apply to status lines, acceptance checklists, or internal editorial notes.
 
-The acceptance target is **fluency**: the reader is carried through a passage without decoding the author's scaffolding.
+## 4. Whole-sentence rewriting (primary means)
 
-## 2. Four prohibitions
+When a passage stalls, find the stuck sentence and rewrite it before deleting. Stuck sentences are usually too long, subject-adrift, dash-chained, tour-guide interrupted, or definition-led openings.
 
-Against the median craft of strong long-form prose (show change before conclusion; vary rhythm; minimize self-reference), body drafts must not do the following:
+Rewrite under four rules:
+
+1. **One job per sentence.** Advance one piece of information; put turns in a new sentence instead of gluing with dashes.
+2. **Show, then explain.** Prefer change or scene over metric bulletin; mechanism follows visible fact.
+3. **Short as floor, long as reward.** Most sentences crisp; the complex sentence after short setup. Short is not telegraphic outline.
+4. **Say the information once, completely.** Keep numbers, names, and conditions; do not create "cleanliness" by deleting information. Merge synonymous restatement into one clear sentence rather than leaving a half-thought.
+
+Whole-sentence rewriting **may change wording and syntax**. It may not change: claim truth-value, data and sources, case facts, or when a concept is named (unless the original naming was itself misplaced).
+
+## 5. Five prohibitions (secondary: spot hard joins)
+
+Use the five prohibitions to diagnose. Treat with Section 4 rewriting first; delete only as support.
 
 1. **Open like a bulletin**  
-   Do not start a paragraph by reading a chart aloud ("The inference cost to reach the same capability level was…"). Begin with what changed in time; the number is the result, not the grammatical subject of the first sentence.
+   Do not open by reading a chart or bare definition. Start with change or scene.  
+   Framework sections may use one orientation line before axes; if cutting leaves a naked definition, rewrite the orientation back—do not bare-delete.
 
 2. **Stack slogans at one volume**  
-   Do not fire same-intensity pull quotes in a row ("not tech news," "collective dive," "floor/ceiling," "the unbroken line"). Long sentences carry; short ones land. A paragraph usually needs only one line the reader must keep.
+   No same-intensity pull-quote runs. Long carry, short land; usually one landing line per paragraph.
 
 3. **Replace story with inventory**  
-   Do not argue by roll call ("code, design, reports, email, translation, editing…"). Bring on one motion or class that stands for the set (e.g. "everything once bought by the hour"); if needed, one concrete scene beats more rhetoric.
+   In narrative argument, no roll call in place of mechanism. Framework captions, Monday lists, and acceptance items may enumerate.
 
 4. **Point at the bookshelf mid-argument**  
-   Do not pause the argument to explain the title, part name, cover, or table of contents ("also the name of Part II," "on the cover, *Rewrite the DNA* names the action"). Keep the reader inside the matter; packaging belongs in the reading map or chapter interfaces.
+   Packaging only: title, part name, cover, table of contents.  
+   Not: main frame, axes, metric tables, how to read a sample hall.
 
-## 3. Asides and forced metaphor
+5. **Glue clauses with em dashes**  
+   When dashes stack or chain explanation/enumeration/turns, prefer **splitting and rewriting sentences**, then punctuation.  
+   Zero dashes is not an acceptance target.
 
-- **Asides**: cut tour-guide lines ("first, a number," "I named it in this preface's title"), self-commentary, and lectern tone. The author may be present only while advancing a judgment—not while narrating the act of writing.
-- **Forced metaphor**: a metaphor must earn its keep. If deleting it clarifies the argument, delete it (e.g. an awkward "price list"). One clear opposition per stretch is enough; do not run floor, ceiling, hanging line, and unbroken line at once.
+## 6. Asides and forced metaphor
 
-## 4. Data and citation layout
+- **Asides**: tour-guide talk ("first, a number," "see below," "notice how this differs") should disappear by **rewriting into a sentence that advances judgment**, not by hollowing into an outline. Keep questions, information, and suspense.
+- **Forced metaphor**: if it does not stand, rewrite the sentence another way; do not strip the image and leave a stump.
 
-Cite external figures with mainstream **author–year** parentheses, matching existing book practice (e.g. Jones & Nisbett, 1972):
+## 7. Rewrite discipline
+
+1. Primary means is whole-sentence rewriting; deletion alone cannot count as a complete fluency pass.
+2. Every edit should name which stuck-sentence pattern was rewritten, or which prohibition was hit; if neither, do not edit.
+3. Read aloud after: if worse, or more outline/bulletin-like, revert.
+4. No chapter overhaul for checklist theater (literary quotas, forced scenes, delayed naming, stripping framework orientation, zero-dash hunts).
+5. Focus one problem class at a time; do not reorder claims under a fluency banner.
+
+## 8. Data and citation layout
+
+Cite with mainstream **author–year** parentheses (e.g. Jones & Nisbett, 1972):
 
 - Preferred: `…about one two-hundred-and-eightieth of the prior level (Stanford HAI, 2025).`
-- Forbidden: a standalone "Source: …" line (news/white-paper layout); forbidden: methodological asides inside the cite ("every number in this book will be sourced this way").
-- On first deep treatment in a dedicated chapter, the full institution and report title may expand (see Chapter 1 on Stanford HAI's *AI Index*); preface or short allusions use author–year only.
-- Report **medians**, not means; when evidence quality is thin, qualify in-sentence—do not open a separate disclaimer aside.
+- Forbidden: standalone "Source: …"; forbidden: methodological asides inside the cite.
+- Full institution/report title may expand on first deep chapter treatment; preface uses author–year only.
+- Report **medians**, not means; thin evidence gets in-sentence qualification.
 
-## 5. Actions (self-check after a draft paragraph)
+## 9. Actions (self-check after a draft paragraph)
 
-1. Does the first sentence show a change, a scene, or a judgment—not a metric definition?
-2. Is there more than one "poster line" in the paragraph?
-3. Can any inventory, aside, or title/cover self-reference be cut?
-4. Is the citation a parenthetical at sentence end that does not break breath?
-5. Read aloud: is there any place the reader must stop to translate the author's intent?
+1. Was the stuck sentence rewritten whole, or were only a few words deleted?
+2. Does the first sentence show change, scene, judgment, or framework orientation—not a bare definition?
+3. More than one poster line in the paragraph?
+4. Is information complete (numbers, names, conditions still there)?
+5. Are dashes chaining clauses? After split-and-rewrite, does it read cleaner (not chasing zero)?
+6. Read aloud: smoother than before? Any place the reader must translate the author's intent?
 
-## 6. Acceptance
+## 10. Acceptance
 
 A finished prose passage must satisfy all of the following:
 
-1. It can be read straight through without looking back to decode structural packaging.
-2. The core claim remains restatable in one sentence; data remain checkable and sources locatable.
-3. No violation of the four prohibitions or the aside/metaphor rules; citations follow Section 4.
+1. It can be read straight through.
+2. The core claim remains restatable in one sentence; data checkable; sources locatable.
+3. Revision was primarily whole-sentence rewriting; prohibitions and aside rules hold; citations follow Section 8.
 
-## 7. Boundaries
+## 11. Boundaries
 
-- Quotable-candidate lists, acceptance self-checks, and status lines may keep work language and are not polished under this standard.
-- Framework captions and Monday action lists may enumerate; enumeration is the job of a checklist, not the argument mode of a narrative paragraph.
-- Do not trade falsifiability for "literary" effect: fluency serves the claim; it does not replace it.
+- Quotable-candidate lists, acceptance self-checks, and status lines need not be polished here.
+- Framework captions and Monday lists may enumerate.
+- Do not trade falsifiability for "literary" effect.
+- Do not treat novelist tools as methods-book optimization.
+- Whole-sentence rewriting is not synonym polish: new syntax that does not improve fluency does not count.
 
-## 8. Revision triggers
+## 12. Revision triggers
 
-Revise this standard when any of the following appears:
-
-1. Reader feedback across two or more chapters says the prose is unreadable / speech-like / press-release-like, and the failure mode is a new hard join not covered here.
-2. Citation layout systematically conflicts with publication needs or on-site evidence labels.
-3. Fluency edits dilute claim sharpness or evidence quality (tighten Boundaries; do not abandon fluency).
+1. Reader feedback across two or more chapters names a new hard join not covered here.
+2. Citation layout conflicts systematically with publication or on-site evidence labels.
+3. Fluency edits dilute claim sharpness or evidence quality.
+4. After edits, the chapter is harder to read / more outline-like, or the revision log is deletion-only with no whole-sentence rewrites (roll back and tighten Sections 1, 4, and 7).

@@ -48,7 +48,8 @@ Every finished chapter must satisfy all of the following:
 4. At least three quotable candidate lines.
 5. A "what to do Monday morning" action list at the end.
 6. Body paragraphs pass [`prose-standard.md`](./prose-standard.md) fluency
-   acceptance (four prohibitions, aside/forced-metaphor rules, author–year cites).
+   acceptance (whole-sentence rewriting primary; five prohibitions / asides secondary;
+   rewrite discipline; author–year cites; primary peer = bestselling nonfiction).
 
 ## 4. Writing workflow (10/10/80)
 

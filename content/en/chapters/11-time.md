@@ -1,6 +1,6 @@
 # Chapter 11: A New Allocation of Time: Evolving Personal Rhythm
 
-Status: Completed (v1.6, 2026-08-04, ~6900 words; acceptance passed 2026-07-26; v1.1–v1.2 expanded money-time discipline / block time / three-question example / org loading; v1.3 cleared asides and inserted time-bar figure; v1.5 prose-standard fluency pass; v1.6 English publication-voice sync to Chinese authority, open to ongoing public revision)
+Status: Completed (v1.7, 2026-08-04, ~6900 words; acceptance passed 2026-07-26; v1.1–v1.2 expanded money-time discipline / block time / three-question example / org loading; v1.3 cleared asides and inserted time-bar figure; v1.5 prose-standard fluency pass; v1.6 English publication-voice sync; v1.7 whole-sentence rewrite per current prose-standard, open to ongoing public revision)
 
 **Claim: Give 1–2 hours a day to short-term urgency (money-related) and 6 hours to long-term importance (value-related). Time is the individual’s only limiting resource; the allocation is personal strategy.**
 
@@ -14,11 +14,11 @@ Gates, sitting beside him, explained what the calendar meant to him: he used to 
 
 The scene hits most people’s deepest belief: busyness is dedication, and a packed calendar proves worth. Two people at the top of the world’s wealth tables—one has worked for decades from a nearly blank calendar; the other admits that packing every minute was a mistake.
 
-Standards, context, decision rights, and talent structure all sit at the organization layer. Drill one level deeper and you reach the organization’s smallest unit: your own day. Find the limiting resource and pour the best resources into it—for the organization, that resource is judgment; **for the individual, it is time**. Judgment, however strong, becomes output only through time. So how you allocate time *is* personal strategy. Your calendar is your strategy; everything else is publicity.
+Standards, context, decision rights, and talent structure all sit at the organization layer. Drill one level deeper and you reach the organization’s smallest unit: your own day. Find the limiting resource and pour the best resources into it. For the organization, that resource is judgment; **for the individual, it is time**. Judgment, however strong, becomes output only through time. How you allocate time *is* personal strategy. Your calendar is your strategy; everything else is publicity.
 
 ## 2. Collective portrait of the old ratio: a day cut into three minutes
 
-Look first at what most people’s days actually look like. Microsoft’s *Work Trend Index* 2023, built on a cross-national survey of thirty-one thousand people plus Microsoft 365 telemetry: **employees spend on average 57% of time communicating** (meetings, email, chat) and **43% creating**; 68% say they lack enough uninterrupted focus time in the workday; heavy meeting-goers spend 7.5 hours a week in meetings; Teams meeting volume rose 192% from early 2020.
+Most people’s days already have a ready portrait. Microsoft’s *Work Trend Index* 2023, built on a cross-national survey of thirty-one thousand people plus Microsoft 365 telemetry: **employees spend on average 57% of time communicating** (meetings, email, chat) and **43% creating**; 68% say they lack enough uninterrupted focus time in the workday; heavy meeting-goers spend 7.5 hours a week in meetings; Teams meeting volume rose 192% from early 2020.
 
 The grain of interruption is more startling than the ratios. Gloria Mark’s team at UC Irvine ran a blunt field study: thirty-six knowledge workers tracked for three full days, every action timed to the second. The finding: **a single matter lasts on average 3 minutes and 5 seconds** before interruption or switch (formal meetings excluded). A typical knowledge worker’s day is not eight hours. It is more than a hundred three-minute slices.
 
@@ -40,7 +40,7 @@ Picture two time bars. The upper is the new ratio: 1–2 hours labeled “money,
 
 Some will call this a rich person’s privilege—impossible when business wraps you. Bezos offered a testable rebuttal in a 2018 interview with the Economic Club of Washington. His day: morning “puttering” (paper, coffee, breakfast with the kids); first meeting at ten; brain-burning “high-IQ meetings” all before lunch—“by 5 p.m. I’ll say: I’m done thinking today; try again at 10 tomorrow”; eight hours of sleep, non-negotiable. What holds the rhythm is his definition of the job: **“As a senior executive, you get paid to make a small number of high-quality decisions. Your job is not to make thousands of decisions every day. If I can make three good decisions a day, that’s enough.”** He also ran the arithmetic: four hours less sleep buys 33% more “production time” and thirty-three more decisions—but quality falls with fatigue; trading quantity for quality is a losing deal. Buffett pushes the same logic to the limit: three good decisions a year, he says, would be fine.
 
-The structure of the rebuttal is not “Bezos is rich, therefore calm.” It is that **decision quality and transaction volume demand opposite time structures**. Transactions reward a full calendar; judgment rewards blank space. The closer your role is to judgment—every role left after collapse is a judgment role—the more your calendar should move toward blank.
+The structure of the rebuttal is not “Bezos is rich, therefore calm.” It is that **decision quality and transaction volume demand opposite time structures**. Transactions reward a full calendar; judgment rewards blank space. The closer your role is to judgment—and every role left after collapse is a judgment role—the more your calendar should move toward blank.
 
 That 1–2 hours of money time has its own discipline, or it expands like gas and fills the day. First: **batch**. Handle bleeding points in fixed windows (for example, half an hour each morning on cash flow and delivery exceptions)—not all-day on-call. On-call does not process urgency; it processes other people’s schedules. Second: **acceptance stops at hemostasis**. Money time’s output check is “bleeding stopped,” not “while we’re here, optimize the business.” Optimization is value work; send it to the value-time budget and accept it by its own artifacts. Third, and most important: **keep books on recurring bleeds**. The third time the same accident appears in money time, it is no longer an operations problem; it is a standards gap. Where bleeding repeats, what is missing is not a faster bandage but an unwritten standard. Money time’s highest mission is to spend less and less of itself: every bleeding point written as a standard and handed to the execution system moves your 1–2 hours one notch closer to 1.
 
@@ -54,7 +54,7 @@ How you place the six hours matters as much as where you spend them. Return to M
 
 ## 5. Fragmented time and the daily three questions: the minimum viable reflection
 
-Beyond the six hours sits a class of time most people waste: before sleep, commute, waiting. Unfit for deep work (attention incomplete), but exactly fit for one of the two learning tools: reflection. Fragmented time will not finish important work; it will **turn work that already happened into standards**.
+Beyond the six hours sits a class of time most people waste: before sleep, commute, waiting. Unfit for deep work—attention incomplete—but exactly fit for one of the two learning tools: reflection. Fragmented time will not finish important work; it will **turn work that already happened into standards**.
 
 Reflection’s minimum viable version is three daily questions:
 
@@ -127,4 +127,4 @@ Note (individual view): the same audit holds for anyone. If your calendar is not
 3. External comparison and data ✓: positive E18 Bezos (2018 official transcript) + E16 Buffett empty calendar (2017 interview); loser-side E17 industry median (57/43, 3:05; “23 minutes” misread corrected and cited as intended); named loser absence marked; I4 in progress.
 4. Fourteen quotable-line candidates ✓ (v1.2 bleeding books, block time, public-good calendar, money-time mission).
 5. “What to Do Monday Morning” principal-leader three steps + personal note ✓.
-6. Fluency ✓: prose-standard pass; v1.6 English publication-voice sync.
+6. Fluency ✓: per current `prose-standard.md`, whole-sentence optimization as primary; framework positioning preserved; no literary-quota rewrite.

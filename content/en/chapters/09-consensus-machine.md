@@ -1,16 +1,16 @@
 # Chapter 9: The Consensus Engine: How Shared Context Is Created
 
-Status: Completed (v1.4, 2026-08-04, ~7200 words; acceptance passed 2026-07-26; v1.1 expanded Nokia / Zhang Yiming / three workshops / Transn / spillover; v1.2 cleared asides and inserted assembly figure; v1.4 prose-standard fluency pass; English terminology sync (principal-leader), open to ongoing public revision)
+Status: Completed (v1.5, 2026-08-04, ~7200 words; acceptance passed 2026-07-26; v1.1 expanded Nokia / Zhang Yiming / three workshops / Transn / spillover; v1.2 cleared asides and inserted assembly figure; v1.4 prose-standard fluency pass; v1.5 whole-sentence rewriting pass under current prose-standard; English terminology sync (principal-leader), open to ongoing public revision)
 
 **Claim: The only output of an AI-native organization that cannot be outsourced is consensus: humans are responsible for consensus, and AI is responsible for everything else. When outsiders start using your language and judgment standards, consensus escalates into cultural spillover.**
 
 ---
 
-## 1. Work for a slightly different company
+## 1. Working for a Slightly Different Company
 
 In 2016, *Administrative Science Quarterly* published a study: two scholars conducted 76 in-depth interviews to reconstruct how Nokia lost the smartphone war from 2005 to 2010. They found neither technical incompetence nor strategic blindness. Nokia's engineers had long seen the direction of touch screens and ecosystems. What they found was a conveyor belt of fear.
 
-The mechanism worked like this: top management feared the outside world—Apple's offensive, shareholders' patience—so they hammered the middle layer for results while refusing to lay out the full threat. Middle management feared the inside—superiors' anger, peer competition—so they reported only good news, filtering bad news a little at every layer. The two fears linked end to end and produced a fatal result: **the Nokia top executives saw was a company that did not exist**—operating-system progress looked fine, technical capability looked sufficient, it just needed to move faster. Each layer of management worked for a slightly different company, and the real company was dying outside everyone's field of view.
+The mechanism worked like this: top management feared the outside world—Apple's offensive, shareholders' patience—so they hammered the middle layer for results while refusing to lay out the full threat. Middle management feared the inside—superiors' anger, peer competition—so they reported only good news, filtering bad news a little at every layer. The two fears linked end to end and produced a fatal result: **the Nokia top executives saw was a company that did not exist**. Its operating-system progress looked fine, its technical capability looked sufficient, it just needed to move faster. Each layer of management worked for a slightly different company, and the real company was dying outside everyone's field of view.
 
 Two details from the study are worth magnifying. First, middle management was not ignorant. Symbian's true state and the real gap with the iPhone were close to an open secret in the middle of the organization. Managers in the interviews admitted they stayed deliberately optimistic in reports because, in that organization, people who brought bad news were seen as passive and unambitious, and tempers at the top were intimidating (both points come from the study's interview records). Second, top management was not idle. They kept pushing down for faster results—but pressure intensified the filter: the harder the push, the more middle managers reported only the kind of message that could pause the pressure. **People at every level were rationally protecting themselves, and together they killed the company.** That is the study's coldest finding: the process needs no villain, only a structure that makes honesty more expensive than optimism.
 
@@ -18,7 +18,7 @@ What defeated Nokia was not Apple. It was the fake context that reached the top 
 
 The parts already built—the standards engine, Clarity Method, Interference Method—combine into one complete machine called the consensus engine. What it produces is exactly what Nokia lacked most before its death: **unified context**.
 
-## 2. The only output an organization cannot outsource
+## 2. The Only Output an Organization Cannot Outsource
 
 First, dismantle a deep-rooted belief: a company's output is its product.
 
@@ -34,7 +34,7 @@ The consensus engine assembly diagram is the book's second main figure. There is
 
 Great organizations need, and need only, two capabilities: unified judgment standards and unified context. The judgment-standards half has already been covered; what still needs depth is the other half: context. It is easier to overlook than standards because it does not look like an asset—it looks like a by-product of daily communication. Nokia already demonstrated the price of neglecting it.
 
-## 3. A first-hand textbook on context: Context, not Control
+## 3. A First-Hand Textbook on Context: Context, not Control
 
 How is unified context manufactured? The most complete first-hand textbook comes from Zhang Yiming's 2017 talk at Source Code Capital's Code Meeting, *Being a CEO Means Avoiding Rational Conceit*.
 
@@ -46,7 +46,7 @@ One more line in the talk names the old gene this chapter replaces. Zhang Yiming
 
 He also answered at the tooling layer: an internal tools team of nearly a hundred people; a self-built OKR system wired to internal IM so new hires can access internal materials on day one. In his words, this is "building the company as a product." Unified context does not come from all-hands emails calling for transparency. It comes from infrastructure that makes obtaining context easier than hoarding it.
 
-## 4. Three workshops of the machine: meetings, documents, review
+## 4. Three Workshops of the Machine: Meetings, Documents, Review
 
 Unified context sounds like culture; on the ground it is three concrete workshops. Every company has all three—the difference is whether they operate them as parts of the consensus engine.
 
@@ -56,7 +56,7 @@ Unified context sounds like culture; on the ground it is three concrete workshop
 
 **Review is the consensus correction loop.** Standards going live is not consensus finished—it is the hypothesis starting. Review feeds execution results back into standards: verified, solidify; falsified, revise. Without this loop the consensus engine degenerates into a dogma printer—more documents, wider drift from reality, every page stamped "consensus reached." Nokia had meetings and documents; what it lacked was the loop's most fragile component: the right of bad news to pass through. Of the three workshops, this one breaks first, because it is the only component that requires someone to pay first: the bearer of bad news bets the organization will not punish honesty. The principal leader has one maintenance mode for this component: publicly and observably reward the first person to report bad news. The loop also has a personal minimum version: three questions a day—cheaper than any review meeting.
 
-## 5. A machine mid-retrofit: Transn
+## 5. A Machine Mid-Retrofit: Transn
 
 ByteDance is a near-native sample; most readers face another situation: a company that has run twenty years—how do you install the consensus engine inside old workshops? Transn's mechanism design is worth reading line by line.
 
@@ -64,7 +64,7 @@ The first move is **a role for consensus on the org chart**: a Chief AI Officer 
 
 Founder He Enpei has two lines that work as this retrofit machine's nameplate. One explains why install the machine instead of training individuals: "Rather than wait for employees to become AI masters, let the organization grow AI capability." Whether capability lives in the organization or in the person is the line between organizational judgment and personal judgment—and the only feasible path for retrofitting an old company: you cannot wait for every employee, but you can change the machine first. The other adds a human version to execution zeroing: "The future world has only two kinds of people—those who produce tokens, and those who use tokens to create greater value." In this book's language: the former stands on the execution layer, on the zero list; the latter stands on the judgment layer, commanding execution through consensus. A translation company that ran twenty years and arrived here is more convincing than any native company's manifesto. It was not thought through—it was chased there by the zero curve.
 
-## 6. Spillover: when others start thinking in your words
+## 6. Spillover: When Others Start Thinking in Your Words
 
 When the machine keeps running, something odd happens: consensus crosses the organizational boundary and begins reproducing outside.
 
@@ -74,7 +74,7 @@ The three samples jointly define cultural spillover's acceptance line: **not "ev
 
 Spillover is not only honor—it sends back three very concrete things. **Talent self-selection**: when *benfen* becomes industry language, candidates who share it walk toward the BBK ecosystem; those who do not, walk around it. Recruiting's first filter is outsourced to culture itself, at zero cost. **Customers with pre-installed consensus**: when customers describe needs in your framework, the first two steps of the Interference Method—analyze consensus, find the scene—are already done for you; of the three valves, spillover keeps the first open for you. **Pricing power of language**: when the industry discusses problems in your words, every competitor must enter your coordinate system before arguing difference. After Moore coined *chasm*, every early-stage company had to answer "how do you cross the chasm"—whether they liked the question or not. All three share one shape: compound interest—**once spillover starts, it lowers the cost of every consensus you manufacture afterward.**
 
-## 7. Boundaries of judgment
+## 7. Boundaries of the Claim
 
 Three.
 
@@ -126,4 +126,4 @@ Individuals and teams can also adopt a personal version of Zhang Yiming's reflex
 3. External comparisons and data ✓: loser L5 Nokia (ASQ 76-interview first-hand study); positive S5b Zhang Yiming Context, not Control (2017 talk, first-hand full text) + E3 Transn four mechanisms (mechanism only) + E8/E9/E10 spillover three museums (caliber and debts stated honestly); MD Anderson as context echo, not repeated load-bearing.
 4. Seventeen quotable-line candidates ✓.
 5. "What to Do Monday Morning" three gauges + personal note ✓.
-6. Fluency ✓: English terminology sync (principal-leader); per `prose-standard.md`—cleared chapter-number bookshelf self-reference and tour-guide asides.
+6. Fluency ✓: per current `prose-standard.md`, primarily whole-sentence rewriting; framework orientation kept; no literary-quota rewrite.

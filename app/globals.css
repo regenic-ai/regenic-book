@@ -27,8 +27,10 @@
   --signal: var(--green-700);
   --signal-dark: var(--green-900);
   --max-width: 1240px;
-  --reading-width: 720px;
+  --reading-width: 680px;
   --font-sans: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  /* Screen reading: prefer Hei/sans over Songti (print strokes blur in long body text). */
+  --font-reading: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", Inter, system-ui, sans-serif;
   --font-serif: "Songti SC", "STSong", "Noto Serif CJK SC", Georgia, serif;
 }
 
@@ -797,9 +799,9 @@ body:has(.reader-shell) {
 .chapter-header > p:not(.eyebrow) {
   margin: 1.75rem 0;
   color: var(--muted);
-  font-family: var(--font-serif);
-  font-size: 1.13rem;
-  line-height: 1.8;
+  font-family: var(--font-reading);
+  font-size: 1.08rem;
+  line-height: 1.75;
 }
 
 .chapter-toc {
@@ -841,9 +843,13 @@ body:has(.reader-shell) {
 
 .prose {
   padding-top: 2.5rem;
-  font-family: var(--font-serif);
-  font-size: clamp(1.05rem, 1.5vw, 1.16rem);
-  line-height: 2;
+  font-family: var(--font-reading);
+  font-size: clamp(1.05rem, 1.35vw, 1.125rem);
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .prose h2,
@@ -872,11 +878,11 @@ body:has(.reader-shell) {
 }
 
 .prose p {
-  margin: 1.35rem 0;
+  margin: 1.5rem 0;
 }
 
 .prose strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .prose blockquote {
@@ -2062,7 +2068,8 @@ body:has(.reader-shell) {
   }
 
   .prose {
-    line-height: 1.9;
+    line-height: 1.8;
+    letter-spacing: 0.005em;
   }
 
   .chapter-pagination {

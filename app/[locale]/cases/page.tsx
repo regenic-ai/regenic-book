@@ -77,7 +77,7 @@ export default async function CasesPage({
           </div>
         </section>
         <section className="marketing-section shell">
-          <TraceNote locale={locale}>Evidence is labeled by source quality. Missing counterparts remain open research questions rather than frozen universal standards.</TraceNote>
+          <TraceNote locale={locale}>Evidence is labeled by source quality. Missing counterparts remain open research questions rather than universal standards.</TraceNote>
         </section>
         <PageCta locale={locale} title="Read the full argument behind the cases" />
       </>
@@ -176,7 +176,7 @@ export default async function CasesPage({
           </div>
         </div>
         <TraceNote>
-          当前案例库已收录外部、输家、内部与一句话标准样本，但部分对照组仍缺一侧。缺侧结论不会冻结为普遍标准。
+          当前案例库已收录外部、输家、内部与一句话标准样本，但部分对照组仍缺一侧。缺侧结论不会写成普遍标准。
         </TraceNote>
       </section>
 

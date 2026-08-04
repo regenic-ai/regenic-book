@@ -1,6 +1,6 @@
 # Front Matter
 
-Status: Completed (v1.2, 2026-07-27; Acceptance passed 2026-07-26, v1.2 supplemented Regenic.ai carrier positioning, frozen after reading the whole book)
+Status: Completed (v1.4, 2026-08-04; acceptance passed 2026-07-26; v1.3 updated bioby positioning from Sales Deck; v1.4 prose-standard fluency pass; English terminology sync (principal-leader); open to ongoing public revision)
 
 ---
 
@@ -16,27 +16,29 @@ Copyright owner: Jeson Li
 
 Without the written permission of the copyright owner, no unit or individual may copy, adapt, or translate the contents of this book in its entirety in any form, or use it for commercial purposes.
 
-**Open citation**: You are welcome to quote the golden sentences, framework diagrams and conceptual terms of this book for non-commercial sharing, teaching and discussion, provided that the title, author and Regenic.ai link are indicated. The way I measure this book is how many people start thinking in these words.
+**Open citation**: You are welcome to quote the book's lines, framework diagrams, and named concepts for non-commercial sharing, teaching, and discussion, provided you credit the title, author, and Regenic.ai. I measure this book by how many people start thinking in these words.
 
-If you need overall reprinting, translation, commercial publishing, in-house training or course cooperation, please open a [GitHub Issue](https://github.com/regenic-ai/regenic-book/issues/new/choose).
+For full reprint, translation, commercial publishing, in-house training, or course partnerships, contact [jeson@bioby.ai](mailto:jeson@bioby.ai).
 
 ---
 
 ## From organizational methods to real products
 
-Regenic.ai exposes a set of methods on how to build an AI-native organization; [bioby.ai](https://www.bioby.ai/zh) allows this method to be tested by real customers, real delivery, and real business results.
+These methods have to stand up to real customers, real delivery, and a real P&L. Regenic.ai publishes how to build an AI-native organization; [bioby.ai](https://www.bioby.ai) is the first place that takes orders with it every day.
 
-bioby.ai is an **AI influencer marketing platform** based on real creator cooperation data to help brands complete celebrity matching, event execution and review. AI undertakes high-frequency repetitive work, and the human team is responsible for key judgments such as brief, content, brand safety and delivery.
+bioby.ai is an **AI Agent–driven influencer marketing execution engine** for scaled brand go-to-market campaigns—built so influencer spend can scale like performance ads. AI Agents handle search, outreach, negotiation, review, and tracking; the human team owns brief, content, brand safety, and critical delivery judgments. Direct creator access, transparent pricing, flexible payment.
+
+In production, the contactable creator library has passed 8 million, with more than 30 thousand newly contactable creators added daily; structured real deal prices exceed 200 thousand rows across 80+ markets, reaching about half of China’s top outbound brand KAs.
 
 Currently offering:
 
-- **Brand Marketing Service**: AI matches global creators, key nodes are manually reviewed, the execution process is traceable, and the service quotation is transparent. [Learn about brand services](https://www.bioby.ai/zh/services/brands)
-- **AI Expert Matching**: Find suitable creators based on brand goals, content style, audience quality and historical cooperation records.
-- **Business Order Board and Expert CRM**: unified management of activity progress, partnership relationships and historical context.
-- **AI Email Assistant**: Supports invitations, follow-up and archiving to reduce communication gaps.
-- **Cross-Border Managed Payments**: Make payments and delivery clearer between brands, agencies and creators. [View free tool suite](https://www.bioby.ai/zh/features)
+- **Outbound brand influencer marketing**: One entry to submit needs, track progress, and receive results; AI Agents run the full chain, experts gate critical nodes, progress stays visible, and pricing is market-anchored. [Brand services](https://www.bioby.ai/services/brands) · [Brand workspace](https://brand.bioby.ai)
+- **AI Agent full-chain execution**: Search → outreach → negotiation → review → tracking; simple tasks fully automated, complex tasks AI-assisted with expert final review.
+- **Real-deal pricing and matching**: Structured closed prices as negotiation baselines; historical orders continuously improve brand–creator match quality.
+- **Content control and flexible settlement**: Scripts go through AI first, then an expert signs off; smaller budgets can prepaid-trial, while larger brands can settle monthly on their payment cycle.
+- **Low-friction trial and scale**: Start from $50 per order, then scale once delivery is proven. [Free tool suite](https://www.bioby.ai/features)
 
-If *Rewrite the DNA* explains how organizations evolve, then bioby.ai shows how these standards find their way into a company, a product, and every customer delivery.
+Standards live in the book; whether they work is whether they enter a company, a product, and every customer delivery—bioby.ai is that test.
 
 ---
 
@@ -44,12 +46,12 @@ If *Rewrite the DNA* explains how organizations evolve, then bioby.ai shows how 
 
 Jeson Li, author of *Rewrite the DNA*, initiator of Regenic.ai, and founder of bioby.ai.
 
-There is one difference between this book and the management books on the market that can be verified on the spot: **Every standard in the book is run every day in my own company**. The eight-level organizational standards in Chapter 6: are not a template designed for writing a book, but the original text of the bioby.ai organizational standards matrix, including: mission (using AI to improve the level of all mankind, bio by ai), belief (human-machine collaboration is the future of mankind), behavioral standards (Treat People with Honesty), judgment standards (Judge by Value), and personnel investment standards for all employees with an ROI greater than 1. The collapse of the execution layer in Chapter 10 is the actual outsourcing of execution positions that we have done. Chapter 13 of the 90-day manual is an assembly sequence we walked through ourselves.
+I did not write this book to add another management theory. These standards already run every day in my own company. The eight-layer organizational standards—mission, belief, behavior, judgment, and ROI greater than 1 for everyone—are the matrix bioby.ai uses, not something invented for the manuscript. How we outsourced execution roles, and in what order a ninety-day assembly runs, are sequences we walked ourselves.
 
-In other words, what you have in your hand is not an observation report, but a set of instructions for a running operating system. I do not promise that this system is suitable for all organizations. The book uses ten loser cases to repeatedly mark the failure boundaries of various practices; but I promise that there is not a standard in the book that I dare not implement. The "What to Do Monday Morning" at the end of each chapter is the validation of this promise: use it and test it with your own organization.
+What you are holding is closer to a manual I am still using. It describes the path I have run, not a prescription for every organization—which is why it also includes ten loser cases: practices that look right and fall apart in use. The one thing I can guarantee: there is no standard here that I dare not implement myself. The "What to Do Monday Morning" at the end of each chapter is your entry point: take it, and test it with your own organization.
 
-*Rewrite the DNA* is the frozen version of this methodology at the moment of publication, Regenic.ai is its continuously updated running version, and bioby.ai is its first experimental site. The entire book is available for free public reading on Regenic.ai; subsequent added cases, tools, version revisions, and corporate practices will also leave traceable records there.
+The full argument is free on [Regenic.ai](https://regenic.ai), and keeps changing as cases, tools, and practice feedback arrive. bioby.ai is the first experimental site.
 
-Before founding bioby.ai, I started several startups and co-founded Diffshop and Eezycollab. bioby.ai has been continuously profitable since its establishment one year ago, with revenue of tens of millions of yuan, and serves more than 200 brand customers such as Alibaba and Baidu (the above are the company's operating caliber and are unaudited; in the book, I require all unaudited numbers to indicate the nature of the source, and I am no exception)."ROI for all employees is greater than 1" and "freeze acceptance criteria before investment" that appear repeatedly in the book are the standards that have grown up in such a company that does not burn money and settles its own accounts on a quarterly basis. You don't have to believe a company's self-report, but one thing can be verified on the spot: an author who lists "Treat People with Honesty" as the first standard, dares to implement it in his author introduction. Now you see the answer.
+Before founding bioby.ai, I started several companies and co-founded Diffshop and Eezycollab. bioby.ai has been profitable since its first year, with annual revenue in the tens of millions of yuan, more than 200 brand customers including Alibaba and Baidu, and coverage of about half of China’s top outbound brand KAs. Standards that recur in the book—"ROI greater than 1 for everyone," "freeze acceptance criteria before you invest"—grew inside this kind of company: one that does not burn money, and settles its own books every quarter.
 
-Official website of this book and methodology: [regenic.ai](https://regenic.ai) · Practice company: [bioby.ai](https://bioby.ai) · Source and issues: [GitHub](https://github.com/regenic-ai/regenic-book)
+Methodology: [regenic.ai](https://regenic.ai) · Practice company: [bioby.ai](https://bioby.ai) · Source and issues: [GitHub](https://github.com/regenic-ai/regenic-book)

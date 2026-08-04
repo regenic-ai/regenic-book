@@ -6,7 +6,7 @@
 ```markdown
 # Chapter N · Title
 
-Status: one-pager | drafting | complete | frozen
+Status: one-pager | drafting | complete | open public revision
 
 ## Claim (one sentence)
 The chapter's single thesis. Must follow from the book's core claim.

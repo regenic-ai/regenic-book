@@ -65,9 +65,9 @@ export default async function AboutPage({
         </section>
         <section className="marketing-section shell">
           <div className="platform-relation">
-            <SectionHeading eyebrow="Four carriers" title="Frozen, running, product, and practice" />
+            <SectionHeading eyebrow="Four carriers" title="Open text, living site, product, and practice" />
             <div>
-              <article><span>Publication</span><h3>Rewrite the DNA</h3><p>A complete argument frozen at publication.</p></article>
+              <article><span>Open argument</span><h3>Rewrite the DNA</h3><p>The complete argument, kept open for revision.</p></article>
               <article><span>Living edition</span><h3>regenic.ai</h3><p>Book, method, tools, cases, and this website.</p></article>
               <article><span>Product</span><h3>Regenic</h3><p>Open org-management software for AI-native organizations.</p></article>
               <article><span>First lab</span><h3>bioby.ai</h3><p>Real operating constraints and results.</p></article>
@@ -153,7 +153,7 @@ export default async function AboutPage({
           <div>
             <EvidenceLabel tone="reported">公司经营口径 · 未经审计</EvidenceLabel>
             <p>
-              bioby.ai 成立一年以来持续盈利，营收数千万元，服务阿里、百度等 200
+              bioby.ai 成立一年以来持续盈利，年营收数千万元，服务阿里、百度等 200
               多个品牌客户。以上信息来自公司经营口径，未经审计，不作为方法论普遍有效的证明。
             </p>
             <p>
@@ -168,15 +168,15 @@ export default async function AboutPage({
 
       <section className="marketing-section shell">
         <div className="platform-relation">
-          <SectionHeading eyebrow="三个载体" title="冻结、运行、产品与实验" />
+          <SectionHeading eyebrow="四个载体" title="公开论述、持续更新、产品与实验" />
           <div>
             <article>
-              <span>出版冻结版</span>
+              <span>公开论述</span>
               <h3>《重写基因》</h3>
-              <p>在交稿时冻结的一次完整论证。</p>
+              <p>当前可读的完整论证，持续修订。</p>
             </article>
             <article>
-              <span>持续运行版</span>
+              <span>持续更新</span>
               <h3>regenic.ai</h3>
               <p>概念、原文、版本、工具与案例的权威源。</p>
             </article>

@@ -20,8 +20,9 @@ and *Blue Ocean Strategy*:
 
 **Primary reader**: the accountable leader (founder, CEO, or business-unit head).
 
-**Carrier relationship**: the book is a publication freeze; Regenic.ai is the living
-edition; bioby.ai is the first internal experiment field, not the methodology homepage.
+**Carrier relationship**: the book is the current open complete argument; Regenic.ai
+is the living carrier; bioby.ai is the first internal experiment field, not the
+methodology homepage.
 
 **Service boundary**: Regenic helps identify the limiting resource, encode standards,
 freeze acceptance criteria, and run the first validation cycle. It does not replace
@@ -46,15 +47,18 @@ Every finished chapter must satisfy all of the following:
    separately for each side.
 4. At least three quotable candidate lines.
 5. A "what to do Monday morning" action list at the end.
+6. Body paragraphs pass [`prose-standard.md`](./prose-standard.md) fluency
+   acceptance (four prohibitions, aside/forced-metaphor rules, author–year cites).
 
 ## 4. Writing workflow (10/10/80)
 
-- **10% standards**: this file + `outline.md`.
+- **10% standards**: this file + `outline.md` + [`prose-standard.md`](./prose-standard.md).
 - **10% evidence**: public research index + private case library (internal cases
   cannot be the only evidence).
-- **80% optimization**: one-page brief → logic pass → chapter expansion.
+- **80% optimization**: one-page brief → logic pass → chapter expansion →
+  clear asides and hard joins against the prose standard.
 
-Chapter state machine: `one-pager → drafting → complete → frozen`.
+Chapter state machine: `one-pager → drafting → complete → open public revision`.
 
 ## 5. Public success criteria
 

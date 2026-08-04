@@ -35,13 +35,14 @@ export default async function VersionsPage({
       <>
         <PageHero
           eyebrow="Version history"
-          title={<>Publication freezes.<br />The method keeps running.</>}
-          description="The book records a complete argument at publication. Regenic.ai continues to absorb cases, field feedback, and revisions while preserving change boundaries."
+          title={<>The text stays open.<br />The method keeps running.</>}
+          description="Rewrite the DNA lives as an open argument. Regenic.ai continues to absorb cases, field feedback, and revisions while preserving change boundaries."
           aside={<div><EvidenceLabel tone="verified">Current public status</EvidenceLabel><p>English and Chinese living editions</p></div>}
         />
         <section className="version-ledger shell">
           <SectionHeading eyebrow="Latest update" title="English-first open-source edition" description="The complete English reading edition, bilingual routes, open governance, and public quality gates are now part of the repository." />
-        <div className="version-entry"><time dateTime="2026-07-31">2026.07.31</time><div><h2>Regenic product repo and regenic-book split</h2><p>Renamed repositories: book and site → regenic-ai/regenic-book; product → regenic-ai/regenic. Added product page, roadmap, and updated site navigation.</p></div></div>
+        <div className="version-entry"><time dateTime="2026-08-04">2026.08.04</time><div><h2>Full-manuscript fluency + English voice sync</h2><p>Applied the bilingual reading standard across front matter through Chapter 13; rewrote English Chapters 10–13 into publication voice; unified English Chapters 1–9 on principal-leader terminology and aligned key phrases (e.g. “dare to be last”) with the Chinese authority.</p></div></div>
+          <div className="version-entry"><time dateTime="2026-07-31">2026.07.31</time><div><h2>Regenic product repo and regenic-book split</h2><p>Renamed repositories: book and site → regenic-ai/regenic-book; product → regenic-ai/regenic. Added product page, roadmap, and updated site navigation.</p></div></div>
           <div className="version-entry"><time dateTime="2026-07-30">2026.07.30</time><div><h2>English-first open-source release prepared</h2><p>Added the full English manuscript, retained the Chinese edition, documented the dual-license model, and introduced reproducible security and CI checks.</p></div></div>
           <div className="version-entry"><time dateTime="2026-07-28">2026.07.28</time><div><h2>Chinese public reading edition launched</h2><p>Published the free reading site, methods, evidence labels, tools, and the relationship among the book, Regenic.ai, and bioby.ai.</p></div></div>
         </section>
@@ -57,12 +58,12 @@ export default async function VersionsPage({
         eyebrow="版本记录"
         title={
           <>
-            出版会冻结，
+            文本持续公开，
             <br />
             方法继续运行。
           </>
         }
-        description="《重写基因》记录出版时刻的完整论证；Regenic.ai 继续吸收案例、实践反馈与修订，并保留变更边界。"
+        description="《重写基因》以公开文本承载完整论证；Regenic.ai 继续吸收案例、实践反馈与修订，并保留变更边界。"
         aside={
           <div>
             <EvidenceLabel tone="verified">当前公开状态</EvidenceLabel>
@@ -77,6 +78,15 @@ export default async function VersionsPage({
           title="Regenic.ai 持续运行版"
           description="新增案例、实践反馈和重要修订会在这里公开说明。"
         />
+        <div className="version-entry">
+          <time dateTime="2026-08-04">2026.08.04</time>
+          <div>
+            <h2>全书畅读修订 + 英文出版级同步</h2>
+            <p>
+              按 prose-standard 完成从前置页到第 13 章的畅读修订；英文第 10–13 章按中文权威稿重写；第 1–9 章统一 principal-leader 等术语，并与「敢为天下后」等关键译法对齐。
+            </p>
+          </div>
+        </div>
         <div className="version-entry">
           <time dateTime="2026-07-31">2026.07.31</time>
           <div>

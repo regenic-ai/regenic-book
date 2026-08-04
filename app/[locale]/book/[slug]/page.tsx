@@ -9,6 +9,7 @@ import {
   getChapterBySlug,
   getChapterSlugs,
 } from "@/lib/content/chapters";
+import { splitChapterTitle } from "@/lib/content/title";
 import {
   isPublishedLocale,
   publishedLocales,
@@ -58,6 +59,7 @@ export default async function ChapterPage({ params }: PageProps) {
   const chapter = await getChapterBySlug(locale, slug);
   if (!chapter) notFound();
   const en = locale === "en";
+  const displayTitle = splitChapterTitle(chapter.title);
 
   return (
     <>
@@ -118,7 +120,12 @@ export default async function ChapterPage({ params }: PageProps) {
             <p className="eyebrow">
               {en ? "Rewrite the DNA · Living edition" : "《重写基因》· 持续运行版"}
             </p>
-            <h1>{chapter.title}</h1>
+            <h1>
+              {displayTitle.kicker ? (
+                <span className="chapter-kicker">{displayTitle.kicker}</span>
+              ) : null}
+              <span className="chapter-title-main">{displayTitle.main}</span>
+            </h1>
             <p>{chapter.description}</p>
             <div className="chapter-meta">
               <span>

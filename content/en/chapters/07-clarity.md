@@ -1,6 +1,6 @@
 # Chapter 7: The Clarity Method: Expand Your Options
 
-Status: Completed (v1.5, 2026-08-04, ~7000 words, including I6 author logo sample; acceptance passed 2026-07-26; v1.1 supplemented I6 finalized design semantic layer; v1.2 cleared asides and inserted ratio figure; v1.4 prose-standard fluency pass; v1.5 whole-sentence rewriting pass under current prose-standard; English terminology sync (principal-leader); open to ongoing public revision)
+Status: Completed (v1.6, 2026-08-28, ~7000 words, including I6 author logo sample; acceptance passed 2026-07-26; v1.1 supplemented I6 finalized design semantic layer; v1.2 cleared asides and inserted ratio figure; v1.4 prose-standard fluency pass; v1.5 whole-sentence rewriting pass under current prose-standard; v1.6 English-breath pass under current prose-standard; English terminology sync (principal-leader); open to ongoing public revision)
 
 **Claim: Clarity Method = refining standards (10%) + collecting data (10%) + seeking optimal solutions by means (80%). The core is "borrowing": most of the answers you need already exist in the world, just not in your company.**
 
@@ -10,27 +10,27 @@ Status: Completed (v1.5, 2026-08-04, ~7000 words, including I6 author logo sampl
 
 Two people whose directions look like complete opposites.
 
-Duan Yongping's core idea is called "dare to be last": do not be the first to eat crabs. Wait until the market has verified the direction, then enter—and on that verified direction, strive to lead from behind. When Subor entered, learning machines were already verified; when BBK entered, VCD was already verified; when OPPO and vivo entered, every step of feature phones and smartphones landed on consensus the market had already tested.
+Duan Yongping's core idea is "dare to be last": do not be the first to eat crabs. Wait until the market has verified the direction, then enter—and on that verified direction, strive to lead from behind. When Subor entered, learning machines were already verified; when BBK entered, VCD was already verified; when OPPO and vivo entered, every step of feature phones and smartphones landed on consensus the market had already tested.
 
-Musk's core idea is called "first principles": accept no industry convention; re-derive everything from physical limits. Why are rockets expensive? Break the bill of materials down to the atomic level and you find raw materials are only a few percent of the selling price. The rest is inherited industry practice, not physics—so redo it.
+Musk's core idea is "first principles": accept no industry convention; re-derive everything from physical limits. Why are rockets expensive? Break the bill of materials down to the atomic level and you find raw materials are only a few percent of the selling price. The rest is inherited industry practice, not physics—so redo it.
 
 One "dare to be last," one "derive from scratch"—they sound like opposite poles on a methodology spectrum. Lay out what each refuses, though, and it is the same thing: **unverified industry consensus**.
 
 Duan Yongping refuses it by betting only on directions the market has already verified. He borrows demand consensus validated by hundreds of millions of consumers. Musk refuses it by admitting only what physics derives. He borrows the most thoroughly verified standard set in the universe. Neither acted on gut feeling; both built judgment on verified external standards. The difference is only what they borrowed from: one the market, one physics.
 
-The standards engine is up, but the feed port is still empty: where do standards come from? The answer is a three-step methodology called the Clarity Method. What it does is **expand your own options**: see solutions others cannot see, then choose the best among them.
+The standards engine is up, but the feed port is still empty. Where do standards come from? The answer is the Clarity Method, a three-step methodology. What it does is expand your own options: see solutions others cannot see, then choose the best among them.
 
 ## 2. 10/10/80: A Counter-Intuitive Ratio
 
 Clarity Method in three steps: **refining standards (10%) + collecting data (10%) + seeking optimal solutions by means (80%)**.
 
-The numbers are what make this formula sharp. Most organizations solving problems run closer to 40/40/20: forty percent of energy in conference rooms arguing what the standard should be, forty percent collecting more and more information, twenty percent left to actually find solutions. Clarity Method inverts that ratio: standards and data together are worth only two-tenths; trying means is worth eight-tenths.
+The numbers are what make this formula sharp. Most organizations solving problems run closer to 40/40/20: forty percent of energy in conference rooms arguing what the standard should be, forty percent collecting more and more information, twenty percent left to actually find solutions. Clarity Method inverts that ratio. Standards and data together are worth only two-tenths; trying means is worth eight-tenths.
 
-Standards are worth only ten percent—not because standards do not matter. They are how judgment is stored. The real reason is this: **the right way to refine a standard is to quickly borrow a verified version and run with it**, not to debate a perfect version at the whiteboard. Precision comes from iteration in step three, not debate in step one.
+Standards take only a tenth of the energy. They still matter—they are how judgment is stored—but the right way to refine a standard is to quickly borrow a verified version and run with it. Precision comes from iteration in step three, not debate in step one.
 
-Data is worth only ten percent because marginal value decays fast. Once the problem is defined, the first few key data points decide most of the judgment; after that, piling on data piles security, not information. Projects still "adding research" in meeting round three are never short of data—they are short of someone willing to press "start trying."
+Once the problem is defined, the first few key data points decide most of the judgment. After that, extra research piles security. Marginal value decays fast, which is why data is only ten percent. Projects still "adding research" in meeting round three are never short of data; they need someone willing to press "start trying."
 
-Step three is worth eighty percent because any problem has N solutions, and gaps between solutions are often orders of magnitude. The only way to find a better one is to try cheaply and often, and let means eliminate each other in reality. The era of free execution subsidizes this step as never before: AI drives the cost of a single attempt toward zero, and for the first time the 80 in 10/10/80 can actually run full.
+Any problem has N solutions, and gaps between solutions are often orders of magnitude. The only way to find a better one is to try cheaply and often, and let means eliminate each other in reality. That is why step three is worth eighty percent. The era of free execution subsidizes this step as never before: AI drives the cost of a single attempt toward zero, and for the first time the 80 in 10/10/80 can actually run full.
 
 ![Clarity Method 10/10/80 vs common inverted 40/40/20 ratio](/figures/ch07-10-10-80-en.svg)
 
@@ -38,11 +38,11 @@ Step three is worth eighty percent because any problem has N solutions, and gaps
 
 I have a fresh tuition receipt for this ratio. In April 2026 I started optimizing the company logo and outsourced four designers. Over two months, rounds of proposals came back; none was what I wanted.
 
-The structure was clear: all four designers were executing hard—the 80% was full—while the first two 10%s were zero. I had done plenty of design myself, so I defaulted to "I'll know it when I see it." Acceptance criteria lived in my feelings; designers could only guess. Every rework round paid for missing standards. Internal staff will quietly patch your bad standards with common sense; outsourcers lack even the context to patch. The farther execution sits from you, the more expensive each unit of missing standard becomes.
+The structure was clear. All four designers were executing hard—the 80% was full—while the first two 10%s were zero. I had done plenty of design myself, so I defaulted to "I'll know it when I see it." Acceptance criteria lived in my feelings; designers could only guess. Every rework round paid for missing standards. Internal staff will quietly patch your bad standards with common sense; outsourcers lack even the context to patch. The farther execution sits from you, the more expensive each unit of missing standard becomes.
 
-In June I finally admitted this was not a designer problem but a standards problem. With an intern I spent two days filling the first two 10%s: spread market logos out and categorized them (collect data)—all logos fall into four forms (line, block, brand wordmark, figurative); then distilled a one-page standard on top (refine standards): first clarify business consensus—is your business standardized or not? Standardized businesses that fit in one sentence take the **semantic-association** route: concrete graphics that directly express the business, strong recall, aesthetics yield; non-standardized, complex businesses take the **text-association** route: letterform as the main body, abstract and beautiful, business link sacrificed; either route, main strokes no more than five. Once the standard stood, direction converged the same day and the wanted version appeared quickly.
+In June I finally admitted this was not a designer problem but a standards problem. With an intern I spent two days filling the first two 10%s: spread market logos out and categorized them (collect data)—all logos fall into four forms (line, block, brand wordmark, figurative); then distilled a one-page standard on top (refine standards): first clarify business consensus—is your business standardized or not? Standardized businesses that fit in one sentence take the *semantic-association* route: concrete graphics that directly express the business, strong recall, aesthetics yield; non-standardized, complex businesses take the *text-association* route: letterform as the main body, abstract and beautiful, business link sacrificed; either route, main strokes no more than five. Once the standard stood, direction converged the same day and the wanted version appeared quickly.
 
-A task pending two-plus months had two days of real work. The gap is the price of the ratio: **spend 80% up front and you do not skip the two 10%s—you only buy the 80% over and over.**
+A task pending two-plus months had two days of real work. That gap is the price of the ratio. Spend 80% up front and you still owe the two 10%s; you only buy the 80% over and over.
 
 What the finalized version looks like—the design itself is also a claim: numbers 1 and 0 spell the letter b, the first letter of bioby. The vertical stroke is a 1 with a serif foot; the 0 in the bowl deliberately uses the slashed form—the zero in programmer fonts that adds a slash so it is not confused with the letter O. That choice has a semantic layer: computing's base layer is 0 and 1, two characters generating all complexity; our company's base layer is Clarity Method and Interference Method, two crafts generating every play. A logo finalized in two days by standard writes the company's underlying structure on its face.
 
@@ -50,7 +50,7 @@ What the finalized version looks like—the design itself is also a claim: numbe
 
 ## 3. The Core Is Borrowing: Default Optimal Starting Point
 
-Hidden in the three steps is one shared action kernel: borrowing.
+The three steps share one action: borrowing.
 
 Adaptive insight at the personal layer already explains why borrowing is the default optimal starting point (the second action is borrow). The organizational ledger weighs heavier. One person groping from scratch repays trial-and-error cost others already paid; an organization groping from scratch multiplies that repeated tuition by headcount. A hundred-person company reinventing a play verified elsewhere is a hundred people collectively retaking a course others already finished.
 
@@ -58,27 +58,27 @@ The organizational borrow-standard action chain has six links:
 
 **Discover gaps → Find standard holders → Borrow standards and boundaries → Check migration conditions → Low-cost verification → Solidify into your own standards**
 
-Two links get shortchanged most often. First, the third link: borrowing a standard must include its boundary. Under what conditions someone's play holds, under what conditions it fails—borrow the story without the boundary and you borrowed only a story. Second, the fourth link: check migration conditions. Johnson spent seventeen months and more than $200 million demonstrating the cost of skipping it; here is the organizational version of the same knife edge. Borrowing is the default starting point, not the absolute end: only when you cannot borrow or verification fails do you enter experiment, exploring and creating a new standard at minimum cost. The order borrow first, create later must not be reversed.
+Two links get shortchanged most often. First, the third link: borrowing a standard must include its boundary. Under what conditions someone's play holds, under what conditions it fails—borrow the story without the boundary and you borrowed only a story. Second, the fourth link: check migration conditions. Johnson spent seventeen months and more than $200 million demonstrating the cost of skipping it; here is the organizational version of the same knife edge. Borrowing is the default starting point. Only when you cannot borrow or verification fails do you enter experiment, exploring and creating a new standard at minimum cost. The order borrow first, create later must not be reversed.
 
-Look back at the twin cases: they stand at opposite ends of this chain. Duan Yongping's "dare to be last" pushes links three and four to the extreme—market-verified directions come with visible boundaries, migration risk is minimal, so he can put all resources into "strive to lead from behind" execution. Musk works the "cannot borrow" branch: no standard holder existed for reusable rockets, so he retreated to the highest-verification standard (physical law) and re-derived from there. **Borrow first, create later is not a conservative's strategy—it is the shared strategy of everyone who treats judgment as asset management.** Radicals like Musk are no exception; he just borrows deeper.
+Look back at the twin cases. They stand at opposite ends of this chain. Duan Yongping's "dare to be last" pushes links three and four to the extreme—market-verified directions come with visible boundaries, migration risk is minimal, so he can put all resources into "strive to lead from behind" execution. Musk works the "cannot borrow" branch: no standard holder existed for reusable rockets, so he retreated to the highest-verification standard (physical law) and re-derived from there. Borrow first, create later is not a conservative's strategy. It is the shared strategy of everyone who treats judgment as asset management. Radicals like Musk are no exception; he just borrows deeper.
 
 ## 4. Sorting N Solutions: Judgment Standards Are Forced Out
 
 Once step three—seek optimal solutions by means—is running, an unavoidable question appears: five feasible solutions on the table—whose do you follow?
 
-"Optimal" means sorting, and sorting needs a basis. An organization that never settles the sorting basis completes only half of Clarity Method: options expand successfully but never converge to an optimal solution. Review becomes N plan holders competing on volume, seniority, and proximity to the boss. More options paralyze such organizations; Clarity Method becomes the enemy of efficiency.
+"Optimal" means sorting, and sorting needs a basis. An organization that never settles the sorting basis completes only half of Clarity Method: options expand successfully but never converge to an optimal solution. Review becomes N plan holders competing on volume, seniority, and proximity to the boss. More options paralyze such organizations, and Clarity Method becomes the enemy of efficiency.
 
-The sorting basis can only be value: what value this solution creates, for whom, when it pays off, which limiting resource it consumes. That is where **judge by value** comes from. The causal direction matters: **it is not a values clause written in advance—it is a necessity forced out when methodology reaches step three.** The ruler's form was set earlier; its birth certificate is this: methodology runs to the sorting stage and a ruler has to grow. Organizational standards are not promulgated from the sky—they are forced out when methodology hits a stuck point.
+The sorting basis can only be value: what value this solution creates, for whom, when it pays off, which limiting resource it consumes. That is where **judge by value** comes from. The causal direction matters. The ruler was not a values clause written in advance. It is a necessity forced out when methodology reaches step three. The ruler's form was set earlier; its birth certificate is this: methodology runs to the sorting stage and a ruler has to grow. Organizational standards get forced out when methodology hits a stuck point; they are not promulgated from the sky.
 
 ## 5. Bilateral Sample Mirror: Winners Find Mechanisms, Losers Find Boundaries
 
 The borrow-standard link needs another mirror installed: the same standard must reflect both winners and losers at once.
 
-Winner samples answer "what solution may work under what conditions." Loser samples answer "under what conditions this solution fails, what the cost is, where the stop line goes." Neither side alone suffices. Winners only: survivor stories get mistaken for causality—a hundred companies run the same play, three survivors become business-school cases, ninety-seven dead companies get no biography. Losers only: viable opportunities get misread as unbearable risk, and the organization stops trying anything.
+Winner samples answer what solution may work under what conditions. Loser samples answer under what conditions this solution fails, what the cost is, and where the stop line goes. Neither side alone suffices. Winners only, and survivor stories get mistaken for causality—a hundred companies run the same play, three survivors become business-school cases, ninety-seven dead companies get no biography. Losers only, and viable opportunities get misread as unbearable risk, and the organization stops trying anything.
 
 Five operating rules for installing this mirror: define outcome criteria for "win" and "lose" first, then find cases—no defining after reading the story; use the same industry, stage, resource constraints, and time window on both sides for a comparable contrast; record sample denominator and missing cases—do not let stars or disasters stand for the whole; compute medians on each side separately, not one blended average. Averages get hijacked by outliers; medians stay honest. When writing the standard, state effective conditions, failure conditions, exceptions, and stop lines together.
 
-These five are not academic fussiness. A standard distilled from one-sided samples is not a standard—it is belief. Belief can motivate, but it cannot answer "when to stop." Most organizations die not from lacking direction but from not knowing where the stop line is.
+These five keep a one-sided sample from hardening into belief. A standard distilled from one-sided samples is belief, not a standard. Belief can motivate, and it still cannot answer when to stop. Most organizations die not from lacking direction but from not knowing where the stop line is.
 
 ## 6. Loser Sample: A Hundred-Billion-Yuan Analogy Lesson
 
@@ -88,13 +88,13 @@ The problem: fresh grocery's first-order conditions are not isomorphic to takeou
 
 Result: Meituan's new initiatives segment accumulated roughly ¥105.1 billion in operating losses from 2020 to 2024 (this scope includes Meituan Grocery and related businesses—account honestly), shut operations in eighteen provinces in June 2025, and exited nationwide in December. Wang Xing's earnings-call postmortem was one line: "We invested substantial resources, but results did not meet expectations."
 
-Dissected with this chapter's framework: double shortchanging on links three and four of the borrow-standard chain. The analogy "this is like takeout back then" borrowed only the story, not the boundary. Takeout's applicable conditions—standardized goods, fulfillment cost diluted with scale—were never laid beside fresh grocery's reality from start to finish. **An analogy is an elevator pitch, not a business plan**: it excites everyone in thirty seconds but skips exactly Clarity Method's most valuable link—checking migration conditions. Duan Yongping borrowed market-verified consensus plus boundary; Meituan Preferred borrowed its last war's script. Same borrowing—one missing link, a hundred billion apart.
+The analogy borrowed only the story, not the boundary. That is double shortchanging on links three and four of the borrow-standard chain. Takeout's applicable conditions—standardized goods, fulfillment cost diluted with scale—were never laid beside fresh grocery's reality from start to finish. An analogy is an elevator pitch, not a business plan: it excites everyone in thirty seconds but skips exactly Clarity Method's most valuable link—checking migration conditions. Duan Yongping borrowed market-verified consensus plus boundary; Meituan Preferred borrowed its last war's script. Same borrowing—one missing link, a hundred billion apart.
 
 ## 7. Head-On Confrontation: Experience Is Not the Standard
 
 Press Meituan Preferred's lesion deeper and you hit the old gene this chapter replaces head-on: **empiricism**.
 
-Be fair first: experience is not the enemy. Experience is implicit rules a person forms from limited samples—the most important raw material for standards. The problem is skipping verification and putting it straight to work. Empiricism's signature is not "using experience" but **because the experience is yours and has happened many times, skipping comparison, data, and boundary verification and granting it universal truth**. It has three stock phrases, each a discussion ender: "I've always done it this way," "the industry has always been like this," "you can't go wrong by feel." At the personal layer it turns ten years into ten replays of year one; at the organizational layer it is just as lethal—when the person saying those three lines ranks high enough, the whole organization's Clarity Method stalls, and their limited sample becomes the company ceiling.
+Be fair first. Experience is implicit rules a person forms from limited samples—the most important raw material for standards. The problem is skipping verification and putting it straight to work. Empiricism's signature is granting your own repeated experience universal truth without comparison, data, or boundary verification. It has three stock phrases, each a discussion ender: "I've always done it this way," "the industry has always been like this," "you can't go wrong by feel." At the personal layer it turns ten years into ten replays of year one. At the organizational layer it is just as lethal. When the person saying those three lines ranks high enough, the whole organization's Clarity Method stalls, and their limited sample becomes the company ceiling.
 
 Clarity Method reassigns experience to the start of the judgment chain, not the end:
 
@@ -102,15 +102,15 @@ Empiricism's chain: `personal experience → direct execution`
 
 Clarity Method's chain: `personal experience → candidate standard → borrow external standard for comparison → winner/loser bilateral test → low-cost verification → organizational standard`
 
-One piece of experience must pass four gates before it becomes an organizational standard: Can you explain the mechanism in non-jargon language, not only operate by feel? Has it been tested against winner and loser samples? Can you write applicable conditions, failure conditions, and stop lines? Can someone else reuse it in a similar context and get results? None of the four gates is there to bully experience. They extract what is truly valuable in experience and discard only the "happened not to die" part. **Clarity Method does not oppose experience; it opposes experience taking final interpretive authority without verification.**
+One piece of experience must pass four gates before it becomes an organizational standard: Can you explain the mechanism in non-jargon language, not only operate by feel? Has it been tested against winner and loser samples? Can you write applicable conditions, failure conditions, and stop lines? Can someone else reuse it in a similar context and get results? None of the four gates is there to bully experience. They extract what is truly valuable in experience and discard only the "happened not to die" part. Clarity Method does not oppose experience. It opposes experience taking final interpretive authority without verification.
 
 ## 8. Two Personal Tools: Reflection and Feynman
 
 Organizational Clarity Method is assembled from personal Clarity Method. At the personal layer there are two companion tools—the full content of learning standards on the eight-rung ladder.
 
-**Reflection** (three self-examinations) finds "where things are unclear": each day review what happened and ask three questions. Does this matter have a standard? If yes, did I follow it? If yes, is there a better solution? Reflection's acceptance criterion is output: one new standard, one standard revision, one hypothesis to test, or one clear next action. Reflection without output is emotional review—the same thing as journaling to move yourself.
+**Reflection** (three self-examinations) finds where things are unclear: each day review what happened and ask three questions. Does this matter have a standard? If yes, did I follow it? If yes, is there a better solution? Reflection's acceptance criterion is output: one new standard, one standard revision, one hypothesis to test, or one clear next action. Reflection without output is emotional review, the same thing as journaling to move yourself.
 
-The **Feynman technique** verifies "whether it is truly clear": explain a concept you think you hold to someone who knows nothing of the field, in non-jargon language. Mark every stall and vagueness—that is what you have not truly understood. Return to sources and practice to fill gaps; explain again until they can restate and apply. Acceptance is not "I get it" but "they can judge correctly from it." **What you cannot explain clearly is where judgment has not truly become yours.**
+The Feynman technique verifies whether it is truly clear: explain a concept you think you hold to someone who knows nothing of the field, in non-jargon language. Mark every stall and vagueness—that is what you have not truly understood. Return to sources and practice to fill gaps; explain again until they can restate and apply. Acceptance is "they can judge correctly from it." What you cannot explain clearly is where judgment has not truly become yours.
 
 The two tools connect into one loop: experience → reflection finds standard gaps → Feynman exposes blind spots → fill with data and practice → update standards → act again. The faster this loop turns, the closer a personal decade comes to "a decade of standards accumulated," not the first year repeated ten times.
 
@@ -118,7 +118,7 @@ This book was produced on 10/10/80. I set the seven title standards once (10%), 
 
 ## 9. Boundaries of the Claim
 
-Three lines, to keep Clarity Method from being bent wrong.
+The claim needs boundaries, or Clarity Method gets bent.
 
 **First, borrowing is not copying; innovation is not cancelled.** What you borrow are standards and boundaries, not the product itself. Innovation lives in the 80% of seeking optimal solutions: finding an order-of-magnitude better solution on a verified direction is harder and more valuable than "doing what no one has done." OPPO and vivo became global top-five in a phone market verified beyond doubt—not by entering first.
 
@@ -167,4 +167,4 @@ Individuals and teams can install the reflection loop too. Minimum viable versio
 3. External comparison and data ✓: winner-side twin case Duan Yongping "dare to be last" (E9 verified) × Musk "first principles" (E10 mechanism verified); loser L2 Meituan Preferred (~¥105.1B loss scope verified and noted); I6 author logo sample in Section 2 (self-report quality stated in claim boundaries); quantitative contrast gap and mid-size company slot marked honestly.
 4. Sixteen quotable-line candidates ✓.
 5. "What to Do Monday Morning" three steps + personal note ✓.
-6. Fluency ✓: per current `prose-standard.md`, primarily whole-sentence rewriting; framework orientation kept; no literary-quota rewrite.
+6. Fluency ✓: whole-sentence rewriting and English breath under current prose-standard.

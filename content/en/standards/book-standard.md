@@ -48,8 +48,10 @@ Every finished chapter must satisfy all of the following:
 4. At least three quotable candidate lines.
 5. A "what to do Monday morning" action list at the end.
 6. Body paragraphs pass [`prose-standard.md`](./prose-standard.md) fluency
-   acceptance (whole-sentence rewriting primary; five prohibitions / asides secondary;
-   rewrite discipline; author–year cites; primary peer = bestselling nonfiction).
+   acceptance (whole-sentence rewriting plus English breath primary; five
+   prohibitions / asides secondary; rewrite discipline; author–year cites;
+   structure from the Western business canon, breath from Christensen, Moore,
+   Thiel, and Lewis).
 
 ## 4. Writing workflow (10/10/80)
 
@@ -57,7 +59,8 @@ Every finished chapter must satisfy all of the following:
 - **10% evidence**: public research index + private case library (internal cases
   cannot be the only evidence).
 - **80% optimization**: one-page brief → logic pass → chapter expansion →
-  clear asides and hard joins against the prose standard.
+  whole-sentence breath against the prose standard; clear asides, hard joins,
+  and machine cadence.
 
 Chapter state machine: `one-pager → drafting → complete → open public revision`.
 

@@ -19,7 +19,7 @@ Acceptance target is **fluency**: the reader is carried through a passage.
 
 ## 2. Peer group
 
-This book is **argumentative management nonfiction**. Primary peer: bestselling nonfiction. Secondary: literary breath only.
+This book is **argumentative management nonfiction**. Primary peer: bestselling nonfiction. Secondary: literary breath only. The Chinese manuscript adds a breath layer from Chinese business bestsellers (Wu Jun, Wu Xiaobo); see `content/zh/standards/prose-standard.md` §5. Do not import that oral cadence into English.
 
 | Peer | Samples | Steal | Do not steal |
 | --- | --- | --- | --- |

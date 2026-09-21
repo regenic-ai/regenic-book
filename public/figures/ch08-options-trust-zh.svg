@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img">
-  <rect width="900" height="420" fill="#fff"/>
-  <text x="450" y="34" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">干扰术：选项漏斗与可信度阶梯</text>
-  <text x="240" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">选项漏斗 · 三道阀门</text>
-  <polygon points="80,90 400,90 340,160 140,160" fill="#6bed4a" fill-opacity="0.1" stroke="#d5dbd6"/>
-  <text x="240" y="130" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">分析用户共识 · 10%</text>
-  <polygon points="140,175 340,175 300,245 180,245" fill="#6bed4a" fill-opacity="0.16" stroke="#d5dbd6"/>
-  <text x="240" y="218" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">找到合适场景 · 10%</text>
-  <polygon points="180,260 300,260 270,330 210,330" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25" stroke-width="2"/>
-  <text x="240" y="302" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">制造共识 · 80%</text>
-  <text x="240" y="360" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">N 个选项 → 出口一个</text>
-  <text x="680" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">可信度阶梯</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">干扰术三步、五项结果诊断与诚以待人四条护栏</title>
+  <desc id="desc">上部为分析已有共识、找到合适场景、形成新共识的十比十比八十资源原则；中部区分注意力、理解、信任、说服和共识；底部列出主张可核验、不隐瞒重大信息、承诺可兑现、保留知情选择四条行为标准。</desc>
+  <rect width="1000" height="560" fill="#fff"/>
+
   <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
-    <rect x="500" y="100" width="360" height="50" rx="6" fill="#e8a0a0" fill-opacity="0.25" stroke="#c45c5c"/>
-    <text x="680" y="130" text-anchor="middle" font-size="13" fill="#0a0a0a">假信息 · 负债</text>
-    <rect x="520" y="170" width="320" height="50" rx="6" fill="#6bed4a" fill-opacity="0.12" stroke="#d5dbd6"/>
-    <text x="680" y="200" text-anchor="middle" font-size="13" fill="#0a0a0a">自选角度的真信息</text>
-    <rect x="540" y="240" width="280" height="50" rx="6" fill="#2d7a25" fill-opacity="0.18" stroke="#2d7a25" stroke-width="2"/>
-    <text x="680" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#2d7a25">第三方验证的真信息</text>
+    <text x="500" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#0a0a0a">干扰术：帮助对方作出知情选择</text>
+    <text x="500" y="61" text-anchor="middle" font-size="12" fill="#59615a">10/10/80 是资源重心，不是精确统计比例</text>
+
+    <rect x="50" y="88" width="190" height="108" rx="8" fill="#6bed4a" fill-opacity="0.08" stroke="#d5dbd6"/>
+    <text x="145" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">分析已有共识 · 10</text>
+    <text x="145" y="145" text-anchor="middle" font-size="12" fill="#59615a">他怎样命名问题？</text>
+    <text x="145" y="166" text-anchor="middle" font-size="12" fill="#59615a">按什么标准比较？</text>
+    <text x="145" y="187" text-anchor="middle" font-size="12" fill="#59615a">什么事实会改变决定？</text>
+
+    <path d="M248 142 H298" stroke="#2d7a25" stroke-width="2" fill="none"/>
+    <path d="M292 136 L300 142 L292 148" stroke="#2d7a25" stroke-width="2" fill="none"/>
+
+    <rect x="310" y="88" width="190" height="108" rx="8" fill="#6bed4a" fill-opacity="0.12" stroke="#d5dbd6"/>
+    <text x="405" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">找到合适场景 · 10</text>
+    <text x="405" y="145" text-anchor="middle" font-size="12" fill="#59615a">谁说、何时说？</text>
+    <text x="405" y="166" text-anchor="middle" font-size="12" fill="#59615a">用什么证据形态？</text>
+    <text x="405" y="187" text-anchor="middle" font-size="12" fill="#59615a">比较条件是否同口径？</text>
+
+    <path d="M508 142 H558" stroke="#2d7a25" stroke-width="2" fill="none"/>
+    <path d="M552 136 L560 142 L552 148" stroke="#2d7a25" stroke-width="2" fill="none"/>
+
+    <rect x="570" y="88" width="380" height="108" rx="8" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25" stroke-width="2"/>
+    <text x="760" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">形成新共识 · 80</text>
+    <text x="760" y="145" text-anchor="middle" font-size="12" fill="#59615a">把主张讲清 → 给出依据 → 允许复核</text>
+    <text x="760" y="166" text-anchor="middle" font-size="12" fill="#59615a">观察真实理解 → 用体验与反馈修正</text>
+    <text x="760" y="187" text-anchor="middle" font-size="12" fill="#59615a">对方与现实始终保留否决权</text>
+
+    <text x="500" y="238" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">五项结果分别检查，不当成一条必然漏斗</text>
+
+    <g>
+      <rect x="50" y="258" width="164" height="70" rx="7" fill="#f7f8f7" stroke="#d5dbd6"/>
+      <text x="132" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">注意力</text>
+      <text x="132" y="307" text-anchor="middle" font-size="11" fill="#59615a">是否停下来处理</text>
+
+      <rect x="234" y="258" width="164" height="70" rx="7" fill="#f7f8f7" stroke="#d5dbd6"/>
+      <text x="316" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">理解</text>
+      <text x="316" y="307" text-anchor="middle" font-size="11" fill="#59615a">能否复述条件与代价</text>
+
+      <rect x="418" y="258" width="164" height="70" rx="7" fill="#f7f8f7" stroke="#d5dbd6"/>
+      <text x="500" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">信任</text>
+      <text x="500" y="307" text-anchor="middle" font-size="11" fill="#59615a">是否依据证据行动</text>
+
+      <rect x="602" y="258" width="164" height="70" rx="7" fill="#f7f8f7" stroke="#d5dbd6"/>
+      <text x="684" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">说服</text>
+      <text x="684" y="307" text-anchor="middle" font-size="11" fill="#59615a">选择或承诺是否变化</text>
+
+      <rect x="786" y="258" width="164" height="70" rx="7" fill="#f7f8f7" stroke="#d5dbd6"/>
+      <text x="868" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">共识</text>
+      <text x="868" y="307" text-anchor="middle" font-size="11" fill="#59615a">群体是否复用同一标准</text>
+    </g>
+
+    <rect x="50" y="372" width="900" height="132" rx="9" fill="#6bed4a" fill-opacity="0.08" stroke="#2d7a25" stroke-width="2"/>
+    <text x="500" y="403" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">“诚以待人”约束全过程</text>
+
+    <line x1="275" y1="422" x2="275" y2="482" stroke="#d5dbd6"/>
+    <line x1="500" y1="422" x2="500" y2="482" stroke="#d5dbd6"/>
+    <line x1="725" y1="422" x2="725" y2="482" stroke="#d5dbd6"/>
+
+    <text x="162" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">主张可核验</text>
+    <text x="162" y="470" text-anchor="middle" font-size="11" fill="#59615a">来源、口径、条件可追查</text>
+
+    <text x="387" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">不隐瞒重大信息</text>
+    <text x="387" y="470" text-anchor="middle" font-size="11" fill="#59615a">披露可能改变决定的事实</text>
+
+    <text x="612" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">承诺可兑现</text>
+    <text x="612" y="470" text-anchor="middle" font-size="11" fill="#59615a">写清限制、不确定性与停止线</text>
+
+    <text x="837" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">保留知情选择</text>
+    <text x="837" y="470" text-anchor="middle" font-size="11" fill="#59615a">可以比较、拒绝和退出</text>
+
+    <text x="500" y="538" text-anchor="middle" font-size="12" fill="#59615a">收窄理解与比较成本，不收走对方的选择权</text>
   </g>
-  <text x="680" y="320" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">上移一格 · 耐久度升一个数量级</text>
-  <text x="450" y="400" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">左边收窄对方选项 · 右边抬高材料成色</text>
 </svg>

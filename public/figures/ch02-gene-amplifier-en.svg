@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI amplifies organizational defaults</title>
+  <desc id="desc">After execution and knowledge-acquisition costs fall, AI amplifies the default judgments and behaviors an organization hands it. Old genes produce faster rework, conflicting answers, and repeated error. Rewritten defaults produce work that can be checked, traced, and revised.</desc>
+  <rect width="920" height="540" fill="#fff"/>
+
+  <text x="460" y="38" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">AI amplifies organizational defaults</text>
+
+  <rect x="70" y="82" width="220" height="92" rx="8" fill="#6bed4a" fill-opacity="0.08" stroke="#59615a" stroke-width="1.5"/>
+  <text x="180" y="118" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0a0a0a">Two costs falling</text>
+  <text x="180" y="146" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Execution / retrieving knowledge</text>
+
+  <line x1="290" y1="128" x2="360" y2="128" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="360,128 346,121 346,135" fill="#0a0a0a"/>
+
+  <rect x="360" y="82" width="200" height="92" rx="8" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25" stroke-width="2"/>
+  <text x="460" y="118" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2d7a25">AI enters daily work</text>
+  <text x="460" y="146" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Copy / keep generating / leave a record</text>
+
+  <line x1="560" y1="128" x2="630" y2="128" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="630,128 616,121 616,135" fill="#0a0a0a"/>
+
+  <rect x="630" y="82" width="220" height="92" rx="8" fill="#b69cff" fill-opacity="0.08" stroke="#59615a" stroke-width="1.5"/>
+  <text x="740" y="110" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">Default judgments</text>
+  <text x="740" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">and behaviors</text>
+  <text x="740" y="152" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">AI amplifies what it receives</text>
+
+  <line x1="740" y1="174" x2="740" y2="220" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="740" y1="220" x2="280" y2="220" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="740" y1="220" x2="740" y2="260" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="280" y1="220" x2="280" y2="260" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="280,260 273,246 287,246" fill="#0a0a0a"/>
+  <polygon points="740,260 733,246 747,246" fill="#0a0a0a"/>
+
+  <rect x="70" y="260" width="420" height="188" rx="8" fill="#ffb347" fill-opacity="0.09" stroke="#d49531" stroke-width="1.5"/>
+  <text x="280" y="294" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#9a641d">Old defaults keep running</text>
+  <text x="280" y="326" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Cognitive inertia / experiential authority</text>
+  <text x="280" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Information hoarding / execution worship</text>
+  <text x="280" y="370" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Feedback avoidance</text>
+  <line x1="110" y1="384" x2="450" y2="384" stroke="#d5dbd6" stroke-width="1"/>
+  <text x="280" y="414" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#9a641d">Faster rework / conflicting answers / repeated error</text>
+
+  <rect x="530" y="260" width="320" height="188" rx="8" fill="#2d7a25" fill-opacity="0.1" stroke="#2d7a25" stroke-width="2"/>
+  <text x="690" y="294" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2d7a25">Defaults rewritten</text>
+  <text x="690" y="326" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Name the result / confirm the source</text>
+  <text x="690" y="350" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Let feedback change the next round</text>
+  <line x1="570" y1="374" x2="810" y2="374" stroke="#d5dbd6" stroke-width="1"/>
+  <text x="690" y="406" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">Checkable / traceable / revisable</text>
+
+  <line x1="690" y1="448" x2="690" y2="486" stroke="#2d7a25" stroke-width="2"/>
+  <polygon points="690,486 683,472 697,472" fill="#2d7a25"/>
+  <text x="690" y="516" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2d7a25">Organizational gene evolution</text>
+</svg>

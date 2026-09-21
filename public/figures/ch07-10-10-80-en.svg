@@ -1,31 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Clarity Method 10/10/80 resource discipline and action chain</title>
+  <desc id="desc">Find the gap in standards, borrow the angle of observation, the scale of judgment, and the conditions of use, check migration, verify cheaply, then rank by value and write into the standards cycle. Winners and losers help form and test a hypothesis; one pair of cases cannot prove cause.</desc>
+  <rect width="1120" height="560" fill="#fff"/>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" role="img">
-  <rect width="860" height="360" fill="#fff"/>
-  <text x="430" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">Clarity Method ratio: 10 / 10 / 80</text>
-  <text x="220" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Common ratio (inverted)</text>
   <g font-family="Inter, system-ui, sans-serif">
-    <rect x="60" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.35" stroke="#d5dbd6"/>
-    <text x="110" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
-    <text x="110" y="270" text-anchor="middle" font-size="11" fill="#59615a">Debate standards</text>
-    <rect x="180" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.25" stroke="#d5dbd6"/>
-    <text x="230" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
-    <text x="230" y="270" text-anchor="middle" font-size="11" fill="#59615a">Pile data</text>
-    <rect x="300" y="210" width="100" height="40" fill="#d5dbd6"/>
-    <text x="350" y="235" text-anchor="middle" font-size="14" font-weight="700">20%</text>
-    <text x="350" y="270" text-anchor="middle" font-size="11" fill="#59615a">Find solutions</text>
+    <text x="560" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#0a0a0a">Clarity Method: 10 / 10 / 80 is resource discipline</text>
+    <text x="560" y="64" text-anchor="middle" font-size="12" fill="#59615a">It marks where the weight of resource goes, not a statistically proven exact ratio</text>
+
+    <rect x="60" y="88" width="100" height="42" rx="7" fill="#2d7a25" fill-opacity="0.16" stroke="#2d7a25"/>
+    <rect x="160" y="88" width="100" height="42" rx="7" fill="#2d7a25" fill-opacity="0.22" stroke="#2d7a25"/>
+    <rect x="260" y="88" width="800" height="42" rx="7" fill="#6bed4a" fill-opacity="0.2" stroke="#2d7a25" stroke-width="1.5"/>
+    <text x="110" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">10</text>
+    <text x="110" y="122" text-anchor="middle" font-size="10" fill="#245f20">Refine a standard</text>
+    <text x="210" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">10</text>
+    <text x="210" y="122" text-anchor="middle" font-size="10" fill="#245f20">Collect data</text>
+    <text x="660" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">80</text>
+    <text x="660" y="122" text-anchor="middle" font-size="10" fill="#245f20">Propose / cheap trial / compare / revise</text>
+
+    <text x="560" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">Action chain</text>
+
+    <g fill="#f7faf7" stroke="#8a968c" stroke-width="1.2">
+      <rect x="42" y="196" width="130" height="84" rx="10"/>
+      <rect x="212" y="184" width="176" height="108" rx="10" fill="#eef7ed" stroke="#2d7a25"/>
+      <rect x="428" y="196" width="130" height="84" rx="10"/>
+      <rect x="598" y="196" width="130" height="84" rx="10"/>
+      <rect x="768" y="196" width="130" height="84" rx="10"/>
+      <rect x="938" y="196" width="140" height="84" rx="10" fill="#eef7ed" stroke="#2d7a25"/>
+    </g>
+
+    <g fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">
+      <text x="107" y="228">Find the gap</text>
+      <text x="300" y="204">Borrow a candidate</text>
+      <text x="493" y="228">Check migration</text>
+      <text x="663" y="228">Verify cheaply</text>
+      <text x="833" y="228">Rank by value</text>
+      <text x="1008" y="228">Write into the</text>
+      <text x="1008" y="244">standards cycle</text>
+    </g>
+
+    <g fill="#59615a" font-size="11" text-anchor="middle">
+      <text x="107" y="252">Angle, scale,</text>
+      <text x="107" y="267">or conditions of use?</text>
+      <text x="300" y="232">Angle of observation</text>
+      <text x="300" y="250">Scale of judgment</text>
+      <text x="300" y="268">Conditions of use</text>
+      <text x="493" y="252">Object / stage</text>
+      <text x="493" y="267">Resources / feedback</text>
+      <text x="663" y="252">Scope / evidence</text>
+      <text x="663" y="267">Stop condition</text>
+      <text x="833" y="252">Value for whom</text>
+      <text x="833" y="267">Cost and boundary</text>
+      <text x="1008" y="262">Conditions / evidence</text>
+      <text x="1008" y="277">Stop line / unknowns</text>
+    </g>
+
+    <g stroke="#2d7a25" stroke-width="2" fill="none">
+      <path d="M172 238 H202"/>
+      <path d="M388 238 H418"/>
+      <path d="M558 238 H588"/>
+      <path d="M728 238 H758"/>
+      <path d="M898 238 H928"/>
+    </g>
+    <g fill="#2d7a25">
+      <path d="M202 238 l-8 -5 v10 z"/>
+      <path d="M418 238 l-8 -5 v10 z"/>
+      <path d="M588 238 l-8 -5 v10 z"/>
+      <path d="M758 238 l-8 -5 v10 z"/>
+      <path d="M928 238 l-8 -5 v10 z"/>
+    </g>
+
+    <text x="493" y="334" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">Paired samples: form and test a migration hypothesis</text>
+    <rect x="298" y="358" width="176" height="78" rx="9" fill="#eef7ed" stroke="#2d7a25"/>
+    <rect x="512" y="358" width="176" height="78" rx="9" fill="#fff5eb" stroke="#bd6a18"/>
+    <text x="386" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#245f20">Winner</text>
+    <text x="386" y="407" text-anchor="middle" font-size="12" fill="#59615a">Look for a mechanism that may work</text>
+    <text x="600" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#8a4607">Loser</text>
+    <text x="600" y="407" text-anchor="middle" font-size="12" fill="#59615a">Look for conditions under which it fails</text>
+    <path d="M493 280 V348 M493 348 H386 V358 M493 348 H600 V358" stroke="#8a968c" stroke-width="1.5" fill="none"/>
+
+    <rect x="724" y="358" width="314" height="78" rx="9" fill="#f7f7f7" stroke="#8a968c"/>
+    <text x="881" y="384" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Evidence bound</text>
+    <text x="881" y="407" text-anchor="middle" font-size="12" fill="#59615a">One win and one loss can propose or revise a hypothesis</text>
+    <text x="881" y="425" text-anchor="middle" font-size="12" fill="#59615a">They cannot estimate an overall effect or prove cause</text>
+
+    <path d="M1008 280 V476 H107 V290" stroke="#2d7a25" stroke-width="1.5" stroke-dasharray="6 5" fill="none"/>
+    <path d="M107 290 l-6 9 h12 z" fill="#2d7a25"/>
+    <text x="560" y="496" text-anchor="middle" font-size="11" fill="#59615a">When reality exposes a new gap, return to the next round</text>
+
+    <text x="560" y="532" text-anchor="middle" font-size="12" fill="#59615a">Borrowing is usually the safer start; when you cannot borrow or migration fails, turn to bounded exploration</text>
   </g>
-  <text x="640" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Clarity Method</text>
-  <g font-family="Inter, system-ui, sans-serif">
-    <rect x="480" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
-    <text x="525" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
-    <text x="525" y="270" text-anchor="middle" font-size="11" fill="#59615a">Extract standard</text>
-    <rect x="590" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
-    <text x="635" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
-    <text x="635" y="270" text-anchor="middle" font-size="11" fill="#59615a">Gather data</text>
-    <rect x="700" y="90" width="100" height="160" fill="#6bed4a" fill-opacity="0.25" stroke="#2d7a25" stroke-width="2"/>
-    <text x="750" y="170" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a25">80%</text>
-    <text x="750" y="270" text-anchor="middle" font-size="11" fill="#59615a">Try means for best</text>
-  </g>
-  <text x="430" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Standards sharpen by borrow + iterate — not perfect debate</text>
 </svg>

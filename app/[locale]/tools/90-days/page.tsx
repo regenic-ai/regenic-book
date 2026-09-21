@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: locale === "en" ? "The first 90-day evolution cycle" : "90 天第一轮组织进化",
     description: locale === "en"
       ? "A thirteen-week sequence from clarity audit through standards, consensus, and two pilots."
-      : "四段十三周：清晰术审计、启动标准机器、建立共识、完成双试点，用可复测结果结束第一轮组织基因进化。",
+      : "四段十三周：清晰术审计、启动标准循环、建立共识、完成双试点，用可复测结果结束第一轮组织基因进化。",
     pathname: "/tools/90-days",
   });
 }
@@ -39,7 +39,7 @@ export default async function NinetyDaysPage({
           <Link className="button primary" href={`/${locale}/tools/diagnosis`}>
             {isEnglish ? "Start with the diagnosis" : "先做八问诊断"}
           </Link>
-          <Link className="text-link" href={`/${locale}/book/13-ninety-days`}>
+            <Link className="text-link" href={`/${locale}/book/14-ninety-days`}>
             {isEnglish ? "Read the complete argument →" : "阅读完整论证 →"}
           </Link>
         </div>

@@ -23,6 +23,7 @@
 | 8 Interference | Xiaomi, Zhang Xue motorcycle | Chicecream (Zhong Xue Gao) | Balanced |
 | 9 Consensus machine | Chuan Shen, Context not Control | Nokia | Balanced |
 | 12 Product path | "Later but better", BBK/OPPO | Meta | Balanced |
+| 13 Stages of relationships | Basecamp, the six Vantone partners | WeWork / SoftBank Vision Fund, Dangdang (Li Guoqing / Peggy Yu) | Checkable samples on all three sides: customer, friend, family |
 
 ## Two-sided sample discipline
 

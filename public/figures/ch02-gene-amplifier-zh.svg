@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI &#x653E;&#x5927;&#x7EC4;&#x7EC7;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;</title>
+  <desc id="desc">&#x6267;&#x884C;&#x4E0E;&#x77E5;&#x8BC6;&#x83B7;&#x53D6;&#x6210;&#x672C;&#x4E0B;&#x964D;&#x540E;&#xFF0C;AI &#x653E;&#x5927;&#x7EC4;&#x7EC7;&#x4EA4;&#x7ED9;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x5224;&#x65AD;&#x4E0E;&#x884C;&#x4E3A;&#x3002;&#x65E7;&#x7EC4;&#x7EC7;&#x57FA;&#x56E0;&#x5E26;&#x6765;&#x66F4;&#x5FEB;&#x7684;&#x8FD4;&#x5DE5;&#x3001;&#x51B2;&#x7A81;&#x548C;&#x91CD;&#x590D;&#x9519;&#x8BEF;&#xFF1B;&#x91CD;&#x5199;&#x540E;&#x7684;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;&#x5E26;&#x6765;&#x53EF;&#x9A8C;&#x6536;&#x3001;&#x53EF;&#x8FFD;&#x6EAF;&#x548C;&#x53EF;&#x4FEE;&#x6B63;&#x7684;&#x5DE5;&#x4F5C;&#x3002;</desc>
+  <rect width="920" height="540" fill="#fff"/>
+
+  <text x="460" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">AI &#x653E;&#x5927;&#x7EC4;&#x7EC7;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;</text>
+
+  <rect x="70" y="82" width="220" height="92" rx="8" fill="#6bed4a" fill-opacity="0.08" stroke="#59615a" stroke-width="1.5"/>
+  <text x="180" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#0a0a0a">&#x4E24;&#x79CD;&#x6210;&#x672C;&#x4E0B;&#x964D;</text>
+  <text x="180" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">&#x6267;&#x884C; &#xB7; &#x83B7;&#x53D6;&#x5DF2;&#x6709;&#x77E5;&#x8BC6;</text>
+
+  <line x1="290" y1="128" x2="360" y2="128" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="360,128 346,121 346,135" fill="#0a0a0a"/>
+
+  <rect x="360" y="82" width="200" height="92" rx="8" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25" stroke-width="2"/>
+  <text x="460" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2d7a25">AI &#x8FDB;&#x5165;&#x65E5;&#x5E38;&#x5DE5;&#x4F5C;</text>
+  <text x="460" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">&#x590D;&#x5236; &#xB7; &#x6301;&#x7EED;&#x751F;&#x6210; &#xB7; &#x7559;&#x4E0B;&#x8BB0;&#x5F55;</text>
+
+  <line x1="560" y1="128" x2="630" y2="128" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="630,128 616,121 616,135" fill="#0a0a0a"/>
+
+  <rect x="630" y="82" width="220" height="92" rx="8" fill="#b69cff" fill-opacity="0.08" stroke="#59615a" stroke-width="1.5"/>
+  <text x="740" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#0a0a0a">&#x7EC4;&#x7EC7;&#x9ED8;&#x8BA4;&#x5224;&#x65AD;&#x4E0E;&#x884C;&#x4E3A;</text>
+  <text x="740" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">AI &#x653E;&#x5927;&#x5B83;&#x5B9E;&#x9645;&#x62FF;&#x5230;&#x7684;&#x4E1C;&#x897F;</text>
+
+  <line x1="740" y1="174" x2="740" y2="220" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="740" y1="220" x2="280" y2="220" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="740" y1="220" x2="740" y2="260" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="280" y1="220" x2="280" y2="260" stroke="#0a0a0a" stroke-width="2"/>
+  <polygon points="280,260 273,246 287,246" fill="#0a0a0a"/>
+  <polygon points="740,260 733,246 747,246" fill="#0a0a0a"/>
+
+  <rect x="70" y="260" width="420" height="188" rx="8" fill="#ffb347" fill-opacity="0.09" stroke="#d49531" stroke-width="1.5"/>
+  <text x="280" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#9a641d">&#x65E7;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;&#x7EE7;&#x7EED;&#x8FD0;&#x884C;</text>
+  <text x="280" y="326" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0a0a0a">&#x8BA4;&#x77E5;&#x60F0;&#x6027; &#xB7; &#x7ECF;&#x9A8C;&#x6743;&#x5A01; &#xB7; &#x4FE1;&#x606F;&#x79C1;&#x6709;</text>
+  <text x="280" y="350" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0a0a0a">&#x6267;&#x884C;&#x5D07;&#x62DC; &#xB7; &#x53CD;&#x9988;&#x9003;&#x907F;</text>
+  <line x1="110" y1="374" x2="450" y2="374" stroke="#d5dbd6" stroke-width="1"/>
+  <text x="280" y="406" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#9a641d">&#x66F4;&#x5FEB;&#x8FD4;&#x5DE5; &#xB7; &#x53E3;&#x5F84;&#x51B2;&#x7A81; &#xB7; &#x9519;&#x8BEF;&#x91CD;&#x590D;</text>
+
+  <rect x="530" y="260" width="320" height="188" rx="8" fill="#2d7a25" fill-opacity="0.1" stroke="#2d7a25" stroke-width="2"/>
+  <text x="690" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#2d7a25">&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;&#x88AB;&#x91CD;&#x5199;</text>
+  <text x="690" y="326" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0a0a0a">&#x5148;&#x8BF4;&#x6E05;&#x7ED3;&#x679C; &#xB7; &#x786E;&#x8BA4;&#x6743;&#x5A01;&#x6765;&#x6E90;</text>
+  <text x="690" y="350" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0a0a0a">&#x8BA9;&#x53CD;&#x9988;&#x6539;&#x53D8;&#x4E0B;&#x4E00;&#x8F6E;&#x4F9D;&#x636E;</text>
+  <line x1="570" y1="374" x2="810" y2="374" stroke="#d5dbd6" stroke-width="1"/>
+  <text x="690" y="406" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">&#x53EF;&#x9A8C;&#x6536; &#xB7; &#x53EF;&#x8FFD;&#x6EAF; &#xB7; &#x53EF;&#x4FEE;&#x6B63;</text>
+
+  <line x1="690" y1="448" x2="690" y2="486" stroke="#2d7a25" stroke-width="2"/>
+  <polygon points="690,486 683,472 697,472" fill="#2d7a25"/>
+  <text x="690" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2d7a25">&#x7EC4;&#x7EC7;&#x57FA;&#x56E0;&#x8FDB;&#x5316;</text>
+</svg>

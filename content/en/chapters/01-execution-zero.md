@@ -1,166 +1,197 @@
 # Chapter 1: Execution Approaches Zero
 
-Status: Completed (v2.6, 2026-08-28, about 8800 words; passed the acceptance on 2026-07-25; v2.2 aside scaffolding cleanup and pyramid figure inserted; v2.4 prose-standard fluency pass; v2.5 whole-sentence rewriting as primary; v2.6 English-breath pass under current prose-standard; open to ongoing public revision)
+Status: Completed (v3.0, 2026-09-21; rewritten from the Chinese authority in English voice; open to ongoing public revision)
 
-**Claim: When AI simultaneously reduces execution costs and knowledge acquisition costs, organizational structures such as hierarchies, approvals, reporting, and KPIs built around "people do things slowly and know less" begin to fail as a whole.**
+**Claim: When AI drives down both the cost of execution in digital knowledge work and the cost of retrieving knowledge that already exists, the hierarchies, approvals, reports, and output metrics built around "people are slow and know less" lose the economic case they were drawn on.**
 
 ---
 
-## 1. Your Most Expensive Purchase Is on Sale and Clearance
+## 1. What the same capability now sells for
 
-Open your company's income statement. Over the past two decades, no matter the industry, the biggest expense was almost always the same: labor. Cut one level further and the bulk of that cost is often execution, not judgment. Those hours go to the same work: turning a decision into documents, code, reports, contracts, design drafts, customer-service conversations, and marketing copy. Nobody thought this was a problem, because the entire business world rested on the same assumption: execution is expensive and must be sourced, organized, and supervised with care.
+What AI will eventually be able to do is still argued. The price change already on the record is more settled.
 
-That assumption is failing, and it is failing at a measurable rate.
+Stanford HAI, in *AI Index 2025*, picked a fixed capability line: a score of 64.8 on the MMLU general-knowledge benchmark, the level the report calls GPT-3.5. In November 2022, the cheapest way to reach that line cost $20 per million tokens. By October 2024, Gemini 1.5 Flash 8B crossed the same line at $0.07. The gap from start to finish is more than 280-fold (Stanford HAI, 2025).
 
-Stanford University's Human-Centered Artificial Intelligence Institute (Stanford HAI) tracked a curve in the *AI Index* annual report. The inference cost to reach GPT-3.5 capability (MMLU benchmark 64.8) fell from $20 per million tokens in November 2022 to $0.07 in October 2024—about one two-hundred-eightieth of the original (Stanford HAI, 2025). The shape is worth more attention than the endpoint: $1.80 in August 2023, $0.18 in June 2024, then further decline at similar multiples, year after year. This is not a one-time sale. It is a ramp that keeps sloping down. You did not miss the bottom. You are standing on a conveyor belt that is still moving down. a16z calls this LLMflation: the price of a fixed capability level falls roughly tenfold each year. Epoch AI's task-level estimates are more aggressive, with a median decline of fiftyfold per year; looking only at data after January 2024, the median rises to two hundredfold per year. The report uses medians rather than averages because different tasks range from ninefold to nine hundredfold per year, and averages get hijacked by extremes.
+Hold capability fixed, and the number that matters is the lowest price of that capability, not the list price of the newest model. Mix those two and you mix a rise in ability with a fall in price. For an organization, the useful number is what it costs today to finish this job.
 
-What collapsed is the price per unit of capability. The latest flagships are still not cheap; list prices fall only about five- to tenfold a year, far slower than the "equal capability" line. What matters to an organization is never the flagship price. It is the price of the ability to finish the job. An analysis that took a three-person team a week two years ago costs close to zero to invoke at that level today. Everyone can buy a model good enough for the work. The gap is who sees it first: what took a team yesterday is a single call today.
+That is still not the total price of a job. The AI Index measures API token prices, weighted three to one between input and output. Connecting the system, preparing the material, protecting the data, checking the result, reworking it, and taking responsibility are not inside the $0.07. From the dates the report lists, one thing is firm: the call price of a fixed benchmark capability has already fallen by more than two orders of magnitude.
 
-The curve also covers only the digital world. The physical and regulatory boundary comes later.
+The fall also shows up in real work. Noy and Zhang ran a preregistered randomized experiment in 2023 in which 453 college-educated professionals completed occupational writing tasks: press releases, analysis plans, short reports, and sensitive emails. The group allowed to use ChatGPT finished in 40% less time on average, and independent graders scored the quality 18% higher (Noy and Zhang, 2023). The tasks were short, and the background material was limited, so the result does not stand in for a merger memo or a production system. It does show that what fell was not only an API price list. Part of real execution time fell with it.
 
-For a principal leader the meaning is plain: your most expensive purchase used to be human time, and now it is on sale and clearance. When a core factor of production falls by an order of magnitude every year, every institution designed around the old price—however elegant—has to be recalculated. The steam engine redrew the factory; the shipping container redrew trade. This time it is execution itself.
+The venture firm a16z ran a different capability line in 2024: an MMLU score of at least 42, looking only at OpenAI, Anthropic, and Meta Llama models served by third parties, with input and output prices taken as a simple average. When GPT-3 crossed that line in November 2021, it cost about $60 per million tokens. Three years later, Llama 3.2 3B cost about $0.06. a16z summarized the roughly thousandfold change as a tenfold yearly drop in the price of a fixed capability, and called it LLMflation. The same report lists the limits: MMLU may be contaminated by training data, some scores used multiple attempts, and the model set is incomplete. It is an industry observation, not a law that will pay out every year from here (a16z, 2024).
 
-Push the ledger further and you hit something deeper than "cost reduction." Three-year contracts, five-year budgets, and headcount plans struck at today's cost all rest on a price that shrinks by an order of magnitude every year. Long-term pricing of execution will be systematically high. Planning should take the slope of the ramp, not today's price. "Wait until the technology matures" has nowhere to wait: the ramp is continuous, there is no station called "mature," and every year you wait, competitors compound another year of advantage. Money freed by falling execution, if it only flows back to the income statement, sells off the window for organizational evolution. It should not be booked as profit. It is migration budget, and it should go to the two things still rising in price: standards and context.
+Epoch AI then widened the frame to six benchmarks and several fixed capability thresholds, again weighting input and output three to one, and leaving out reasoning models that generate large volumes of intermediate tokens. Annual rates of decline ranged from 9-fold to 900-fold depending on the task and the threshold, with a median of 50-fold. Restrict the set to models after January 2024 and the median is about 200-fold. The fastest rates mostly come from less than a year of data, and the researchers are explicit that they may not last (Epoch AI, 2025).
 
-## 2. The Other Base: Knowing Where to Look
+Stanford HAI's 280-fold, a16z's tenfold a year, and Epoch AI's median of 50-fold a year are not three independent studies confirming the same curve. The AI Index worked with Epoch and extracted one fixed capability line. Epoch reports a distribution across six benchmarks and several thresholds. a16z used its own model set, a simple average of prices, and a lower MMLU bar. What the three methods share is the direction: when you hold capability fixed, the lowest call price of digital ability is falling fast.
 
-If execution alone got cheaper, the shock would be smaller. What makes this a geological shift is the second base being pulled away at the same time: the cost of knowledge acquisition.
+API prices and the occupational writing experiment measure two different things. One is the call price of a unit of capability. The other is the time people spend on a particular task, and the quality of what they produce. They point the same way. They cannot stand in for each other, and they cannot be multiplied into a company's total cost reduction.
 
-How much have organizations paid to "know"? Senior people cost more than newcomers, and a large part of the premium buys not judgment but knowing where to look, whom to ask, and what the industry norm is. Databases, industry reports, consultants, training courses all buy the same thing: shortening the distance from not knowing to knowing. That distance once supported several trillion-dollar industries. Publishing, consulting, and vocational education were, at bottom, arbitrage on knowledge-acquisition cost.
+I call this **execution approaching zero**. Execution is not becoming zero as a mathematical fact. The describable, repeatable, checkable steps inside digital knowledge work are getting rapidly cheaper at the margin. First drafts, collation, formatting, code generation, and first-pass translation no longer have their price set only by human hours. The machine's call price has entered the quote.
 
-The search-engine era collapsed that distance once: from "know that person" to "find that document." The AI Q&A era collapses it another order of magnitude: from "find that document" to "ask that question." Retrieval, screening, reading, summarizing, and cross-checking are becoming internal steps in a single call, no longer billed to you separately.
+A fall in execution cost, on its own, is an automation upgrade. What shakes the other base under jobs, hierarchies, and business models is the same fall in the cost of retrieving knowledge that already exists.
 
-The two bases hold up the old organizational structure. Execution was expensive, so work was finely divided, scheduled, and supervised. Information was scarce, so it moved through hierarchies, was priced by seniority, and synced in meetings. Execution approaching zero looks like an efficiency headline. It is organizational geology. Remove one base and the structure can lean for a while. Remove both at once and every beam above has to be recalculated.
+## 2. Finding what already exists is getting cheaper too
 
-One company ran that calculation for everyone, using its own life.
+A senior employee's value usually has two parts. One is reliable judgment on a new problem. The other is a set of knowledge paths accumulated over years: which document to open, which colleague to ask, which precedent to cite, which way of writing to reuse. Those two were hard to pull apart, because getting the paths used to take seniority.
 
-## 3. The First Specimen: A Company That Sold Both Bases
+A workplace study pulled them apart once. Brynjolfsson, Li, and Raymond followed 5,172 customer-support agents at a Fortune 500 software company. The company rolled out a generative AI assistant in waves. The system read the live conversation and suggested replies in real time. Agents could ignore or edit the suggestions, and a person still owned the whole exchange.
 
-Chegg is an American online education company that went public in 2013. The business, in one sentence: a paid answer library plus on-demand experts. Students pay up to $19.95 a month for pre-written textbook answers and a network of experts available on demand.
+After the rollout, issues resolved per hour rose 15% on average. Most of the change sat with less experienced and lower-skilled agents, whose resolutions per hour rose about 30%. Agents who had used the AI for two months reached the level of agents who had not used it and had been in the job more than six months. For experienced high performers, the gains were small, and the quality of some conversations even fell a little. The researchers also found the effect strongest on problems that were uncommon but well represented in the training data (Brynjolfsson, Li, and Raymond, 2025).
 
-What it sold was exactly the two bases being pulled away. The answer library sold the product of execution; the expert network sold knowing where to look and whom to ask. Chegg did not lack AI, and the organization was not a mess. What stood directly under the zeroing curve was the business model itself.
+The same results show that solutions a support agent once had to get by training, search, and asking around now arrive while the question is still open. Common practice that used to take extra months on the job is compressed into a live suggestion. The researchers attribute part of the gain to generative AI capturing and spreading the behavior of high performers.
 
-Remote learning during the pandemic pushed it to a peak: in February 2021 the stock was $113.51, market cap about $14.7 billion. Twenty-one months later, ChatGPT launched.
+The study does not count how many minutes of searching the agents saved. It watches a later result: speed, quality, and how long a newcomer takes to walk the experience curve. So it is field evidence that getting existing practice has gotten cheaper, not a decline you can paste onto every industry.
 
-On the May 2023 earnings call, CEO Dan Rosenzweig acknowledged that ChatGPT was eroding subscriber growth. The company withdrew full-year guidance; the stock fell 48% that day. There has been no real rebound since. Cumulative subscriber losses exceed 500,000. Q4 2024 subscribers were 3.6 million, down 21% year over year, full-year revenue down 24%. There were 441 layoffs in 2024, about a quarter of staff; another 22% cut in May 2025; another 45% in October, with announcements citing "the new realities of AI." Market cap bottomed around $156 million—a 99% drop from the peak (Chegg filings; WSJ; CNBC).
+In this study, a lower cost of knowledge acquisition looks like a shorter road from asking a question to having a usable starting point. Knowledge itself did not get cheaper, and facts did not become true on their own. Retrieval, first screening, summarizing, finding similar cases, and assembling existing practice used to be done step by step by people. A model can now do the first pass. A newcomer no longer has to know whom to ask, or the exact title of a document, before seeing a candidate answer.
 
-The sharpest detail is not the fall. It is a comparison. Chegg itself uses AI. Filings show that with AI, capital spending on content production fell 56% year over year while user questions rose 2% in the same period. They were not bad at using the technology. Victims and beneficiaries use the same tools; the difference is which side of the zeroing curve the business model stands on. For Chegg the question was never whether the tools worked. It was whether what it sold was still scarce. If your business model is to sell execution, AI is not your tool. It is your substitute.
+The support study comes from one company and one kind of work. It does not extend on its own to a medical diagnosis, a legal opinion, or a scientific discovery. The tool spreads practice already present in the training data and in past conversations. Faced with a genuinely new problem, a wrong old practice, or thin material, it can also spread the old error faster. A person still has to go back to the source, check the facts, understand the conditions of use, and own the consequence of taking the suggestion.
 
-This is not an "AI destroys everything" horror story. Chegg is a clean specimen: a business with almost no physical layer, no regulatory buffer, built purely on execution plus knowing—what happens when both bases are pulled away. Your company is probably not Chegg. Several departments almost certainly run daily work that looks like its business model.
+**Retrieving existing knowledge** is not creating new knowledge. Finding a paper more cheaply still leaves the work of understanding it. A cheaper precedent still has to be checked against this case. A cheaper feasible plan still has to be judged worth running. "Knowledge is free" collapses retrieval, understanding, fit, and a value judgment into one phrase.
 
-Look inward and the mini-Cheggs usually take three forms.
+Even that is enough to reach the org chart. Companies used to pay a great deal of time for getting work done, and a seniority premium for knowing where to look. The first now has a model you can call. The second has a conversational front door. When both costs fall at once, a business that charged for them, as Chegg did, feels the pressure first.
 
-Report factory: roles that regularly produce weekly reports, monthly reports, and analysis briefs. If the value proposition is "turn data into readable prose," that is an internal answer library.
+## 3. Chegg: a business that sold both old scarcities
 
-Human search desk: legal precedent lookup, investment-research comparables, procurement vendor comparison. If the moat is "knowing where to look," it sells Chegg's second service.
+Chegg's core learning service long sold two things: worked-out answers, and help a student could reach when stuck. The first is finished execution. The second shortens the distance from a question to an answer. Both used to be worth money, because a student doing the solving, searching, and screening needed time, and needed to know where to look.
 
-Template output line: contract first drafts, bid frameworks, asset revisions. Clear input, clear output, execution by template—the form the zeroing curve absorbs fastest.
+The first full term after ChatGPT launched, that pricing case began to loosen. On the May 2023 first-quarter call, then-CEO Dan Rosensweig said the company had not seen a clear effect on new-account growth at the start of the year, but that from March student interest in ChatGPT had risen sharply and new-customer growth was already affected. Chegg stopped giving full-year guidance and offered only the next quarter (Chegg, 2023).
 
-These three forms should not lead straight to layoffs. That reads the ledger too shallowly. They should lead to repricing. What becomes valuable in these roles is shifting from output to release: judging whether work passes, and by what standard to let it go.
+Two years later the filings give a fuller result. Chegg's 2025 net revenue was $376.9 million, down 39% from 2024, with Academic Services, the bulk of revenue, down 43%. The company ran two restructurings, in May and October 2025, cutting about 640 people, roughly 56% of headcount at the time (Chegg, 2026).
 
-## 4. Boundaries of the Claim: Where Zeroing Holds
+Those figures do not prove that ChatGPT alone caused Chegg's decline. The 10-K also lists intensified competition, shifts in search traffic, and changes in student behavior. Google AI Overview sits in that list: the search page itself now shows the question and an answer, so a user no longer has to click through to Chegg. The company is explicit that the change cut site traffic and subscription conversion. Generative AI supplied a substitute for the answer and changed the door through which students find answers, acting on both the product of execution and the path of knowledge acquisition.
 
-"Zeroing" is one of the most misread words in this book. Without clear conditions, the claim slides into slogan.
+Chegg's decline also cannot be blamed on a failure to use AI. The 10-K describes its machine learning, generative AI, and a personalized learning assistant in some detail. When a general model and a search front door can supply a good-enough answer at a lower price, the scarcity Chegg used to sell gets thinner. Putting AI into the existing product can cut Chegg's own costs. It does not automatically restore the reason a customer paid for the old value.
 
-Execution zeroing applies first and mainly to **digital knowledge work**: writing, code, analysis, design, customer service, legal documents, reports, translation. What they share is digital inputs and outputs, with quality checkable in the digital world. Chegg's answer library, Duolingo's course translation, marketing's first-draft copy all sit in this set.
+The same structure lives inside companies: turning material into a report, locating a precedent, producing a first draft from a template, collecting information and handing it up a chain. Those jobs will not vanish on the same day, and a great deal of checking, choosing, and accountability remains in them. But if a role's main premium is "I can produce it" or "I can find it," the basis of that price is already moving.
 
-Physical execution has not zeroed. A wall on a construction site, a cut on an operating table, last-mile delivery—AI has not made them much cheaper. Regulatory processes have not either: audit, compliance, licensing, cost structures set by institutions, not by technology. Construction sites and operating rooms do not refute a claim about knowledge work. The collapse speed of knowledge work does not scare every industry equally.
+A fall in cost does not, by itself, imply a layoff. A task usually mixes execution, review, and responsibility. A model can draft a contract; it cannot take signing authority. It can collate supplier files; it cannot take the consequence of a bad choice off the procurement lead. It can generate a support reply; it cannot decide what promise may be made to a customer. Split those pieces and you can tell hours that are getting cheaper from duties that still need to be strengthened.
 
-Inside and outside the boundary are not insulated. Every physical execution is wrapped in a digital shell: scheduling, documentation, decisions, quality checks, settlement. That shell is knowledge work, and zeroing is pushing inward along that interface. A construction company's bricklaying cost has not fallen, but drawing development, quantity takeoffs, progress reporting, and contract review are approaching zero. A hospital's surgery has not zeroed, but records, imaging pre-screening, and follow-up notes are. Speed differs; direction is the same.
+Chegg's product and delivery are highly digital. It can stand as a sample inside the boundary of execution approaching zero. It cannot stand for construction, nursing, delivery, or heavily regulated industries.
 
-This book's claims default to holding within this boundary. If your organization sits mainly outside it, the timetable is looser, but the direction is unchanged. Competitors will evolve first on the digital shell, then meet you in the physical world with saved cost and shorter cycles.
+## 4. It starts in digital knowledge work
 
-## 5. Organizational Archaeology: Why Every Line Exists
+The more a job meets three conditions, the earlier it enters this range: the inputs are mainly digital, the output can be delivered digitally, and quality can be checked in a digital environment. Occupational writing, first-draft code, collation, translation, standardized design, online support, and routine legal documents all sit close to that range. They are not necessarily simple. They are easy to describe as material a model can take in and a result it can send back.
 
-Put the org chart on the table and ask a question most principal leaders rarely ask seriously: what problem was each line, box, and process invented to solve?
+Physical execution is not on the same curve. AI can generate a construction plan; it cannot lay the bricks. It can plan a delivery route; it cannot put the package at the door. It can collate a medical record; that does not complete a surgery. Robots are advancing too, but they are constrained by hardware, by what changes on site, by safety requirements, and by capital spending. Token prices cannot be substituted for that decline.
 
-The answer is uncomfortable. Almost everything was designed for "people do things slowly and know less."
+Regulation and accountability do not fall in step with model prices either. Audit workpapers can be assembled faster; the audit procedures still have to be completed as the law requires. A contract can be drafted faster; the signer still bears the obligation. Drug files can be compiled faster; approval standards and clinical responsibility do not cancel. The reviews, records, and accountability that institutions require are often there precisely to stop "done fast" from replacing "done right."
 
-A person can effectively manage only so many direct reports—textbooks say 7±2, in practice rarely more than 10—and can hold even less information in real time. Organizations therefore grow as trees: information rolls up from leaves to root, compressed and retold at each layer; instructions roll down from root to leaves, translated and amplified at each layer. Hierarchy looks like power hunger. It is an engineering compromise for "people know less." When there is no better way to sync, a tree is the best way to connect ten thousand people. The cost is in every textbook: loss at every relay, delay at every rollup. Organizations paid that coordination tax for a century because there was no alternative.
+Even when a job is entirely online, the model call price is not the whole cost. A company still has to bring internal material into the system, control permissions, check for hallucinations, handle exceptions, maintain the process, and correct the result when it is wrong. Those costs may fall as the tools mature. They do not vanish because a million tokens now cost a few cents.
 
-When judgment is scarce, approval is a rationing window. Matters line up to use a few vetted people. Every node is running the same calculation: the cost of trial and error exceeds the cost of waiting. When execution was expensive, that almost always held. A bad plan that burned three person-weeks was worth two days in the director's inbox.
+The same digital task has at least three kinds of cost: the model generating a result, systems and people checking it, and an accountable person finally signing. Call prices cut the first kind directly, and they may cut some of the second. The third is set by business risk, legal liability, and the cost of being wrong. It does not fall in step with tokens. Execution approaching zero first describes the change in that first kind of cost.
 
-Weekly reports, standing meetings, performance reviews, alignment sessions do another job: they batch-sync context scattered across minds, using human time—the most expensive medium in the organization. Ten people in a one-hour meeting costs ten person-hours, and what gets synced still decays with attention. When context lived only in heads, the meeting room was the only highway.
+"Approaching zero" names a direction, not an endpoint. The marginal price of repeatable execution in digital knowledge work is falling fast. It first changes the mix of hours inside a task, and only later may it change roles, departments, and companies. It does not mean all human work is heading toward free.
 
-Managers cannot see everyone's work, and they cannot measure "value" directly, so KPIs become stand-ins: pieces, hours, lines, tickets, response time. You measure what you can measure, then hope it correlates with what you care about. That is not foolishness. It is what poor observation forces.
+Inside and outside the boundary still affect each other. Bricklaying has not approached zero; quantity takeoffs, drawing checks, progress summaries, and first-draft contracts can get cheaper first. Surgery has not; record summaries, scheduling, follow-up copy, and imaging pre-screens can move first. Last-mile delivery has not; route analysis, exception sorting, and support handling can be automated first. Physical industries will not move at the same speed. They will reallocate cost first in the digital steps around the physical work.
 
-In their time, these four were optimal solutions. Mockery is easy and cheap. The people who designed them made the right engineering call under their constraints. A theme this book will return to: standards have boundaries; when the environment shifts, yesterday's optimum becomes today's liability. The hardest organizational act is admitting that.
+Different speeds also sit inside one company. Equipment installation on a plant floor may barely change, while procurement comparisons and maintenance logs move first. Clinical responsibility in a hospital stays put, while record filing and follow-up text get cheaper first. A departmental average hides that split. The useful unit of analysis is the task and the step.
 
-With both bases pulled away, the old ledger has to be recalculated. Frontline context can appear losslessly and instantly to anyone, yet the tree still pays coordination tax on information that is no longer scarce, and the tax rate has not changed. Redoing a plan went from three person-days to three seconds; trial and error is no longer costly, but the gate still charges the old price—two days in queue now costs orders of magnitude more than the risk it intercepts. What meetings sync could live in shared human–AI context, queryable anytime and never decaying, yet the organization still spends everyone's same hour on sync a machine can do in real time. When AI can generate unlimited "output," pieces, lines, and hours can all be maxed out, and the assumed correlation between output numbers and real value breaks.
+An industry label is not enough to judge the speed. "Manufacturing is far from AI" and "execution in a software company is already free" are both too coarse. The useful unit is each step: what goes in, what comes out, how it is checked, who is accountable. Only the part that meets the conditions enters execution approaching zero.
 
-Every line on the org chart was drawn to manage expensive human execution. Once execution is free, those lines become decoration one by one.
+Old organizational structure is cost-constrained too. Hierarchy, approvals, reports, and KPIs all solved real and expensive problems. The two costs they were built to handle are no longer at the old price.
 
-Picture a pyramid. Execution cost and knowledge-acquisition cost are both pulled away at once, and the superstructure hangs in mid-air. Not everything suspended is scrap. Three things hang there with no taker—exactly what AI cannot take: choosing the goal, adopting the standard, and unifying context.
+## 5. Why old organizations grew around slow people who knew less
 
-![Pyramid with both bases pulled out: execution and knowledge-access costs dashed empty, superstructure suspended on goals, standards, context](/figures/ch01-pyramid-en.svg)
+Hierarchy, meetings, and approvals are arrangements for managing limited people under a given technology and a given set of costs. The costs include waiting and retelling. The return is a larger organization that can still be managed.
 
-*Figure: org-chart lines were drawn for expensive human execution; what hangs are the three things AI cannot take.*
+A person can hold only so much information at once, and one accountable leader cannot keep a high-frequency conversation with hundreds or thousands of people. Organizations therefore use hierarchy to shrink what each person has to handle: the front line compresses information for a manager, the manager compresses it again upward, and decisions travel the other way, decomposed layer by layer. Each extra layer adds waiting and loss in the retelling. When information could only be carried by people, that cost bought a manageable scale.
 
-## 6. Industry Microscope: Translation
+Many of the middle roles in that hierarchy are also how people find what they need. A newcomer usually depends on a manager's experience to get the files, the process path, and the reasons things are done this way. Higher rank usually means contact with more departments and a wider range of information, so "knows more" and "has the right to decide" get tied together. When information cannot reach everyone directly, concentrating it in a few people can lower the cost of everyone else finding it.
 
-Macro curves numb, and Chegg can be dismissed as bad luck. Turn the microscope to a full industry: translation, where execution zeroes hardest.
+Approval is a different ledger. One pass of execution used to take many people many days, and a wrong direction burned a large amount of labor. Queuing a plan so that a few experienced people could gate it was often cheaper than doing it wrong and starting over. The economic case for approval is that trial and error is expensive and reliable judges are few, not the form itself. As long as the first cost sits well above the cost of waiting, another gate can pay.
 
-It is almost a pure sample of digital knowledge work: text in, text out, quality checkable digitally, no physical buffer, no license moat. If zeroing has a ground zero, it is here.
+Weekly reports, standing meetings, and status reviews then sync context. Project facts sit in different people's inboxes, documents, and memory, so a meeting becomes a timed way to pull the facts together. Ten people in a one-hour meeting costs ten person-hours. When shared records are thin, that cost buys a common picture of the project.
 
-Ground zero already has first-hand job records. In late 2023, Duolingo cut about 10% of external contractors in two waves (August and December), mainly course translation and writing roles; the company confirmed to Bloomberg that GPT-4 could already generate translation and course content. Those who remained changed shape: one or two per team, titles shifted to "content curators"—review AI output, then release.
+KPIs solve for visibility. Managers cannot watch continuously how much real value each person creates, so pieces completed, hours online, lines of code, response speed, and call counts become proxies. They are not value. They stand in for value when better observation is missing.
 
-That is the claim in micro-slice: executors become reviewers. Machines take output; what stays on humans is judgment—whether it passes and by what standard to release. A four-person translation team becomes two curators. Execution hours vanish; judgment hours remain. That shape shift will replay in every category of digital knowledge work.
+The parts of these structures that dispatch execution and carry information share two premises: human execution is expensive, and getting and moving information is expensive too. Hierarchy, approvals, reports, and metrics may also carry accountability, risk control, and legal duty. What AI changes is the part of their case that held only at the old cost.
 
-Two company types stand on the same collapse band. One is like Chegg: a business model built on selling execution and selling "knowing," bases pulled, business zeroed. Another made the opposite bet. Transn, a long-established Chinese language-services company, sits at the center of the collapse band. It did not train translators to work faster. That is high jump on a sinking floor. It rewrote the company into another form: a Chief AI Officer (CAIO), an AI Native decision committee, a rule that no meeting proceeds without a runnable demo, and "energy gold" so internal AI apps grow by market rules. Founder He Enpei's line works as a footnote: "**Rather than wait for employees to become AI experts, let the organization grow AI capability.**"
+That part of the case can be checked in the work record. Facts are already in a shared system, yet they are still rolled up by hand, layer by layer. A plan can be redone in hours, yet approval still queues for days. Piece counts keep rising, and customer results do not move with them. Those gaps are observable signals that the old cost structure is still running.
 
-That sentence does not bet on people learning tools. It bets on organizational form changing. The popular narrative says AI is here, run training fast. This chapter says the problem was never employee tool fluency. It was every line of the org still drawn at the old price of expensive execution. In industries where the execution layer is absorbed first, the survivors who moved earliest were not those who executed faster. They were those who admitted earliest that execution is no longer valuable, and rewrote themselves as standards plus context.
+A job title is not enough to decide who stays. The same manager may forward information, train newcomers, handle conflict, make trade-offs, and own the result. AI lowers the cost of the first two. That does not make the last three disappear. The useful unit of reorganization is the duty, not names like "middle management" or "approval."
 
-Credit where due. Transn's mechanisms are cross-reported in multiple outlets and hold up; operating results—whether revenue and profit improved because of them—have no third-party data yet, so this chapter cites mechanisms only, not outcomes. Chegg's side is filing-grade and complete. The two are different industries; what compares is mechanism, not performance: both in digital knowledge work, one sells "execution + knowing," one rewrites it as a cost item. A same-caliber loser inside translation—a translation company that held to execution-mode and declined—has not been found yet; until then, "self-transformers live better" stays a hypothesis to test. This chapter's claim does not rest on that comparison. Cost curves and Chegg are independent evidence chains.
+When frontline facts can be recorded, retrieved, and summarized continuously, a layer whose job is only to collect, compress, and forward information no longer has its old cost advantage. The organization still needs people who own results, handle conflict, and make trade-offs. It does not necessarily still need as many people to move information from one layer to the next. Management does not vanish. Carrying information and managing begin to come apart.
 
-## 7. The Opposite of "Thinking Is Free": Why Judgment Gets More Expensive
+In some digital flows, a first-draft plan that used to take days now takes minutes, and the relation between the cost of trial and error and the cost of waiting changes with it. Approval still fits irreversible, high-risk, and regulated decisions. But if redoing the work is cheaper than queuing, sending a reversible trial down the same long chain is no longer reasonable.
 
-In popular talk, some summarize this wave as "AI makes thinking free." This book says the opposite, and that opposite is the starting point for everything that follows.
+Structure also changes in sequence. Flows with clear inputs and outputs, reversible trials, and results that are easy to check will shorten hierarchy and approval first. Flows that involve personal safety, major capital, legal liability, or an irreversible promise will move much more slowly. They face the same technology. They do not face the same risk ledger.
 
-What actually got cheaper? Two things: **how to do it** (execution) and **where to look** (knowledge acquisition). Writing code, building reports, checking cases, finding precedents—all are approaching zero. Together they are still not thinking. Thinking has a core left: **what is worth doing**—choosing one option among infinite possibilities, excluding all others for it, and bearing the cost of that exclusion. AI has not discounted that core by a cent.
+When project records can be queried at any time, a meeting no longer has to carry all of the information sync. Meetings that work through disagreement, choose a goal, and assign responsibility still matter. Reading progress around the table, repeating facts that already exist, gets harder to justify as worth everyone's same hour. Reports will not vanish either, but they need to move from "saying again what happened" toward "pointing to the facts that changed the judgment."
 
-If anything, it got more expensive. Scarcity is relative. When execution took three months, mediocre judgment could hide behind the long stretch of work; when results arrived, nobody remembered who decided. When execution takes three hours, judgment stands naked in the result: decide in the morning, see outcomes by afternoon; within a week the whole company can see whose judgment was worth something and whose was only rank echo. The cheaper execution gets, the larger judgment's share of total cost—and the higher the relative price of getting it wrong. When "how to do it" and "where to look" both get cheap, the only thing left expensive is "what is worth doing."
+When AI can generate reports, code, images, and replies quickly, the correlation between output quantity and value weakens further. An employee can produce dozens of plans in a day; that does not mean any of them should run. Support can send more replies; that does not mean more problems got solved. Keep rewarding people with piece counts and hours, and the organization will produce the numbers a machine can amplify most easily.
 
-Chegg fits the same structure: not short on execution (twenty years of an answer library), not short on knowledge access (an expert network)—short on judgment about what was worth doing around November 2022. When what you sell starts going free, the answer is not "sell harder." Judgment errors always cost; execution zeroing just compressed the accounting period from years to quarters.
+Old structure "beginning to fail" does not mean firing every manager, deleting every approval, cancelling every meeting, and dropping every metric. It means those arrangements can no longer justify themselves only by "we have always needed them." The case to recalculate is the risk they intercept, set against the waiting, retelling, and distortion they create.
 
-If AI someday fully decides what is worth doing for you, the company is effectively theirs. That is a definition, not a technical limit. As long as the company is yours, "what is worth doing" stays on your ledger—and now it is the only line still rising in price.
+The same relation looks like a pyramid. The two blocks at the base are execution cost and knowledge-acquisition cost. Both are moving down, so the old structure above has to be recalculated. A fall in those two costs does not include judgment, or the responsibility of owning the result.
 
-So the sharper question surfaces: execution is cheap, tools are affordable to all—why have companies that bought every AI tool not seen order-of-magnitude efficiency gains? Money spent, tools deployed—where did the dividend promised in the curve go?
+![After execution cost and knowledge-acquisition cost fall, the old organizational structure has to be recalculated](/figures/ch01-pyramid-en.svg)
 
-The next chapter answers.
+*Figure: two old costs are falling, so hierarchy, approvals, reports, and metrics have to be recalculated. Judgment and accountability were not delivered with the call price.*
+
+Inside the same job, hours spent generating a first version fall, and the weight of checking, releasing, and owning the result rises. Duolingo offers an observable sample of that shift in roles. Chegg offers the contrast of a business still charging for the old scarcities.
+
+## 6. Duolingo and Chegg: two moves on the same curve
+
+At the end of 2023, the language-learning company Duolingo reduced its external contractors by about 10%. The company said no full-time employees were affected, and that both the end of contracts and a change in production process were reasons. A spokesperson said the company no longer needed as many people to finish some of the work, and that part of the change came from AI (Bloomberg, 2024; TechCrunch, 2024).
+
+The change concentrated in course content and translation. Duolingo's public account is that GPT can generate or translate sentences, and human experts check whether the output meets teaching quality and the CEFR levels. One of the contractors affected called the people who remained "content curators," saying their job was to check AI-generated content and then release it. That name comes only from the person who used it. What the company has confirmed is the process: the machine produces first, and a person accepts against an explicit standard.
+
+In April 2025, CEO Luis von Ahn made the direction sharper in an all-hands memo: the company would gradually stop using contractors for work AI can already do, and teams would get added headcount only when they could not automate further. The memo also said that turning toward AI did not mean the company would stop caring about full-time staff, and that the aim was to put people on more creative problems (Duolingo, 2025).
+
+That same week, the company said that with generative AI, a shared content system, and internal tools, it had launched 148 courses, mainly at beginner level. Duolingo said the first 100 courses had taken about twelve years, and this batch of nearly 150 had taken less than a year. On the company's own figures, the speed of course expansion changed by an order of magnitude. An independent quality assessment is still missing (Duolingo, 2025).
+
+In 2025, Duolingo's revenue was $1.0376 billion, up 39% year over year, with 12.2 million paid subscribers at year-end, up 28% (Duolingo, 2026). Those figures can show that revenue and paid users were still growing while the production method changed. They cannot prove the growth came from AI or from the contractor adjustment.
+
+Both companies are building AI products. The difference that matters is where AI sits in the value chain. Duolingo's process has AI generate content, and people own course goals, quality standards, and review. Chegg's main revenue is still heavily exposed to the falling price of answers, explanations, and the knowledge front door. The two companies differ in market, in what users need, and in where traffic comes from, so the comparison is of mechanism, not a controlled causal experiment.
+
+So execution approaching zero first asks where people should remain, not how many to cut. If the answer is still "repeat the first draft," the role will keep taking price pressure. If the answer is set the goal, supply the necessary material, write the acceptance standard, handle exceptions, and own the result, then people have not left. The center of gravity of the work has moved.
+
+One side keeps people on review and accountability. The other still charges for the old scarcities. The same question then sits in front of both: if machine execution is cheaper, and existing knowledge is easier to get, why does the judgment that remains get more expensive?
+
+## 7. Why judgment gets more expensive
+
+"More expensive" here is a relative price. It does not mean every manager will get a raise, and it does not mean every human judgment will cost more cash. As execution and retrieving existing knowledge take a smaller share of total cost, deciding what to do, how to accept the work, and who owns the result become more likely to be the bottleneck on the chain.
+
+MMLU scores, token prices, and the support experiment do not answer those questions. An MMLU score can say what level a model reached on a set of items. It cannot tell a company which market to enter this year. The price per million tokens can price a call. It cannot tell a team which output may go to a customer. A support assistant can spread good practice from the past. It cannot guarantee that the old practice fits a case that has never appeared.
+
+A model price list now includes cheaper and cheaper "how to do it," and some of "where to look." It does not separately sell "what is worth doing." It does not promise to choose the acceptance standard for the organization, and it does not take the consequence off the person who signs. That gap is the starting point for the two unifications in Chapter 4.
+
+Execution is already cheap, and companies have not obviously gotten faster, which means the bottleneck has moved. Where did it move?
+
+Chapter 2 keeps following that bottleneck on the organizational floor. Many companies have already bought the models, opened the accounts, and run the training, and employees really are faster. Why has company-wide efficiency still not changed by an order of magnitude? The tools have entered the organization. That has not, by itself, made the organization AI-native. Where is the dividend in the cost curve stuck?
 
 ## What to Do Monday Morning (principal-leader view)
 
-Draw your company's **seismic zone map** in four steps:
+Make a **repricing table**. Do not start by changing headcount. Split four ledgers first:
 
-1. **Mirror first**: Start with the Chegg question—how much revenue sells "products of execution" or "knowing where to look"? That slice is the red zone of the business model. Most companies are not Chegg, but almost every one has a product line or department that is a mini-Chegg.
-2. **List execution work**: Have each department list every "pure execution" role and step—clear input, clear output, digitally verifiable quality. For each, mark how much today's AI can do; mark red if it can do 80% or more.
-3. **Audit org-chart lines**: For every line on the chart, ask: does this manage execution or judgment? Lines that manage execution lose their reason as the red zone grows; lines that manage judgment are the skeleton of the future org.
-4. **Count approval gates**: Pick the longest approval flow and ask at each node: is the risk this gate intercepts still more expensive than the gate itself today? The nodes where the answer is no are idle approval gates.
+1. **Revenue.** Write down, line by line, why the company gets paid. If customers mainly pay for "making a first version" or "finding an answer that already exists," mark that slice of revenue, and record how far general models and AI search already go.
+2. **Tasks.** Pick the three processes that use the most people. Write each step as input, output, how it is checked, and who is accountable. For steps whose inputs and outputs are digital and whose results can be checked cheaply, list current human time against model time.
+3. **Org lines.** On the org chart, separate three kinds of duty: moving information, generating the product of execution, and making a judgment and owning it. The first two are getting cheaper. The third cannot be waved through because the first two got cheaper.
+4. **Waiting.** Take the longest approval chain. At each node, compare the loss the gate prevents by catching an error with the cost of queuing, reporting, and explaining the same thing again. Record the answer. Do not delete nodes yet.
 
-This map does not require cutting anything today—it is the base map for what follows. Individuals and teams can ask too: how much of my work sits in the red zone? Does my value hang on execution or judgment? If the team went from four people to two "curators," would I be one who stays?
+The point of the table is not to prove how many people AI can replace. It is to find where the organization is still running at the old price. Individuals can use the same test: once first drafts and retrieval are done by a machine, the release standard, the basis of the judgment, and the person accountable still have to be explicit.
 
 ## Quotable Lines
 
-1. Every line on the org chart was drawn to manage expensive human execution—once execution is free, those lines become decoration one by one.
-2. Your most expensive purchase used to be human time, and now it is on sale and clearance.
-3. Execution approaching zero is not an efficiency headline—it is organizational geology.
-4. When "how to do it" and "where to look" both get cheap, the only thing left expensive is "what is worth doing."
-5. If your business model is to sell execution, AI is not your tool—it is your substitute.
-6. Victims and beneficiaries use the same technology; the difference is only which side of the zeroing curve you stand on.
-7. Standards have boundaries: when the environment shifts, yesterday's optimum becomes today's liability.
-8. The cheaper execution gets, the more exposed judgment quality becomes.
-9. The meeting room was the old organization's only highway for information sync.
+1. Once the same capability sells at a new price, the jobs and processes drawn at the old price have to be recalculated.
+2. AI lowered the cost of finding an answer. It did not take on the cost of believing one.
+3. Hierarchy, approvals, reports, and KPIs did not suddenly get stupid. They are losing the price premises they were built on.
+4. Duolingo changed where people sit. Chegg lost the scarcity of what it sold.
+5. Repricing is not a layoff plan. It first asks the organization to separate execution, review, and accountability.
+6. "How to do it" and "where to look" keep getting cheaper. "What is worth doing" is not on the model price list.
 
 ## Connections to Adjacent Chapters
 
-- Continuing from the preface: execution really is approaching zero (this chapter supplies curves, specimens, and boundaries).
-- Handed to Chapter 2: if the tools are this strong and everyone can afford them, why have companies that bought the tools not gotten stronger?
+- Continuing from the preface: the two costs falling together, tested with price series, a workplace study, and a company comparison, plus a boundary around digital knowledge work.
+- Handed to Chapter 2: if the tools are already this cheap, why have most organizations not seen an order-of-magnitude change?
+- Planted for Chapter 4: why does judgment get more expensive? This chapter only names the relative bottleneck. The two unifications wait.
 
 ## Chapter Acceptance Self-Check (against chapter acceptance standards)
 
-1. Claim restatable in one sentence ✓, and a corollary of the core claim (cost zeroing → structural failure).
-2. Whiteboard framework ✓ (pyramid with both bases pulled, three suspended items above).
-3. External comparison and data ✓: winner side E3 Transn (mechanisms verified) + E14 Duolingo job evidence; loser side L8 Chegg (filing-grade verified); caliber differences stated explicitly; statistics report medians (Epoch AI). Same-caliber loser inside translation still to be added, marked as hypothesis to verify.
-4. Nine quotable lines ✓.
-5. "What to Do Monday Morning" four principal-leader steps + personal note ✓.
-6. Fluency ✓: revised primarily through whole-sentence rewriting and English breath under current prose-standard; no Five Prohibitions or aside violations; sources in in-text author–year or end-of-sentence parenthetical cites.
+1. Claim restatable in one sentence ✓: two costs fall, so structures built around "people are slow and know less" lose their old price case.
+2. Seven-section spine and whiteboard figure ✓: price evidence → knowledge acquisition → Chegg → boundary → old structure → Duolingo/Chegg → the judgment question. The pyramid keeps "judgment and accountability" and does not preview Chapter 4's frame.
+3. Evidence caliber ✓: Stanford HAI is one capability line extracted with Epoch, not a third independent study; a16z and Epoch thresholds, model sets, price weights, and limits are kept separate; Noy/Zhang and the QJE support study carry execution and retrieval of existing practice.
+4. Main comparison and boundary ✓: Duolingo's role change, company-reported throughput, and public results are stated separately; Chegg uses the 2023 call and the 2025 10-K, without pinning the whole decline on ChatGPT. One main sample on each side; no invented cross-company median.
+5. Claim boundary ✓: approaching zero applies first to repeatable execution in digital knowledge work; physical execution, regulation, accountability, and last-mile delivery are outside the same rate of decline.
+6. Chapter handoff and action ✓: receives the preface, hands off to Chapter 2; Section 7 only raises the relative bottleneck; Monday list keeps four steps plus the personal test.
+7. Fluency ✓: rewritten in English voice from the Chinese authority; current prose-standard.

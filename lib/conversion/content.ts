@@ -28,13 +28,14 @@ export const ninetyDayPhases = [
       "从支出流水识别现金、判断力或共识中的限制性资源",
       "统计过去一个月重复发生的判断，按频次取前三",
       "定位付费用户所处的采用层级与当前产品路径",
+      "标出头部客户的阶段、排序条件与档差方向，规格对不上的不写进本周必拿",
     ],
     deliverable: "一页纸现状图",
     failure: "把审计开成动员大会，在标准出现前先宣布变革。",
   },
   {
     weeks: "第 3—6 周",
-    title: "标准机器启动",
+    title: "标准循环启动",
     actions: [
       "由一号位起草八层标准 v1，每条写成「条件 + 动作 + 验收」",
       "按组织阶段为全员建立 3、6 或 9—12 个月 ROI 卡",
@@ -45,7 +46,7 @@ export const ninetyDayPhases = [
   },
   {
     weeks: "第 7—10 周",
-    title: "共识机器运转",
+    title: "共识循环运转",
     actions: [
       "给关键标准命名，并放进所有成员随手可查的上下文",
       "逐个完成费曼验收：不用术语讲清、能回答边界、能指导判断",
@@ -75,6 +76,7 @@ export const ninetyDayPhasesEn = [
       "Use spending records to identify the limiting resource: cash, judgment, or consensus",
       "Count recurring judgments from the past month and select the three most frequent",
       "Locate paying users on the adoption curve and identify the current product path",
+      "Mark head customers’ stage, ranking conditions, and tier-gap direction; do not put a spec mismatch on this week’s must-win list",
     ],
     deliverable: "One-page current-state map",
     failure: "Turning the audit into a rally before any usable standard exists.",

@@ -1,175 +1,240 @@
 # Chapter 12: Reverse Iteration from Consensus: Evolving the Product Path
 
-Status: Completed (v2.1, 2026-08-28, about 8,900 words; acceptance passed 2026-07-26; v1.6 cleared asides; v1.7 inserted normal-distribution six-tier figure; v1.8 prose-standard fluency pass; v1.9 English publication-voice sync to Chinese authority; v2.0 whole-sentence rewriting pass under current prose-standard; v2.1 English-breath pass under current prose-standard; open to ongoing public revision)
+Status: Completed (v2.0, 2026-09-21; rewritten from the Chinese authority in English voice; BBK's entry facts point back to Chapter 7; open to ongoing public revision)
 
-**Claim: A product need not start from the most frontier consensus; it can first survive on the most certain consensus—build survival on the mature needs of the late majority and laggards, then widen the innovation radius until it can serve innovators.**
+**Claim: A product need not start from the most frontier demand. Locate the target demand first, then locate your own capital, channels, technology, and organizational capability. When the conditions match, you can first use a new technology on a problem that already has a mature consensus, verify payment, delivery, and survival, and then, on the results, widen product capability and the radius of innovation.**
 
 ---
 
-## 1. Two bets in opposite directions
+## 1. After people and time are in order, where the judgment goes
 
-In September 2018 at Stanford, Chinese students gathered around Duan Yongping. Someone asked why he believed in “dare to be last”—a phrase that sounds unenterprising. His answer was one sentence: “All masters dare to be last—they just do it better than others.”
+Chapter 11 rearranged the calendar. For a relatively stable, judgment-primary job, more of the day should go to judgment, writing, developing people, and learning, rather than being filled entirely by the matter in front of you. Opening six hours on the calendar does not, by itself, guarantee that the organization will then get the product right. The new judgment time can also enter a direction that still has no evidence of demand, or add a technical display that does not add a customer result.
 
-At the other end of the same years, Meta placed a bet in the opposite direction. From 2020 to 2025, Reality Labs accumulated about $83.6 billion in operating losses on a category with no consensus yet: metaverse social. Flagship Horizon Worlds aimed for 500,000 monthly actives by end of 2022; actuals fell from a peak near 300,000 to under 200,000. Internal files seen by *The Wall Street Journal* showed that fewer than 9% of user-created worlds ever had more than fifty visitors. In June 2026 Meta exited the VR headset business entirely. The world’s thickest wallet could not buy a consensus.
+A product path therefore has to answer three things: which class of demand to begin from, what evidence decides a continuation, and how much still-unverified uncertainty the present capital and capability can bear.
 
-The two bets differ at the starting point: from which tier of consensus your product begins. Push the Interference Method onto products and the path runs opposite to the entrepreneurship textbook. After people and time are aligned, along which line should the product evolve?
+Duan Yongping's starting point is already in Chapter 7: let the market prove the demand first; a later firm still needs the ability to make the product well. That public remark cannot prove that later firms succeed more easily as a class.
 
-## 2. Read the adoption curve upside down
+Meta began from another starting point. Horizon Worlds asked people to put on a headset and, as avatars, enter user-created worlds to socialize, play, and do things together. The company had not only to ship a product. It had to prove that enough users would repeat that experience. By 2022, retention, monthly actives, and internal feedback had not completed that proof. Meta could subsidize the exploration for a long time with profits from other businesses. Horizon Worlds therefore did not hit a cash stop line as quickly as an ordinary startup product would.
 
-The technology adoption life cycle—from Rogers to Moore’s *Crossing the Chasm*—splits users into five tiers: innovators, early adopters, early majority, late majority, laggards. The default script plays left to right: win the curious, cross the chasm, harvest the mass. Moore’s vocabulary has ruled the field for thirty years, and investors and founders still describe early markets only in his language.
+The pair does not support "caution always wins, innovation always loses." BBK entered a mature category and still had to face strong incumbents. Meta chose a frontier direction, and that does not prove that a frontier direction is bound to fail. What can be compared are three observable facts: what evidence each company began from, whether the capability already on hand could support the path chosen, and what results decided the next step.
 
-That five-tier curve looks like a user taxonomy, but it is really a **ladder of standards**. In reality people, companies, and product users mostly crowd the middle of a normal distribution—thin tails, thick center. Distinguishing them rarely needs a hundred personalities; about six standard tiers usually suffice. Each tier is another acceptance standard, scored on its own ruler. An HR role at an ordinary company may pay RMB 100,000 a year; the same title at a top company may pay RMB 1,000,000—same name, two standards. China’s gaokao sorts candidates into roughly six ladders—C9, 985, 211, Tier-1, Tier-2, vocational—each with its own admission bar, not “all college students, therefore the same.”
+Treating originality as value, and a technical display as progress, bypasses demand, delivery, and survival. Originality can create value. "Nobody has done this before" is not a reason a customer pays. Technology can run ahead. A lead in technology cannot stand in for operating evidence.
 
-Moving from one standard tier to another is crossing a chasm. The ruler changed, and muscles trained under the old tier often zero out under the new. Want Tsinghua or Peking University? Structurally there are two roads. Those with top-tier talent and capital take traditional Path A and compete under the highest bar. Everyone else is usually safer on consensus reverse iteration: survive first where mature standards already exist, then swap rulers upward one tier at a time. The adoption curve is isomorphic. Left-end standards are most expensive—no consensus yet, so you educate the market. Right-end standards are cheapest—consensus is mature, so you prove you are safer. Choosing a product path is choosing which tier you start from, and which road you use to change tiers.
+## 2. Choosing a line of work, answer two questions first
 
-![Six-tier standard ladder on a normal distribution; Path A left-to-right across the chasm, Path B right-to-left swapping rulers](/figures/ch12-normal-distribution-en.svg)
+Before you choose a forward path or a reverse path, first judge whether the matter itself is worth doing. The judgment does not rest on a formula. It rests on two questions that both have to be answered.
 
-*Figure: the standard ladder sits on a normal distribution. The horizontal axis is standard tier (gaokao six tiers isomorphic to the adoption curve), not scores on one ruler; changing tiers is the chasm.*
+**The first question is: why now?**
 
-Read the same curve through consensus and a price line the textbook never marked appears. At the left end, problem consensus does not yet exist. Users do not even know they have the problem, so you must manufacture consensus first. That act is educating the market, and educating the market is the most expensive Interference Method. You build from zero the vocabulary for naming the problem, the proof of value, and the credibility ladder of trust—and education’s output is a public good: the category consensus you pay for, competitors use free.
+The answer comes from a variable. A rise in model capability, a fall in the price of inference, a change in a regulation, a reallocation of channels, or a maturing supply chain can all open a window on something that could not be done, or could not be done at a profit, before. A variable says what changed in the conditions. It does not say why a user will necessarily buy. AI can move part of a service's execution from human work to compute. It cannot, by itself, manufacture a use and a payment that did not exist.
 
-The vocabulary ledger starts when the category does not exist and users do not even know what to search. You invent the problem’s name, scene descriptions, and comparison dimensions, then repeat them until the market uses them. Moore did that with one word. The move is hall-of-fame Interference Method; most products should not try to repeat it.
+**The second question is: why will it still be worth doing in ten years?**
 
-The proof ledger is longer because nothing is comparable and every feature starts from “why do you need this?” The proof chain is twice as long as in a mature category, and every stage of the funnel leaks twice as hard.
+The answer comes from an invariant. Chapter 6 already borrowed Bezos's judgment: long-term investment should rest on relatively stable customer demand. Amazon's 2008 shareholder letter wrote low prices, vast selection, and fast, convenient delivery as demands that would remain stable for a long time, and used that to explain continued investment (Amazon, 2009). What can migrate is not those three answers. It is the form of the question: what result will make customers choose and pay, again and again, over a long period?
 
-The trust ledger has no steps to borrow—no third-party reviews, no peer cases, no “the neighbor uses it”—so you climb from the bottom rung of self-statement.
+Both questions have to be answered together. They cannot be multiplied. Variable and invariant have no common unit, and there is no verifiable number that can sit on both sides of an equals sign. If one of them cannot yet be written clearly, the business is still sitting at the stage of a hypothesis. That cannot be written as a mathematical law that "if either term is zero, the opportunity is zero."
 
-None of the three ledgers is a one-time spend; they burn continuously. And the educated market you buy has public title. Worse, unit prices keep rising. The market-side corollary of execution approaching zero is that product supply explodes, attention is scarce, piercing the same users costs more each year, and the education quote rises with the tide.
+AI and hardware can show how the two questions come apart. Changes in models, sensors, and the cost of inference may open a new window of interaction. That is a variable. People in a car, at the ear, at a desk, or on a factory floor still need an easier way to get information and finish an action. That is a candidate invariant. Whether a concrete product holds still has to be checked, item by item, for burden of wear, battery life, supply chain, channel, price, and frequency of use. The split does not support a conclusion on any AI-hardware track or any investment.
 
-The right end is the opposite. Late majority and laggards already hold problem consensus—high frequency, stable, no education required. They need not be persuaded “this is a problem”; only that “your solution is safe.” The cheapest consensus sits at the right end of the curve.
+When bioby.ai chose an overseas influencer-marketing Agent, it used the same structure of judgment. On the variable side, finding people, screening, outreach, follow-up, and record-keeping can be reorganized by models and workflows. On the invariant side, a merchant entering a new market still has to obtain trusted attention. Those two sentences can only explain why it was worth a try at the time. They cannot prove that the product has already run. Whether anyone pays on a continuing basis, whether delivery is stable, and whether unit economics hold, all have to be answered by later operating results.
 
-Duan Yongping gave the demand-side version at Stanford: “Dare to be last refers to product category—because guessing market demand is often hard, but others have already made the demand clear; meeting that demand is more certain.” He paired it with the second half: “strive to lead from behind.” Dare to be last means doing the right thing (choosing proven demand); strive to lead from behind means the ability to do things right (product power must win). He traced the slogan to Lao Tzu’s “dare not be first under heaven,” treated it as an operating rule, and used it. When BBK entered the VCD market in 1996, Aido, Shinco, Malata, Samsung, and Sony were already there; BBK reached the head by quality, brand, and service—leading from behind. Twenty years later, when OPPO put those eight characters on the press-conference screen, the blue and green factories had already used the same path to rule half the phone market.
+Only after the two conditions have been screened does the product enter the choice of path.
 
-So the arrow reverses:
+## 3. Locate the demand first, then locate yourself
 
-**Mature demand of late majority / laggards → survival product → complete product for early majority → advantage product for early adopters → frontier product for innovators**
+The shared principle of Part IV is dynamic lifecycle management: locate the object, locate yourself, then match and choose. On a product, the object is the target demand. You are the present organization.
 
-Traditional Path A crosses the chasm left to right—opening under the left’s most expensive standard. Consensus reverse iteration (Path B) widens the innovation radius right to left—survive first under the right’s mature standard, then swap rulers tier by tier. The move hides new technology behind a low-learning-cost experience. Do not educate users to understand the new technology first; teach the new technology to fit the consensus users already hold. Same job title, different standards; same user tier, different rulers. Misread the ruler and you misread the chasm.
+Locating demand cannot let spoken preference in an interview stand in for behavior. More reliable clues include: does this problem keep recurring? Are users already paying for an old solution, or continuously spending labor, time, and risk to work around it? If the technical introduction is taken off, does the problem and its loss still sit there? The more stable those pieces of evidence, the more mature the problem consensus. What is mature is the problem and the expected result. It does not mean that the present solution is already good enough.
 
-## 3. Choose the matter first, then the tier: variables open windows, invariants compound
+Locating yourself puts four ledgers on the same page. Capital decides how long exploration with no revenue can be borne. Channel decides whether the target user can be reached at a reasonable cost. Technology decides what can be delivered reliably now, not the best result once seen in a lab. Organizational capability decides whether sales, implementation, support, and feedback can become a repeatable action. Miss any one of them and a product direction is mistaken for a purely technical choice.
 
-Reading the curve backward answers which consensus tier to enter, yet an earlier question remains: is the matter itself worth doing. This round of AI puts dizzying choices in front of founders. The first sieve for value sorting can be written as a multiplication: **Opportunity = Variable × Invariant**. Variables answer “why now”; invariants answer “why still valuable in ten years.”
+Only after that locating is done is a path matched.
 
-On the variable side, this round’s shape is execution price approaching zero. It explains why the window opens now: a class of demand was once uneconomic to serve with humans, and AI rewrites the cost structure. The variable itself is not demand. Users will pay because you better meet a need they already had, not because you used AI.
+A **forward path** starts from a demand that is not yet mature, or from a new use of a technology. It fits conditions of this kind: the technology window is short, and a standard, a key supply, a license, or a strong network effect may lock in soon; the team does have a lead on a key technology; early customers have already put time, budget, or data into the verification; and there is enough capital, and an independent source of survival, to bear category education, a long R&D cycle, and several rounds of failure. The premise of a forward path is that the team can pay for uncertainty.
 
-Then invariants enter. The test borrows Bezos’s question: what you cannot imagine customers demanding the opposite of in ten years is an invariant.
+**Consensus reverse iteration** starts from a mature problem. It fits another set of conditions: users have already proved, by real behavior, that the problem exists; a new technology can improve the result through a familiar experience with a low cost of learning; the organization needs revenue and feedback earlier; the channel, service, and support cost of mature users can still be borne; and the technology window is not so short that a later firm loses the right to choose at the start.
 
-Both are required, and missing either is death—and both deaths have autopsies. Chase only the variable and fail to anchor an invariant, and you chase a wind. Qudian showed it: every wind has its own scoreboard; capabilities built on variables reset about every two years. Guard only the invariant and refuse the variable, and the new cost structure punches through you. Chegg held the millennial invariant “students want answers”; it died still charging $19.95 a month inside the old structure after costs were rewritten. Variables open windows; invariants compound. The window decides whether you can enter, and compounding decides whether entry is worth it.
+The technology-adoption life cycle uses another scale. Rogers's five adopter categories classify people by the **relative time of adoption** of a given innovation in a given social system. A continuous variable of time is cut into five ideal types: innovators, early adopters, early majority, late majority, and laggards. It is not a person's permanent character, and still less a rank of capability, value, or product (Rogers, 2003). The same person can adopt one tool very early and another tool very late.
 
-Run two live samples through the multiplication. AI + hardware, hot in the primary market, unpacks as this product: variable is model capability; invariant is the physical scene the hardware occupies (ear, desk, car)—demand for more natural interaction will not reverse. The real risk clarifies with it: if the hardware side anchors not a ten-year need but a burst of novelty, the invariant term is zero—and zero times any variable is still zero.
+The "chasm" Moore named is the market transition between early adopters and a pragmatic early majority. The former can accept an incomplete product for a vision. The latter require a reliable complete product and proof from similar customers. It does not mean that every added capability has to cross a chasm, and it cannot be used to explain college-entrance bands, pay grades, or personal growth (Moore, 1991/2014).
 
-Second sample is ours: bioby.ai building an overseas influencer-marketing Agent. We chose it with this multiplication. Invariant side: merchants going abroad always need customers, and attention scarcity makes “borrowing a trusted person’s consensus” an ever more necessary—and ever more expensive—Interference Method. Influencer marketing’s deep structure has not changed from marketplace word of mouth to today; only the carrier changed. Variable side: the business was labor-intensive—find creators, screen, outreach, negotiate, follow fulfillment—all execution. Execution approaching zero lets an Agent absorb that whole layer, the cost structure rewrites, and a service once affordable only to large merchants opens to all. Demand-side consensus is mature (“influencer works” needs no education); what we rewrite is supply’s cost structure—new engine, old shell. Whether the business ultimately wins is for operating results; what belongs in this section is the judgment structure used at the moment of choice.
+So consensus reverse iteration is not Rogers or Moore played backward. It does not ask the late majority to be first to buy an unfamiliar technology, and it does not turn the same batch of users, step by step, into innovators. **What is reversed is the order in which a product team builds the product and bears uncertainty: survive first on a mature problem, then widen capability and the radius of innovation on the evidence.**
 
-## 4. Five steps and four tiers: the operational path
+## 4. Duan Yongping and BBK: after coming later, still have to lead
 
-Split the reversed arrow into five steps:
+Keep only the first half of "dare to be last" and the method shrinks into waiting and copying. BBK's VCD years show that a later firm still pays the full cost of competition.
 
-1. **Find consensus**: locate the high-frequency, stable, no-education problem consensus already held by the late majority and laggards. Test: users can name the problem without thinking, and already pay for old solutions.
-2. **Borrow experience**: deliver value through familiar interfaces, flows, and language. New engine in an old shell: users see “same as before, cheaper or easier,” not “something new to learn.”
-3. **Survive first**: prove payment, delivery, and unit economics. Output is not growth; it is survival credentials plus standards sediment—judgments earned in real paying scenes are the ticket to the next tier.
-4. **Grow capability**: use cash flow, user feedback, and sedimented standards to raise product power step by step.
-5. **Move left one tier at a time**: each move toward higher uncertainty is one tier only—no skipping.
+By 1997, when BBK was putting VCD advertisements on air, the Chinese market was already crowded. Brands such as Shinco, Aido, and Malata held the main positions. In February 1998, *Guangming Daily*, citing Sino Market Research, had Shinco, Aido, and Malata together already above 60%, and BBK not yet in the listed top ten (*Guangming Daily*, 1998). That demand had already been proved does not mean a later firm had already obtained a place.
 
-Layer-by-layer left moves work because each tier manufactures a different consensus, and each right-side win is evidence for the next left tier:
+Chapter 7 already recorded BBK's 1997 entry into VCD and a quality grading. What belongs here is what competitive cost was paid after coming later. A company chronology held by CCTV also shows that in November the production quality-assurance system passed a production-license review. Another company document, citing Sino data, says that in 1999–2000 BBK's disc-player market share sat in second place. Those materials include publicity supplied by the company. They cannot be used to estimate a typical effect of the method. They are enough to see that a later firm still paid the full cost of quality, brand, channel, and service.
 
-- Survival product: “As safe as the old way, cheaper or easier.”
-- Complete product: “Peers have verified it; it produces stable ROI.” Evidence is the prior tier’s paying users.
-- Advantage product: “It delivers competitive edge the old option cannot.”
-- Frontier product: “It opens possibilities that did not exist.”
+What a mature category reduced for BBK was one layer of uncertainty: whether VCD already had market demand. It did not answer for the company what product to make, how to hold quality, under what channel conditions continuing sales would form, or how after-sales would cover the country. It also did not guarantee that a place would still be left after Aido and Shinco. Dare to be last settles which class of problem to enter. Later-but-better decides whether a later firm has a right to remain.
 
-Read the five steps through the Interference Method formula and consensus reverse iteration is Interference Method applied to product: analyze mature consensus (10 points of input), find high-frequency scenes that need no education (10 points of target), narrow the user’s choice with familiar experience (80 points of execution).
+Chapter 7 already cited the 2025 exchange at Zhejiang University: once scale reaches a certain point, and no one sits ahead, new things also have to be done; coming later does not guarantee success. Starting from a mature consensus can first use a more certain problem to accumulate cash, data, the capacity to deliver, and judgment. After the organization's position has changed, a path that was reasonable then has to be judged again.
 
-Dance with Love (Yuaiweiwu) walks the five steps cleanly. Find consensus: middle-aged and older adults want to learn dance and be taught patiently. The demand is mature enough that old solutions already charge—offline classes, senior universities, self-study videos. Borrow experience: “Love Learning,” launched in 2025, runs a human-like AI one-to-one tutor—technically on the far left of the curve—while every interface students touch is familiar: courses, teachers, WeChat groups. The intent is that students feel they met a teacher who is always available and forever patient—the feeling of using AI is what the interface is designed to hide. Survive first: about a million learners in a year, monthly revenue in the tens of millions of yuan (company-reported). For two years the company built technology without commercializing; once commercialization started, it started from the far right of the curve. A technically frontier AI company serving the adoption curve’s rightmost users. New organizational form and conservative users do not conflict—they are the stablest pairing. The newer the engine, the older the shell must be.
+## 5. One main path, five stages
 
-## 5. Shift timetable: three signals, two ways to die
+Consensus reverse iteration keeps only one main path:
 
-The hardest of the five steps is the fifth—“move left one tier at a time”: when to move. Move early and you are a miniature Meta; move late and you weld to the right end. The timetable watches three signals, and you shift only when all three light.
+**Mature consensus → survival product → complete product → advantage product → frontier product**
 
-Signal one: money at this tier is steady. Payment and repurchase in steady state; unit economics positive. The test is cash flow at this tier able to fund the next tier’s trial budget. A fundraising story of “model proven” does not light this signal. Left move is investment, and investment spends profit, never survival cash.
+![Five-stage main path of consensus reverse iteration: mature consensus, survival product, complete product, advantage product, frontier product; what is reversed is the order in which the team widens the radius of innovation](/figures/ch12-product-path-en.svg)
 
-Signal two: the standards library at this tier is saturated. Measure with the same ruler: high-frequency exceptions at this tier are already written into standards; new exceptions appear markedly less often—this tier has nearly finished teaching you, and stay longer and learning returns diminish.
+*Figure: each stage uses results to decide keep, upgrade, roll back, or stop. A product can remain at any stop for a long time. The frontier is not a diploma.*
 
-Signal three: users on the left walk over on their own. Adjacent-tier users begin to inquire unprompted, use your product in scenes you never designed, and consensus begins to diffuse left spontaneously. Cheapest market research there is: do not predict what the next tier wants; the next tier already stands at the door holding demand.
+### Mature consensus: first prove that the problem does not depend on your technical story
 
-Two deaths map to “signals incomplete, force the shift” and “signals complete, refuse to shift.” The former is paying to educate the market early. The latter accumulates “customization debt”: special features for a few large customers stack thicker; generality is sold order by order; when you want to move left, the ship is welded to the dock. Shift discipline is one sentence: signals decide, not emotion—whether the emotion is ambition or ease.
+Mature consensus is not a class of conservative users. It is a set of evidence about a problem. Users are already paying for an old solution, continuously spending labor or time, or bearing a clear loss if the problem is not handled. Even if the words AI, robot, or new material are taken off, they still know why the matter has to be dealt with.
 
-## 6. Full autopsy of the loser: the only payer
+The value this stage has to verify is whether a new method can improve an existing result without first requiring the user to understand the underlying technology. Valid evidence includes the target scene, old spend or substitute behavior, a reachable channel, and an improvement in result under real conditions. How new the technology is does not count as evidence of demand.
 
-Return to Meta. Put Horizon Worlds through the five steps and every step runs backward. Problem consensus was absent—“I need to socialize in a virtual world” is no prior consensus for any crowd. Experience demanded brand-new learning: headset, controllers, avatar. Survival verification was skipped; losses were subsidized by the main business, and the product never had to live on its own. Then they opened fire from the far left.
+If there are only statements in interviews and no continuing behavior, or if the problem is real but there is no budget and no channel that can be served, the organization can stop at mature consensus. Continuing a scaled outlay then books an R&D project that has not yet passed payment and delivery as if it were a business.
 
-The most telling detail, reported from inside: in fall 2022 a metaverse executive urged staff in an internal memo to log into Horizon Worlds more themselves, asking why the team did not love the product they had built. A product that had not formed usage consensus even among its makers was persuading the world from the left end. Interference Method’s first step—analyze user consensus—had already answered in the company’s own conference room, and nobody wanted to read it. The $83.6 billion lesson compresses to one line: be the sole educator in a market without mature consensus and the wallet hits bottom before education finishes, even the world’s thickest wallet. You may be first; do not be the only payer.
+### Survival product: first verify payment, delivery, and unit economics
 
-Draw the boundary. Meta did not lose “going first” itself; it lost by using infinite capital to cover the absence of verification at every tier. The forward path can win, but every step pays for a public good. You must confirm you can afford it, and that you can hold what you bought.
+A survival product is not a cheap edition, and it is not finished when the first payment arrives. It has to prove three things at once: the target customer has already paid for a smallest result that is still complete; the team can deliver what was promised; and adding one more customer does not send support, service, and customization cost into a limitless worsening.
 
-## 7. R&D companion: five gates of progressive iteration
+Evidence for entering the next stage includes repeat payment or continuing use, a delivery cycle that can be recorded, a way of implementing that is becoming stable, and unit economics that hold, or can credibly be improved, at realistic volume. Those results separate a product from a demo. If every order still needs the founder to put out a fire, and the more revenue there is the larger the loss and the complexity, that is still a set of projects. It is not a survival product.
 
-Choose the right path and R&D rhythm can still destroy it. Common death: the product has just survived on the right, and R&D cannot resist stuffing three tiers of “vision features” into the roadmap. The old gene this chapter replaces appears here: **the urge to rely on originality and showmanship**. Borrowed consensus feels undignified; only originality counts. Duan Yongping’s “dare to be last” and Musk’s first principles point opposite ways, yet both refuse the same thing: unverified consensus. Borrowing proven market consensus is Clarity Method.
+A survival product can also be a long-term end. A product of modest scale, stable delivery, and healthy profit does not have to enlarge uncertainty merely to add technical novelty.
 
-Internally we lock R&D rhythm with five gates (core clauses of the product-iteration standard):
+### Complete product: let a typical customer obtain the result on their own
 
-1. **Single-variable verification**: each iteration verifies one critical variable; mix variables and what you learn zeros out.
-2. **Layered investment**: stable core, adjacent improvement, and frontier exploration are budgeted separately, ratios matched to the company’s current tier. Still at survival, frontier exploration’s share should approach zero.
-3. **Do not break verified value**: new capability must not damage verified paying scenes—right-end users tolerate “changed” far less than they tolerate “old.”
-4. **Results drive the roadmap**: prior-tier verification decides what the next tier builds—not vision working backward; every roadmap upgrade needs a paying-evidence signature.
-5. **Sediment standards each round**: iteration end must produce standard clauses into the standards engine; otherwise the round produced code, not judgment.
+That the core technology works does not mean the product is complete. The customer still has to finish buying, going live, migrating, integrating, learning, getting support, and recovering from a failure. Moore called the full set of conditions a mainstream customer needs the "whole product." In the five-stage path, complete product tests whether delivery has left a handful of heroes. It does not make another ladder of adoption.
 
-Gate one is most often violated without noticing. A typical “big release”: new pricing, new UI, and a new segment ship together. Three months later, up or down, you cannot thank or blame anyone—three variables are each other’s noise, and learning value zeros. Learning is iteration’s only sure profit: outcomes may be good or bad; the judgment learned should have been drought-proof. Single-variable discipline looks slow and is fast: learn one thing at a time, learn each truly; the standards engine eats only clean input.
+The value a complete product has to verify is whether a typical customer in the same target scene can get the result steadily. Evidence for entering the next stage can come from retention or repurchase across several batches of similar customers, repeatable implementation, a falling burden of support, a clear service level, and customers who can be cited. Adding many features, while sales still promise and engineers still patch by hand, is not completeness.
 
-The five gates also catch the second death (customization debt: long service to conservative users welds the product to the right, order by order). Gate two forces retained investment in adjacent improvement; gate four ensures left moves follow evidence, not inertia. The reverse path’s endpoint is still innovation: the right end is the departure point, not a registered address.
+A complete product can likewise hold for a long time. Reliability, ease of use, and maintainability are value. They are not a junior stage on the way to the frontier.
 
-## 8. Boundaries of the claim
+### Advantage product: prove that the difference can be repeated
 
-First, categories with extremely short technology windows and winner-take-all dynamics cannot wait for the reverse path. In markets dominated by network effects (social, platforms, OS-level entry), a pioneer’s consensus compounds beyond catch-up, and “dare to be last” then equals forfeiting. Test: does user value grow superlinearly with user count? If yes, consider forward; if no, reverse is stabler.
+An advantage product does not only replace an old method. It has to bring, steadily, a result the old method could not easily supply: a lower total cost, a shorter cycle, higher quality, less risk, or a stronger capacity to earn. It has to exclude three false advantages: orders obtained only by cutting price, customers obtained only by relationship, and a polished case customized for a single large customer.
 
-Second, channel cost to reach the right end may exceed education cost on the left. Late majority do not read tech media or browse product communities; reaching them often means offline, agents, time. Before choosing a path, compute both ledgers: education cost versus channel cost. BBK and OPPO’s answer was twenty years building channel—itself a fortune, just not labeled “market education” on the statements.
+Before the next stage, it should be possible to compare the new and the old on the same definition, to see a customer result that repeats, a reasonable price or a lower total cost, and a channel and a way of delivering that can extend. If the advantage disappears as soon as low price, relationship, or a one-customer customization changes, the difference cannot yet be repeated.
 
-Third, the forward path can win, and masters misjudge. Tesla won by educating the EV market forward: it bore nearly all early education cost, then held the gains. In that same 2018 Stanford exchange, Duan Yongping asserted Tesla was a zero-value company that would fail. Place “dare to be last” beside that miss and the conclusion is one line: a path is a choice, not a truth; every judgment standard—including this chapter’s claim—has a boundary, and masters are not exempt.
+If the difference is already enough to support a long operation, an advantage product has no need to keep walking toward the frontier. The radius of innovation is set by customer results and operating evidence, not by how new the technology looks.
 
-Fourth, sample quality. Duan’s primary source is the authorized digest of the 2018 Stanford exchange, not a verbatim transcript; Meta’s figures come from filings and *WSJ* internal documents, verified. The two multiplication samples in section three: AI + hardware is mechanism illustration only, not a call on any specific track or ticker; our own business is self-report and still running—we write the judgment structure at choice time, not operating data; data waits until it earns its way in. This path’s own loser (a company locked by mature demand that never moved left) has no verified specimen yet: customization-debt risk on the reverse path is mechanism deduction only, no autopsy report.
+### Frontier product: put a new capability into a bounded exploration
+
+A frontier product faces a new use that is not yet mature. Valid early signals include: a set of customers has in fact met a task that used to be hard to finish, has already put budget, data, or people into a joint trial, and can supply feedback fast enough.
+
+The value this stage has to verify is whether the new capability has opened a use worth continued investment. The result of an exploration can support only a new problem or a new method that may hold. It does not equal a mass market already formed. Real behavior, joint investment, technical feasibility, a bearable budget, and a clear stop line are the basis for continuing.
+
+Not every product has to enter a frontier stage, and more frontier is not more advanced. A complete product on a mature problem can create more value than a frontier product that still lacks evidence of use and payment. Where a product stops is decided together by mission, customer value, limiting resource, and risk.
+
+The public method of 与爱为舞 (Dance with Love) supplies a limited mechanism on the side. In a transcript published by Qiming Venture Partners, founder Zhang Huaiting put the company's path as: first close a business loop and verify that the scene works, then let the model gradually assist or replace steps inside it, and finally complete the AI change of the business (Qiming Venture Partners, 2025). That sits near the five-stage order of building. It cannot prove that the five stages work in general. The company's financing, revenue, users, and teaching results are also mainly company figures. Chapter 14 opens the case at the layer of organizational assembly.
+
+## 6. R&D has to walk with the evidence
+
+The product path decides where to begin. R&D discipline decides whether the organization can learn from each round of results.
+
+The first discipline is: **verify one main uncertainty at a time, as far as possible.** A main uncertainty is the unknown that most affects the next decision. The team can first write what this round actually has to judge—price, frequency of use, way of delivering, or technical feasibility—and then keep the other conditions as stable as it can. The aim is to raise attributability. It is not a claim that a complex product can forever change only one variable.
+
+A strict "one factor at a time" misleads when factors interact. NIST's handbook of experiment design notes that if the effect of one factor changes with the value of another, changing factors one by one will not see that interaction. A complex product has to use, according to the problem, staged release, a controlled trial, a multivariable design, or monitoring of interactions (NIST/SEMATECH, 2012). Changing a new price, a new interface, and a new segment of customers at once makes explanation harder. It does not send the value of learning automatically to zero. The right move is to admit the mix, improve the experiment, and not invent a certain answer.
+
+The second discipline is to separate **stable core, adjacent improvement, and frontier exploration**.
+
+The stable core is the present source of payment and of value already verified. R&D has to give it rails of reliability, safety, compatibility, migration, and rollback. Adjacent improvement adds only one layer of capability or scene, so that the new result can still be compared with the present core. Frontier exploration is isolated from the stable core, with budget, term, technical evidence, market evidence, and a stop condition set in advance. A survival period can keep exploration inside a cap. It cannot let a failed exploration pull the core down.
+
+The third discipline is: **a new capability must not break old value by accident.** When a new capability changes a verified flow, present customers bear the cost of learning, migrating, failing, and rolling back. Before a release, write compatibility, cost of migration, a rollback plan, and the rail metrics. When an old path in fact no longer creates value, it can be withdrawn. Withdrawal itself has to have evidence. A function that still has use and payment cannot be booked straight as technical debt.
+
+The fourth discipline is: **results decide the next step. A vision does not sign for the results.** A vision can propose a hypothesis. A roadmap has to allow keep, upgrade, roll back, and stop. The last round of evidence answers only the question written in advance. The organization still has to put customer behavior, burden of delivery, economics, and risk together before it decides whether to widen the radius of innovation. There is no universal timetable on which "three signals all light," and there is no need to wait for adjacent users to walk over on their own before admitting that the next layer of demand exists.
+
+The fifth discipline is: **settle a standard each round.** When an iteration ends, at least record the hypothesis, the conditions of use, the action taken, the result observed, the exception that appeared, the reason for stopping or continuing, and what the next round has to revise. Code tells the product what it can do now. A standard tells the organization how to judge the next time a similar problem appears.
+
+The five disciplines together replace the urge to showmanship. R&D is not stuffing the most frontier capability into the product as fast as possible. It is, without breaking value already verified, continuing to buy more reliable judgment.
+
+## 7. Mature demand can also hold a company in place
+
+Starting from a mature consensus only reduces part of the uncertainty of demand. It also produces six costs.
+
+The first is the technology window. A key standard, supply, license, intellectual property, or place in an ecosystem may fix itself quickly. If a later firm would then lose the right to choose for good, slowly accumulating capability from mature demand may come too late. A reverse path has to constrain its pace with a real window. "Do it later" cannot be treated as an unlimited wait.
+
+The second is network effects. The value a user obtains from the same network, from compatible products, or from complementary software or services may rise as more people take part (Katz & Shapiro, 1985). A network effect is not, by itself, winner-take-all. Whether it forms a barrier to entry still depends on its strength, switching cost, compatibility, and whether users can use several platforms at once (OECD, 2022). Asking only "is this social, or a platform?" is not enough to decide that a firm must run forward first.
+
+The third is channel cost. Mature users may not gather in technology media and product communities. They may depend on agents, offline stores, industry relationships, and long service. BBK's later rise also sat on national channels, advertising, and after-sales outlay. Educating an early market can be expensive. Reaching and serving a mature market can be more expensive. The two ledgers have to be compared in the concrete scene. Neither side can be declared cheapest in advance.
+
+The fourth is price sensitivity. When a deal can be closed only by continuing to cut price, the cost the technology saved is easily eaten by channel, implementation, returns, and support. A survival product has to count the full cost of delivery, not use the first payment as proof of a business model. Price can be low. Future maintenance cannot be hidden inside today's product margin.
+
+The fifth is customization debt. A special change for a large customer may buy revenue and important learning. If every customer keeps a special logic, testing, upgrades, and support grow with sales. The team has to separate configurable, reusable product capability from custom projects that should be priced and staffed under a service contract. A special feature with no owner, no maintenance budget, and no condition for deletion will slowly turn a survival product into a projects firm.
+
+The sixth is technical debt. Delivering before cash runs out often means accepting a local compromise. The problem is not that the debt exists. It is whether the organization has recorded what it affects, who is responsible, and when it must be repaid. If gaps in data quality, safety, and architecture begin to hinder the stable core, further expansion only enlarges the cost of the repair.
+
+Those risks also show that a reverse path is not a generally superior solution. Tesla's 2006 Master Plan chose, in public, to start from a high-priced Roadster and then, with later models, raise volume and lower price. By the end of 2012 the company disclosed about 2,450 Roadsters delivered and about 2,650 Model S cars (Tesla, 2006; Tesla, 2013). That at least shows that opening from frontier technology and from users with a high willingness to pay can move, step by step, toward a larger market. It cannot prove that a forward path is naturally superior, and it cannot book the whole education of the electric-car market to Tesla. That a forward path can hold depends, likewise, on product, capital, infrastructure, policy, supply chain, and long execution.
+
+The choice of path has to follow what the organization can currently bear, and has to locate again when the results change.
+
+## 8. Meta: missing consensus is only one item
+
+The public record of Horizon Worlds presents three verifications that were not finished: mainstream demand, product quality, and the product's own constraint of survival. Profits from Meta's other businesses let a large outlay continue.
+
+Internal files seen by *The Wall Street Journal* in 2022 showed that Meta first set Horizon Worlds' year-end 2022 monthly-active target at 500,000, later cut it to 280,000, and that actual monthly actives were then under 200,000. Most visitors did not come back after the first month, and the user count had been falling since spring. Of the worlds creators had built, only 9% had ever been visited by at least fifty people, and most had never been visited (*The Wall Street Journal*, 2022). Another "300,000" often mixed into this set is the combined monthly actives of Horizon Worlds and Horizon Venues in February 2022, confirmed to the press by a Meta spokesperson. It is not a peak for Horizon Worlds alone.
+
+Weak evidence of demand was not the only problem. An internal memo dated September 15, 2022, put the product under a "quality lock," to repair gaps in quality, performance, and stability first. Vishal Shah, who led the product, wrote that employees' own usage dashboards showed that many people on product teams rarely entered Horizon. A follow-up memo on September 30 was still asking teams to use the product each week. The material also named onboarding problems in the first-use flow, and said plainly that the product had not yet found product-market fit (*The Verge*, 2022).
+
+What Meta faced, then, was a set of problems acting together: the friction of entering with a headset and controllers, a social experience weakened by empty worlds, density of content and retention, product quality and onboarding, and whether "socializing in a virtual world" could enter enough people's ordinary days. Booking the whole result to "users had no consensus" misses the part in which the product itself did not keep its promise. Writing it as if no scene of use existed at all also erases VR communities and creators already there.
+
+Reality Labs' losses likewise cannot be booked straight to Horizon Worlds. In segment data Meta disclosed to the SEC, Reality Labs' operating losses from 2020 through 2025 were $6.623 billion, $10.193 billion, $13.717 billion, $16.120 billion, $17.729 billion, and $19.193 billion, $83.575 billion in all. The segment covers virtual- and augmented-reality hardware, software, and content together. The 2025 annual report also lists Quest, Horizon, wearables, AI/AR devices, neural interfaces, and long-term underlying technology. $83.575 billion can show that Meta bore a large long-term outlay for a next computing platform. It cannot show that Horizon Worlds alone burned that sum (Meta, 2022/2024/2026).
+
+The product changes of 2026 also have to be written accurately. Meta first announced in March that Horizon Worlds would turn toward mobile and was planned to be removed from Quest after June 15, then quickly changed the arrangement for a full shutdown. Later official developer text said that individual Worlds would no longer occupy a listing in the Quest store, that existing Worlds could still be reached through the Horizon Worlds app, and that almost all new emphasis for Worlds would turn to mobile, while the company would keep investing in Quest, the VR platform, and third-party VR developers (Meta, 2026). It cannot be written as if Quest Horizon Worlds had already been fully taken down on June 15, 2026, and still less as if Meta had exited the headset business.
+
+BBK borrowed a category demand that had already shown itself, and still had to compete for a place with quality, channel, and service. Meta had the capital to bear a frontier exploration. Capital cannot replace product-market fit. The former cannot prove that coming later always wins. The latter cannot prove that going first always loses. The standard of judgment that follows is this: first list the uncertainties the product has not yet verified, then check whether the company can bear them.
+
+## 9. The frontier is not a diploma
+
+Write the five stages as "do the mature market first, then walk all the way to the frontier," and the frontier is set again as the top of a value rank. The path is also mistaken for a promotion table that has to be cleared.
+
+The five stages have only one building discipline: **choose the path on present evidence, then let the next round of results decide the radius of innovation.** Mature consensus can be a start. A survival product can be an end. A complete product and an advantage product can be operated for a long time. A frontier product can also stop after verification fails. What is accepted is not whether the product stands at the front. It is whether the limiting resource has entered a direction nobody needs, that cannot be delivered, or that cannot be borne.
+
+Originality has to be tested by customer value. A vision has to be tested by evidence of the stage. Frontier exploration may not occupy, without a cap, the survival capital of the stable core. Those three constraints together replace reliance on originality and the practice of letting a technical display stand in for a result.
+
+When the product team and the customer sit at nearby stages, demand, evidence, and delivery are easier to align. When the team has already moved to the next stage and the customer is still protecting old value, or when the maturity the customer requires sits far above the team's present capability, a product problem turns into a relationship problem: keep compatible, screen again, or exit? That mismatch is what the next chapter takes up.
 
 ## What to Do Monday Morning (principal-leader view)
 
-1. **Write the multiplication**: for your business, one sentence each for variable and invariant. Test the invariant with Bezos’s question: you cannot imagine customers demanding the opposite in ten years. No variable sentence—the business may be fine, but stop telling it an AI story. No invariant sentence—do not spend yet.
-2. **Which user tier do we actually serve?** Judge by behavior, not wish: who dominates among paying users, not whom the keynote addresses.
-3. **What does the company lack most now?** New-category leadership, or cash flow and learning chances to stay alive? If the latter, you have no license for the forward path; forcing it is paying the industry’s education bill with survival money.
-4. **If you choose reverse, what is the right-end problem consensus that needs no education?** Write one sentence; ask ten target users. If anyone needs you to explain the problem itself, consensus does not exist—change it.
-5. **Audit the R&D roadmap**: label each project this quarter stable core, adjacent improvement, or frontier exploration; compute the mix against the company’s tier. Three frontier projects on a survival-tier roadmap is not ambition; it is resource misallocation—spending the limiting resource on the wrong tier.
+Pick one product that is being opened, that is about to receive a larger outlay, or that is about to be rebuilt. Do not audit the whole company at once.
 
-Note (individual and team view): careers obey the same normal distribution and six-tier standards. Opening with the most frontier skill is Path A: you educate the employer on “why this new job exists”—vocabulary, proof, and trust ledgers in full—like top talent and capital charging straight at Tsinghua and Peking University. Stabler is the personal version of consensus reverse iteration (Path B): survive first on mature skills the market already prices, occupy a seat that can see the frontier, then swap rulers upward tier by tier; when talent is ordinary, this road is often the one actually reachable. Writing standards for work you already have is that path’s first gear change: from selling execution to selling judgment, one notch left from the right end. Remember the HR contrast: same name, different standards; what you cross is a standard tier, not a title.
+1. **Answer the two questions of the line of work.** Write one sentence for "why now" and one for "why it will still be worth doing in ten years," and attach one piece of observable evidence to each. Where evidence cannot be written, mark a hypothesis. Do not enter a scaled outlay.
+2. **Locate the target demand.** Do not pin innovator or conservative labels on the user. Write how they currently handle the problem, what money, time, labor, or risk they have already spent, and whether the problem still holds after the technical nouns are taken off.
+3. **Locate yourself.** List the runway of usable capital, the real cost of channel, the technical capability that can currently be delivered reliably, and the upper bound sales, implementation, and support can bear.
+4. **Choose a path and a present stage.** Say why, at this moment, a forward path or consensus reverse iteration fits better. If the reverse path is taken, mark only one present position on "mature consensus—survival—complete—advantage—frontier," and write the value already verified.
+5. **Freeze the next main uncertainty.** For the next round, write the question, the metric, the rails, the budget, the term, rollback, and the stop condition. Then mark which work belongs to stable core, adjacent improvement, and frontier exploration.
+6. **Write the result back into a standard.** When the iteration ends, record not only what shipped, but which judgment was supported, which was overturned, how the conditions of use changed, and whether the next round will keep, upgrade, roll back, or stop.
+
+A week later, do not count how many stops the team still sits from the frontier. Check three results: whether the reason for payment is clearer, whether delivery is more repeatable, and whether the next piece of limiting resource already has evidence for continued investment.
 
 ## Quotable Lines
 
-1. A startup need not begin from the most frontier consensus; it can first survive on the most certain consensus.
-2. Educating the market is the most expensive Interference Method; mature consensus is the cheapest.
-3. Do not educate users to understand new technology first; teach new technology to fit the consensus users already hold.
-4. The newer the engine, the older the shell must be.
-5. Reverse adoption is not retreat; it is buying future innovation rights with certainty.
-6. You may be first; do not be the only payer.
-7. The category consensus you pay to build is a public good competitors use free.
-8. Move only one tier toward uncertainty at a time and the roadmap never runs on wish.
-9. The right end is the departure point, not a registered address.
-10. A path is a choice, not a truth; masters’ judgments have boundaries too.
-11. Left moves follow signals, not emotion—whether ambition or ease.
-12. Do not predict the next tier’s demand: when signals are right, users stand at your door holding it.
-13. Learning is iteration’s only sure profit—mix the variables and even that surety zeros.
-14. Variables answer “why now”; invariants answer “why still valuable in ten years.”
-15. Users will not pay because you used AI; they will pay because you better meet a need they already had.
-16. The window decides whether you can enter; compounding decides whether entry is worth it.
-17. Same job title, different standards; changing standard tier is the chasm.
-18. The adoption curve looks like a user taxonomy; it is a ladder of standards.
-19. Two roads to Tsinghua: Path A at the top bar, or swap rulers tier by tier when you fall short.
+1. What is reversed is the order in which a product team bears uncertainty, not the law of user adoption.
+2. Originality can create value. "Nobody has done this before" is not a reason a customer pays.
+3. A variable answers "why now." An invariant answers "why it will still be worth doing in ten years." Both questions have to be answered. They cannot be multiplied.
+4. What is mature is the problem consensus, not that the user is more conservative.
+5. Dare to be last settles which class of problem to enter. Later-but-better decides whether a later firm has a right to remain.
+6. A survival product is not a cheap edition. It has to prove payment, delivery, and unit economics at once.
+7. That the core technology works does not mean the product is complete.
+8. The radius of innovation serves value. It does not serve how advanced the team wishes to look.
+9. A vision can propose a hypothesis. It cannot sign for the results.
+10. Code tells the product what it can do now. A standard tells the organization how to judge the next similar problem.
+11. The frontier is not a diploma. Stopping is not a failure.
+12. Capital can buy a longer time to explore. It cannot buy product-market fit.
+13. A path is a choice, not a faith.
 
 ## Connections to Adjacent Chapters
 
-- Continuing from Chapter 11: after personal time allocation is aligned, along what path does the organization’s external output—product—evolve? Old gene this chapter replaces: “reliance on originality and showmanship.”
-- Continuing from Chapters 1 and 6: the variable × invariant multiplication for choosing a business—variable term is execution approaching zero; invariant test borrows Bezos’s question; the same invariant principle that Chapter 6 uses for “where to build the standard,” this chapter uses for “where to choose the business.”
-- Handed to Chapter 13: talent, time, and product now have new standards—the fourth battlefield is the ninety days themselves: assemble the three into one full cycle of organizational-DNA evolution.
+- Continuing from Chapter 11: once a person has time again for judgment, writing, developing people, and learning, the organization has to decide which class of demand those judgments are spent on, and how much uncertainty they will bear.
+- Back to Chapter 2: Rogers's five categories classify only by the relative time of adoption of a given innovation. Moore's chasm sits only between early adopters and a pragmatic mainstream. They are not rewritten here as a rank of value.
+- Back to Chapter 6: the invariant still uses the question of stable customer demand. Each round of product iteration writes the judgment, the conditions of use, and the reason for a stop back into the standards cycle.
+- Calling Chapter 8: a familiar experience can lower the cost of understanding and of choosing, but consensus reverse iteration is first a product use of dynamic lifecycle management. It is not the same as the Interference Method.
+- Handed to Chapter 13: when the product team, the customer, and a partner sit at different stages, a product trade-off turns into a relationship trade-off. The next chapter handles screening, compatibility, and exit, and does not reuse "a chasm at every tier" or users moving left and right.
+- Handed to Chapter 14: the full operating and organizational case of 与爱为舞 waits for the ninety-day assembly. This chapter keeps only the mechanism "close the business loop first, then let the model take over step by step."
+- Old gene replaced: reliance on originality and the urge to showmanship.
 
-## Chapter Acceptance Self-Check (against the chapter’s five acceptance standards)
+## Chapter Acceptance Self-Check (against chapter acceptance standards)
 
-1. Claim restatable in one sentence ✓, and strictly isomorphic to Interference Method (consensus reverse iteration = Interference Method applied to product).
-2. Whiteboard framework figure ✓ (normal-distribution six-tier figure inserted + reversed adoption arrow five steps + four-tier consensus ladder; Path A/B dual arrows).
-3. External comparison and data ✓: positive S1 Duan Yongping (Stanford 53 questions primary source + BBK VCD instance) + E4 Dance with Love (five-step walkthrough: Love Learning, million learners, tech first then commercialize from the right); loser L1 Meta Horizon Worlds ($83.6B, MAU and visitor data, internal memo marked “as reported,” June 2026 exit); forward-path success control Tesla (including Duan’s misjudgment stated honestly); section-three multiplication samples (AI + hardware as mechanism; bioby.ai overseas influencer Agent as self-report; quality in claim boundary four); HR/gaokao analogies for standard ladder isomorphism, not operating samples; P4 gap marked.
-4. Nineteen quotable-line candidates ✓ (v1.3 multiplication three; v1.4–v1.5 standard ladder and dual paths).
-5. “What to Do Monday Morning” principal-leader multiplication + three questions + one audit + personal note (aligned to six tiers and Path A/B) ✓; v1.6 cleared aside hard joins.
-6. Fluency ✓: whole-sentence rewriting and English breath under current prose-standard.
+1. Claim restatable in one sentence ✓: locate demand, locate self, then match; when conditions fit, start from a mature problem consensus, verify payment, delivery, and survival, then widen capability and the radius of innovation on results.
+2. Nine-section spine and whiteboard figure ✓: where judgment goes → two questions that cannot be multiplied → locate demand then self → BBK later-but-better → five stages → R&D with evidence → six costs of mature demand / Tesla as forward boundary → Meta as more than missing consensus → frontier is not a diploma. Figure is the five-stage path plus R&D rails; normal-distribution six-tier ladder is out.
+3. Evidence caliber ✓: Duan and BBK from Chapter 7 plus *Guangming Daily* 1998 Sino top-ten, 1997 license, 1999–2000 second-place as company-supplied. Horizon 500,000 / 280,000 / under 200,000, 9% of worlds, combined 300,000 as Worlds+Venues, quality lock and PMF from WSJ 2022 and *The Verge* 2022. Reality Labs $83.575 billion as the segment, not Horizon Worlds alone. 2026 mobile shift, not a Quest takedown and not an exit from headsets. Tesla 2006 Master Plan and ~2,450 Roadsters / ~2,650 Model S by end-2012. 与爱为舞 as Qiming 2025 mechanism only. bioby.ai as judgment at choice. NIST 2012 on interaction. Katz & Shapiro 1985; OECD 2022. Amazon 2009 as in Chapter 6.
+4. Case contract ✓: BBK and Meta as a mechanism pair, not a same-industry win-loss experiment. Reverse path not a generally superior solution. Gaokao / HR / six-tier chasm, variable×invariant, reverse adoption curve, Interference Method isomorphism, Qudian / Chegg, OPPO half the phone market, 1996 BBK entry, Meta headset exit, Dance with Love operating numbers, Duan's Tesla miss, career note, and three-signal timetable are out.
+5. Path and R&D ✓: one main path of five stages, each with a stop; one main uncertainty not one-factor-forever; stable core / adjacent / frontier; no three-light ritual.
+6. Chapter boundary ✓: full 与爱为舞 ledger waits for Chapter 14; relationship mismatch waits for Chapter 13; Ch7 holds 1997 entry and quality rating.
+7. Fluency ✓: rewritten in English voice from the Chinese authority; current prose-standard.

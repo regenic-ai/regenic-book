@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { BookCover } from "@/components/book-cover";
 import { ProductPanel } from "@/components/product-panel";
 import {
   CapabilityDiagram,
@@ -57,14 +58,22 @@ export default async function HomePage({
               </Link>
             </div>
           </div>
-          <aside className="hero-proof" aria-label="核心证据">
-            <span className="proof-number">280×</span>
-            <p>
-              达到 GPT-3.5 水平的推理成本，在约两年间从每百万 token 20
-              美元降至 0.07 美元。
-            </p>
-            <small>Stanford HAI《AI Index 2025》核算口径</small>
-          </aside>
+          <div className="hero-cover-col">
+            <BookCover
+              locale={locale}
+              href={`/${locale}/book`}
+              priority
+              size="hero"
+            />
+            <aside className="hero-proof" aria-label="核心证据">
+              <span className="proof-number">200×</span>
+              <p>
+                达到 GPT-4 水平的推理成本，在两年多时间里从每百万 token 约
+                37.5 美元降至约 0.18 美元。
+              </p>
+              <small>Epoch AI，2025</small>
+            </aside>
+          </div>
         </div>
       </section>
 
@@ -80,7 +89,7 @@ export default async function HomePage({
 
       <section className="marketing-section shell" id="method">
         <SectionHeading
-          eyebrow="双能力模型"
+          eyebrow="两个统一"
           title="伟大组织需要的两种能力"
           description="标准决定如何判断，上下文决定能否一起行动。AI 可以降低执行成本，但这两种能力仍必须由组织生产并维护。"
         />
@@ -103,9 +112,9 @@ export default async function HomePage({
             </article>
             <article>
               <span>干扰术</span>
-              <h3>理解共识，选择场景，诚实地制造共识。</h3>
+              <h3>理解已有共识，选择合适场景，诚实地形成新共识。</h3>
               <p>
-                只允许选择性展示真实信息，不允许制造假信息。“诚以待人”是硬边界，不因增长压力而松动。
+                帮助对方看见并理解最适合自己的方案。主张可核验，不隐瞒重大信息，承诺可兑现，并保留知情选择。
               </p>
             </article>
           </div>
@@ -224,15 +233,20 @@ function EnglishHome({ locale }: { locale: PublishedLocale }) {
             <h1>Execution is getting cheaper.<br />Judgment is becoming the last scarcity.</h1>
             <p className="hero-copy">An AI-native organization is not an old organization with every tool installed. It turns individual insight into shared judgment standards and shared context.</p>
             <div className="hero-actions">
-              <Link className="button primary" href={`/${locale}/book`}>Read <em>Rewrite the DNA</em> free</Link>
+              <Link className="button primary" href={`/${locale}/book`}>
+                Read Rewrite the DNA free
+              </Link>
               <Link className="text-link" href={`/${locale}/method`}>Explore the method →</Link>
             </div>
           </div>
-          <aside className="hero-proof" aria-label="Core evidence">
-            <span className="proof-number">280×</span>
-            <p>The inference cost of reaching GPT-3.5-level performance fell from $20 to $0.07 per million tokens in roughly two years.</p>
-            <small>Stanford HAI, AI Index 2025 methodology</small>
-          </aside>
+          <div className="hero-cover-col">
+            <BookCover locale={locale} href={`/${locale}/book`} priority size="hero" />
+            <aside className="hero-proof" aria-label="Core evidence">
+              <span className="proof-number">200×</span>
+              <p>The inference cost of reaching GPT-4-level performance fell from about $37.50 to about $0.18 per million tokens in a little over two years.</p>
+              <small>Epoch AI, 2025</small>
+            </aside>
+          </div>
         </div>
       </section>
       <section className="evidence-strip">
@@ -243,7 +257,7 @@ function EnglishHome({ locale }: { locale: PublishedLocale }) {
         </div>
       </section>
       <section className="marketing-section shell" id="method">
-        <SectionHeading eyebrow="Dual-capability model" title="Two capabilities great organizations need" description="Standards determine how to judge. Context determines whether people can act together. AI can lower execution cost, but the organization must still produce and maintain both." />
+        <SectionHeading eyebrow="Judgment × Context" title="Two capabilities great organizations need" description="Standards determine how to judge. Context determines whether people can act together. AI can lower execution cost, but the organization must still produce and maintain both." />
         <CapabilityDiagram locale={locale} />
       </section>
       <section className="statement-band">

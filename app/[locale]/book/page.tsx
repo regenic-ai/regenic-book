@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { BookCover, BOOK_COVER } from "@/components/book-cover";
 import { JsonLd } from "@/components/json-ld";
 import { getAllChapters } from "@/lib/content/chapters";
 import { isPublishedLocale } from "@/lib/i18n/config";
@@ -27,7 +28,7 @@ export async function generateMetadata({
     description:
       locale === "en"
         ? "Read the complete English edition of Rewrite the DNA: How to Build an AI-Native Organization online for free."
-        : "在线免费阅读《重写基因：如何构建 AI 原生组织》前言与全部十三章。",
+        : "在线免费阅读《重写基因：如何构建 AI 原生组织》前言与全部十四章。",
     pathname: "/book",
   });
 }
@@ -61,6 +62,7 @@ export default async function BookPage({
             url: absoluteUrl(`/${locale}/book`),
             inLanguage: en ? "en" : "zh-CN",
             isAccessibleForFree: true,
+            image: absoluteUrl(BOOK_COVER.src),
             author: {
               "@type": "Person",
               name: AUTHOR_NAME,
@@ -76,19 +78,22 @@ export default async function BookPage({
         ]}
       />
       <div className="shell book-index">
-      <header className="book-index-header">
-        <p className="eyebrow">
-          {en ? "Complete book · Free to read" : "完整书稿 · 免费公开"}
-        </p>
-        <h1>{en ? "Rewrite the DNA" : "《重写基因》"}</h1>
-        <p>
-          {en ? "How to Build an AI-Native Organization" : "如何构建 AI 原生组织"}
-        </p>
-        <div className="book-meta">
-          <span>{en ? "By Jeson Li" : "李必琪（Jeson Li）著"}</span>
-          <span>{en ? `${chapters.length} entries` : `${chapters.length} 篇`}</span>
-          <span>{en ? "Living edition" : "持续更新版"}</span>
+      <header className="book-index-header book-index-hero">
+        <div>
+          <p className="eyebrow">
+            {en ? "Complete book · Free to read" : "完整书稿 · 免费公开"}
+          </p>
+          <h1>{en ? "Rewrite the DNA" : "《重写基因》"}</h1>
+          <p>
+            {en ? "How to Build an AI-Native Organization" : "如何构建 AI 原生组织"}
+          </p>
+          <div className="book-meta">
+            <span>{en ? "By Jeson Li" : "李必琪（Jeson Li）著"}</span>
+            <span>{en ? `${chapters.length} entries` : `${chapters.length} 篇`}</span>
+            <span>{en ? "Living edition" : "持续更新版"}</span>
+          </div>
         </div>
+        <BookCover locale={locale} priority size="index" />
       </header>
       <ol className="chapter-list">
         {chapters.map((chapter) => (

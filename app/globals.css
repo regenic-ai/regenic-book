@@ -27,7 +27,7 @@
   --signal: var(--green-700);
   --signal-dark: var(--green-900);
   --max-width: 1240px;
-  --reading-width: 680px;
+  --reading-width: 46rem;
   --font-sans: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
   /* Screen reading: prefer Hei/sans over Songti (print strokes blur in long body text). */
   --font-reading: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", Inter, system-ui, sans-serif;
@@ -395,9 +395,9 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.7rem;
+  gap: 0.35rem;
   font-family: var(--font-serif);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0;
   text-wrap: pretty;
   line-break: strict;
@@ -676,6 +676,13 @@ textarea:focus-visible {
   border-bottom: 2px solid var(--ink);
 }
 
+.book-index-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 240px);
+  align-items: end;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+}
+
 .book-index h1 {
   font-size: clamp(3rem, 7vw, 6.5rem);
 }
@@ -768,29 +775,89 @@ textarea:focus-visible {
   background: var(--signal);
 }
 
-/* Soften pure white × near-black glare on chapter reading pages only */
+/* Reading surface: one shared column for header, article, and footer */
 body:has(.reader-shell) {
-  background: #f1f3f0;
-  color: #252b25;
+  --paper: #f6f1e4;
+  --ink: #3a3a3a;
+  --muted: #757266;
+  --line: #e3dccb;
+  --surface-raised: #fbf7ee;
+  --surface-soft: #efe8d6;
+  --reader-stage: min(calc(100% - 3rem), 72rem);
+  --reader-toc: 13rem;
+  --reader-gap: clamp(1.5rem, 3vw, 2.75rem);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body:has(.reader-shell) .shell {
+  width: var(--reader-stage);
+}
+
+body:has(.reader-shell) .site-header {
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--line) 80%, transparent);
+}
+
+body:has(.reader-shell) .header-inner {
+  min-height: 56px;
+}
+
+body:has(.reader-shell) .site-footer {
+  padding-block: 1.75rem 1.35rem;
+  background: transparent;
+}
+
+body:has(.reader-shell) .footer-brand {
+  display: none;
+}
+
+body:has(.reader-shell) .footer-inner {
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
+
+body:has(.reader-shell) .footer-links {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
+}
+
+body:has(.reader-shell) .footer-links > div {
+  gap: 0.45rem;
+}
+
+body:has(.reader-shell) .footer-links > div > strong {
+  margin-bottom: 0.1rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+body:has(.reader-shell) .fine-print {
+  margin-top: 0.35rem;
 }
 
 .reader-shell {
   position: relative;
-  padding-block: 3rem 7rem;
+  padding-block: 1.75rem 4.5rem;
   display: grid;
-  grid-template-columns: 220px minmax(0, var(--reading-width)) 1fr;
-  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: var(--reader-toc) minmax(0, 1fr);
+  justify-content: stretch;
+  column-gap: var(--reader-gap);
+  row-gap: 1.25rem;
 }
 
 .reader {
   grid-column: 2;
+  min-width: 0;
+  width: 100%;
 }
 
 .reader-breadcrumb {
   display: flex;
   gap: 0.65rem;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
 }
 
 .reader-breadcrumb a:hover {
@@ -798,46 +865,56 @@ body:has(.reader-shell) {
 }
 
 .chapter-header {
-  margin-top: 3rem;
-  padding-bottom: 3.5rem;
+  margin-top: 1.75rem;
+  padding-bottom: 1.75rem;
   border-bottom: 1px solid var(--line);
 }
 
 .chapter-header h1 {
-  font-size: clamp(1.85rem, 3.4vw, 2.65rem);
-  line-height: 1.28;
+  font-size: clamp(1.4rem, 2.4vw, 1.75rem);
+  line-height: 1.35;
 }
 
 .chapter-kicker {
   display: block;
   font-family: var(--font-sans);
-  font-size: 0.92rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   line-height: 1.3;
   color: var(--signal);
 }
 
 .chapter-title-main {
   display: block;
-  max-width: 18em;
+  max-width: none;
 }
 
-.chapter-header > p:not(.eyebrow) {
-  margin: 1.5rem 0;
+.chapter-dek {
+  margin: 1rem 0 0;
   color: var(--muted);
   font-family: var(--font-reading);
-  font-size: 1.12rem;
-  line-height: 1.8;
-  max-width: 40em;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.chapter-header .chapter-meta {
+  margin-top: 0.85rem;
 }
 
 .chapter-toc {
   position: sticky;
-  top: 7rem;
+  top: 5.5rem;
   align-self: start;
-  max-height: calc(100vh - 9rem);
+  justify-self: stretch;
+  width: auto;
+  max-height: calc(100vh - 7.5rem);
   overflow: auto;
+}
+
+.chapter-toc .eyebrow {
+  margin-bottom: 0.85rem;
+  font-size: 0.64rem;
 }
 
 .chapter-toc ol,
@@ -849,15 +926,23 @@ body:has(.reader-shell) {
 
 .chapter-toc li,
 .mobile-toc li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.45rem;
   color: var(--muted);
-  font-size: 0.76rem;
-  line-height: 1.5;
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.chapter-toc a,
+.mobile-toc a {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .chapter-toc .toc-depth-3,
 .mobile-toc .toc-depth-3 {
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 
 .chapter-toc a:hover,
@@ -870,43 +955,56 @@ body:has(.reader-shell) {
 }
 
 .prose {
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   font-family: var(--font-reading);
-  font-size: clamp(1.05rem, 1.35vw, 1.125rem);
-  line-height: 1.85;
-  letter-spacing: 0.01em;
+  font-size: clamp(1.0625rem, 0.2vw + 1rem, 1.125rem);
+  line-height: 2;
+  letter-spacing: 0;
   font-weight: 400;
+  color: var(--ink);
+  overflow-wrap: break-word;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .prose h2,
 .prose h3 {
-  scroll-margin-top: 6rem;
-  font-family: var(--font-sans);
-  line-height: 1.35;
+  scroll-margin-top: 5.5rem;
+  font-family: var(--font-reading);
+  font-weight: 650;
+  line-height: 1.4;
+  text-indent: 0;
 }
 
 .prose h2 {
-  margin: 4.5rem 0 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
-  font-size: 1.75rem;
-}
-
-.prose > h2:first-child {
-  margin-top: 0;
+  margin: 2.6rem 0 0.75rem;
   padding-top: 0;
   border-top: 0;
-}
-
-.prose h3 {
-  margin: 3rem 0 1rem;
   font-size: 1.25rem;
 }
 
+.prose > h2:first-child {
+  margin-top: 0.35rem;
+}
+
+.prose h3 {
+  margin: 1.85rem 0 0.55rem;
+  font-size: 1.08rem;
+}
+
 .prose p {
-  margin: 1.5rem 0;
+  margin: 1.15em 0;
+}
+
+.reader-shell[data-locale="zh"] .prose > p {
+  margin: 0.7em 0;
+  text-indent: 2em;
+}
+
+.reader-shell[data-locale="zh"] .prose > p:has(> img),
+.reader-shell[data-locale="zh"] .prose > p:has(> em:only-child) {
+  text-indent: 0;
 }
 
 .prose strong {
@@ -914,20 +1012,46 @@ body:has(.reader-shell) {
 }
 
 .prose blockquote {
-  margin: 2.5rem 0;
-  padding: 0.5rem 0 0.5rem 1.5rem;
-  border-left: 3px solid var(--signal);
+  margin: 1.75rem 0;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 2px solid color-mix(in srgb, var(--signal) 55%, var(--line));
   color: var(--muted);
-  font-size: 1.15em;
+  font-size: 0.97em;
+  line-height: 1.85;
+}
+
+.prose blockquote p {
+  margin: 0.4em 0;
+  text-indent: 0;
+}
+
+.prose ul,
+.prose ol {
+  margin: 1.15rem 0 1.15rem 0.15rem;
+  padding-left: 1.6em;
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
 }
 
 .prose li {
-  margin: 0.6rem 0;
-  padding-left: 0.25rem;
+  margin: 0.5em 0;
+  padding-left: 0.35em;
+  text-indent: 0;
+}
+
+.prose li::marker {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .prose hr {
-  margin: 4rem 0;
+  margin: 2.5rem 0;
   border: 0;
   border-top: 1px solid var(--line);
 }
@@ -935,10 +1059,11 @@ body:has(.reader-shell) {
 .prose .chapter-figure,
 .prose p:has(> img.chapter-figure-image),
 .prose p:has(> img[src*="/figures/"]) {
-  margin: 2.5rem 0;
-  padding: 1.25rem;
-  border: 1px solid var(--line);
-  background: var(--paper-deep);
+  margin: 1.75rem 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-indent: 0;
 }
 
 .prose img.chapter-figure-image,
@@ -951,13 +1076,14 @@ body:has(.reader-shell) {
 
 .prose .chapter-figure-caption,
 .prose p:has(> img[src*="/figures/"]) + p:has(> em:only-child) {
-  margin-top: -1.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 0.65rem;
+  margin-bottom: 1.75rem;
   color: var(--muted);
   font-family: var(--font-sans);
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   line-height: 1.6;
   text-align: center;
+  text-indent: 0;
 }
 
 .heading-anchor {
@@ -973,24 +1099,25 @@ body:has(.reader-shell) {
 }
 
 .chapter-pagination {
-  margin-top: 3rem;
+  margin-top: 2.75rem;
+  padding-top: 1.15rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1rem 1.5rem;
+  border-top: 1px solid var(--line);
 }
 
 .chapter-pagination a {
-  min-height: 120px;
-  padding: 1.25rem;
+  min-height: 0;
+  padding: 0.35rem 0;
   display: flex;
-  border-top: 2px solid var(--ink);
+  border-top: 0;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 0.2rem;
 }
 
 .chapter-pagination a:hover {
   color: var(--signal);
-  border-color: var(--signal);
 }
 
 .chapter-pagination .next {
@@ -999,6 +1126,13 @@ body:has(.reader-shell) {
 
 .chapter-pagination small {
   color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.chapter-pagination strong {
+  font-family: var(--font-reading);
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .trust-page {
@@ -1383,20 +1517,29 @@ body:has(.reader-shell) {
   line-height: 1.65;
 }
 
+.content-doc-header {
+  margin-top: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
 .content-doc-header h1 {
   margin: 0;
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(1.45rem, 2.6vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 .content-doc-header > p:not(.eyebrow) {
   max-width: 42rem;
   color: var(--muted);
-  line-height: 1.8;
+  font-size: 0.95rem;
+  line-height: 1.75;
 }
 
 .content-doc-body {
-  margin-top: 2rem;
+  margin-top: 0.35rem;
 }
 
 .content-doc-nav {
@@ -1831,12 +1974,20 @@ body:has(.reader-shell) {
 }
 
 @media (max-width: 900px) {
+  body:has(.reader-shell) {
+    --reader-toc: 0rem;
+    --reader-gap: 0rem;
+  }
+
   .reader-shell {
     grid-template-columns: minmax(0, 1fr);
+    justify-items: stretch;
   }
 
   .reader {
     grid-column: 1;
+    width: 100%;
+    max-width: none;
   }
 
   .desktop-toc {
@@ -1844,19 +1995,32 @@ body:has(.reader-shell) {
   }
 
   .mobile-toc {
-    margin-bottom: -1rem;
-    padding: 1rem;
+    grid-column: 1;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    padding: 0.15rem 0 0.85rem;
     display: block;
-    border: 1px solid var(--line);
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
   }
 
   .mobile-toc summary {
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: var(--muted);
   }
 
   .mobile-toc ol {
-    margin-top: 1rem;
+    margin-top: 0.85rem;
+  }
+
+  .mobile-toc a {
+    display: block;
+    white-space: normal;
+    -webkit-line-clamp: unset;
+    overflow: visible;
   }
 
   .two-column {
@@ -1892,6 +2056,10 @@ body:has(.reader-shell) {
 
   .community-grid {
     grid-template-columns: 1fr;
+  }
+
+  body:has(.reader-shell) .footer-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -2036,6 +2204,10 @@ body:has(.reader-shell) {
     width: min(calc(100% - 2rem), var(--max-width));
   }
 
+  body:has(.reader-shell) {
+    --reader-stage: min(calc(100% - 2rem), 72rem);
+  }
+
   .header-inner {
     min-height: 64px;
     gap: 1rem;
@@ -2044,6 +2216,11 @@ body:has(.reader-shell) {
   .hero {
     min-height: calc(100svh - 64px);
     padding-block: clamp(2rem, 4vh, 3rem);
+  }
+
+  .hero.home-hero {
+    min-height: 0;
+    padding-block: 1.5rem 2rem;
   }
 
   .hero h1 {
@@ -2055,6 +2232,34 @@ body:has(.reader-shell) {
     align-items: flex-start;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .book-index {
+    padding-block: 2.25rem 4rem;
+  }
+
+  .book-index-hero {
+    grid-template-columns: 108px minmax(0, 1fr);
+    align-items: center;
+    gap: 1.1rem 1.2rem;
+    padding-bottom: 2rem;
+  }
+
+  .book-index-hero .book-cover {
+    width: 108px;
+    order: -1;
+  }
+
+  .book-index-hero h1 {
+    font-size: clamp(1.85rem, 8.5vw, 2.55rem);
+  }
+
+  .book-index-header > p:not(.eyebrow) {
+    font-size: 1.05rem;
+  }
+
+  .book-meta {
+    margin-top: 0.9rem;
   }
 
   .footer-inner {
@@ -2087,17 +2292,17 @@ body:has(.reader-shell) {
   }
 
   .reader-shell {
-    padding-block: 1.5rem 5rem;
-    gap: 2rem;
+    padding-block: 1.15rem 3.5rem;
+    gap: 1.25rem;
   }
 
   .chapter-header {
-    margin-top: 2rem;
+    margin-top: 1.15rem;
+    padding-bottom: 1.35rem;
   }
 
   .prose {
-    line-height: 1.8;
-    letter-spacing: 0.005em;
+    line-height: 1.95;
   }
 
   .chapter-pagination {

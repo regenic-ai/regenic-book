@@ -12,9 +12,53 @@
 .hero-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(0, 4fr) minmax(220px, 1fr);
-  align-items: end;
-  gap: clamp(2rem, 6vw, 6rem);
+  grid-template-columns: minmax(0, 1.35fr) minmax(200px, 280px);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+}
+
+.hero-cover-col {
+  display: grid;
+  gap: 1.5rem;
+  justify-items: end;
+}
+
+.book-cover {
+  margin: 0;
+  width: min(100%, 260px);
+}
+
+.book-cover-index {
+  width: min(100%, 240px);
+}
+
+.book-cover a {
+  display: block;
+}
+
+.book-cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid color-mix(in srgb, var(--green-900) 12%, var(--line));
+  box-shadow: 0 22px 55px color-mix(in srgb, var(--green-900) 16%, transparent);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.book-cover a:hover .book-cover-image {
+  transform: translateY(-3px);
+  box-shadow: 0 28px 60px color-mix(in srgb, var(--green-900) 20%, transparent);
+}
+
+.hero-cover-col .hero-proof {
+  width: min(100%, 260px);
+  padding-block: 0.85rem;
+}
+
+.hero-cover-col .proof-number {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
 }
 
 .home-hero .eyebrow {
@@ -954,6 +998,44 @@
   .evidence-feature,
   .horizon-grid {
     grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    min-height: 0;
+    padding-block: clamp(1.5rem, 4vh, 2.5rem);
+  }
+
+  .hero-cover-col {
+    order: -1;
+    width: 100%;
+    max-width: none;
+    grid-template-columns: 148px minmax(0, 1fr);
+    align-items: center;
+    justify-items: stretch;
+    gap: 1rem 1.15rem;
+  }
+
+  .hero-cover-col .book-cover,
+  .hero-cover-col .hero-proof {
+    width: auto;
+  }
+
+  .hero-cover-col .book-cover {
+    width: 148px;
+  }
+
+  .hero-cover-col .hero-proof {
+    padding-block: 0;
+    border-block: 0;
+  }
+
+  .hero-cover-col .hero-proof p {
+    margin: 0.45rem 0 0;
+    font-size: 0.82rem;
+  }
+
+  .hero-cover-col .proof-number {
+    font-size: 2rem;
   }
 
   .evidence-strip-grid {

@@ -53,7 +53,7 @@ const assets = {
   en: [
     {
       title: "Public methodology",
-      body: "Thirteen-chapter book, eight-layer standards model, diagnosis tools, and a 90-day sequence—readable for free on this site.",
+      body: "Fourteen-chapter book, eight-layer standards model, diagnosis tools, and a 90-day sequence—readable for free on this site.",
     },
     {
       title: "Product direction",
@@ -67,7 +67,7 @@ const assets = {
   zh: [
     {
       title: "公开方法论",
-      body: "十三章书稿、八层标准母表、诊断工具与 90 天装配顺序，均可在本站免费阅读。",
+      body: "十四章书稿、八层标准母表、诊断工具与 90 天装配顺序，均可在本站免费阅读。",
     },
     {
       title: "产品方向",

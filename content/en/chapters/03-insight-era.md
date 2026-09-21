@@ -1,160 +1,200 @@
-# Chapter 3: The Age of Adaptive Insight: How Much You Know No Longer Matters
+# Chapter 3: The Age of Adaptive Insight
 
-Status: Completed (v1.6, 2026-08-28, about 8,600 words, including I5 author financing sample; acceptance passed 2026-07-25; v1.2 aside scaffolding cleanup and line-vs-fork figure inserted; v1.4 prose-standard fluency pass; v1.5 whole-sentence rewriting pass under current prose-standard; v1.6 English-breath pass under current prose-standard; English terminology sync (principal-leader), open to ongoing public revision)
+Status: Completed (v2.0, 2026-09-21; rewritten from the Chinese authority in English voice; open to ongoing public revision)
 
-**Claim: After knowledge acquisition became free, the gap between people is no longer how much they know, but adaptive insight—the ability to discover gaps in standards, borrow external standards, judge migration conditions, and quickly verify and correct.**
+**Claim: As the cost of retrieving existing knowledge and of completing much digital execution keeps falling, the gap between people will depend more on adaptive insight: whether they can find a missing standard, borrow one that has already been verified, judge whether it transfers, and correct it quickly against results.**
 
 ---
 
-## Two Kinds of Decade
+## 1. Organizational problems land on how a person judges
 
-Every founder who has ever hired has hit this moment: two résumés on the desk, both claiming "ten years of industry experience," both priced about the same. After the interviews, you know these two people are nothing alike. One can talk through any project and say what the judgment basis was at the time, which part later turned out wrong, and what they would change today. The other turns ten years into a chronology; ask "why" about anything and the answer is "that's how the industry does it."
+The same set of AI tools, handed to different companies, can produce opposite results. One team uses them to shorten delivery. Another generates dozens of conflicting plans in a day. One lets newcomers pick up mature practice faster. Another only copies an unverified preference of the boss into more places. The tool has no stance. It will amplify the judgment it is given, and the error inside that judgment.
 
-The same decade produced two such different people. Talent, effort, luck, platform—the popular explanations all brush the surface, and none of them names the mechanism. There are **two kinds of ten-year experience**. One is ten years of accumulating verified standards; the other is repeating the first year ten times. In the first, each year produces judgment basis that has been tested. In the second, each year only advances the clock. Years of work record time; only verified standards record growth.
+Keep taking that organizational problem apart and it lands on particular people. A product lead has to decide whose problem to solve first. A hiring manager has to decide what kind of person is worth bringing in. A founder has to decide where money and time go. AI can retrieve material, list options, play the other side, and produce a first draft. It cannot answer, for the person who owns the consequence, what matters most right now, which result counts as good, or which basis should rule the rest out.
 
-In the old era, the gap between these two decades stayed blurred, because knowledge and execution were valuable in themselves. Even without any standards to show for it, "knowing industry practice" or "being handy" could still command a decent premium. Both premiums are now heading to zero. A gap that used to stay decently hidden is finally exposed.
+Knowledge stock and execution speed used to be advantages in themselves. Finding existing knowledge is easier now, and AI can take on much of the digital execution. Things that used to sit together in one bag called "ability" are starting to show different prices.
 
-After execution is free and knowledge is free, what valuable thing is left in a person? Does it have a name, a structure, and can it be trained?
+The personal question then appears. Faced with a problem that has no ready answer, how do you find a basis for judgment? And how, through conditions and results, do you tell a reliable standard from an old habit or a lucky win?
 
-## What's Left: Naming the Scarce Personal Form
+## 2. Knowledge, cleverness, and adaptive insight
 
-After knowledge is free and execution is free, three things that used to be expensive are clearing off the shelf. "How much you know" no longer pays: the distance from not knowing to knowing has collapsed from "know that person" to "ask that question." "How fast you execute" no longer pays either; the zeroing curve is absorbing that part. Even "how fast you learn" is depreciating: the traditional definition of learning is loading knowledge into the brain, and loading is exactly what AI does best for you.
+Knowing a lot, reacting fast, and having many ideas often get rolled into one phrase: this person is able. Knowledge, cleverness, and adaptive insight do not solve the same problem.
 
-What remains on the shelf is this kind of ability. Faced with something never done before, someone quickly realizes: I have no usable judgment basis here. So they find someone who has done it, take their approach together with its conditions of use, judge which conditions fail in their own context, adjust, try at minimum cost, and fix what breaks. After a few rounds, the "never done before" thing becomes a reusable standard. Others, faced with the same thing, start on instinct, stay busy for ten years, and leave only busyness behind.
+**Knowledge is a stock.** It includes facts remembered, concepts understood, cases seen, and also methods of retrieval and checking. AI has lowered the cost of getting and calling much existing knowledge. It has not made knowledge itself useless. When the stock is thin, it is harder to see which field a problem belongs to, and harder to see the conditions under which a standard applies. Knowledge also sets the range of a check. The same model answer can be caught for mixed concepts, stale data, or missing conditions only by someone who holds the relevant concepts and facts.
 
-I call the first ability **adaptive insight**. It consists of four actions in a cycle:
+The fall in cost is still real. Chapter 1 compared call prices on a fixed capability line: the drop is already more than two orders of magnitude. That curve measures model calls, not a claim that knowledge is already free, and it is enough to show that the barrier from asking a question to having a usable first draft is falling fast.
 
-**Discover standard gaps → Borrow external standards → Judge migration conditions → Quickly verify and correct → (precipitate as your own standards)**
+**Cleverness, in this distinction, is solving speed.** Once the problem and the goal are already given, can you see the relations faster, compare the options, and push through to an answer? That is not a full psychological definition of intelligence. Cleverness still has value. Hard problems still need working memory, reasoning, and speed of learning, and AI has not cancelled those. What has changed is that more and more solving steps, once they are clearly defined, can be done with a machine.
 
-"The last scarcity" in an individual is adaptive insight; in an organization it is judgment; written down it is standards. Adaptive insight is what scarcity looks like in one person. See how it runs, and you can take up the next question: how does it become an organizational asset?
+The occupational writing experiment and the customer-support study in Chapter 1 show that, in some digital knowledge work, steps that used to depend on fluency and solving speed are being reassigned. Those results do not prove that all execution will be taken over.
 
-## Why Experience Doesn't Count
+**Adaptive insight handles the problem before the problem.** It asks whether a judgment standard is missing, whether an existing standard has been verified, whether the conditions of transfer still hold, and how to get feedback soon. Knowledge helps a person recognize what can be borrowed. Cleverness helps a person understand and work it. Adaptive insight decides whether the question and the ruler were chosen right.
 
-Hidden in the four actions is a judgment that will offend many people: **experience is an unverified standard.**
+The three do not replace one another. Without knowledge, a borrowed standard cannot be read. Without enough cleverness, complex conditions cannot be taken apart. Without adaptive insight, knowledge and cleverness can still serve the wrong question. Material can be memorized and numbers can be computed, and the conclusion can still be useless because the problem or the metric was wrong.
 
-Experience and standards share the same raw material: things you have done. The difference is one process step: verification. A standard is forged like this: you state the conditions under which it holds, take it into new scenes, miss, revise, and draw its boundaries. An experience is: it worked once—at least it looked like it worked—in a scene whose conditions you no longer remember; then it gets the right to explain everything.
+Knowledge and cleverness have not left the field. Once tools can supplement them more easily, more of the gap moves to another layer: whether a person can find where the basis for judgment is missing, and repair it until it can guide action.
 
-"I've always done it this way" really means "I didn't die when I did it." Not dying might mean the approach was right. It might mean the market was forgiving, rivals were worse, luck held, or the bill for the mistake has not arrived yet. Without verification, you never know whether you hold a standard or a survival story. That is the mechanism behind ten years of work with no growth in ability: diligent accumulation of experience that never passes through verification stays forever at "candidate standard"—quantity rises, quality stays zero.
+## 3. Adaptive insight is four actions you can practice
 
-Worse, unverified experience does not merely fail to help; it occupies slots. The more someone trusts their "experience," the less likely they are to start the four actions when a new problem appears. Adaptive insight goes to sleep from the moment experience takes charge.
+"Adaptive insight is a gift" gives no way in for practice or for a test. Adaptive insight is not yet a psychometrically validated ability, and there is no evidence that training will bring everyone to the same level. The working definition is four actions that can be watched, repeated, and reviewed.
 
-This is the first old gene named in this book: **empiricism**, using "done" to replace "verified," using seniority to replace standards. In a person, it turns ten years into ten replays of the first year; in an organization, it replaces the ruler with tenure. This chapter handles only the personal layer: empiricism on yourself is more hidden than in any organization, because nobody audits it for you.
+**The first action is to discover the gap in standards.**
 
-## Straight Lines and Bifurcations
+What is often missing is not an answer, but a basis for judging answers. A team puts three growth plans on the table, with data, budget, and timetable complete, and still cannot say whether short-term cash, retention, or long-term brand trust should rank first. Adding a fourth plan will not usually make the choice easier. The gap is not the number of options. It is the standard used to rank them.
 
-When a verified standard exists for something, the execution path is nearly a straight line: follow, verify, fine-tune. From start to finish, each decision point is narrowed in advance to one or two options. When no standard exists, the path bifurcates at every decision point. Choose A, walk three steps, find it wrong, retreat to B, and B splits into three more… The trail covers the plane like a spider web. Both paths consume the same resource—time and trial-and-error cost—but trajectory length differs by orders of magnitude.
+Seeing that gap means separating "we still need a plan" from "we still need a scale for ranking plans." The first can keep being solved. The second has to find a ruler first. The test is simple. If two plans both look doable, on what basis do you drop one? If the answer is only a personal feel, an industry custom, or a boss's preference, the gap is still there.
 
-That picture is why the first of the four actions is discover the standard gap. Thinking up a solution comes later. Realizing you are standing inside a bifurcation map is the prerequisite for everything. It also yields the personal iron law: **without a standard, stop executing.** At the personal level, stop means switch the action at hand from "move forward" to "find a standard." The person is still moving; busyness just no longer covers the absence of judgment. The most dangerous thing about executing without a standard is how good it feels: every step moves, every day stays full, busyness supplies the illusion of growth while the trajectory spins in place.
+**The second action is to borrow a verified standard.**
 
-![Straight-line execution vs. forked web; four adaptive-insight moves below: discover gap, borrow standard, judge migration, verify and correct](/figures/ch03-line-fork-moves-en.svg)
+Building a plan from zero the moment the gap appears skips evidence that already exists. Original work is sometimes irreplaceable. Most daily problems are not appearing for the first time. Searching first for results, bases of judgment, and failure records already obtained under nearby conditions is usually safer than paying the full tuition again.
 
-*Figure: with a standard, nearly a line; without one, every decision forks. Four trainable moves.*
+What you borrow is the basis that once helped someone choose, not a winner's whole package and not a saying stripped of its conditions. That basis may come from one person's practice, from a company's public method, or from a study that can be checked. Borrowing needs a knowledge stock: you have to know which fields have solved a similar problem before you can find a standard worth taking. Borrowing is not a stop to thinking. It gives thinking a starting point that has already met reality.
 
-## Anatomy of the Four Actions
+Not every problem has a fitting standard to borrow. When the problem is new enough, the environment has shifted too far, or the available samples cannot be compared, a new hypothesis still has to be made. Mark it as a hypothesis under test, not as a settled answer.
 
-Discovering the standard gap is the hardest of the four, because it fights your own bodily sense. Executing without a standard sets off no alarm; on the contrary, you feel full. There is only one reliable test: ask of the thing at hand, "What is my judgment basis right now, and where was it verified?" If you cannot answer, the gap is there. "I've done something similar" does not pass—that is experience, and its quality was just covered in the previous section.
+**The third action is to judge the conditions of migration.**
 
-After the gap is visible, the easy next move is to sit and invent. The cheaper move is to ask who has already done it. The optimal move on almost any problem is to borrow: what you face is, in most cases, not the first time a human has faced it, so groping means paying tuition someone else already paid. When today's AI models hit something they do not know during reasoning, the standard move is to call search, borrow answers humans already created, and organize them into output. Machines learned borrow-then-answer; people still often feel that "borrowing" costs dignity. One operational point is easy to miss when borrowing: **take the standard and its applicable boundaries together.** Borrowing the method without the conditions is like buying medicine without reading contraindications.
+A standard that held in its original scene does not hold automatically in a new one. The customers, product, resources, time window, and way of getting feedback it depended on may already have changed. The migration check watches two things: why the practice held at origin, and how many of those supporting conditions remain.
 
-Every borrowed standard then carries implicit conditions from its place of origin, and those conditions usually are not on the label—the originator may not even see them. So the borrower has to run a checkup: what environmental parameters made this standard hold at origin? Which parameters changed in my scene? Did the changed parameters happen to be the fulcrum it rested on? Until those three questions pass, the standard cannot go live. That checkup is judging migration conditions.
+A résumé and a reputation cannot replace the check. A record of success only says the standard held in its original scene. It does not carry the conditions of use with it. A standard has no passport. Origin in a famous company or in a celebrated person does not grant it passage. Before you move the practice over, at least three things have to be clear: whether it was solving the same problem, whether the key people still respond in a similar way, and whether an error can be found while the cost is still bearable.
 
-After the migration judgment, you only have "looks usable." The last process step is to let reality vote at minimum cost: try on a small scale, short cycle, low price, so errors surface while they are cheap. Verification is the immune system of adaptive insight. The first three actions set the quality of what you borrowed; the fourth decides whether the wrong thing gets stopped before it infects a wide area. Execution zeroing has also cut the price of this step: trial and error has never been cheaper, and the excuse "no time to verify" has never been weaker.
+**The fourth action is to verify and correct quickly.**
 
-## First Specimen: Verification Happened in Another World
+However careful the migration analysis, it is still a judgment. What it missed can only show up in results. The first try should use less money, a shorter cycle, and a change in only a few key conditions, so that error appears while it is still cheap. If results match the expectation, widen the range. If they do not, check the standard itself and the conditions of transfer.
 
-The four actions form a cycle. Break any link and prior accumulation voids itself. One person demonstrated where and how the break happens—at a cost on the order of a hundred million dollars.
+Verification is not a search for support of your own judgment. It is an active search for where that judgment will fail. One good result does not automatically produce a standard. Luck, a loose environment, or other factors moving at the same time can produce it too. Only when results repeat, conditions of use become clearer, and counterexamples force a revision does experience begin to have explanatory power that others can reuse.
 
-Ron Johnson's first-half résumé is a genius narrative in retail in any era: he made his name running "affordable fashion" at Target, then served as Apple's senior vice president of retail; the Apple Store and Genius Bar are his work. In June 2011, legacy American department store JCPenney named him CEO. Opinion was almost uniformly bullish: someone who made Apple retail the world's sales-per-square-foot champion should be able to save a department store by stepping down a dimension.
+No study has yet tested these four actions as one package. Adjacent evidence exists for the abilities inside them. Gutierrez de Blume, pooling 56 independent effects and 7,667 participants, found that training in learning strategies improved, to a moderate degree, how accurately people judged how much they actually knew (Gutierrez de Blume, 2021). Alfieri, Nokes-Malach, and Schunn, pooling 57 case-comparison experiments, found that comparing cases side by side and extracting the shared relation helped learning and transfer more than studying a case in isolation, with an overall effect size of 0.50 (Alfieri et al., 2013). The first kind of study sits near discovering a gap and using feedback. The second sits near borrowing and migration. Those learning studies do not guarantee a business result. They do show that the related actions can be practiced, and do not depend on talent alone.
 
-What Johnson did in office faithfully replicated standards verified at Apple: good product with honest price, no promotional theater. He launched "Fair and Square" everyday low pricing, abolished coupons, cut roughly six hundred promotional events per year to about one hundred, and banned "sale" and "clearance" in advertising. On February 1, 2012, the new standard rolled out to all eleven hundred stores at once. Retail convention is to pilot in a handful of stores for months; full rollout on day one was almost unheard of in the industry. Asked why not test first, his answer was quoted repeatedly: "We didn't test at Apple."
+The four actions leave a process that can be checked: where the gap was, where the basis was borrowed, how old and new conditions were compared, and how results revised the judgment. After one round, what you hold is not an answer that will always be right. It is a standard of higher quality. When a new scene arrives, it still has to take the next test.
 
-Results came fast. JCPenney's core customers were comparison shoppers raised for thirty years on coupons; clipping coupons was part of the shopping ritual. When coupons vanished, they stopped coming; the younger customers Johnson wanted did not appear on schedule. In the first full fiscal year after the transformation, revenue fell nearly twenty-five percent to $12.98 billion; the company lost nearly $1 billion for the year. In the final quarter, sales fell about thirty percent year over year; the quarter lost $522 million. In April 2013 the board removed him after seventeen months and brought back his predecessor.
+That is the exact sense of "can be practiced." It does not promise that after practice you will never miss. It means that finding the miss, explaining it, and correcting it no longer depend on accident.
 
-Read through the four actions and the conclusion is far more precise than the popular label "arrogance." On actions one and two, Johnson scores full marks: he saw JCPenney's old model was dead (gap), and what he brought was a set of standards validated by billions in revenue at Apple (borrow). The break is action three. Apple's no-discount pricing held because customers bought exclusive products with no comparison object—price was trust. JCPenney's shelves held everyday goods with substitutes everywhere; customer trust rested on the ritual of "I clipped a coupon." Every fulcrum of the origin standard was missing in the new scene. Action four he shut off himself. The full meaning of "We didn't test at Apple" is: this standard did not need retesting at Apple because it was already verified there. He did not lack standards. He had a fully verified set—verification just happened in another world.
+## 4. With a standard, nearly a line; without one, forks
 
-The saddest epilogue: he did retreat several times in office, restored "sale" in ads, announced coupon restoration near the end, but each retreat was forced by plunging sales after full rollout, with the full price already booked. The same correction in fifty pilot stores is tuition; in eleven hundred stores it is an epitaph. Quick verification and correction by reality can contain exactly the same content; only the price tag differs.
+Drawn on paper, the four actions produce two different paths.
 
-## Second Specimen: Myself
+A standard that has been verified, and that applies to the scene in front of you, rules out many options in advance. Action can still miss, and it still needs feedback, but most decision points do not have to be groped from the start. The path looks more like a line with small corrections: act by the standard, watch the result, then adjust the deviation.
 
-Johnson broke at action three. For the second specimen I submit myself. The break was action two, in these past months.
+Without a standard, every node keeps forking. A or B first, price or quality, widen the range or redesign—each question has to be decided on the spot. Walk the wrong way, come back, and the new path throws off new branches. What is expensive is not any one choice. It is that none of the choices share a basis, and past feedback has nowhere to land.
 
-In October 2025 I opened a new financing round for the company. My first judgment was whether to use an FA (financial advisor). I spent almost no time on it: prior startup experience had convinced me FAs were useless, and that experience from the last war took explanatory authority. By the definition in section three, its quality is obvious: a few contacts from another stage and another game, no control group, no stated boundaries. Typical experience—not a standard.
+![With a usable standard the path is nearly a line; without one it keeps forking. The four moves of adaptive insight sit below](/figures/ch03-line-fork-moves-en.svg)
 
-Under its command I built investor relationships myself and told the story myself, including face-to-face meetings with name partners at top-tier funds. I later understood those conversations happened at the wrong time and in the wrong setting. Wrong setting, and the same narrative differs by orders of magnitude in credibility. The bodily feeling was full: meetings every week, motion every day; progress stayed near zero. I lived every inch of that busyness where "every step moves and the trajectory spins in place."
+*Figure: a usable standard narrows options. The four moves find, borrow, migrate, and revise the standard.*
 
-In March 2026 a stalemate forced me to loosen once. I worked with two FAs in succession: one spun out of a regional fund, one attached to a U.S.-listed company. The partnerships produced almost nothing; I was mostly exporting unilaterally. The error: I grabbed two samples with no selection standard, and bad outcomes "confirmed" my bias—see, FAs really are useless. Using unstandardized execution to test an experience does not produce verification; it reinforces prejudice.
+A standard does not guarantee success. An expired standard, an unverified one, or one moved from elsewhere without a check on conditions can all produce a straighter path to the wrong place. When the problem is genuinely unknown, the fork itself has value, because different options produce new feedback.
 
-In May 2026, on peer referral, I connected with an FA praised by multiple founders. Within weeks I got feedback density I had not seen in more than half a year. Two things happened quickly. First, they helped me build layered standards for the capital market: what investors at different stages verify, what logic different institution types use, which project state should meet which people. That standard was obviously not invented for me—it always existed, just not in my hands. Second, they worked with me to polish the business plan and roadshow, aligning narrative to matched investors. Problems I had not cleared in more than half a year cleared fast. The postmortem takes one sentence: for financing, finding the right FA is half the battle—and any peer who has raised can tell you that standard in thirty minutes.
+Adaptive insight does not kill exploration. It separates two kinds of fork: the cost that has to be paid to find new knowledge, and the cost paid only because a basis for judgment was never made clear. It does not hand over a one-shot best route. It requires each action to answer two questions: why this way, and what to change if the result is wrong.
 
-The correct sequence should have been this. Action one: admit "I have not done financing at this stage; I hold no verified standard." Action two: ask "who has done it?"—survey alumni in the same founder community who raised, find an FA peers have verified. Actions three and four: low-cost partnership to verify; switch if it misfits. That cycle finishes in weeks at most. I skipped it, substituted experience from the last war, and paid with more than half a year. For a startup, that was most of a financing window.
+## 5. Tenure records time; verification records growth
 
-The two breaks complement each other. Johnson held fully verified standards whose verification happened in another world—break at action three. I never borrowed; old experience shut off "borrow," then two unstandardized tries welded it shut—break at action two. Empiricism does not prey on novices; it hunts people most confident in their own experience.
+"Two kinds of decade" is, for now, only a portrait awaiting a test, not a long comparison of people of the same age in the same job that has already been found. Two résumés both say ten years. Asked about a failed project, one record holds the basis of the judgment, the contrary feedback, and the later adjustment. The other holds only "the industry has always done it this way."
 
-## The Posture of Adaptive Insight: Read Stay Hungry Whole
+Existing research supports a more modest claim: years help, and they are not a sufficient account of performance. Quiñones, Ford, and Teachout, pooling 44 studies and 25,911 participants, found a corrected correlation of about 0.27 between work experience and job performance. Experience and performance are not unrelated. The relationship is far from strong enough for "how long" to stand in for "how well." More specific task experience and amount actually completed correlated at about 0.41 and 0.43, higher than the general experience measure (Quiñones, Ford, and Teachout, 1995).
 
-In 2005 Steve Jobs closed his Stanford commencement with words printed on countless posters: Stay Hungry, Stay Foolish. Posters usually render it "stay hungry for knowledge, stay foolishly humble" and treat it as inspiration. Read as the dynamics of the adaptive-insight cycle, the two words go in reverse order: **Foolish first—keep admitting ignorance so the gap-finding radar stays on; Hungry second—only those who admit ignorance keep borrowing outward.** Reverse it and someone who believes they already understand shuts the radar, stops borrowing, and adaptive insight freezes on the day of self-certainty. Johnson's seventeen months at JCPenney were exactly seventeen months with Foolish switched off. The most successful person at Apple is the hardest person to admit ignorance on a new continent. Whether the four actions keep turning depends on that posture.
+Later work cut "experience" finer. Ng and Feldman, pooling studies of job tenure and performance, found that remaining longer in the same job had little clear relationship with core-task performance (Ng and Feldman, 2013). That does not contradict the earlier finding. How many concrete tasks a person has done, and what kind of experience they accumulated, may help. How many years they spent in the role, by itself, carries much less information.
 
-The same speech holds a more concrete specimen. After dropping out of Reed College, Jobs sat in on a course that seemed useless at the time: calligraphy—serif forms, letter spacing, the rules of great typography. Ten years later, designing the first Macintosh, he moved every standard from that course into the first personal computer with refined typography. His own recap: without that course, Mac would not have multiple fonts and proportional spacing. The structure: borrowed standard (Western calligraphic layout rules) belonged to printing at origin, migrated to a scene origin could not imagine (personal computer), and migration held because the fulcrum did not move—the human eye's judgment of beauty does not change with medium. That is a full-score demo of actions two and three. The value of borrowing does not depend on where the standard came from; it depends on whether the fulcrum still holds.
+Years mainly record how long someone stayed on the floor. They do not record which feedback arrived, or whether the next judgment was changed because of it. A decade can hold a large number of different tasks, or the same set of moves repeated. Time alone cannot tell them apart.
 
-The two specimens together answer whether adaptive insight is talent. Johnson had talent and still froze the cycle. The calligraphy story has no talent in it—only someone who kept the radar on and filed good standards into storage. Adaptive insight is four trainable actions. Training starts by replacing the default "I understand" with "where do I still lack a standard?"
+Experience has value. It helps a person recognize an anomaly faster, filter the details that matter, and accumulate a feel that never made it into a book. The problem begins when experience is given the last word. One success may come from a right method, or from a market tailwind, a resource edge, a rival's miss, or luck. Without compared conditions, tracked consequences, and revision after a miss, there is no way to tell which of those did the work.
 
-## Pull Back: Why Call It an Era
+**Experience proposes a candidate standard. Verification decides whether it has explanatory power.** A candidate can move the starting point of the next search forward. It still has to state the conditions under which it holds and the signal that would force a revision. After that process, tenure is no longer only a sum on a calendar. It leaves more and more bases of judgment that can be reused.
 
-Imperial exams tested memorization; diploma premium was essentially proof of knowledge possession; the only literate person in a village could live by writing letters for others. In the age of scarce knowledge, "knowing" itself paid. In the age of scarce execution, "doing well and fast" paid: industrial-era education and management were built to train reliable executors—hierarchy, approval, reporting are fossils of that age. Each era prices whatever ability is scarcest then, and that scarce item is completing a handoff now. One scarce item is being cleared by search and AI Q&A; the other is being absorbed by the zeroing curve. Pricing power passes to what remains on the shelf. Everyone whose work is knowledge and execution faces this handoff together—worthy of the word "era."
+Years of work record time. Verified standards record what a person learned from the time. A reliable standard often needs long contact with real problems before it forms. What has to be ruled out is not experience. It is experience taking the last word before it has been tested.
 
-The handoff has a special meaning for the founder. Push the four actions from person to company scale and a startup's path from zero to one hundred is essentially finding a bundle of standards that fit you. Hiring, pricing, product iteration, spending—each link has been done by someone on the market, has standards to borrow, needs migration judgment, needs low-cost verification. "Strong founder" unpacked is this cycle turning fast on the founder: pits others grope for three years, they borrow a standard and bypass in three weeks. "Company slows as it grows" is often this cycle failing to pass from founder to organization: one person in a thousand runs the four actions; nine hundred ninety-nine execute without standards, or execute empirically.
+## 6. Intuition can hold a standard, or a bias
 
-However strong one person's adaptive insight is, it is still one person's. How does it become a thousand people's?
+A skilled person cannot always list the full basis of a judgment. Some anomalies and risks are recognized first; the reasons can be put into words later. That kind of tacit knowledge does real work.
 
-## Boundaries of the Claim
+People can do first and learn to explain after. Long training speeds up many acts of recognition, until the person judging cannot report every cue in time. A practiced doctor, firefighter, designer, or salesperson may see the anomaly before a complete inference appears. Intuition can sit with a standard.
 
-None of the four actions depends on IQ, credentials, compute speed, or knowledge stock: discovering gaps depends on honesty, borrowing on swallowing pride, judging migration on sensitivity to conditions, verifying on willingness to let your judgment take hits. Correlation with "smart" is lower than most people assume. Johnson's IQ and résumé were impeccable.
+Reliability is a separate question. Kahneman and Klein, comparing the research traditions of "expert intuition" and "heuristic bias," drew a clear boundary. The environment has to have regularities that are stable enough to learn. The person judging has to have had enough practice. Feedback has to come relatively fast and clear. When those conditions hold, people can learn to pick up valid cues. When the environment itself is hard to predict, or results arrive much later and mixed with many other factors, confidence cannot prove accuracy (Kahneman and Klein, 2009).
 
-Free knowledge erodes the premium on possessing knowledge; the use of knowledge stays. Your knowledge stock sets indexing quality when you borrow standards: knowing a field exists, knowing who succeeded, reading terminology in someone else's standard—still accumulation. Ten years in one field still holds. The failure is repeating year one ten times in one field.
+Reliable intuition can be read as a pattern, trained on a great deal of valid feedback, matching at speed. The person may not be able to name every cue at once, but those cues have been tied to results many times. Unverified experience produces a feeling of familiarity too, without evidence that the practice caused a good result. Familiarity itself cannot tell expert intuition from bias.
 
-Grade the personal samples honestly. The loser specimen (Johnson) is verifiable at financial-report and press level. The winner-side calligraphy story comes from Jobs's own public speech—first-person account. My financing sample is self-report, not externally checkable; discount it if you like, but it satisfies one property other cases cannot: the author has no motive to beautify it. The "two kinds of decade" peer comparison has no verifiable real sample yet; in this chapter it is a portrait we have both seen, not evidence. Filling that evidence requires tracking real people with the same ruler over time; the sample is collecting. Until then, treat "two kinds of decade" as a strong hypothesis awaiting verification—and Johnson's seventeen months as its best supporting case so far.
+The quality of an intuition depends on whether the environment in which it formed was stable, how long results took to return, whether the feedback was clear, and whether failure samples appeared. A stable scene with dense feedback can form reliable intuition. A new scene whose rules change fast will lower that reliability. Intuition, like any other standard, has to be tested again when it migrates.
 
-## What to Do Monday Morning (principal-leader view)
+Tacit knowledge does not have to be written as a full manual before anyone acts. The most important parts can be recorded first: which signals mark an anomaly, which experiences the judgment came from, and what result would prove it wrong. Not being able to say it all does not make the judgment invalid. An intuition that cannot name its source and will not take a counterexample also cannot take the last word on seniority alone.
 
-Two actions, fifteen minutes each:
+## 7. Two migrations: Jobs and Ron Johnson
 
-**First, run the four-question screen on yourself.** Write your three most important items in hand. For each, answer: ① Does this have a verified standard? ② If not, who succeeded, and can the standard be borrowed? ③ Which conditions changed when the borrowed standard enters my scene? ④ What minimum-cost experiment can verify it this week? Whatever fails the four questions marks your current adaptive-insight boundary—and what you should personally watch closest.
+The four actions of adaptive insight are easiest to see in a migration. Two people can bring something learned elsewhere into a new scene, and the origin of the standard does not decide the result. What differs is whether the original problem and conditions still exist, and whether a path for feedback was kept open before the full commitment.
 
-**Second, swap out the most useless interview question.** Replace "how many years of experience" with: "Tell me a time you imported a practice from elsewhere and had to adapt it before it worked—where the original practice misfit, and how you found out." That question tests directly the third-rarest of the four actions. Someone who answers with detail has ten real years; someone who can only say "judged from experience"—you already know what their decade is.
+In 2005, Steve Jobs, in his Stanford commencement, recalled dropping out of Reed College and staying to sit in on classes that interested him. One of them was calligraphy. He learned serif and sans-serif typefaces, the spacing between letter combinations, and "what makes great typography great." At the time, he said, he could see no practical use for it.
 
-Individuals and teams can use the same four questions; frequency beats depth—one item per week beats one deep annual review. When rolling out in a team, remember: failing the four questions does not mark someone unqualified; nobody gave them this ruler yet—charge it to the system, not the person.
+Ten years later, when the team designed the first Macintosh, the material returned. Jobs said it was designed into the Mac, so the computer had multiple typefaces and proportional spacing; without that class, the Mac would not have had those features (Jobs, 2005). The retrospective account records a migration of knowledge. It does not record how the team made each typographic decision, and it cannot attribute the Macintosh's success to one calligraphy class.
+
+Independent design records show that Macintosh typefaces and icons were designed mainly by Susan Kare. The team cut fonts letter by letter, offered repeated options, and settled visual design through discussion and informal tests. Jobs often reviewed progress and talked through visual details; the concrete decisions were made by the team together (Kare, 2000; Computer History Museum, 2017). The division of labor in the record is this: Jobs brought the importance of typography into the product; Kare and the team made it into usable digital type and interface.
+
+The migration kept the problem the original knowledge had handled. The medium moved from paper to screen; typography still had to deal with differences of letterform, spacing, and the feel of reading. A borrowed standard does not have to come from the same industry. If the new scene still holds the problem it solved, it can still produce value. The available material does not record Jobs walking the four actions item by item. It does record calligraphy and typographic knowledge entering a personal computer.
+
+Ron Johnson's story runs the other way. He joined Apple in 2000 and later became senior vice president of retail. In June 2011, JCPenney named him its next CEO; he took the job on November 1. The appointment announcement listed his retail record at Apple and Target as the core of the résumé.
+
+Once in office, Johnson proposed Fair and Square pricing: a more direct price in place of constant promotion. When JCPenney presented the plan, it said the company had run about 590 promotions in 2011. The new plan changed the rhythm to twelve monthly events a year, with everyday prices, monthly value, and clearance prices still in place. The new pricing began on February 1, 2012, across about 1,100 stores (JCPenney, 2012).
+
+The company described the plan as cutting coupons, rebates, and promotional theater so that price would be more direct. The trading conditions at Apple and at JCPenney were very different. Apple sold highly differentiated products of its own in its own stores. JCPenney was a multi-category department store, where customers could compare similar goods across many retailers. Johnson later acknowledged that core customers' dependence on, and preference for, coupons had exceeded what he had understood (TIME, 2013). A retail belief that held at Apple still needed to be verified again in a department-store scene.
+
+Verification is the sharper break. TIME, writing after Johnson left, reported that when someone suggested testing the new pricing on a limited scale first, he was said to have answered, "We didn't test at Apple." The line is a press paraphrase, not a checkable recording. It is consistent with the public method of rollout: the core pricing change was not run in a few stores first, with a decision to widen based on customer response. It was implemented at large scale from the start (TIME, 2013).
+
+Operating results worsened quickly. JCPenney's total sales in fiscal 2012 fell from $17.260 billion to $12.985 billion, down 24.8% year over year. Comparable-store sales fell 25.2%. Full-year net loss was $985 million; fourth-quarter net loss was $552 million (JCPenney, 2013). On April 8, 2013, Johnson left, after about seventeen months in the role, and his predecessor Mike Ullman returned.
+
+In the same period Johnson also changed the merchandise mix, the shop-in-shop format, and store layouts, and JCPenney was already under operating pressure. This was not a single-variable experiment. The whole decline cannot be attributed to ending coupons. What can be confirmed is that a package of changes, not first run as a limited test, was pushed at large scale in a scene whose customers and goods differed, and that a large operating loss followed.
+
+The public record shows a break in the last two actions. The conditions Apple's experience had depended on were not fully rechecked in the department-store scene, and a limited test did not happen before the full commitment. Feedback finally arrived as company-wide operating results, and the cost of correction was borne company-wide.
+
+Jobs and Johnson both brought something obtained elsewhere into a new scene. A successful record can only offer a candidate standard. It cannot vouch for the new scene. When a migration keeps the conditions that matter, old knowledge can open a new possibility. When it skips conditions and verification, a past success record cannot guarantee the result.
+
+None of the four actions is optional. Discovering the gap shows that the problem is not more execution. Borrowing a standard keeps exploration from always starting at zero. Judging migration keeps the look of success from being taken for its cause. Verifying and correcting gives results a veto while the error is still cheap. Miss any step, and existing knowledge and execution speed cannot stop an old standard from being used again.
+
+## 8. Everyone's head holds unwritten, unaligned rulers
+
+Personal judgment calls on knowledge, experience, and intuition. Repeated choices and feedback gradually form many rulers: what counts as a good product, whom to trust, which risks cannot be taken, which chances are worth waiting for.
+
+Some of those rulers have been through repeated feedback. Others have only been used for a long time. Some can state their conditions of use. Others can only be spoken as a feel. They may help a person get a string of decisions right. They may also keep pointing to an old answer after the environment has changed. The four actions of adaptive insight are there to let a person find where those rulers are missing, what to add from outside, whether a move-over still fits, and how results keep calibrating them.
+
+As long as a ruler stays inside one person's head, it has a clear boundary. A second person cannot check what it rests on, and cannot tell whether what they have borrowed is a principle, a habit, or a coincidence. When the person who judged leaves, many of the conditions and counterexamples leave too. Even two people with strong adaptive insight may each borrow a standard that works, and still give opposite answers to the same matter.
+
+Tacit knowledge cannot be written down complete in one pass, and action does not have to wait until every part can be said. The most important marks can still be left out: the basis of the trade-off, the conditions under which it holds, and the result that would force a revision. Once that step is taken, a personal judgment has a chance to leave the person, and to be understood and tested by someone else.
+
+Everyone's head holds unwritten, unaligned rulers. When a group of people each act by a different one, a new problem appears: how do those rulers become an asset that can be used in common?
+
+## What to Do Monday Morning
+
+Pick this week's most important decision, the one for which the evidence on hand is thinnest. Do not ask AI for ten more plans first. On one sheet, write four columns:
+
+1. **Gap.** What would count as good here? Which judgment standard am I missing?
+2. **Borrow.** Who has gotten a result that can be checked under nearby conditions? Which standard am I preparing to take?
+3. **Migration.** In object, resources, stage, and way of getting feedback, what differs from mine?
+4. **Verification.** What is the smallest try I can run this week? What result would force me to change the judgment?
+
+A week later, add one line: what feedback reality gave, and which judgment has to be revised. Walking the four questions once a week is closer to training adaptive insight than writing one review from memory at the end of a year.
 
 ## Quotable Lines
 
-1. After execution is free and knowledge is free, the world pays only for adaptive insight.
-2. With a standard, two points connect by a line; without one, every step you take forks.
-3. Adaptive insight is not talent; it is four trainable actions.
-4. The smartest first step is always to borrow—borrow the standard and its applicable boundaries together.
-5. Experience is an unverified standard; tenure is unverified growth.
-6. There are two kinds of ten-year experience: ten years of standard accumulation, or the first year repeated ten times.
-7. He did not lack standards; he had a fully verified set—verification just happened in another world.
-8. "I've always done it this way" really means "I didn't die when I did it."
-9. Busyness supplies the illusion of growth while the trajectory spins in place.
-10. The same correction in pilot stores is tuition; after full rollout it is an epitaph.
-11. The value of borrowing does not depend on where the standard came from; it depends on whether the fulcrum still holds.
-12. Empiricism does not prey on novices; it hunts people most confident in their own experience.
+1. Knowledge helps a person see more options. Cleverness helps a person work them faster. Adaptive insight decides whether the question and the ruler were chosen right.
+2. Adaptive insight handles the problem before the problem.
+3. Borrowing is not a stop to thinking. It gives thinking a starting point that has already met reality.
+4. A standard has no passport. Origin in a famous company or a celebrated person does not grant it passage.
+5. Verification is not a search for support of your own judgment. It is an active search for where that judgment will fail.
+6. A standard narrows options. It does not guarantee a correct result.
+7. Experience proposes a candidate standard. Verification decides whether it has explanatory power.
+8. The reason to trust an intuition is not that it arrived fast. It is that it was calibrated in valid feedback.
+9. A successful record can only offer a candidate standard. It cannot vouch for the new scene.
+10. Everyone's head holds unwritten, unaligned rulers.
 
-## Interfaces with Adjacent Chapters
+## Connections to Adjacent Chapters
 
-- From Chapter 2: the gap sits on the organization side, but organizations are made of people—first see clearly what scarcity is at the personal layer.
-- To Chapter 4: personal adaptive insight cannot scale—one person's four actions cannot save an organization of a thousand. How does adaptive insight become collective asset? The answer is judgment.
-
-## Division-of-Labor Self-Check with Chapters 6 and 7 (anti-duplication)
-
-- This chapter covers only "what and why": adaptive-insight definition, four actions, straight-line/bifurcation metaphor, why experience is not standard—all personal perspective ✓
-- Stop rule gives only the personal one-liner; organizational process (who may halt, eight-layer standards) not expanded—left to Chapter 6 ✓
-- Borrowing argues only "why borrow is optimal" and personal operating points; organizational action chain, bilateral specimens, four gates not expanded—left to Chapter 7 ✓
+- Continuing from Chapter 2: tools amplify the standards an organization already has, and the confusion; organizational problems finally show up as one person's judgment after another.
+- Handed to Chapter 4: everyone's head holds unwritten, unaligned rulers. How personal adaptive insight is written down, shared, and turned into an organizational asset is answered next, as judgment.
+- Left for Chapter 6: the organizational rule "no standard, stop execution," who may halt work, and the standards cycle.
+- Left for Chapter 7: the full action chain of borrowing, paired samples, and Clarity Method.
 
 ## Chapter Acceptance Self-Check (against chapter acceptance criteria)
 
-1. Claim restatable in one sentence ✓, and is inference from core claim (adaptive-insight definition, structure, personal-layer evidence).
-2. Whiteboard framework diagram ✓ (straight line vs. forked web + four-action cycle inserted).
-3. External comparison and data ✓: loser side L9 Ron Johnson (financial-report level: −25% revenue, 17 months, single quarter −30%); winner side Jobs calligraphy + Stay Hungry (Stanford speech first-hand text); I5 author financing sample in section seven (self-report quality stated in claim boundaries); "two kinds of decade" peer comparison sample gap stated honestly.
-4. Twelve quotable-line candidates ✓.
-5. "What to Do Monday Morning" two actions + personal note ✓.
-6. Fluency ✓: whole-sentence rewriting and English breath under current prose-standard.
+1. Claim restatable in one sentence ✓: as retrieval and much digital execution get cheaper, more of the gap depends on adaptive insight's four actions.
+2. Eight-section spine and whiteboard figure ✓: personal landing → knowledge / cleverness / adaptive insight → four actions → line and fork → tenure versus verification → intuition → Jobs / Johnson → unwritten rulers. Figure footer no longer previews Chapter 6.
+3. Evidence caliber ✓: price and workplace studies referred back to Chapter 1; Gutierrez de Blume and Alfieri as adjacent learning evidence, not a business-result guarantee; Quiñones / Ng and Feldman on tenure; Kahneman and Klein on intuition; Jobs from the 2005 speech plus Kare / Computer History Museum; JCPenney from company materials and TIME paraphrase, without single-cause attribution.
+4. Case contract ✓: winner is Jobs bringing typographic knowledge into Macintosh; loser is Johnson moving Apple retail judgment into JCPenney without a limited test. "Two kinds of decade" remains an unverified portrait. Author financing sample is out.
+5. Chapter boundary ✓: does not define Chapter 4's two unifications, does not issue Chapter 6's stop rule, does not open Chapter 7's Clarity Method.
+6. Action ✓: four columns on one judgment this week, plus one line of feedback after seven days.
+7. Fluency ✓: rewritten in English voice from the Chinese authority; current prose-standard.

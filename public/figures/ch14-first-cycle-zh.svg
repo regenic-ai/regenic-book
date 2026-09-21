@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 500" role="img" aria-labelledby="title desc">
+  <title id="title">90 &#x4E2A;&#x81EA;&#x7136;&#x65E5;&#x5B8C;&#x6210;&#x7B2C;&#x4E00;&#x8F6E;&#x53EF;&#x89C2;&#x5BDF;&#x5FAA;&#x73AF;</title>
+  <desc id="desc">&#x4ECE;&#x786E;&#x5B9A;&#x8303;&#x56F4;&#x4E0E;&#x57FA;&#x7EBF;&#xFF0C;&#x5230;&#x6807;&#x51C6;&#x4E0E;&#x4E0A;&#x4E0B;&#x6587;&#x521D;&#x7A3F;&#x3001;&#x771F;&#x5B9E;&#x8BD5;&#x70B9;&#x3001;&#x516B;&#x5C42;&#x6807;&#x51C6;&#x7B2C;&#x4E00;&#x7248;&#x3001;&#x7ED3;&#x8D26;&#x3001;&#x516B;&#x95EE;&#x9A8C;&#x6536;&#x548C;&#x4E0B;&#x4E00;&#x8F6E;&#x3002;&#x6807;&#x51C6;&#x3001;&#x4E0A;&#x4E0B;&#x6587;&#x4E0E;&#x8BC1;&#x636E;&#x5168;&#x7A0B;&#x5E76;&#x884C;&#x3002;</desc>
+  <rect width="1120" height="500" fill="#ffffff"/>
+
+  <text x="560" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600" fill="#0a0a0a">90 &#x4E2A;&#x81EA;&#x7136;&#x65E5;&#xFF1A;&#x7B2C;&#x4E00;&#x8F6E;&#x53EF;&#x89C2;&#x5BDF;&#x5FAA;&#x73AF;</text>
+  <text x="560" y="64" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">D15 &#x5DE6;&#x53F3;&#x5F00;&#x59CB;&#x771F;&#x5B9E;&#x8BD5;&#x70B9; &#xB7; D90 &#x9A8C;&#x5FAA;&#x73AF;&#x4E0E;&#x9886;&#x5148;&#x8BC1;&#x636E;&#xFF0C;&#x4E0D;&#x5BA3;&#x79F0;&#x957F;&#x671F; ROI</text>
+
+  <line x1="120" y1="120" x2="1030" y2="120" stroke="#2d7a25" stroke-width="3"/>
+  <g fill="#2d7a25">
+    <circle cx="120" cy="120" r="6"/>
+    <circle cx="205" cy="120" r="6"/>
+    <circle cx="290" cy="120" r="6"/>
+    <circle cx="595" cy="120" r="6"/>
+    <circle cx="875" cy="120" r="6"/>
+    <circle cx="1030" cy="120" r="6"/>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">
+    <text x="120" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D1</text>
+    <text x="205" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D8</text>
+    <text x="290" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D15</text>
+    <text x="595" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D45</text>
+    <text x="875" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D75</text>
+    <text x="1030" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D90</text>
+    <text x="120" y="148" font-size="11" fill="#59615a">&#x8303;&#x56F4;&#x4E0E;&#x57FA;&#x7EBF;</text>
+    <text x="205" y="148" font-size="11" fill="#59615a">v0 &#x5F00;&#x59CB;</text>
+    <text x="290" y="148" font-size="11" fill="#59615a">&#x771F;&#x5B9E;&#x8BD5;&#x70B9;</text>
+    <text x="595" y="148" font-size="11" fill="#59615a">&#x516B;&#x5C42; v1</text>
+    <text x="875" y="148" font-size="11" fill="#59615a">&#x505C;&#x6B62;&#x6269;&#x56F4;</text>
+    <text x="1030" y="148" font-size="11" fill="#59615a">&#x516B;&#x95EE;&#x9A8C;&#x6536;</text>
+  </g>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="30" y="218" font-size="14" font-weight="600" fill="#0a0a0a">&#x6807;&#x51C6;</text>
+    <rect x="120" y="190" width="910" height="46" rx="8" fill="#eef6ec" stroke="#b7c7b7"/>
+    <text x="295" y="218" text-anchor="middle" font-size="12" fill="#59615a">&#x53D1;&#x73B0;&#x7F3A;&#x53E3; &#xB7; &#x6807;&#x51C6; v0</text>
+    <text x="605" y="218" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x771F;&#x5B9E;&#x4F7F;&#x7528; &#xB7; &#x516B;&#x5C42; v1</text>
+    <text x="900" y="218" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x4FEE;&#x8BA2;&#x4E3A; v1.1</text>
+
+    <text x="30" y="290" font-size="14" font-weight="600" fill="#0a0a0a">&#x4E0A;&#x4E0B;&#x6587;</text>
+    <rect x="120" y="262" width="910" height="46" rx="8" fill="#f7faf6" stroke="#b7c7b7"/>
+    <text x="300" y="290" text-anchor="middle" font-size="12" fill="#59615a">&#x6765;&#x6E90; &#xB7; &#x7248;&#x672C; &#xB7; &#x6743;&#x9650;</text>
+    <text x="630" y="290" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x540C;&#x7248;&#x672C;&#x5FC5;&#x8981;&#x4E8B;&#x5B9E; &#xB7; &#x6807;&#x8BB0;&#x672A;&#x77E5;&#x4E0E;&#x53D7;&#x9650;&#x9879;</text>
+    <text x="910" y="290" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x5173;&#x95ED;&#x65E7;&#x5165;&#x53E3;</text>
+
+    <text x="30" y="362" font-size="14" font-weight="600" fill="#0a0a0a">&#x8BC1;&#x636E;</text>
+    <rect x="120" y="334" width="910" height="46" rx="8" fill="#fff8ef" stroke="#d7b071"/>
+    <text x="300" y="362" text-anchor="middle" font-size="12" fill="#59615a">&#x51BB;&#x7ED3;&#x53E3;&#x5F84;&#x4E0E;&#x505C;&#x6B62;&#x7EBF;</text>
+    <text x="635" y="362" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x771F;&#x5B9E;&#x7ED3;&#x679C; &#xB7; &#x5931;&#x8D25; &#xB7; &#x4F8B;&#x5916;&#x6301;&#x7EED;&#x56DE;&#x6D41;</text>
+    <text x="910" y="362" text-anchor="middle" font-size="12" fill="#0a0a0a">&#x7ED3;&#x8D26;&#x4E0E;&#x5F52;&#x56E0;&#x8FB9;&#x754C;</text>
+  </g>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">
+    <rect x="120" y="414" width="200" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="220" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D1&#x2014;D14</text>
+    <text x="220" y="455" font-size="11" fill="#59615a">&#x5BA1;&#x8BA1;&#x4E0E;&#x57FA;&#x7EBF;</text>
+    <rect x="340" y="414" width="240" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="460" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D15&#x2014;D45</text>
+    <text x="460" y="455" font-size="11" fill="#59615a">&#x7B2C;&#x4E00;&#x6CE2;&#x4E0E;&#x516B;&#x5C42; v1</text>
+    <rect x="600" y="414" width="240" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="720" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D36&#x2014;D75</text>
+    <text x="720" y="455" font-size="11" fill="#59615a">&#x4E3B;&#x8BD5;&#x70B9;&#x4E0E;&#x5BB9;&#x91CF;&#x95F8;&#x95E8;</text>
+    <rect x="860" y="414" width="170" height="52" rx="9" fill="#eef6ec" stroke="#2d7a25"/>
+    <text x="945" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D76&#x2014;D90</text>
+    <text x="945" y="455" font-size="11" fill="#59615a">&#x7ED3;&#x8D26;&#x4E0E;&#x4E0B;&#x4E00;&#x8F6E;</text>
+  </g>
+
+  <text x="560" y="490" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#2d7a25">&#x7B2C;&#x4E00;&#x8F6E;&#x53EF;&#x4EE5;&#x5931;&#x8D25;&#xFF0C;&#x4F46;&#x4E0D;&#x80FD;&#x7F3A;&#x5C11;&#x8BC1;&#x636E;&#x3001;&#x4FEE;&#x8BA2;&#x548C;&#x4E0B;&#x4E00;&#x8F6E;</text>
+</svg>

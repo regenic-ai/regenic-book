@@ -23,6 +23,15 @@ function buildContentSecurityPolicy() {
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  async redirects() {
+    return [
+      {
+        source: "/:locale/book/13-ninety-days",
+        destination: "/:locale/book/14-ninety-days",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

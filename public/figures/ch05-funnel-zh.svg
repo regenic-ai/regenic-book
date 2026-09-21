@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+  <title id="title">钱、时间与可靠判断的资源配置闭环</title>
+  <desc id="desc">公司用钱购买个人时间，时间承载可靠判断，判断决定下一轮钱和时间的流向。当前瓶颈会随阶段迁移；资源配置先守合法、诚信、安全和生存底线，再比较价值与全成本。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2d7a25"/>
+    </marker>
+  </defs>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img">
-  <rect width="720" height="420" fill="#fff"/>
-  <text x="360" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">稀缺漏斗</text>
-  <polygon points="80,70 640,70 520,160 200,160" fill="#6bed4a" fill-opacity="0.1" stroke="#d5dbd6"/>
-  <text x="360" y="125" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#0a0a0a">钱 · 曾经稀缺</text>
-  <polygon points="200,180 520,180 440,260 280,260" fill="#6bed4a" fill-opacity="0.18" stroke="#d5dbd6"/>
-  <text x="360" y="230" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#0a0a0a">时间 · 一度稀缺</text>
-  <polygon points="280,280 440,280 380,360 340,360" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25" stroke-width="2"/>
-  <text x="360" y="330" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#2d7a25">判断 · 最后稀缺</text>
-  <text x="360" y="400" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">每一层被补齐后，瓶颈下移到下一层</text>
+  <rect width="920" height="500" fill="#ffffff"/>
+  <text x="460" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">三层资源配置闭环</text>
+  <text x="460" y="60" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">三个分析层次 · 不是三个永久身份</text>
+
+  <rect x="310" y="78" width="300" height="38" rx="19" fill="#ffffff" stroke="#2d7a25" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="460" y="102" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="600" fill="#2d7a25">当前瓶颈会随阶段迁移</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="50" y="150" width="210" height="138" rx="14" fill="#f5fff2" stroke="#b8f3a6" stroke-width="1.5"/>
+    <text x="155" y="194" text-anchor="middle" font-size="17" font-weight="700" fill="#0a0a0a">公司 · 钱</text>
+    <text x="155" y="226" text-anchor="middle" font-size="13" fill="#59615a">决定还能投入多少</text>
+    <text x="155" y="249" text-anchor="middle" font-size="13" fill="#59615a">还能承受几次试错</text>
+
+    <rect x="355" y="150" width="210" height="138" rx="14" fill="#fff8ef" stroke="#ead8bd" stroke-width="1.5"/>
+    <text x="460" y="194" text-anchor="middle" font-size="17" font-weight="700" fill="#0a0a0a">个人 · 时间</text>
+    <text x="460" y="226" text-anchor="middle" font-size="13" fill="#59615a">不可再生的投入</text>
+    <text x="460" y="249" text-anchor="middle" font-size="13" fill="#59615a">承载行动与判断</text>
+
+    <rect x="660" y="150" width="210" height="138" rx="14" fill="#f7f3ff" stroke="#cdbce8" stroke-width="1.5"/>
+    <text x="765" y="188" text-anchor="middle" font-size="16" font-weight="700" fill="#0a0a0a">AI 原生组织</text>
+    <text x="765" y="214" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a25">可靠判断</text>
+    <text x="765" y="246" text-anchor="middle" font-size="13" fill="#59615a">决定资源流向哪里</text>
+  </g>
+
+  <line x1="260" y1="219" x2="345" y2="219" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="302" y="205" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">购买</text>
+  <line x1="565" y1="219" x2="650" y2="219" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="607" y="205" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">承载</text>
+
+  <path d="M765,288 C765,368 155,368 155,298" fill="none" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="460" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#2d7a25">判断决定下一轮钱与时间的流向</text>
+
+  <rect x="55" y="408" width="390" height="62" rx="12" fill="#ffffff" stroke="#d5dbd6"/>
+  <text x="250" y="434" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="600" fill="#0a0a0a">先过底线</text>
+  <text x="250" y="456" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">合法 · 诚信 · 安全 · 生存</text>
+
+  <rect x="475" y="408" width="390" height="62" rx="12" fill="#f5fff2" stroke="#b8f3a6"/>
+  <text x="670" y="434" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="600" fill="#0a0a0a">再比较投入产出</text>
+  <text x="670" y="456" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#2d7a25">可核验总价值 ÷ 同期全成本 &gt; 1</text>
 </svg>

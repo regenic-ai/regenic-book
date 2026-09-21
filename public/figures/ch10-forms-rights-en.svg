@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" role="img">
-  <rect width="920" height="460" fill="#fff"/>
-  <text x="460" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">Form shift · decision-rights ladder</text>
-  <text x="220" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Old form</text>
-  <polygon points="220,90 320,200 120,200" fill="#6bed4a" fill-opacity="0.15" stroke="#d5dbd6"/>
-  <text x="220" y="160" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Pyramid</text>
-  <polygon points="120,210 320,210 360,300 80,300" fill="#d5dbd6" fill-opacity="0.5"/>
-  <text x="220" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Thick execution</text>
-  <text x="400" y="200" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#59615a">→</text>
-  <text x="620" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">New form</text>
-  <circle cx="620" cy="150" r="55" fill="#2d7a25" fill-opacity="0.15" stroke="#2d7a25" stroke-width="2"/>
-  <text x="620" y="145" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2d7a25">Small core</text>
-  <text x="620" y="165" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#59615a">All judgment · S3+</text>
-  <ellipse cx="620" cy="250" rx="140" ry="40" fill="#6bed4a" fill-opacity="0.12" stroke="#d5dbd6" stroke-dasharray="6 4"/>
-  <text x="620" y="255" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">AI / outsourced execution belt</text>
-  <text x="460" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Decision-rights ladder (mature one level → migrate one)</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic lifecycle of the talent structure</title>
+  <desc id="desc">Locate the job's tasks and the person's evidence of judgment first, then locate what the organization needs, then match AI, outsourcing, keeping the work with people, development, screening, and five levels of decision rights. Results keep returning.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2d7a25"/>
+    </marker>
+  </defs>
+  <rect width="920" height="560" fill="#fff"/>
   <g font-family="Inter, system-ui, sans-serif">
-<rect x="40" y="350" width="160" height="70" rx="6" fill="#6bed4a" fill-opacity="0.08" stroke="#d5dbd6" stroke-width="1"/><text x="120" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Direct</text><text x="120" y="402" text-anchor="middle" font-size="11" fill="#59615a">Steps given</text><rect x="215" y="350" width="160" height="70" rx="6" fill="#6bed4a" fill-opacity="0.13" stroke="#d5dbd6" stroke-width="1"/><text x="295" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Coach</text><text x="295" y="402" text-anchor="middle" font-size="11" fill="#59615a">Methods given</text><rect x="390" y="350" width="160" height="70" rx="6" fill="#6bed4a" fill-opacity="0.18" stroke="#d5dbd6" stroke-width="1"/><text x="470" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Consult</text><text x="470" y="402" text-anchor="middle" font-size="11" fill="#59615a">Decide together</text><rect x="565" y="350" width="160" height="70" rx="6" fill="#6bed4a" fill-opacity="0.23000000000000004" stroke="#d5dbd6" stroke-width="1"/><text x="645" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Delegate</text><text x="645" y="402" text-anchor="middle" font-size="11" fill="#59615a">Autonomy in bounds</text><rect x="740" y="350" width="160" height="70" rx="6" fill="#6bed4a" fill-opacity="0.28" stroke="#2d7a25" stroke-width="2"/><text x="820" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">Empower</text><text x="820" y="402" text-anchor="middle" font-size="11" fill="#59615a">Bounds too</text>
+    <text x="460" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#0a0a0a">Dynamic lifecycle of the talent structure</text>
+    <text x="460" y="57" text-anchor="middle" font-size="12" fill="#59615a">S levels mark tasks; decision rights mark permission on a concrete task</text>
+
+    <rect x="35" y="88" width="250" height="255" rx="8" fill="#6bed4a" fill-opacity="0.07" stroke="#d5dbd6"/>
+    <text x="160" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">1  Locate job and person / 10</text>
+    <text x="58" y="157" font-size="12" fill="#59615a">Split the job into real tasks</text>
+    <line x1="58" y1="170" x2="260" y2="170" stroke="#d5dbd6"/>
+    <rect x="58" y="190" width="58" height="38" rx="5" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="131" y="190" width="58" height="38" rx="5" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="204" y="190" width="58" height="38" rx="5" fill="#fff" stroke="#d5dbd6"/>
+    <text x="87" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#0a0a0a">S1</text>
+    <text x="87" y="221" text-anchor="middle" font-size="9" fill="#59615a">Clear order</text>
+    <text x="160" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#0a0a0a">S2</text>
+    <text x="160" y="221" text-anchor="middle" font-size="9" fill="#59615a">Mature standard</text>
+    <text x="233" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#0a0a0a">S3</text>
+    <text x="233" y="221" text-anchor="middle" font-size="9" fill="#59615a">Exceptions</text>
+    <text x="58" y="261" font-size="12" fill="#59615a">Person: evidence of judgment on concrete tasks</text>
+    <text x="58" y="287" font-size="11" fill="#59615a">Understands the standard / handles exceptions</text>
+    <text x="58" y="311" font-size="11" fill="#59615a">Surfaces risk / result quality / can revise</text>
+
+    <line x1="293" y1="216" x2="327" y2="216" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="335" y="88" width="250" height="255" rx="8" fill="#6bed4a" fill-opacity="0.11" stroke="#d5dbd6"/>
+    <text x="460" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">2  Locate org need / 10</text>
+    <text x="360" y="158" font-size="12" fill="#59615a">Results and volume of work</text>
+    <text x="360" y="188" font-size="12" fill="#59615a">Long-term core vs stage peaks</text>
+    <text x="360" y="218" font-size="12" fill="#59615a">Readiness of standards and context</text>
+    <text x="360" y="248" font-size="12" fill="#59615a">Physical work and on-site sensing</text>
+    <text x="360" y="278" font-size="12" fill="#59615a">Regulation, privacy, safety, trust</text>
+    <text x="360" y="308" font-size="12" fill="#59615a">Final accountability and risk</text>
+
+    <line x1="593" y1="216" x2="627" y2="216" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="635" y="88" width="250" height="255" rx="8" fill="#6bed4a" fill-opacity="0.16" stroke="#2d7a25" stroke-width="1.5"/>
+    <text x="760" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">3  Match and choose / 80</text>
+    <text x="660" y="158" font-size="12" fill="#59615a">AI trial / outsource trial / keep with people</text>
+    <text x="660" y="188" font-size="12" fill="#59615a">Develop / screen / reconfigure</text>
+    <text x="660" y="218" font-size="12" fill="#59615a">Set decision rights on work that stays with people</text>
+    <rect x="648" y="243" width="42" height="42" rx="4" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="695" y="243" width="42" height="42" rx="4" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="742" y="243" width="42" height="42" rx="4" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="789" y="243" width="42" height="42" rx="4" fill="#fff" stroke="#d5dbd6"/>
+    <rect x="836" y="243" width="42" height="42" rx="4" fill="#fff" stroke="#2d7a25"/>
+    <text x="669" y="268" text-anchor="middle" font-size="8" fill="#0a0a0a">Instruct</text>
+    <text x="716" y="268" text-anchor="middle" font-size="8" fill="#0a0a0a">Guide</text>
+    <text x="763" y="268" text-anchor="middle" font-size="8" fill="#0a0a0a">Consult</text>
+    <text x="810" y="268" text-anchor="middle" font-size="8" fill="#0a0a0a">Authorize</text>
+    <text x="857" y="268" text-anchor="middle" font-size="8" fill="#0a0a0a">Delegate</text>
+    <text x="660" y="316" font-size="11" fill="#59615a">Scope / risk cap / term / escalate and withdraw</text>
+
+    <path d="M760 357 C760 455 160 455 160 357" fill="none" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="460" y="402" text-anchor="middle" font-size="13" font-weight="700" fill="#2d7a25">Results, exceptions, and changes in capability keep returning</text>
+    <text x="460" y="427" text-anchor="middle" font-size="11" fill="#59615a">Re-mark tasks / revise standards / adjust the match / migrate or recover decision rights</text>
+
+    <rect x="125" y="466" width="670" height="58" rx="6" fill="#f7f9f7" stroke="#d5dbd6"/>
+    <text x="460" y="491" text-anchor="middle" font-size="12" font-weight="700" fill="#0a0a0a">10 / 10 / 80 is where the weight of resource goes, not a statistical ratio or a headcount threshold</text>
+    <text x="460" y="512" text-anchor="middle" font-size="11" fill="#59615a">High-risk, tightly regulated, and irreversible work can take more judgment, evidence, and review up front</text>
   </g>
 </svg>

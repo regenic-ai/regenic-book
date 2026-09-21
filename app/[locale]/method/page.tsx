@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     locale,
     title: locale === "en" ? "Method" : "方法论",
     description: locale === "en"
-      ? "The dual-capability model, standards engine, Clarity Method, and Interference Method for producing organizational judgment."
-      : "双能力模型、标准机器，以及清晰术与干扰术如何共同生产组织判断力。",
+      ? "Judgment × Context, the standards engine, Clarity Method, and Interference Method for producing organizational judgment."
+      : "两个统一、标准循环，以及清晰术与干扰术如何共同生产组织判断力。",
     pathname: "/method",
   });
 }
@@ -56,7 +56,7 @@ export default async function MethodPage({
       <section className="marketing-section shell">
         <SectionHeading
           eyebrow="主框架"
-          title="双能力模型"
+          title="两个统一"
           description="判断力要规模化，既要有共同的排序函数，也要让分散行动者拿到作出判断所需的信息。"
         />
         <CapabilityDiagram locale={locale} />
@@ -66,10 +66,10 @@ export default async function MethodPage({
         <div className="shell machine-flow">
           <SectionHeading
             eyebrow="核心部件"
-            title="标准机器：让判断进入循环。"
+            title="标准循环：让判断转起来。"
             description="标准不是静态制度墙，而是一台持续吸收反馈的循环泵。"
           />
-          <ol aria-label="标准机器循环">
+          <ol aria-label="标准循环">
             <li>判断</li>
             <li>提炼</li>
             <li>标准</li>
@@ -91,7 +91,7 @@ export default async function MethodPage({
           <article>
             <span className="method-index">01 / Clarity</span>
             <h3>清晰术扩大自己的选项</h3>
-            <p className="formula">提炼标准 10% + 收集数据 10% + 以手段求优解 80%</p>
+            <p className="formula">提炼标准 10 + 收集数据 10 + 以手段求优解 80</p>
             <ol>
               <li>发现标准缺口</li>
               <li>借到标准与适用边界</li>
@@ -106,16 +106,16 @@ export default async function MethodPage({
           <article>
             <span className="method-index">02 / Interference</span>
             <h3>干扰术收窄对方的选项</h3>
-            <p className="formula">分析用户共识 10% + 找到场景 10% + 制造共识 80%</p>
+            <p className="formula">分析已有共识 10 + 找到合适场景 10 + 形成新共识 80</p>
             <ol>
-              <li>理解对方已有的共识</li>
-              <li>选择事实可信度最高的场景</li>
-              <li>选择性展示真实信息</li>
-              <li>检验承诺能否被兑现</li>
-              <li>让反馈回流并修正表达</li>
+              <li>理解对方怎样命名、比较和选择</li>
+              <li>选择便于理解与核验的场景</li>
+              <li>让主张、来源和比较条件可核验</li>
+              <li>披露足以影响决定的关键信息</li>
+              <li>用兑现结果与反馈修正表达</li>
             </ol>
             <p>
-              不隐瞒实质影响判断的信息，不制造假信息，并以“对方事后是否后悔”检验边界。
+              10/10/80 是资源重心，不是统计比例。收窄的是理解与比较成本，不是选择权；主张可核验，不隐瞒重大信息，承诺可兑现，并保留对方知情选择的能力。
             </p>
           </article>
         </div>
@@ -133,7 +133,7 @@ export default async function MethodPage({
           <ol>
             <li>
               <span>核心部件</span>
-              <strong>标准机器固化判断</strong>
+              <strong>标准循环固化判断</strong>
             </li>
             <li>
               <span>两条生产线</span>
@@ -141,7 +141,7 @@ export default async function MethodPage({
             </li>
             <li>
               <span>整机</span>
-              <strong>共识机器复制判断</strong>
+              <strong>共识循环复制判断</strong>
             </li>
             <li>
               <span>外部效应</span>
@@ -184,7 +184,7 @@ function EnglishMethod({ locale }: { locale: PublishedLocale }) {
       <section className="marketing-section shell">
         <SectionHeading
           eyebrow="Primary framework"
-          title="The dual-capability model"
+          title="Judgment × Context"
           description="Judgment scales only when people share both an ordering function and the information required to apply it."
         />
         <CapabilityDiagram locale={locale} />

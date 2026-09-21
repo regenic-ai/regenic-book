@@ -7,7 +7,7 @@
   <circle cx="80" cy="180" r="10" fill="#2d7a25"/>
   <line x1="90" y1="180" x2="320" y2="180" stroke="#2d7a25" stroke-width="3"/>
   <circle cx="320" cy="180" r="10" fill="#2d7a25"/>
-  <text x="200" y="210" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">照做 · 验证 · 微调</text>
+  <text x="200" y="210" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">按标准行动 · 反馈 · 微调</text>
   <text x="650" y="80" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#59615a">无标准：分叉蛛网</text>
   <circle cx="520" cy="180" r="10" fill="#2d7a25"/>
   <line x1="530" y1="180" x2="620" y2="180" stroke="#2d7a25" stroke-width="3"/>
@@ -34,5 +34,5 @@
     <text x="780" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">4 验证修正</text>
     <text x="780" y="410" text-anchor="middle" font-size="12" fill="#59615a">便宜时暴露错误</text>
   </g>
-  <text x="450" y="485" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">没有标准，停止执行</text>
+  <text x="450" y="485" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">标准收窄选项，不保证结果正确</text>
 </svg>

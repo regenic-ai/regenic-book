@@ -76,8 +76,8 @@ export function DiagnosisChecklist({
             <Link className="text-link" href={`/${locale}/tools/90-days`}>
               {isEnglish ? "Open the 90-day roadmap →" : "打开 90 天路线 →"}
             </Link>
-            <Link className="text-link" href={`/${locale}/book/13-ninety-days`}>
-              {isEnglish ? "Read the source in Chapter 13 →" : "核对第 13 章原文 →"}
+            <Link className="text-link" href={`/${locale}/book/14-ninety-days`}>
+              {isEnglish ? "Read the source in Chapter 14 →" : "核对第 14 章原文 →"}
             </Link>
           </div>
         </section>

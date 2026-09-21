@@ -1,23 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">The standards cycle</title>
+  <desc id="desc">Judgment is distilled into a standard, issued and executed, then results return and the standard is revised. Before issuing, check whether the standard is usable.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2d7a25"/>
+    </marker>
+  </defs>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img">
   <rect width="900" height="560" fill="#fff"/>
-  <text x="450" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">Standards engine: cycle + eight-layer ladder</text>
-  <text x="220" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#59615a">Cycle pump</text>
-  <circle cx="220" cy="250" r="150" fill="none" stroke="#d5dbd6" stroke-width="2"/>
   <g font-family="Inter, system-ui, sans-serif">
-    <rect x="145" y="105" width="150" height="42" rx="6" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25"/>
-    <text x="220" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#2d7a25">Judgment (gas)</text>
-    <rect x="290" y="200" width="150" height="42" rx="6" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25"/>
-    <text x="365" y="227" text-anchor="middle" font-size="12" font-weight="700" fill="#2d7a25">Refine → standard</text>
-    <rect x="290" y="280" width="150" height="42" rx="6" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25"/>
-    <text x="365" y="307" text-anchor="middle" font-size="12" font-weight="700" fill="#2d7a25">Ship &amp; execute</text>
-    <rect x="145" y="360" width="150" height="42" rx="6" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25"/>
-    <text x="220" y="387" text-anchor="middle" font-size="12" font-weight="700" fill="#2d7a25">Data returns</text>
-    <rect x="40" y="240" width="120" height="42" rx="6" fill="#2d7a25" fill-opacity="0.12" stroke="#2d7a25"/>
-    <text x="100" y="267" text-anchor="middle" font-size="12" font-weight="700" fill="#2d7a25">Iterate</text>
+    <text x="450" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#0a0a0a">The standards cycle</text>
+    <text x="450" y="64" text-anchor="middle" font-size="13" fill="#59615a">Judgment becomes reusable only after it is written, executed, fed back, and revised</text>
+
+    <g fill="none" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M 220 161 C 250 130, 280 112, 315 107"/>
+      <path d="M 445 107 L 493 107"/>
+      <path d="M 565 140 L 565 189"/>
+      <path d="M 620 251 C 656 245, 680 231, 704 224"/>
+      <path d="M 770 245 L 770 307"/>
+      <path d="M 715 365 C 681 398, 646 419, 602 428"/>
+      <path d="M 472 428 L 424 428"/>
+      <path d="M 294 424 C 230 410, 176 371, 148 314 C 120 258, 128 207, 164 171"/>
+    </g>
+
+    <g>
+      <rect x="95" y="120" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="160" y="153" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Judgment</text>
+
+      <rect x="315" y="79" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="380" y="112" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Distill</text>
+
+      <rect x="493" y="74" width="145" height="66" rx="8" fill="#2d7a25" fill-opacity="0.16" stroke="#2d7a25" stroke-width="2"/>
+      <text x="565.5" y="101" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">Form the standard</text>
+      <text x="565.5" y="122" text-anchor="middle" font-size="10" fill="#59615a">Use / act / evidence / stop / revise</text>
+
+      <rect x="705" y="195" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="770" y="228" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Issue</text>
+
+      <rect x="705" y="307" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="770" y="340" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Execute</text>
+
+      <rect x="472" y="400" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="537" y="433" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Return</text>
+
+      <rect x="294" y="396" width="130" height="56" rx="8" fill="#2d7a25" fill-opacity="0.10" stroke="#2d7a25" stroke-width="2"/>
+      <text x="359" y="429" text-anchor="middle" font-size="15" font-weight="700" fill="#2d7a25">Iterate</text>
+    </g>
+
+    <g>
+      <rect x="250" y="190" width="400" height="142" rx="10" fill="#f5f7f5" stroke="#d5dbd6" stroke-width="1.5"/>
+      <text x="450" y="220" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">Before issuing: is the standard usable?</text>
+      <line x1="280" y1="235" x2="620" y2="235" stroke="#d5dbd6"/>
+      <text x="300" y="263" font-size="13" font-weight="700" fill="#2d7a25">Yes</text>
+      <text x="345" y="263" font-size="13" fill="#0a0a0a">Issue and execute</text>
+      <text x="300" y="293" font-size="13" font-weight="700" fill="#9b3d2c">No</text>
+      <text x="345" y="293" font-size="13" fill="#0a0a0a">Stop expanding execution; find, borrow, or verify</text>
+    </g>
+
+    <rect x="90" y="492" width="720" height="38" rx="6" fill="#2d7a25" fill-opacity="0.06" stroke="#d5dbd6"/>
+    <text x="450" y="516" text-anchor="middle" font-size="12" fill="#59615a">Operating conditions: trigger / named owner / fixed feedback record / versioned release</text>
   </g>
-  <text x="640" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#59615a">Eight-layer ladder</text>
-  <g><rect x="500" y="95" width="280" height="40" rx="4" fill="#6bed4a" fill-opacity="0.08" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="121" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Mission</text><rect x="506" y="143" width="268" height="40" rx="4" fill="#6bed4a" fill-opacity="0.13" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="169" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Beliefs</text><rect x="512" y="191" width="256" height="40" rx="4" fill="#6bed4a" fill-opacity="0.18" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="217" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Behavior</text><rect x="518" y="239" width="244" height="40" rx="4" fill="#6bed4a" fill-opacity="0.23000000000000004" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Thinking</text><rect x="524" y="287" width="232" height="40" rx="4" fill="#6bed4a" fill-opacity="0.28" stroke="#2d7a25" stroke-width="2"/><text x="640" y="313" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Judgment</text><rect x="530" y="335" width="220" height="40" rx="4" fill="#6bed4a" fill-opacity="0.33" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="361" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">People ROI</text><rect x="536" y="383" width="208" height="40" rx="4" fill="#6bed4a" fill-opacity="0.38000000000000006" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="409" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Management</text><rect x="542" y="431" width="196" height="40" rx="4" fill="#6bed4a" fill-opacity="0.43000000000000005" stroke="#d5dbd6" stroke-width="1"/><text x="640" y="457" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#0a0a0a">Learning</text></g>
-  <text x="450" y="540" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#59615a">Left produces standards · Right places them · Highlight = judgment layer</text>
 </svg>

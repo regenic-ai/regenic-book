@@ -24,7 +24,7 @@ describe("public standards and research docs", () => {
   it("renders a public standards document", async () => {
     const doc = await getDocBySlug("en", "standards", "book-standard");
     expect(doc?.title).toMatch(/Public book standards/i);
-    expect(doc?.html).toContain("dual-capability model");
+    expect(doc?.html).toContain("Judgment × Context");
     expect(doc?.html).not.toContain("internal-data-form");
   });
 });

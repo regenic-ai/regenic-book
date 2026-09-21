@@ -1,31 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" role="img">
-  <rect width="860" height="360" fill="#fff"/>
-  <text x="430" y="34" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">清晰术配比：10 / 10 / 80</text>
-  <text x="220" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">常见配比（倒置）</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">清晰术 10/10/80 资源纪律与动作链</title>
+  <desc id="desc">先发现标准缺口，借来观察角度、判断刻度和适用条件，检查迁移，用小成本验证，再按价值排序并写入标准循环。赢家与输家用于形成和检验假设，单对案例不能证明因果。</desc>
+  <rect width="1120" height="560" fill="#fff"/>
+
   <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
-    <rect x="60" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.35" stroke="#d5dbd6"/>
-    <text x="110" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
-    <text x="110" y="270" text-anchor="middle" font-size="11" fill="#59615a">争论标准</text>
-    <rect x="180" y="90" width="100" height="160" fill="#ffb347" fill-opacity="0.25" stroke="#d5dbd6"/>
-    <text x="230" y="170" text-anchor="middle" font-size="14" font-weight="700">40%</text>
-    <text x="230" y="270" text-anchor="middle" font-size="11" fill="#59615a">堆数据</text>
-    <rect x="300" y="210" width="100" height="40" fill="#d5dbd6"/>
-    <text x="350" y="235" text-anchor="middle" font-size="14" font-weight="700">20%</text>
-    <text x="350" y="270" text-anchor="middle" font-size="11" fill="#59615a">找解法</text>
+    <text x="560" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#0a0a0a">清晰术：10 / 10 / 80 是资源纪律</text>
+    <text x="560" y="64" text-anchor="middle" font-size="12" fill="#59615a">表示资源重心，不是经过统计证明的精确比例</text>
+
+    <rect x="60" y="88" width="100" height="42" rx="7" fill="#2d7a25" fill-opacity="0.16" stroke="#2d7a25"/>
+    <rect x="160" y="88" width="100" height="42" rx="7" fill="#2d7a25" fill-opacity="0.22" stroke="#2d7a25"/>
+    <rect x="260" y="88" width="800" height="42" rx="7" fill="#6bed4a" fill-opacity="0.2" stroke="#2d7a25" stroke-width="1.5"/>
+    <text x="110" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">10</text>
+    <text x="110" y="122" text-anchor="middle" font-size="10" fill="#245f20">提炼标准</text>
+    <text x="210" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">10</text>
+    <text x="210" y="122" text-anchor="middle" font-size="10" fill="#245f20">收集数据</text>
+    <text x="660" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#245f20">80</text>
+    <text x="660" y="122" text-anchor="middle" font-size="10" fill="#245f20">提出办法 · 小成本验证 · 比较 · 修正</text>
+
+    <text x="560" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">动作链</text>
+
+    <g fill="#f7faf7" stroke="#8a968c" stroke-width="1.2">
+      <rect x="42" y="196" width="130" height="84" rx="10"/>
+      <rect x="212" y="184" width="176" height="108" rx="10" fill="#eef7ed" stroke="#2d7a25"/>
+      <rect x="428" y="196" width="130" height="84" rx="10"/>
+      <rect x="598" y="196" width="130" height="84" rx="10"/>
+      <rect x="768" y="196" width="130" height="84" rx="10"/>
+      <rect x="938" y="196" width="140" height="84" rx="10" fill="#eef7ed" stroke="#2d7a25"/>
+    </g>
+
+    <g fill="#0a0a0a" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="107" y="232">发现缺口</text>
+      <text x="300" y="208">借候选标准</text>
+      <text x="493" y="232">检查迁移</text>
+      <text x="663" y="232">小成本验证</text>
+      <text x="833" y="232">按价值排序</text>
+      <text x="1008" y="232">写入标准循环</text>
+    </g>
+
+    <g fill="#59615a" font-size="11" text-anchor="middle">
+      <text x="107" y="252">缺角度、刻度</text>
+      <text x="107" y="267">还是适用条件？</text>
+      <text x="300" y="232">观察角度</text>
+      <text x="300" y="250">判断刻度</text>
+      <text x="300" y="268">适用条件</text>
+      <text x="493" y="252">对象 · 阶段</text>
+      <text x="493" y="267">资源 · 反馈</text>
+      <text x="663" y="252">范围 · 证据</text>
+      <text x="663" y="267">停止条件</text>
+      <text x="833" y="252">为谁创造价值</text>
+      <text x="833" y="267">代价与边界</text>
+      <text x="1008" y="252">条件 · 证据</text>
+      <text x="1008" y="267">停止线 · 未知项</text>
+    </g>
+
+    <g stroke="#2d7a25" stroke-width="2" fill="none">
+      <path d="M172 238 H202"/>
+      <path d="M388 238 H418"/>
+      <path d="M558 238 H588"/>
+      <path d="M728 238 H758"/>
+      <path d="M898 238 H928"/>
+    </g>
+    <g fill="#2d7a25">
+      <path d="M202 238 l-8 -5 v10 z"/>
+      <path d="M418 238 l-8 -5 v10 z"/>
+      <path d="M588 238 l-8 -5 v10 z"/>
+      <path d="M758 238 l-8 -5 v10 z"/>
+      <path d="M928 238 l-8 -5 v10 z"/>
+    </g>
+
+    <text x="493" y="334" text-anchor="middle" font-size="14" font-weight="700" fill="#0a0a0a">双侧样本：形成与检验迁移假设</text>
+    <rect x="298" y="358" width="176" height="78" rx="9" fill="#eef7ed" stroke="#2d7a25"/>
+    <rect x="512" y="358" width="176" height="78" rx="9" fill="#fff5eb" stroke="#bd6a18"/>
+    <text x="386" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#245f20">赢家</text>
+    <text x="386" y="407" text-anchor="middle" font-size="12" fill="#59615a">寻找可能起作用的机制</text>
+    <text x="600" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#8a4607">输家</text>
+    <text x="600" y="407" text-anchor="middle" font-size="12" fill="#59615a">寻找机制失效的条件</text>
+    <path d="M493 280 V348 M493 348 H386 V358 M493 348 H600 V358" stroke="#8a968c" stroke-width="1.5" fill="none"/>
+
+    <rect x="724" y="358" width="314" height="78" rx="9" fill="#f7f7f7" stroke="#8a968c"/>
+    <text x="881" y="384" text-anchor="middle" font-size="13" font-weight="700" fill="#0a0a0a">证据边界</text>
+    <text x="881" y="407" text-anchor="middle" font-size="12" fill="#59615a">一胜一负可以提出或修正假设</text>
+    <text x="881" y="425" text-anchor="middle" font-size="12" fill="#59615a">不能据此估计总体效果或证明因果</text>
+
+    <path d="M1008 280 V476 H107 V290" stroke="#2d7a25" stroke-width="1.5" stroke-dasharray="6 5" fill="none"/>
+    <path d="M107 290 l-6 9 h12 z" fill="#2d7a25"/>
+    <text x="560" y="496" text-anchor="middle" font-size="11" fill="#59615a">现实反馈暴露新缺口后，回到下一轮</text>
+
+    <text x="560" y="532" text-anchor="middle" font-size="12" fill="#59615a">借是通常更稳妥的起点；借不到或迁移不成立时，转入有边界的探索</text>
   </g>
-  <text x="640" y="70" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">清晰术</text>
-  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
-    <rect x="480" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
-    <text x="525" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
-    <text x="525" y="270" text-anchor="middle" font-size="11" fill="#59615a">提炼标准</text>
-    <rect x="590" y="210" width="90" height="40" fill="#2d7a25" fill-opacity="0.2" stroke="#2d7a25"/>
-    <text x="635" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#2d7a25">10%</text>
-    <text x="635" y="270" text-anchor="middle" font-size="11" fill="#59615a">收集数据</text>
-    <rect x="700" y="90" width="100" height="160" fill="#6bed4a" fill-opacity="0.25" stroke="#2d7a25" stroke-width="2"/>
-    <text x="750" y="170" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a25">80%</text>
-    <text x="750" y="270" text-anchor="middle" font-size="11" fill="#59615a">试手段求优解</text>
-  </g>
-  <text x="430" y="330" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">标准靠借与迭代变准 · 不靠辩论完美起步</text>
 </svg>

@@ -27,7 +27,7 @@ export function ContentDocReader({
   const basePath = `/${locale}/${doc.collection}`;
 
   return (
-    <div className="shell reader-shell">
+    <div className="shell reader-shell" data-locale={locale}>
       <article className="reader content-doc">
         <p className="reader-breadcrumb">
           <Link href={`/${locale}`}>{en ? "Home" : "首页"}</Link>
@@ -40,7 +40,7 @@ export function ContentDocReader({
           <p>{doc.description}</p>
         </header>
         <div
-          className="chapter-content content-doc-body"
+          className="prose chapter-content content-doc-body"
           dangerouslySetInnerHTML={{ __html: doc.html }}
         />
         <nav className="content-doc-nav" aria-label={en ? "Document navigation" : "文档导航"}>

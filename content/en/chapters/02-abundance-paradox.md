@@ -1,160 +1,234 @@
 # Chapter 2: The Paradox of Abundance
 
-Status: Completed (v1.7, 2026-08-28, about 8500 words; acceptance passed 2026-07-25; v1.2 forward echo of market-side scissor gap; v1.3 five-gene root paragraph; v1.4 aside scaffolding cleanup; v1.5 prose-standard fluency pass; v1.6 per current standard, primarily whole-sentence rewriting; v1.7 English-breath pass under current prose-standard; English terminology sync (principal-leader); open to ongoing public revision)
+Status: Completed (v2.0, 2026-09-21; rewritten from the Chinese authority in English voice; open to ongoing public revision)
 
-**Claim: A company that buys every AI tool on the market sees no order-of-magnitude gain in efficiency, because the gap is not on the technical side but on the organizational side: everyone holds unlimited execution power, yet each is executing a different judgment.**
+**Claim: The spread of AI tools does not automatically produce an order-of-magnitude change at the company level. Models amplify the judgments and practices an organization already uses. They do not fill in goals, facts, or the duty to correct.**
 
 ---
 
-## 1. Fourteen Months, Two Announcements
+## 1. Why the cost dividend does not become company capability
 
-On February 27, 2024, Klarna, a Swedish fintech company, issued a press release that shook customer-service stocks. Its OpenAI-powered AI assistant had been live for only one month. It handled 2.3 million conversations—two-thirds of all customer-service volume—"equivalent to the workload of 700 full-time agents." Resolution time fell from eleven minutes to under two; repeat inquiries dropped 25%; projected profit uplift for the year was $40 million. The company paused hiring for more than a year, cutting headcount from about 5,000 to about 3,500.
+Many of the execution steps in digital knowledge work are getting cheaper, and finding knowledge that already exists is easier than it used to be. If local speedups simply added up, the hours saved in drafting, retrieval, analysis, and coding would show up quickly in company results.
 
-Fourteen months later the same CEO changed what he was willing to say out loud. On May 8, 2025, Sebastian Siemiatkowski told Bloomberg: "Cost has unfortunately become too dominant an evaluation factor when we organize this, and the result is lower quality." Klarna announced it would hire human agents again, guaranteeing that complex and high-risk cases would always reach a person.
+McKinsey surveyed 1,993 people at different levels of seniority between June and July 2025. Eighty-eight percent said their organization already used AI regularly in at least one business function, but only about a third said the company had begun to scale AI across the enterprise. Thirty-nine percent reported some effect on company-level EBIT, and most of those people put the effect below 5% of EBIT (McKinsey, 2025).
 
-At the pullback, AI still covered the equivalent of about 853 agents, more than during the hype phase, so the tool was still running. What Klarna took down was the cost-only ruler. And Klarna was already one of the companies that deployed AI fastest, hardest, and most thoroughly anywhere in the world.
+The numbers are not a financial audit. They come from self-reports, and they cannot prove that adopting AI caused the profit change. They do make the contradiction plain: use is already widespread, and company-level results have not spread at the same pace.
 
-The real issue sits in the grammar of the CEO's sentence. He pointed at the evaluation factors. I call that error **misplacement of judgment standards**. When cost becomes the sole ranking criterion, AI—with flawless execution—drives the company precisely where it should not go. Execution was always there, and the thing that directs it was missing.
+Two often-cited studies see the same break from another angle. RAND interviewed 50 industry AI practitioners and 15 academic ones in 2024. In the industry sample, 84% named at least one problem caused by leadership decisions or expectations as the primary reason an AI project failed; a mismatch between data quality and intended use came next. The report's most quoted line—"over 80% of AI projects fail"—is an external estimate the report cites, not a failure rate measured by those interviews. The study also mainly covers projects that train or customize models, so it does not stand in for all work that now uses a general-purpose large model (RAND, 2024).
 
-Execution tools have never been more abundant, yet organizational output has not moved by orders of magnitude. The abundance of tools exposes the poverty of judgment. The same scissors cut again on the market side: product abundance, attention scarcity.
+Project NANDA's July 2025 working paper analyzed more than 300 publicly disclosed AI projects, interviewed 52 organizations, and collected questionnaires from 153 managers. It describes the same pattern: high adoption, low conversion. The paper marks its results as preliminary and lists the limits: sample sizes that differ by category, inconsistent definitions of success, uneven observation windows, and mixed data sources. Those limits keep "95%" from serving as a precise enterprise failure rate (Project NANDA, 2025).
 
-## 2. The Median Cause of Failure: Not on the Technical Side
+Together these materials support a weaker and more reliable judgment. Many companies have already gotten local speed. They have not yet turned it into stable company-level results. Weak technical capability, thin data, and unfinished infrastructure still kill projects. But a project can stall before it ever reaches the model's capability boundary, on problem definition, acceptance criteria, sources of fact, and who is responsible for correcting a miss.
 
-Klarna is only the loudest case. The pattern has aggregate data behind it.
+## 2. Shopify and Air Canada: what differed on the organizational side
 
-In 2024, the RAND Corporation published *The Root Causes of Failure for AI Projects*, interviewing sixty-five data scientists and engineers with five or more years of experience. The report states: "According to some estimates, over 80% of AI projects fail—twice the failure rate of IT projects that do not involve AI" (RAND, 2024; a qualitative study whose original wording carries "according to some estimates"—read it as the vast majority failing, not a statistic precise to the single digit). Generative AI points the same way: MIT's Project NANDA found that roughly 95% of enterprise GenAI pilots produced no measurable income-statement return (MIT NANDA, 2025).
+At the end of March 2025, Shopify CEO Tobi Lütke sent an internal memo to the whole company. On April 7 he posted the full text on X, noting that the document was already leaking. The memo made effective use of AI a baseline expectation at Shopify.
 
-The ranking of causes is worth more than the failure rate. RAND names five root causes: first, stakeholders misaligned on what problem to solve and communication distorted; second, the organization lacks the data accumulation needed to train models; third, chasing the latest technology instead of solving real problems; fourth, underinvestment in supporting infrastructure; fifth, applying AI to problems beyond current capability boundaries. Read line by line and the first, third, and fourth are purely organizational; the second is half organizational, because data never accumulated where no one treated "leave usable data behind" as a standard; only the fifth barely counts as a technical boundary.
+It also changed the rule for asking for resources. Before a team could request more headcount or more budget, it had to explain why the goal could not be reached with AI. Another change put questions about AI use into performance reviews and peer feedback. Lütke asked people to share both successful and failed attempts, to fold AI into monthly business reviews and the product cycle, and to learn how to load context into the models (Lütke, 2025; CNBC, 2025).
 
-So the median cause of failure sits in the organization. Projects lose first to conflicting answers to "what are we actually doing?" The number-one killer is never agreeing on the question.
+Management first changed three things: when more resources can be requested, what people have to learn, and how teams exchange experience using the tools. AI stopped being optional personal software and entered resource allocation, review, and the postmortem.
 
-The procurement department can buy the exact same tools as any rival: models are public, APIs are public, prices keep collapsing. There is no moat left on the technical side, and everyone stands on the same starting line. Yet variance in outcomes is staggering. The same toolkit yields order-of-magnitude change in some companies and a mess in most. The tools are already the same. Variance sits in the organization.
+In 2025, Shopify's annual revenue grew 30% year over year. Headcount at year-end was about 7,600, down from about 8,100 a year earlier. The annual report filed with the SEC also says the company accelerated internal AI integration in 2025, and that employees widely used tools that support rapid prototyping and innovation (Shopify, 2025, 2026). Engineering lead Farhan Thawar later estimated a productivity gain of about 20%, mainly as faster trials of more options, higher delivery quality, and features shipping sooner. He also said the figure was a conservative estimate, and that it cannot be calculated from lines of code or commit counts (Bessemer Venture Partners, 2026).
 
-## 3. A More Traditional Specimen: A Sixty-Two Million Dollar Audit Report
+The public record cannot prove that the April memo, on its own, caused the revenue growth, the headcount change, or the reported gain in engineering. Shopify had been using AI for years before the memo, and operating results also move with product, market, and cost discipline. Putting AI use into reviews can also raise call counts and time spent in the tool without improving the business. What can be confirmed is narrower. Shopify changed the rules for resources and review; it then grew while holding headcount down, and it reported an internal productivity gain. The three facts have not been causally tested against one another.
 
-Klarna at least succeeded loudly. For most organizations the version is: the money is spent, the story never starts.
+In November 2022, Jake Moffatt needed to fly between Vancouver and Toronto after his grandmother died. He asked Air Canada's website about a bereavement fare. The chatbot told him that even after the trip he could still apply, within 90 days of ticketing, and get the lower fare. The bot's answer also linked to Air Canada's bereavement-travel policy page. That page said the opposite: an application made after travel did not qualify.
 
-In 2012, MD Anderson Cancer Center at the University of Texas—among the world's top cancer research institutions—signed with IBM to build an "oncology expert advisor" on Watson: AI-assisted treatment decisions and clinical-trial matching. It was the era's most lavish "buy all the tools" package: top institution, top vendor, top consulting (PwC on the business plan).
+Moffatt bought the tickets as the chatbot instructed and applied within the window. Air Canada refused the refund. Company staff later admitted that the bot had used "misleading wording," and still did not settle the claim. When the case reached the Civil Resolution Tribunal of British Columbia, Air Canada argued that it should not be responsible for information the chatbot had provided.
 
-In February 2017, an audit by the University of Texas System closed the case. The contract had been renewed twelve times without competitive re-bid; cumulative spend reached about $62.1 million—roughly $39 million to IBM, roughly $23 million to PwC; a $11.59 million deficit in donated funds because money was spent before donations arrived. Multiple charges were set just under board-approval thresholds; IT governance was bypassed wholesale. The system never entered clinical use and was never piloted outside the hospital. The president resigned.
+On February 14, 2024, the tribunal found Air Canada liable for negligent misrepresentation. The decision said Air Canada's defense had, in substance, treated the chatbot as a separate legal person responsible for its own acts. The bot was part of the company's website, and the company is responsible for all of the information on it. The tribunal also held that a passenger had no reason to know a static policy page was more trustworthy than the chatbot, and should not have been required to cross-check different places on the same site. Air Canada was ordered to pay C$650.88 in damages, and C$812.02 including interest and costs (Moffatt v. Air Canada, 2024 BCCRT 149).
 
-The audit explicitly states: "These results should not be interpreted as an evaluation of the scientific basis or functional capabilities of the system." The auditors took technology off the hook themselves. They were judging how the organization spent, decided, and governed. Whether Watson worked sat outside the report. Organizational failure, certified by the auditors.
+The decision did not establish what technology the bot used, and Air Canada did not put evidence of training or operation into the record. The case supplies no finding about large-model "hallucination." It confirms two facts. One company gave customers two conflicting answers about the same policy. And once the dispute reached a tribunal, the company still argued that it should not be responsible for what the chatbot said.
 
-Then came the last technical straw. In 2016 the hospital migrated electronic records from ClinicStation to Epic, and Watson never learned to read the new format. A $60 million AI died because it did not share the same context as the organization. Literal context misalignment killed the project.
+Shopify and Air Canada are not a controlled causal experiment. They are different industries, different years, and different tools. One folded AI into the rules for resources and learning, and management owned the change. The other let an automated front door and a formal policy sit side by side, did not keep them on the same answer, and, in the dispute, claimed it should not be responsible for the chatbot.
 
-Klarna died of misplacement of judgment standards: cost as the only metric. MD Anderson died of a double absence of standards and context: governance standards bypassed, machine and organization not sharing context. One aggressive, one traditional; one finance, one healthcare; one had succeeded, one never ran. Same pathology slide, and not coincidence: genetic disease.
+Owning the tools is not the same as owning the capability to use them.
 
-## 4. Why "No Order-of-Magnitude Change" Rather Than "No Change"
+## 3. Why local speed does not add up to organizational speed
 
-Companies that buy AI tools usually do see something: weekly reports faster, customer replies faster, boilerplate code faster—twenty to thirty percent speedups at the individual level are everywhere. The paradox is that these local gains do not add up to order-of-magnitude change at the company level. Money spent, speed felt, nothing to find on the P&L.
+Getting a piece of work from an idea to a result takes at least four steps. Someone decides which problem is worth solving. The people involved align on acceptance criteria and on the facts they need. The team produces the work. The result returns to the organization and changes what happens next.
 
-The reason is a plain systems law: the chain moves at the speed of its slowest link, and execution is often no longer the slowest link. Value creation is a chain: decide what to do → align understanding → execute → revise from feedback. AI makes the third link ten times faster; if links one, two, and four stay put, end-to-end speed barely budges. It is like raising one highway segment's limit from 120 to 1,200 while you sit at the toll booth—the full trip barely changes.
+AI can take part in all four. Most of the first uses, though, land on the third: generating the product of execution. A first draft, a batch of material, a patch of code—results show up in minutes. Those gains are real, visible, and easy to count.
 
-Worse, local gains are not only diluted by the bottleneck. Three mechanisms eat them:
+Execution is only one stretch of the chain.
 
-- **Rework eats**: Wrong-direction work done faster means more rework. Two weeks for one bad plan becomes two days for five; correction load gets heavier, not lighter.
-- **Waiting eats**: Execution accelerates; decisions do not. Output queues in the boss's inbox for as long as it used to take to produce it. The bottleneck moves from "slow to make" to "slow to decide"—same total time, different queue location.
-- **Alignment eats**: Everyone doubles output; caliber stays unaligned; everything that must be checked or meeting-synced doubles too. Meetings rise, not fall. Many people feel more meetings after adopting AI.
+Suppose a job used to take ten hours, two of them spent generating and collating, and the other eight spent setting the goal, filling in material, waiting for release, and handling feedback. Even if AI compresses the two hours to twelve minutes, the total is still eight hours and twelve minutes: an 18% cut. The numbers are only arithmetic. They show why a tenfold local speedup does not become a tenfold speedup of the whole.
 
-Those three bills reconcile "everyone is faster, the company is not." They also explain why the paradox cannot be solved by buying more tools: tools act only on the execution loop, and the bills accrue on judgment, alignment, and feedback. What blocks those three loops is the organization's default behavior.
+If regulation, sign-off, customer confirmation, and physical execution cannot shorten in step, the gain at the end is smaller still. Once the execution stretch gets faster, the bottleneck moves to the stretches that have not changed. It does not vanish because the model got better.
 
-## 5. Five Default Genes of the Old Organization
+If the goal was never made clear, faster execution only gets a finished product that does not solve the problem onto the table sooner. If acceptance criteria do not match, the same output ping-pongs among the people who have to sign it. If every department feeds the model a different packet of facts, higher generation speed produces more conflicts for people to reconcile. If the result does not change the next round's rules, the organization is repeating the same error at a lower cost.
 
-**Organizational genes**, in this book, are a metaphor: the default judgments and behaviors members adopt automatically when no one is watching. They live in muscle memory, not in policy. New hires assimilate within three months, and the same defaults run when the boss is away. That is the organization's real operating system. Old organizations carry at least five of them.
+A stronger model, cleaner data, and a more reliable system all raise the ceiling. Model capability still will not choose the company's commercial goal. Data in the system still does not decide which record has the last word. Feedback written down still does not mean the process has been changed.
 
-Sales are down and the first explanation is the market. A project dies and the first explanation is bad execution. Those answers win because they cost the least thought. That reflex is cognitive inertia: reach first for the most familiar, least demanding explanation. AI became the most efficient evidence supplier in history. Argue anything and it finds support. Two days of data digging becomes a two-minute report with charts. Inertia upgrades from being too lazy to think to wearing the costume of thinking, and wrong conclusions put on rigorous dress for the first time.
+So a company can see two results that are both true: people finish tasks in less time, and end-to-end operating results do not move in proportion. The new capacity is absorbed by a wrong direction, conflicting criteria, waiting on a decision, and rework.
 
-The most senior person in the room still holds final interpretive power, whether or not the experience was validated and whether anyone can say where its boundary lies. "We've always done it this way" stands in for a verifiable standard. That is experiential authority. Once the authoritative experience feeds the model, training decks, talk tracks, and SOPs deploy at scale. Bad practice used to travel by word of mouth: one quarter to contaminate a region. One prompt now carries it overnight across every customer touchpoint.
+That result is the **paradox of abundance**: execution power and available information keep getting richer, while goals, acceptance criteria, sources of fact, and the duty to correct stay scattered, so the organization does not get a matching result.
 
-"Only Wang knows this" was Wang's moat. Information hoarding leaves context in individual heads, and information asymmetry protects position. Departments used to hoard documents. They now hoard privately tuned models. Marketing's AI and sales's AI answer "who is our core customer?" differently, each with full confidence and a different caliber. Information silos become judgment silos, and each silo gets automated ramparts. MD Anderson's Watson, unable to read the new EMR, is this gene's $60 million specimen.
+Tools also make the organization's old defaults easier to see, because they leave results at a higher frequency.
 
-Read Klarna's numbers again: 2.3 million conversations, eleven minutes down to two, every execution metric perfect. The evaluation standard itself was never calibrated. That is execution worship: busyness, speed, and volume stand in for value judgment. Full calendars as medals; overtime as loyalty; direction unchecked, and questioning labeled disloyalty. Output metrics then explode. Content count, lines of code, deck versions—dashboards go red, and everyone is "using AI for efficiency." Nobody can answer how much of it passes any value standard.
+## 4. What AI actually amplifies
 
-The retrospective becomes a blame session or a praise session, and it never produces an updated rule. Blame lands on people and luck; the standard stays put. That is feedback avoidance. Once AI arrives, the insidious change is that the cost of papering over failure drops to zero. Polished postmortems and dignified failure narratives have never been easier. Wrong standards stay wrong, better packaged, and enter the next cycle with full execution behind them.
+What is written on the wall and what people actually do can come apart. Which explanation a company reaches for when the business slips, whether a senior person's view still needs a basis, who confirms which version of a policy is live, and which rules actually change after a review: those repeatable behaviors are the organization's default judgments and default moves.
 
-The five genes are one underlying force expressed five ways: energy saving. Cognitive inertia saves thinking; experiential authority saves verification; information hoarding saves the trouble of sharing; execution worship saves judgment, because hands are cheaper than brains; feedback avoidance saves the pain of facing error. Hardly surprising. The brain is roughly 2% of body weight yet consumes about 20% of resting energy, and evolution factory-installed "don't think unless you must" (Raichle et al.).
+Those defaults are **organizational genes**. Gene, here, is a metaphor for organizational behavior, not biological inheritance, and not a claim that five factors exhaust every organizational problem. It names the rules that keep running in daily choices, outside the policy binder.
 
-Human nature is inertial; organizational evolution is the fight against inertia. But posture decides the outcome. Moral mobilization and willpower against factory settings lose in a few rounds. The winning move is to make the right path easier than the wrong path, and let inertia work for you. Standards make "don't have to get smart all over again" the path of least resistance; shared context makes "ask the machine" faster than "ask Wang." People slide toward ease, so organizational evolution grades the exit toward the right place rather than trying to block the slide.
+AI makes those rules easier to copy and easier to observe. The same practice can be written into a prompt, a template, and a workflow, and then copied at speed. A model can keep generating by the same rule; it will not revise itself or stop on its own. Digital systems can keep the process and the result, so judgments that used to be scattered become stable output.
 
-These five could survive diseased in the old era because expensive execution was a natural shock absorber: wrong judgment took long execution to become consequence, and there was time to brake, correct, deflect, forget.
+Good practice in the organization therefore spreads faster. Bad practice does too. AI will amplify. The live question is what the organization hands it.
 
-AI removed the shock absorber. It amplifies what already exists in your organization, including chaos. Back to Klarna: cost-first evaluation lived in most service departments long before AI, and AI let that standard execute flawlessly at 2.3 million conversations per month. A genetic defect that usually hid below threshold became, in fourteen months, a tumor the CEO had to acknowledge in public. Human inertia stays. AI gives it stronger execution.
+The most common defaults in an old organization can be watched along five lines: cognitive inertia, experiential authority, information hoarding, execution worship, and feedback avoidance.
 
-## 6. Gene Evolution
+The five act on one value chain. Cognitive inertia keeps an old explanation of the problem. Experiential authority lets an uncompared practice hold the last word. Information hoarding hands executors different facts. Execution worship treats output quantity as the result. Feedback avoidance leaves the wrong basis in place for the next round. Error produced in one link enters the next; if the last link does not change the basis, the error returns to the start.
 
-Klarna and MD Anderson had tools galore. The work is completing an **organizational gene evolution**: replacing the five old genes one by one.
+## 5. Cognitive inertia: why AI supplies evidence for old answers
 
-`Experiential Authority → Explicit Standards | Information Hoarding → Shared Context | Cognitive Inertia → Borrowing from Outside | Feedback Avoidance → Continuous Correction | Execution Worship → Value Judgment`
+Cognitive inertia is not a refusal to work. Faced with something new, it reaches first for an explanation already on hand. A sales drop is the market. A late project is poor execution. Customers left because of price. The old explanation does not require the problem to be redefined, and it costs less to process.
 
-New genes must also run unsupervised: no standard → stop and find one, rather than "start first, talk later"; judgment conflict → return to value ranking, rather than seniority or volume; error → revise the standard, rather than hunt a scapegoat. AI-native is a rewrite of the organization's default behavior.
+Generative AI lowers the cost of finding material for an explanation, of arranging the language, and of making the charts. If the prompt already contains the conclusion, the model can build the case around it. A report can be complete in structure and sure in tone, and the premise can still be untested.
 
-Measure Klarna again with this ruler and the disease was misplacement of judgment standards, yet the corrective action is the demonstration. Within fourteen months: public admission, naming the cause (wrong evaluation standard), immediate calibration (change the standard, not withdraw the tool). Contrast how many organizations let a wrong standard run three more years rather than have the principal leader say "our ruler was wrong." On continuous correction, Klarna is a positive example. Falling on the transformation path is not shameful; lying there in denial is.
+Model research has recorded the same mechanism. Sharma and colleagues examined five AI assistants trained with human feedback in 2023, and found that all of them, to varying degrees, flattered views the user had already expressed, across four kinds of open-ended text task. In some comparisons, human raters and preference models chose a persuasive answer that agreed with a wrong view over an answer that corrected the user. The researchers call this sycophancy: the model aligns with what the user already thinks, and truth gives way (Sharma et al., 2023).
 
-## 7. The Same Person, Two Genes
+The study does not prove that every model will flatter, and it does not prove that using AI must weaken organizational judgment. A model can be asked for counter-evidence and for rival explanations, and the output can still be checked against the original material. The risk sits in a process where the conclusion comes first and acceptance only checks whether the report looks complete. Generation lowers the cost of argument. It does not change the conditions under which a conclusion is verified.
 
-Liu Wei spent years in online education, running large-scale business at Gaotu. In May 2023 he co-founded the AI education company Dancing with Love with Zhang Huaiting and others. The company was designed AI-native from day one: product, R&D, design, marketing operations, and sales all restructured around human–machine collaboration, with a shared cross-department data pool. In a bit over two years: four funding rounds totaling about $150 million, valuation near $1 billion (founder-disclosed company figures to media, not audited).
+Once cognitive inertia is amplified, a finished form of analysis can sit beside an untested conclusion.
 
-The numbers matter less than Liu Wei's own account of the two stretches. At Gaotu he "thought about org building and training every day"; facing business problems, he stacked headcount, teachers, variance reduction. At Dancing with Love he "refined product and debated tech—how to solve business problems with product and technology." His own summary: "Traditional online education was fundamentally an education business that happened to use tools; AI education is fundamentally an AI business that happens to land in education." He adds a sharper metaphor: traditional online education is "agriculture." How many people, how much land tilled.
+## 6. Experiential authority: why old practice becomes a system default
 
-Same person, same industry knowledge, same diligence. What changed was the organization's default genes: one defaults to "add people," the other to "change the system." The former scales with headcount; the latter with the quality of standards and context. That answers the question many principal leaders ask: "Should I replace my team?" Probably not. Replacing genes is cheaper than replacing people; replace people without genes and newcomers match the old cohort in three months.
+Experience has value. A long work record can hold unusual patterns, and the specific conditions under which a method failed. The problem is when experience gets the last word.
 
-## 8. Background: Where the Word "Chasm" Comes From
+"We've always done it this way" does not say under what conditions the method holds, what it was compared with, or when it was last verified. In the past, that kind of experience mostly traveled by meeting, apprenticeship, and spoken instruction, so it spread at a limited speed. Today it can enter a prompt library, a review rule, a support script, and an automated flow, and become the default answer for every person and every system.
 
-The picture behind "chasm" starts with Everett Rogers. His diffusion-of-innovation theory sorts adopters into five groups: innovators (~2.5%) → early adopters (~13.5%) → early majority (~34%) → late majority (~34%) → laggards (~16%). Geoffrey Moore applied this to high-tech markets and located the critical break between early adopters and early majority. That break is the original **chasm**. It happens because early adopters buy vision and the early majority buys certainty, and those two consensuses do not bridge on their own (proportions are theoretical approximations, not fixed market quotas; classify users around the specific innovation and context).
+The customer-support study in Chapter 1 showed an AI assistant putting some of high performers' practice in front of less experienced agents in real time, raising issues resolved per hour on average, with most of the gain among the less experienced (Brynjolfsson, Li, and Raymond, 2025). Existing practice therefore moved from a few people to more of the staff.
 
-The organizational chasm sits between companies that bought AI tools and AI-native companies. What sits between them is replacement of the five genes. Tools cross procurement; they do not cross organizational genes. That is why eighty percent of projects fall into the ditch.
+Copying does not judge whether the thing copied is right. That study cannot be turned around to prove that bad experience will spread by the same margin. It shows the transmission mechanism. If the practice that enters the system has been checked against results and has a clear boundary, the organization gains speed of learning. If it is only an uncompared habit of someone senior, rank influence scales through automation.
 
-Two companies, same toolbox. Company A fires a hundred arrows in a hundred directions—each AI-powered, each chasing its own judgment; Company B fires a hundred arrows at one target. A crack runs between them, and beneath it sit five gene replacements. A hundred people wielding a hundredfold execution, sprinting in a hundred directions, is accelerated disintegration.
+So the problem of experiential authority is not that veterans cannot be trusted. It is that the organization treats "who said it" as "why it holds." When AI is handed the second rule, seniority does not make the rule more true. It only makes the rule appear more consistently.
 
-## 9. Boundaries of the Claim
+## 7. Information hoarding: why one company gives contradictory answers
 
-This claim is easy to say, and easy claims get overused.
+Information in an organization is rarely gathered in one place by nature. Customer facts sit in the sales system, product constraints in engineering documents, risk language in legal files, and the background to a decision may live only in a few people's memory. People used to assemble an incomplete picture by asking around and sitting in meetings.
 
-Tools still matter. Vendor choice still matters, and the worst model will not do. Tools set the ceiling; the organization sets what fraction you reach. For most organizations today the bottleneck is the latter. That is not license to "don't buy tools yet."
+Connecting AI does not clear that scatter on its own. Each team can put the material it holds into a model and get a fluent answer. Marketing, sales, product, and support then each have a fast assistant, and they still may not have the same company facts.
 
-Do not read 80% as a precise dial. RAND's figure carries "according to some estimates"; MIT's 95% counts pilots with no measurable P&L return, not total wipeout. This chapter needs only a weaker, harder fact: failure is the majority, and the top cause is organizational. Debate the numbers; the ranking is hard to overturn.
+The Air Canada decision compressed the problem onto one website. The chatbot and the official policy page both belonged to the company, and both answered a question about bereavement fares, and they gave opposite rules. The available evidence does not establish whether the back end used two databases, and it does not show an intent to hide information. What it does establish is that the organization had no mechanism to keep every customer front door on one live policy.
 
-Genes can change. The metaphor's side effect is that it sounds like fate. Biological genes you don't choose; organizational genes are human-set defaults, and defaults can be reset. Klarna's public correction in fourteen months, and Transn, a twenty-year-old company, installing a CAIO and an "energy gold" mechanism, are living counterexamples. If genes were immutable, the book stops here; because they are not, there is more to write.
+Information hoarding can also come from a missing maintenance process. Shared material needs a confirmed version, permissions, and an owner. Without time, a named person, and a requirement to update, information stays in personal files, departmental systems, and spoken handoffs.
 
-The five genes are obsolete defaults. Cognitive inertia is the brain's energy budget; information hoarding can be individually rational; execution worship was virtue when execution was expensive. They were optimal for a dead cost structure, and that cost structure is gone. Insults don't transform organizations. Changing the environment that makes these behaviors individually optimal does.
+AI changes the consequence of those local choices. Different versions of a fact used to produce a few misunderstandings. Now each version can keep generating mail, quotes, policy explanations, and decision notes. The conflict no longer looks like "nobody knows." It looks like everyone can immediately produce an answer that appears complete.
+
+An organization does not have to let everyone see everything. Customer privacy, trade secrets, and regulation still require permissions. For facts a piece of work cannot do without, there still has to be a source of record, a live version, and a named person who maintains it. Otherwise the model will faithfully amplify whichever fragment of the company it happens to see.
+
+## 8. Execution worship: why prettier output metrics can blur value
+
+When execution took a great deal of human time, speed and quantity were useful management signals. More tickets handled, more features shipped, more content put into market usually meant the organization had spent more scarce hours.
+
+Once generation gets cheaper, those signals loosen from value. One person can produce dozens of plans in a day, and the company can still take only a few of them on as cost. A system can cut reply time sharply, and a faster wrong promise does not raise customer value. More code, images, and reports can also push the checking onto whoever sits further down the chain.
+
+Execution worship is keeping output quantity, response speed, and frequency of use as the final score after those conditions have already changed. If management only accepts those numbers, whether the goal was met sits outside the same review.
+
+Shopify's memo runs into the same boundary. Putting AI-use questions into reviews can push learning. If managers only count calls, generation volume, or time the tool is open, usage metrics can rise and operating results can stay put. Review has to check verifiable work product, and whether people can recognize output that must not be released.
+
+Efficiency metrics still affect cost and response. They have to be tied to customer results, quality, and financial effect. Watch only the first set, and the organization will reward what a machine produces most easily. Accept them together with the second set, and speed can turn into value.
+
+## 9. Feedback avoidance: why a wrong standard keeps running
+
+A company can get the first three steps wrong and still have a chance to correct once results appear. Feedback avoidance cuts that loop.
+
+Customer complaints, a losing project, and a drop in quality are already feedback. Feedback does not, by itself, change the organization. If the review only assigns the miss to an individual, a special case, or luck, the old acceptance criteria and the old material stay. The next time the AI workflow starts, the system receives the same instructions again.
+
+Generative AI can assemble a timeline, group causes, and draft a postmortem quickly. A finished document is not a changed judgment. Whether the judgment changed is visible only in the next round: in whether the standard, the authoritative information, and the assignment of responsibility are different.
+
+That is why accountability and correction cannot be collapsed into one act. Someone has to own the consequence. Finding that person is not the end of the work. If the error came from a vague policy, stale material, or a wrong metric, handling the individual and leaving the system untouched sends the next person into the same hole.
+
+Tools will not process feedback for the organization. When the standard and the material stay the same, automation keeps the old rule running until the next consequence arrives. Feedback has entered the organization when the next run already uses a different basis, not when a postmortem has been filed.
+
+## 10. What an AI-native transformation actually rewrites
+
+None of the five defaults is a moral defect. Most of them paid under the old cost conditions. A familiar explanation saved analysis time. Deferring to a senior person reduced trial and error. Keeping information personally avoided the cost of collating it. Stressing execution kept expensive human hours from being wasted. Treating a miss as an exception let a team get moving again.
+
+What has changed is the cost. Execution and retrieving existing knowledge keep getting cheaper, and the organizational waste from the old defaults begins to exceed the time they save. A tool upgrade cannot handle that, because the tools will obey the defaults.
+
+So an AI-native transformation has to change the organization's first move when something happens:
+
+- When the situation is uncertain, stop closing it with a familiar explanation, and first admit that a basis for judgment is missing.
+- Faced with experience, stop treating rank as truth, and ask for results, conditions, and boundaries.
+- Using information, stop letting each team assemble its own picture, and confirm the authoritative version this work is using.
+- Measuring work, stop treating generation volume as value, and first say which result is worth releasing.
+- Receiving feedback, stop explaining only this instance, and change the rules and material the next run will actually use.
+
+When those moves happen in resource requests, project starts, daily execution, and reviews without the boss having to prompt each one, the organization has rewritten its defaults for a first round. That is **organizational gene evolution**.
+
+That is also what "AI-native" means for an organization. The work is changing the daily rules for deciding what to do, what to rely on, and how to correct. An account for every employee, an AI department, or the automation of every existing flow does not get you there. How the defaults get written down, how they run in a team, and how they spread across the company all rest on one premise: the object of the transformation is the organization itself.
+
+![AI amplifies organizational defaults; old genes produce faster chaos, rewritten defaults produce work that can be checked, traced, and revised](/figures/ch02-gene-amplifier-en.svg)
+
+*Figure: after execution and knowledge-acquisition costs fall, AI amplifies the default judgments and behaviors the organization hands it. The object of the transformation is the defaults, not the number of tools.*
+
+## 11. Can old genes be changed?
+
+Organizational genes are not fate. Klarna's public record shows a company that adopted AI aggressively, then shifted what it weighted in evaluation, while keeping automation that was still doing useful work.
+
+On February 27, 2024, Klarna released first-month figures for its AI support assistant. On the company's figures, the assistant completed 2.3 million conversations, two-thirds of customer-service chat, a workload equivalent to 700 full-time agents. Repeat inquiries fell 25%, average handling time fell from 11 minutes to under two, and the company expected a $40 million improvement in that year's profit. The release also said customer satisfaction was comparable to human agents, and that customers could still choose a person (Klarna, 2024).
+
+Those figures are Klarna's own, and $40 million was a forecast, not audited realized profit. At the time the company described success with response speed, volume handled, repeat inquiries, and cost benefit: each easy to quantify, and each concentrated on execution efficiency.
+
+On May 8, 2025, CEO Sebastian Siemiatkowski gave Bloomberg another judgment. Cost, he said, had "unfortunately become too dominant an evaluation factor" in how the company organized support, and quality had fallen. The company was trialing agents who could log in remotely, and he said customers must always be able to reach a person; human support still needed investment (Bloomberg, 2025).
+
+This was not a return from full automation to full human coverage. Klarna still had a human option in the first release, and the new staffing was planned to replace some outsourced support, not to hire back 700 people as they had been. The company also did not switch AI off. Its 2025 annual report later said the AI assistant handled 80% of customer-service chat that year, without a drop in customer satisfaction. That is still company-reported, and it sits in tension with the CEO's earlier comment on quality (Klarna, 2026).
+
+The public record confirms one corrective move. Management admitted that the old evaluation weights were wrong, raised the importance of human support and of quality, and kept the automation. The available material cannot prove that the correction has already succeeded, and it cannot prove that cost was ever the only standard.
+
+Organizational genes can change. The evidence of change is not in the statement. Acceptance has to watch later service quality, customer results, and operating cost together, and whether new feedback keeps changing the split of work between people and systems. Klarna has shown a corrective move. Later results have no independent verification yet.
+
+## 12. Why call this organizational break a chasm?
+
+"Chasm" first named a problem of market adoption. Everett Rogers sorted people by the relative time at which they adopted a given innovation: innovators, early adopters, early majority, late majority, and laggards. The familiar 2.5%, 13.5%, 34%, 34%, and 16% come from a theoretical cut of a normal distribution. They are ideal types for watching diffusion, not quotas every market must meet (Rogers, 2003).
+
+Geoffrey Moore, in *Crossing the Chasm* (1991), put the main break between early adopters and the early majority. Early adopters will buy an incomplete product in exchange for a potential edge. The early majority usually waits until the product can sit inside existing work, and until similar customers have verified it. Sales in the first stage do not, on their own, carry a product into the mainstream (Moore, 1991).
+
+Rogers and Moore are discussing how a product enters a market. The organizational chasm sits between "the company has started using AI" and "the company has changed its default judgments and default behavior." Accounts can be bought in one purchase, training can be run in one batch, and models can be connected quickly. Cognitive inertia, experiential authority, information hoarding, execution worship, and feedback avoidance do not leave because the tools went live. The line a company has to cross is not a technical installation. It is a break where five daily reactions have to be replaced.
+
+Organizational factors do not cancel technical limits. Technical quality, the data foundation, security requirements, and whether the problem itself fits AI still decide whether a project can stand. Air Canada's bot is not a confirmed generative-AI system. Shopify's rules are not causal proof of commercial success. The five genes are an analytical frame, not a company's permanent nature.
+
+Organizations are made of people. When retrieving existing knowledge and completing much digital execution both get cheap, what capability in a person has not approached zero?
 
 ## What to Do Monday Morning (principal-leader view)
 
-Run a **same-question test**—forty minutes, no consultants:
+Do not buy a new tool yet, and do not launch a company-wide transformation. Pick an AI workflow that is already running and that touches customers or operating results. Ask a user, a business owner, and a system maintainer the same three questions, separately. In a small team without a dedicated maintainer, the business owner also answers for source, version, and who maintains the material.
 
-1. **Sample**: Pick three teams actively using AI. Do not warn them in advance.
-2. **Same question**: Ask each the identical question: "For what your team produces with AI, what counts as good enough?"
-3. **Grade**: Compare the three answers. Three different standards—or no answer at all—and you are at the chasm's edge. Tools are amplifying three contradictory judgments.
-4. **Check the ruler**: Ask each team: "Who set this standard, and when was it last revised?" Answers like "always this way" or "each person decides" sample both experiential authority and information hoarding.
+1. **What result counts as good enough?** Ask for criteria you could actually grade against. "Looks fine" does not count.
+2. **Which facts does the system rely on?** Write down the document of record, the data source, the version, and the person who maintains it.
+3. **When the result is wrong, what gets changed?** Name who decides whether the problem is the model, the material, or the standard, and how a fix enters the next run.
 
-Use results for diagnosis, not blame (blame is the old feedback-avoidance reflex)—to answer one question: do we fix tools first, or standards? Individuals and teams can ask themselves the same two questions. Those who cannot answer are not failures; the system has not given them executable standards. Charge that to the system, not the person.
+Put the three sets of answers together. If the acceptance criteria, the source of record, or the duty to correct come in more than one version, first repair one real miss: unify a policy, add an acceptance condition, or name a maintainer.
+
+The check is not for counting who "cannot use AI," and it is not for assigning blame. It answers one thing: whether the company currently lacks a stronger tool, or a set of organizational defaults that give the tools one direction, one set of facts, and a way to keep correcting.
 
 ## Quotable Lines
 
-1. AI does not amplify efficiency. AI amplifies what already exists in your organization—including chaos.
-2. A hundred people wielding a hundredfold execution, sprinting in a hundred directions—that is not transformation. It is accelerated disintegration.
-3. The abundance of tools exposes the poverty of judgment.
-4. Early adopters buy vision; the early majority buys certainty—and those two consensuses do not bridge on their own.
-5. AI-native is not a tool upgrade. It is a rewrite of the organization's default behavior.
-6. AI will not eliminate human inertia. It will give inertia stronger execution.
-7. Variance is not in the tools. Variance is in the organization.
-8. Replacing genes is cheaper than replacing people; replace people without genes and newcomers match the old cohort in three months.
-9. Execution was never the problem; what directs execution is.
-10. The chain moves at the speed of its slowest link, and execution is often no longer the slowest link.
-11. Two weeks for one wrong plan becomes two days for five wrong plans.
-12. Human nature is inertial; organizational evolution is the fight against inertia.
-13. Make the right path easier than the wrong path, and let inertia work for you.
+1. Owning the tools is not the same as owning the capability to use them.
+2. People can finish tasks in less time, and end-to-end operating results will not automatically move in proportion.
+3. AI will amplify. What matters is what the organization hands it.
+4. The most dangerous result of cognitive inertia is not that nobody analyzes. It is that the appearance of analysis comes apart from a change in judgment.
+5. Copying does not judge whether the thing copied is right.
+6. The conflict no longer looks like "nobody knows." It looks like everyone can immediately produce an answer that appears complete.
+7. Feedback has entered the organization when the next run already uses a different basis, not when a postmortem has been filed.
+8. The object of an AI-native transformation is not a tool list. It is the organization's first move when something happens.
+9. Organizational genes can change. The evidence of change is not in the statement.
 
 ## Connections to Adjacent Chapters
 
-- Carries forward from Chapter 1: execution is nearly free, yet the company has not grown stronger.
-- Hands off to Chapter 3: the gap is organizational, but organizations are made of people—the thing that has not zeroed out gets a name at the personal level first: adaptive insight.
+- Continuing from Chapter 1: execution and retrieving existing knowledge have already gotten cheaper; this chapter asks why local speed has not automatically become a company-level result.
+- Handed to Chapter 3: organizations are made of people; when retrieval and much digital execution get cheap, what capability in a person has not approached zero?
+- Planted for Chapter 4: this chapter only names the gaps in goals, facts of record, and the duty to correct. The two unifications wait.
+- Planted for Chapter 12: Rogers and Moore supply only the market-adoption background of the word "chasm," not the product path.
 
 ## Chapter Acceptance Self-Check (against chapter acceptance criteria)
 
-1. Claim restatable in one sentence ✓, and an inference from the core claim (when tools are abundant, missing organizational judgment drives failure).
-2. Whiteboard framework ✓ (hundred arrows / hundred targets vs. hundred arrows / one target + five gene replacements + adoption lifecycle backdrop).
-3. External comparisons and data ✓: winner side E4 Dancing with Love (company figures flagged); loser side E7 Klarna (official release + Bloomberg) + MD Anderson (audit-grade); aggregate E2 RAND (qualifiers included) + MIT NANDA; brain 2%/20% energy (Raichle et al.).
-4. Thirteen quotable lines ✓.
-5. "What to Do Monday Morning" same-question test, four steps + individual note ✓.
-6. Fluency ✓: whole-sentence rewriting and English breath under current prose-standard.
+1. Claim restatable in one sentence ✓: tool spread does not automatically produce company-level change; models amplify existing judgments and practices; they do not fill in goals, facts, or correction.
+2. Twelve-section spine and whiteboard figure ✓: adoption/result gap → Shopify / Air Canada → local versus whole → organizational genes → five old genes → gene evolution → Klarna correction → chasm background; `ch02-gene-amplifier-en.svg` added.
+3. Evidence caliber ✓: McKinsey is 1,993 self-reports; RAND's 80% is an external estimate, and 84% is the interview result among 50 industry respondents; NANDA is a preliminary working paper, and 95% is not written as an MIT law. Shopify uses year-end headcount from the 2024/2025 filings and 2025 revenue growth; internal AI integration and the ~20% productivity figure are marked as company disclosure or a lead's estimate.
+4. Case contract ✓: Shopify keeps the institutional moves, the public results, and the causal boundary; the Air Canada decision did not confirm generative AI; Klarna is a public correction demonstration, not the main loser; Dancing with Love and MD Anderson are out. One main sample on each side; no invented cross-company median.
+5. Chapter boundary ✓: does not define Chapter 3's four moves of adaptive insight, does not draw Chapter 4's two unifications, and does not open Chapter 12's product path; Rogers / Moore stay as source and boundary.
+6. Action ✓: Monday check of acceptance criteria, source of record, and duty to correct, with a requirement to repair one real split; the test is not for AI-usage scoring or blame.
+7. Fluency ✓: rewritten in English voice from the Chinese authority; current prose-standard.

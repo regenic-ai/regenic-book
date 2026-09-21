@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" role="img">
-  <rect width="860" height="300" fill="#fff"/>
-  <text x="430" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#0a0a0a">时间条倒置：钱 vs 价值</text>
-  <text x="90" y="95" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">新配比</text>
-  <rect x="110" y="70" width="120" height="44" fill="#d5dbd6"/>
-  <text x="170" y="97" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">1–2h 钱</text>
-  <rect x="240" y="70" width="480" height="44" fill="#2d7a25" fill-opacity="0.22" stroke="#2d7a25" stroke-width="2"/>
-  <text x="480" y="97" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2d7a25">6h 价值</text>
-  <text x="90" y="185" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">旧现状</text>
-  <rect x="110" y="160" width="520" height="44" fill="#ffb347" fill-opacity="0.35" stroke="#d5dbd6"/>
-  <text x="370" y="187" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">~7h 救火</text>
-  <rect x="640" y="160" width="80" height="44" fill="#d5dbd6"/>
-  <text x="680" y="187" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">1h 想</text>
-  <text x="430" y="250" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#59615a">转型 = 把下面那根翻成上面那根</text>
-  <text x="430" y="280" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">思考必须有产出物</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">先定位，再配比，再循环</title>
+  <desc id="desc">先判断组织处于生存、增长还是稳定阶段，再判断岗位以交付、协调还是判断为主，最后匹配短期紧急和长期重要的时间。只有稳定阶段的判断型岗位以每天一到两小时和约六小时为参考。长期重要时间内运行反思、总结、复述、验证和反馈组成的个人标准循环。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2d7a25"/>
+    </marker>
+  </defs>
+  <rect width="1040" height="560" fill="#ffffff"/>
+  <text x="520" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#0a0a0a">先定位，再配比，再循环</text>
+  <rect x="40" y="72" width="270" height="126" rx="10" fill="#f5f7f5" stroke="#b8c0ba" stroke-width="1.5"/>
+  <text x="60" y="102" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#0a0a0a">1　定位组织阶段（10）</text>
+  <text x="60" y="132" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">生存：现金、交付与安全优先</text>
+  <text x="60" y="157" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">增长：当前结果与能力建设并行</text>
+  <text x="60" y="182" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">稳定：扩大长期判断投入</text>
+  <line x1="310" y1="135" x2="372" y2="135" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="385" y="72" width="270" height="126" rx="10" fill="#f5f7f5" stroke="#b8c0ba" stroke-width="1.5"/>
+  <text x="405" y="102" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#0a0a0a">2　定位岗位主任务（10）</text>
+  <text x="405" y="132" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">交付：按承诺稳定完成结果</text>
+  <text x="405" y="157" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">协调：让依赖、信息与承诺流动</text>
+  <text x="405" y="182" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">判断：处理取舍、例外与未来</text>
+  <line x1="655" y1="135" x2="717" y2="135" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="730" y="72" width="270" height="126" rx="10" fill="#f5f7f5" stroke="#b8c0ba" stroke-width="1.5"/>
+  <text x="750" y="102" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#0a0a0a">3　匹配日历（80）</text>
+  <text x="750" y="132" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">短期紧急：维持当前运行</text>
+  <text x="750" y="157" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">长期重要：增加未来能力</text>
+  <text x="750" y="182" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4f5852">阶段或岗位改变，配比随之改变</text>
+  <rect x="130" y="235" width="780" height="46" rx="9" fill="#eaf3e8" stroke="#2d7a25" stroke-width="1.8"/>
+  <text x="520" y="264" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#245f1f">稳定阶段 × 判断为主 × 较高日历自主权：1—2 / 6 的参考配比</text>
+  <rect x="130" y="310" width="190" height="70" rx="8" fill="#eef0ee" stroke="#b8c0ba" stroke-width="1.4"/>
+  <text x="225" y="338" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#0a0a0a">每天 1—2 小时</text>
+  <text x="225" y="363" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4f5852">当前现金流、交付与安全</text>
+  <rect x="340" y="310" width="570" height="70" rx="8" fill="#eaf3e8" stroke="#2d7a25" stroke-width="1.8"/>
+  <text x="625" y="338" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#245f1f">约 6 小时长期重要</text>
+  <text x="625" y="363" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4f5852">判断 · 写作 · 带人 · 学习 · 恢复；不是六小时连续高强度思考</text>
+  <text x="520" y="421" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#0a0a0a">长期重要时间内的个人标准循环</text>
+  <line x1="126" y1="462" x2="916" y2="462" stroke="#2d7a25" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="145" cy="462" r="6" fill="#2d7a25"/>
+  <text x="145" y="494" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">经历／结果</text>
+  <text x="145" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">现实输入</text>
+  <circle cx="310" cy="462" r="6" fill="#2d7a25"/>
+  <text x="310" y="494" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">反思</text>
+  <text x="310" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">缺口／修订／假设／行动</text>
+  <circle cx="475" cy="462" r="6" fill="#2d7a25"/>
+  <text x="475" y="494" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">候选队列</text>
+  <text x="475" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">去重、条件与证据状态</text>
+  <circle cx="640" cy="462" r="6" fill="#2d7a25"/>
+  <text x="640" y="494" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">总结</text>
+  <text x="640" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">用普通语言讲清</text>
+  <circle cx="805" cy="462" r="6" fill="#2d7a25"/>
+  <text x="805" y="494" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0a0a0a">复述与验证</text>
+  <text x="805" y="516" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">反馈进入下一轮</text>
+  <text x="520" y="548" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#59615a">10/10/80 是定位与匹配的方法重心；1—2/6 是特定阶段与岗位的日历参考，两组数字不能混用。</text>
 </svg>

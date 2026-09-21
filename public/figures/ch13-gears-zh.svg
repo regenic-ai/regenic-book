@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">两套随机规格的齿轮</title>
+  <desc id="desc">规格一致才能咬合；规格不一致则错齿磨损，迟早分开。筛选找能咬合的，分层兼容只是暂时咬合，改齿最窄。</desc>
+  <rect width="880" height="420" fill="#ffffff"/>
+
+  <text x="440" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#0a0a0a">两套随机规格的齿轮</text>
+  <text x="440" y="58" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#59615a">面向其他人或者群体 · 规格是抽到的，不是按对方铣出来的</text>
+
+  <rect x="40" y="78" width="390" height="230" rx="14" fill="#f5fff2" stroke="#d5dbd6"/>
+  <rect x="450" y="78" width="390" height="230" rx="14" fill="#ffffff" stroke="#d5dbd6"/>
+
+  <g transform="translate(160,198)">
+    <circle r="54" fill="#ffffff" stroke="#2d7a25" stroke-width="10"/>
+    <circle r="14" fill="#2d7a25"/>
+    <g fill="#2d7a25">
+      <rect x="-8" y="-72" width="16" height="18" rx="2"/>
+      <rect x="-8" y="54" width="16" height="18" rx="2"/>
+      <rect x="-72" y="-8" width="18" height="16" rx="2"/>
+      <rect x="54" y="-8" width="18" height="16" rx="2"/>
+    </g>
+  </g>
+  <g transform="translate(292,198)">
+    <circle r="54" fill="#ffffff" stroke="#2d7a25" stroke-width="10"/>
+    <circle r="14" fill="#2d7a25"/>
+    <g fill="#2d7a25">
+      <rect x="-8" y="-72" width="16" height="18" rx="2"/>
+      <rect x="-8" y="54" width="16" height="18" rx="2"/>
+      <rect x="-72" y="-8" width="18" height="16" rx="2"/>
+      <rect x="54" y="-8" width="18" height="16" rx="2"/>
+    </g>
+  </g>
+  <text x="235" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#2d7a25">规格一致 · 咬合</text>
+
+  <g transform="translate(560,198)">
+    <circle r="62" fill="#ffffff" stroke="#0a0a0a" stroke-width="8"/>
+    <circle r="14" fill="#0a0a0a"/>
+    <g fill="#0a0a0a">
+      <rect x="-7" y="-80" width="14" height="16" rx="2"/>
+      <rect x="-7" y="64" width="14" height="16" rx="2"/>
+      <rect x="-80" y="-7" width="16" height="14" rx="2"/>
+      <rect x="64" y="-7" width="16" height="14" rx="2"/>
+    </g>
+  </g>
+  <g transform="translate(708,210)">
+    <circle r="36" fill="#ffffff" stroke="#8a4300" stroke-width="7"/>
+    <circle r="10" fill="#8a4300"/>
+  </g>
+  <path d="M632,168 L668,188" stroke="#ffb347" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="645" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#8a4300">规格不一致 · 迟早分开</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#0a0a0a">
+    <rect x="40" y="328" width="250" height="68" rx="10" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="165" y="356" text-anchor="middle" font-weight="600">筛选</text>
+    <text x="165" y="378" text-anchor="middle" font-size="12" fill="#59615a">找能咬合的 · 别先改对方</text>
+
+    <rect x="315" y="328" width="250" height="68" rx="10" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="440" y="356" text-anchor="middle" font-weight="600">分层兼容</text>
+    <text x="440" y="378" text-anchor="middle" font-size="12" fill="#59615a">暂时咬合 · 抽心力</text>
+
+    <rect x="590" y="328" width="250" height="68" rx="10" fill="#f5fff2" stroke="#b8f3a6"/>
+    <text x="715" y="356" text-anchor="middle" font-weight="600">改齿</text>
+    <text x="715" y="378" text-anchor="middle" font-size="12" fill="#59615a">跨越鸿沟 · 画得最窄</text>
+  </g>
+</svg>

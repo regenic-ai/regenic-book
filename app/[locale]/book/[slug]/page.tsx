@@ -101,7 +101,7 @@ export default async function ChapterPage({ params }: PageProps) {
         ]}
       />
       <ReadingProgress />
-      <div className="shell reader-shell">
+      <div className="shell reader-shell" data-locale={locale}>
         <ChapterToc headings={chapter.headings} locale={locale} />
         <article className="reader">
           <nav
@@ -117,16 +117,13 @@ export default async function ChapterPage({ params }: PageProps) {
             </span>
           </nav>
           <header className="chapter-header">
-            <p className="eyebrow">
-              {en ? "Rewrite the DNA · Living edition" : "《重写基因》· 持续运行版"}
-            </p>
             <h1>
               {displayTitle.kicker ? (
                 <span className="chapter-kicker">{displayTitle.kicker}</span>
               ) : null}
               <span className="chapter-title-main">{displayTitle.main}</span>
             </h1>
-            <p>{chapter.description}</p>
+            <p className="chapter-dek">{chapter.description}</p>
             <div className="chapter-meta">
               <span>
                 {en

@@ -19,7 +19,7 @@ Acceptance target is **fluency**: the reader is carried through a passage.
 
 ## 2. Peer group
 
-This book is **argumentative management nonfiction**. Structure comes from the Western business canon. Breath comes from the same books when they are at their best—not from TED cadence or LinkedIn punch lines. The Chinese manuscript has its own breath layer (Wu Jun, Wu Xiaobo); see `content/zh/standards/prose-standard.md` §5. Do not import that oral cadence into English.
+This book is **argumentative management nonfiction**. Structure comes from the Western business canon. Breath comes from the same books when they are at their best—not from TED cadence or LinkedIn punch lines. The Chinese manuscript has its own voice, diction, and revision-depth rules; see `content/zh/standards/prose-standard.md` §1, §3, §4, and §5. Do not import that oral cadence into English.
 
 | Peer | Samples | Steal | Do not steal |
 | --- | --- | --- | --- |
@@ -83,12 +83,23 @@ Use the five prohibitions to diagnose. Treat with Section 4 rewriting and Sectio
    When dashes stack or chain explanation/enumeration/turns, prefer **splitting and rewriting sentences**, then punctuation.  
    Zero dashes is not an acceptance target.
 
-## 7. Asides and forced metaphor
+## 7. Exact words (near-synonyms are not interchangeable)
+
+Models often swap a locked word for a near-synonym. The sentence is almost right; the author would not say it that way. It reads like translation. Near-synonyms are not interchangeable.
+
+1. **If the book has already named it, use that word.** Do not rotate synonyms for variety. The referential chain still holds: the last scarcity / adaptive insight / judgment / standard must not be mixed.
+2. **If it has no name yet, pick the word the author would say.** Do not drop in a calque of an English concept.
+3. **No solution-set jargon.** The type specimen is the Chinese 便宜解 (a calque of "cheap solution"). Kin: default move, prescription, trigger (as a noun for cause), snapshot, objective function, multiply-to-zero. You may still compute ROI; do not chant "ROI < 1."
+4. **Would the author say this?** Must the reader translate it back into the author's intent? If yes, rewrite to the locked word.
+
+New chapters and later fluency passes follow this clause. Do not use one fluency pass to rename every term in old chapters.
+
+## 8. Asides and forced metaphor
 
 - **Asides**: tour-guide talk ("first, a number," "see below," "notice how this differs") should disappear by **rewriting into a sentence that advances judgment**, not by hollowing into an outline. Keep questions, information, and suspense.
 - **Forced metaphor**: if it does not stand, rewrite the sentence another way; do not strip the image and leave a stump.
 
-## 8. Rewrite discipline
+## 9. Rewrite discipline
 
 1. Primary means is whole-sentence rewriting plus breath; deletion alone cannot count as a complete fluency pass.
 2. Every edit should name which stuck-sentence pattern was rewritten, which prohibition was hit, or which Section 5 breath rule was restored; if none, do not edit.
@@ -97,16 +108,16 @@ Use the five prohibitions to diagnose. Treat with Section 4 rewriting and Sectio
 5. Focus one problem class at a time; do not reorder claims under a fluency banner.
 6. Judge English revision by Christensen / Moore / Thiel / Lewis breath, not by quotable density or bold density.
 
-## 9. Data and citation layout
+## 10. Data and citation layout
 
 Cite with mainstream **author–year** parentheses (e.g. Jones & Nisbett, 1972):
 
-- Preferred: `…about one two-hundred-and-eightieth of the prior level (Stanford HAI, 2025).`
+- Preferred: `…about one two-hundredth of the prior level (Epoch AI, 2025).`
 - Forbidden: standalone "Source: …"; forbidden: methodological asides inside the cite.
 - Full institution/report title may expand on first deep chapter treatment; preface uses author–year only.
 - Report **medians**, not means; thin evidence gets in-sentence qualification.
 
-## 10. Actions (self-check after a draft paragraph)
+## 11. Actions (self-check after a draft paragraph)
 
 1. Was the stuck sentence rewritten whole, or were only a few words deleted?
 2. Does the first sentence show change, scene, judgment, or framework orientation—not a bare definition?
@@ -115,17 +126,18 @@ Cite with mainstream **author–year** parentheses (e.g. Jones & Nisbett, 1972):
 5. Is information complete (numbers, names, conditions still there)?
 6. Are dashes chaining clauses? After split-and-rewrite, does it read cleaner (not chasing zero)?
 7. Read aloud: smoother than before? Any place the reader must translate the author's intent? Does it sound like a machine reading an outline?
+8. Is this the word the book already locked? Would the author say it, or is it solution-set jargon / translation?
 
-## 11. Acceptance
+## 12. Acceptance
 
 A finished prose passage must satisfy all of the following:
 
 1. It can be read straight through, breath intact.
 2. The core claim remains restatable in one sentence; data checkable; sources locatable.
-3. Revision was primarily whole-sentence rewriting and breath; Section 5, prohibitions, and aside rules hold; citations follow Section 9.
+3. Revision was primarily whole-sentence rewriting and breath; Section 5, prohibitions, exact-word, and aside rules hold; citations follow Section 10.
 4. It reads like an author talking, not a standard executing.
 
-## 12. Boundaries
+## 13. Boundaries
 
 - Quotable-candidate lists, acceptance self-checks, and status lines need not be polished here.
 - Framework captions and Monday lists may enumerate.
@@ -134,9 +146,9 @@ A finished prose passage must satisfy all of the following:
 - Do not slide into TED or LinkedIn voice in the name of orality.
 - Whole-sentence rewriting is not synonym polish: new syntax that does not improve fluency does not count.
 
-## 13. Revision triggers
+## 14. Revision triggers
 
 1. Reader feedback across two or more chapters names unreadability or a "machine" feel, and the hard join is not covered here.
 2. Citation layout conflicts systematically with publication or on-site evidence labels.
 3. Fluency edits dilute claim sharpness or evidence quality.
-4. After edits, the chapter is harder to read / more outline-like / more TED-like, or the revision log is deletion-only with no whole-sentence rewrites (roll back and tighten Sections 1, 4, 5, and 8).
+4. After edits, the chapter is harder to read / more outline-like / more TED-like, or the revision log is deletion-only with no whole-sentence rewrites (roll back and tighten Sections 1, 4, 5, 7, and 9).

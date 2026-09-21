@@ -42,7 +42,7 @@ export default async function DiagnosisPage({
   return (
     <div className="conversion-page">
       <header className="conversion-hero shell">
-        <p className="eyebrow">{isEnglish ? "Eight-question diagnosis · Chapter 13" : "八问诊断 · 第 13 章"}</p>
+        <p className="eyebrow">{isEnglish ? "Eight-question diagnosis · Chapter 14" : "八问诊断 · 第 14 章"}</p>
         <h1>{isEnglish ? "Do not count tools. Test whether the organization can judge." : "别数买了多少工具，检查组织会不会自己判断。"}</h1>
         <p>
           {isEnglish ? "These questions test judgment and action when nobody is watching—not stated knowledge. No personal information is required, and answers are not sent to analytics." : "八问检验的不是认知，而是没人监督时仍会发生的判断与行动。全程无需留下个人信息，答案也不会发送到分析平台。"}

@@ -63,7 +63,7 @@ export function ProductPanel({ locale, variant = "spotlight" }: ProductPanelProp
     <>
       <section className="marketing-section shell">
         <header className="section-heading">
-          <p className="eyebrow">{en ? "Dual-capability model" : "双能力模型"}</p>
+          <p className="eyebrow">{en ? "Judgment × Context" : "两个统一"}</p>
           <h2>{en ? "What Regenic builds" : "Regenic 构建什么"}</h2>
           <p>
             {en

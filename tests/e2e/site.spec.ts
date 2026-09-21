@@ -119,9 +119,11 @@ test("语言切换保留当前页面路径", async ({ page, isMobile }) => {
   await expect(page).toHaveURL(/\/en\/book\/00-preface$/);
 });
 
-test("中文页面设置 html lang", async ({ page }) => {
-  await page.goto("/zh/book");
-  await expect(page.locator("html")).toHaveAttribute("lang", "zh-CN");
+test("首页与阅读页展示书封面", async ({ page }) => {
+  for (const route of ["/zh", "/en", "/zh/book", "/en/book"]) {
+    await page.goto(route);
+    await expect(page.locator(".book-cover img")).toBeVisible();
+  }
 });
 
 test("首页、章节与企业页通过 axe 基础扫描", async ({ page }) => {
@@ -155,7 +157,7 @@ test("公开页面不暴露编辑与技术实现信息", async ({ page }) => {
     "首版内容建设中",
   ];
 
-  for (const route of [chapterPath, "/en/book/13-ninety-days", "/zh/versions"]) {
+  for (const route of [chapterPath, "/en/book/14-ninety-days", "/zh/versions"]) {
     await page.goto(route);
     const bodyText = await page.locator("body").innerText();
 

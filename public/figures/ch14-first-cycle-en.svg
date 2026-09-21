@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 500" role="img" aria-labelledby="title desc">
+  <title id="title">Ninety calendar days to complete the first observable cycle</title>
+  <desc id="desc">From scope and baseline, to a first draft of standards and context, a live pilot, eight-layer v1, settlement, eight-question acceptance, and the next round. Standards, context, and evidence run in parallel throughout.</desc>
+  <rect width="1120" height="500" fill="#ffffff"/>
+
+  <text x="560" y="38" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#0a0a0a">90 calendar days: the first observable cycle</text>
+  <text x="560" y="64" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#59615a">Live work around D15 / Day 90 checks the cycle and leading evidence, not long-term ROI</text>
+
+  <line x1="120" y1="120" x2="1030" y2="120" stroke="#2d7a25" stroke-width="3"/>
+  <g fill="#2d7a25">
+    <circle cx="120" cy="120" r="6"/>
+    <circle cx="205" cy="120" r="6"/>
+    <circle cx="290" cy="120" r="6"/>
+    <circle cx="595" cy="120" r="6"/>
+    <circle cx="875" cy="120" r="6"/>
+    <circle cx="1030" cy="120" r="6"/>
+  </g>
+  <g font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+    <text x="120" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D1</text>
+    <text x="205" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D8</text>
+    <text x="290" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D15</text>
+    <text x="595" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D45</text>
+    <text x="875" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D75</text>
+    <text x="1030" y="98" font-size="13" font-weight="600" fill="#0a0a0a">D90</text>
+    <text x="120" y="148" font-size="11" fill="#59615a">Scope / baseline</text>
+    <text x="205" y="148" font-size="11" fill="#59615a">v0 starts</text>
+    <text x="290" y="148" font-size="11" fill="#59615a">Live pilot</text>
+    <text x="595" y="148" font-size="11" fill="#59615a">Eight-layer v1</text>
+    <text x="875" y="148" font-size="11" fill="#59615a">Stop expanding</text>
+    <text x="1030" y="148" font-size="11" fill="#59615a">Eight questions</text>
+  </g>
+
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="30" y="218" font-size="14" font-weight="600" fill="#0a0a0a">Standards</text>
+    <rect x="120" y="190" width="910" height="46" rx="8" fill="#eef6ec" stroke="#b7c7b7"/>
+    <text x="295" y="218" text-anchor="middle" font-size="12" fill="#59615a">Find gaps / standard v0</text>
+    <text x="605" y="218" text-anchor="middle" font-size="12" fill="#0a0a0a">Live use / eight-layer v1</text>
+    <text x="900" y="218" text-anchor="middle" font-size="12" fill="#0a0a0a">Revise to v1.1</text>
+
+    <text x="30" y="290" font-size="14" font-weight="600" fill="#0a0a0a">Context</text>
+    <rect x="120" y="262" width="910" height="46" rx="8" fill="#f7faf6" stroke="#b7c7b7"/>
+    <text x="300" y="290" text-anchor="middle" font-size="12" fill="#59615a">Source / version / rights</text>
+    <text x="630" y="290" text-anchor="middle" font-size="12" fill="#0a0a0a">Same-version facts / mark unknowns</text>
+    <text x="910" y="290" text-anchor="middle" font-size="12" fill="#0a0a0a">Close old entrances</text>
+
+    <text x="30" y="362" font-size="14" font-weight="600" fill="#0a0a0a">Evidence</text>
+    <rect x="120" y="334" width="910" height="46" rx="8" fill="#fff8ef" stroke="#d7b071"/>
+    <text x="300" y="362" text-anchor="middle" font-size="12" fill="#59615a">Freeze caliber / stop line</text>
+    <text x="635" y="362" text-anchor="middle" font-size="12" fill="#0a0a0a">Results / failures / exceptions return</text>
+    <text x="910" y="362" text-anchor="middle" font-size="12" fill="#0a0a0a">Settle / attribution bounds</text>
+  </g>
+
+  <g font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+    <rect x="120" y="414" width="200" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="220" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D1-D14</text>
+    <text x="220" y="455" font-size="11" fill="#59615a">Audit and baseline</text>
+    <rect x="340" y="414" width="240" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="460" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D15-D45</text>
+    <text x="460" y="455" font-size="11" fill="#59615a">First wave / eight-layer v1</text>
+    <rect x="600" y="414" width="240" height="52" rx="9" fill="#ffffff" stroke="#d5dbd6"/>
+    <text x="720" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D36-D75</text>
+    <text x="720" y="455" font-size="11" fill="#59615a">Main pilot / capacity gate</text>
+    <rect x="860" y="414" width="170" height="52" rx="9" fill="#eef6ec" stroke="#2d7a25"/>
+    <text x="945" y="436" font-size="13" font-weight="600" fill="#0a0a0a">D76-D90</text>
+    <text x="945" y="455" font-size="11" fill="#59615a">Settle and next round</text>
+  </g>
+
+  <text x="560" y="490" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#2d7a25">The first round may fail. It cannot lack evidence, revision, and a next round.</text>
+</svg>
